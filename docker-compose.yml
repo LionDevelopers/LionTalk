@@ -1,0 +1,16 @@
+services:
+  scraper:
+    build: .
+    volumes:
+      - ./data:/app/data  # Persists the generated events.json to your host machine
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /app
+          ignore:
+            - .venv/
+        - action: rebuild
+          path: pyproject.toml # Rebuild image if dependencies change
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY} # For Gemini scraping
