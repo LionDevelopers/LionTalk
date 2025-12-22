@@ -1,16 +1,20 @@
 services:
-  scraper:
-    build: .
+  scraper-api:
+    build:
+      context: ./apps/scraper-api
+      dockerfile: DockerFile
     volumes:
-      - ./data:/app/data  # Persists the generated events.json to your host machine
-    develop:
-      watch:
-        - action: sync
-          path: .
-          target: /app
-          ignore:
-            - .venv/
-        - action: rebuild
-          path: pyproject.toml # Rebuild image if dependencies change
-    environment:
-      - GEMINI_API_KEY=${GEMINI_API_KEY} # For Gemini scraping
+      - ./apps/scraper-api/src:/app/src # live-sync source code changes so we don't have to rebuild on every code change
+    # environment:  Env variables for containers can be set here when needed
+      # - GEMINI_API_KEY=${GEMINI_API_KEY} # For Gemini scraping
+    
+  web-frontend:
+    build:
+      context: ./apps/web-frontend
+      dockerfile: DockerFile
+    volumes:
+      - ./apps/web-frontend/src:/app/src # live-sync source code changes
+      - ./apps/web-frontend/public:/app/public
+      - /app/node_modules # persist node_modules so we don't overwrite with empty host dir
+    # environment:
+      # - NEXT_PUBLIC_LIONTALK_API_URL=
