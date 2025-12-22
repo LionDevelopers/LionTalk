@@ -1,5 +1,8 @@
 # Use a slim Python base
-FROM python:3.12-slim
+
+# --- Stage 1: Builder --- 
+# Create new stage called builder
+FROM python:3.12-slim AS builder
 
 # Install uv by copying the binary from the official image
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
@@ -10,15 +13,30 @@ WORKDIR /app
 # Copy only the dependency files first (for better caching)
 COPY pyproject.toml uv.lock ./
 
-# Install dependencies into a virtual environment in the container
+# Install dependencies into a virtual environment (.venv) in the container
 # --frozen ensures we use the exact versions in the lockfile
-RUN uv sync --frozen --no-cache
+# --no-install-project: tells uv to install only dependencies, not the project itself
+# --mount=type=cache,target=/root/.cache/uv: caches uv downloads so we don't re-download them on every build
+RUN --mount=type=cache,target=/root/.cache/uv \
+    uv sync --frozen --no-install-project --no-dev
 
 # Copy the rest of the application code
-COPY . .
+COPY src/ ./src/
 
-# Set the path to use the virtual environment created by uv
+# --- Stage 2: RUNTIME (Final Image) ---
+FROM python:3.12-slim AS runtime
+
+WORKDIR /app
+
+# Copy only the .venv and application code from the builder stage
+COPY --from=builder /app /app
+
+# Ensure the virtual environment (.venv) is used 
 ENV PATH="/app/.venv/bin:$PATH"
+
+# Avoid Generating .pyc files
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
 
 # Default command to run your scraper
 CMD ["python", "scrape.py"]
