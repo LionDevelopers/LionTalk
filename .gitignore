@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Project Data
+output.json
+
+# uv
+.python-version
+
+# Environment
+.env
