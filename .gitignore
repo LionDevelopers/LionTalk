@@ -12,5 +12,6 @@ output.json
 # Environment
 .env
 
-# File dump
-source.txt
+# File dumps
+source.html
+output.json
