@@ -34,6 +34,7 @@ def main():
             f.write(soup.encode('utf-8'))
 
         print(f"HTML written to source.html")
+        print(soup)
 
     # Send scraped data to Gemini
     load_dotenv() # This loads the .env file if it exists
