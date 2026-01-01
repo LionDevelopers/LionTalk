@@ -10,3 +10,13 @@
 *   [X] Pass source.html to Gemini API
 *   [X] Create JSON fields
 *   [X] Produce output.json for frontend
+
+
+## Setup
+
+```bash
+    docker build -t scraper-api .
+    docker run -v $(pwd)/src:/app/src scraper-api
+```
+
+In the future .env should be migrated to docker-compose
