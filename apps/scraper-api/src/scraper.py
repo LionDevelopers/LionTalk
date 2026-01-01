@@ -105,7 +105,10 @@ def main():
     #     for row in reader:
     #         print
 
-    df = pd.read_csv(r'./input.csv')
+    script_dir = os.path.dirname(__file__)
+    input_path = os.path.join(script_dir, 'input.csv')
+
+    df = pd.read_csv(input_path)
 
     print(df['scrape_method'])
     
