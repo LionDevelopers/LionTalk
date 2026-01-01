@@ -105,7 +105,7 @@ def main():
     #     for row in reader:
     #         print
 
-    df = pd.read_csv('input.scv')
+    df = pd.read_csv(r'./input.csv')
 
     print(df['scrape_method'])
     
