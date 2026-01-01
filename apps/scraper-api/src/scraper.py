@@ -111,6 +111,17 @@ def main():
     df = pd.read_csv(input_path)
 
     print(df['scrape_method'])
+
+    for index, row in df.iterrows():
+        link = row['website']
+        scrape_method = row['scrape_method']
+
+        print(f"Processing row {index}: link={link}, scrape_method={scrape_method}")
+
+        if scrape_method == 1:
+            scrape_1(link)
+        else:
+            print(f"Unknown scrape method: {scrape_method}")
     
 if __name__ == "__main__":
     main()
