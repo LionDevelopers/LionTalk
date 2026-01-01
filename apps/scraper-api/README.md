@@ -15,8 +15,17 @@
 ## Setup
 
 ```bash
+    # Build Image
     docker build -t scraper-api .
-    docker run -v $(pwd)/src:/app/src scraper-api
+
+    # Run Container with src as volume
+        # --name is scraper-instance
+        # --env-file for having env var in container (GEMINI_API_KEY)
+        # -v Volume so it gets live code so we don't always have to rebuild
+    docker run --name scraper-instance --env-file .env -v $(pwd)/src:/app/src scraper-api
+    
+    # Copy out output.json from container
+    docker cp romantic_dijkstra:/app/output.json ./output.json
 ```
 
 In the future .env should be migrated to docker-compose
