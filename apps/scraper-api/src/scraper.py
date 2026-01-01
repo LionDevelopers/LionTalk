@@ -22,7 +22,9 @@ class Seminar(BaseModel):
 def main():
     # Scrape HTML of specified website
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, slow_mo = 50)
+
+        is_headless = os.getenv("HEADLESS", "true").lower() == "true"
+        browser = p.chromium.launch(headless=is_headless, slow_mo=50)
         page = browser.new_page()
         page.goto('https://stat.columbia.edu/seminars/statistics-seminar-series/')
         html = page.inner_html('#seminar-content')

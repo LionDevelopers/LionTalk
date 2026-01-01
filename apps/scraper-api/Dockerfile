@@ -34,9 +34,16 @@ COPY --from=builder /app /app
 # Ensure the virtual environment (.venv) is used 
 ENV PATH="/app/.venv/bin:$PATH"
 
+# Install Playwright Browsers
+RUN playwright install chromium --with-deps
+
+# Remove apt cache to save a little space after installing deps
+RUN rm -rf /var/lib/apt/lists/*
+
+
 # Avoid Generating .pyc files
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
 # Default command to run your scraper
-CMD ["python", "scrape.py"]
+CMD ["python", "./src/scraper.py"]
