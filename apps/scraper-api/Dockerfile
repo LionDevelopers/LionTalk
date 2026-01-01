@@ -20,8 +20,6 @@ COPY pyproject.toml uv.lock ./
 RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync --frozen --no-install-project --no-dev
 
-# Copy the rest of the application code
-COPY src/ ./src/
 
 # --- Stage 2: RUNTIME (Final Image) ---
 FROM python:3.12-slim AS runtime
@@ -37,13 +35,16 @@ ENV PATH="/app/.venv/bin:$PATH"
 # Install Playwright Browsers
 RUN playwright install chromium --with-deps
 
-# Remove apt cache to save a little space after installing deps
-RUN rm -rf /var/lib/apt/lists/*
+# Copy the rest of the application code
+COPY src/ ./src/
 
-
+# Cleanup & Config
 # Avoid Generating .pyc files
+# Set environment variable for headless mode
+ENV HEADLESS=true
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
+RUN rm -rf /var/lib/apt/lists/* # Remove apt cache to save a little space after installing deps
 
 # Default command to run your scraper
 CMD ["python", "./src/scraper.py"]
