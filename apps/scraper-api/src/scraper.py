@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 import os
 from pydantic import BaseModel, Field
 from typing import List, Optional
+import csv
+import pandas as pd
 
 class Entry(BaseModel):
     seminar_title: str = Field(description="The title of the seminar.")
@@ -19,7 +21,7 @@ class Entry(BaseModel):
 class Seminar(BaseModel):
     entries: List[Entry]
 
-def main():
+def scrape_1(link):
     # Scrape HTML of specified website
     with sync_playwright() as p:
 
@@ -95,5 +97,17 @@ def main():
     
     print(f"Completed")
 
+def main():
+    # with open('input.csv', mode='r', newline='',encoding='utf-8') as input:
+    #     reader = csv.reader(input)
+    #     next(reader, None) #Skip header row
+
+    #     for row in reader:
+    #         print
+
+    df = pd.read_csv('input.scv')
+
+    print(df['scrape_method'])
+    
 if __name__ == "__main__":
     main()
