@@ -25,7 +25,7 @@
     docker run --name scraper-instance --env-file .env -v $(pwd)/src:/app/src scraper-api
     
     # Copy out output.json from container
-    docker cp romantic_dijkstra:/app/output.json ./output.json
+    docker cp scraper-instance:/app/output.json ./output.json
 ```
 
 In the future .env should be migrated to docker-compose
