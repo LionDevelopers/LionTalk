@@ -25,6 +25,9 @@ jobs:
           -e GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }} \
           -v ${{ github.workspace }}:/app/out \
           scraper-api
+          
+    - name: Verify Output
+      run: ls -l ./output.json
 
     - name: Commit and Push changes
       uses: stefanzweifel/git-auto-commit-action@v5
