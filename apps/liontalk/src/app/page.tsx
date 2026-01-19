@@ -1,13 +1,26 @@
+// src/app/page.tsx
 'use client';
 
 import React, { useState, useMemo } from 'react';
-import data from '../data/seminars.json'; 
-import { Seminar } from '../types';
-import { SeminarCard } from '../components/SeminarCard'; // Import the new component
+import rawData from '../data/seminars.json'; 
+import { Seminar, DepartmentData } from '../types';
+import { SeminarCard } from '../components/SeminarCard';
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
-  const seminars: Seminar[] = data.entries;
+
+  // Process the raw data: Flatten departments and inject department name into each seminar
+  const seminars: Seminar[] = useMemo(() => {
+    // Cast rawData to our new DepartmentData type
+    const departments = rawData as unknown as DepartmentData[];
+    
+    return departments.flatMap((dept) => 
+      dept.entries.map((entry) => ({
+        ...entry,
+        department: dept.department,
+      }))
+    );
+  }, []);
 
   const { todaySeminars, upcomingSeminars, pastSeminars } = useMemo(() => {
     const today = new Date();
@@ -21,7 +34,8 @@ export default function Home() {
         s.speaker.toLowerCase().includes(query) ||
         s.abstract.toLowerCase().includes(query) ||
         s.date.toLowerCase().includes(query) ||
-        s.location.toLowerCase().includes(query)
+        s.location.toLowerCase().includes(query) ||
+        s.department.toLowerCase().includes(query) // Added department search
       );
     });
 
@@ -61,7 +75,7 @@ export default function Home() {
           <div className="max-w-xl mx-auto relative">
             <input
               type="text"
-              placeholder="Search by title, speaker, or topic..."
+              placeholder="Search by title, speaker, topic, or department..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-4 pr-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent shadow-sm text-gray-900"
