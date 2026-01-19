@@ -35,14 +35,14 @@ jobs:
         
     - name: Verify Output
       run: |
-        echo "Checking for output.json..."
-        ls -la ./output.json || echo "ERROR: output.json not found!"
-        if [ -f ./output.json ]; then
+        echo "Checking for seminars.json..."
+        ls -la ./apps/liontalk/src/data/seminars.json || echo "ERROR: seminars.json not found!"
+        if [ -f ./apps/liontalk/src/data/seminars.json ]; then
           echo "File exists! Contents:"
-          head -20 ./output.json
+          head -20 ./apps/liontalk/src/data/seminars.json
         else
-          echo "File does not exist. Listing workspace contents:"
-          ls -la
+          echo "File does not exist. Listing data directory contents:"
+          ls -la ./apps/liontalk/src/data/ || echo "Data directory not found"
           exit 1
         fi
 
@@ -50,4 +50,4 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: "Auto-update scraped seminars [skip ci]"
-        file_pattern: 'output.json'
+        file_pattern: 'apps/liontalk/src/data/seminars.json'
