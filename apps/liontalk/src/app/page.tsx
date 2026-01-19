@@ -1,94 +1,129 @@
-import React from 'react';
-import data from '../data/seminars.json'; // Ensure this path matches your file structure
+'use client';
+
+import React, { useState, useMemo } from 'react';
+import data from '../data/seminars.json'; 
 import { Seminar } from '../types';
+import { SeminarCard } from '../components/SeminarCard'; // Import the new component
 
 export default function Home() {
+  const [searchQuery, setSearchQuery] = useState('');
   const seminars: Seminar[] = data.entries;
+
+  const { todaySeminars, upcomingSeminars, pastSeminars } = useMemo(() => {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    // 1. Filter
+    const filtered = seminars.filter((s) => {
+      const query = searchQuery.toLowerCase();
+      return (
+        s.seminar_title.toLowerCase().includes(query) ||
+        s.speaker.toLowerCase().includes(query) ||
+        s.abstract.toLowerCase().includes(query) ||
+        s.date.toLowerCase().includes(query) ||
+        s.location.toLowerCase().includes(query)
+      );
+    });
+
+    // 2. Segment
+    const todayList: Seminar[] = [];
+    const upcomingList: Seminar[] = [];
+    const pastList: Seminar[] = [];
+
+    filtered.forEach((seminar) => {
+      const seminarDate = new Date(seminar.date);
+      seminarDate.setHours(0, 0, 0, 0);
+
+      if (seminarDate.getTime() === today.getTime()) {
+        todayList.push(seminar);
+      } else if (seminarDate.getTime() > today.getTime()) {
+        upcomingList.push(seminar);
+      } else {
+        pastList.push(seminar);
+      }
+    });
+
+    // 3. Sort Past Seminars (Newest first)
+    pastList.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+    return { todaySeminars: todayList, upcomingSeminars: upcomingList, pastSeminars: pastList };
+  }, [seminars, searchQuery]);
 
   return (
     <main className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">
-            🦁 LionTalk
-          </h1>
-          <p className="text-lg text-gray-600">
+        <div className="text-center mb-10">
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">🦁 LionTalk</h1>
+          <p className="text-lg text-gray-600 mb-8">
             Brought to you by LionDevelopers @ Columbia University
           </p>
+          
+          <div className="max-w-xl mx-auto relative">
+            <input
+              type="text"
+              placeholder="Search by title, speaker, or topic..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-4 pr-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent shadow-sm text-gray-900"
+            />
+          </div>
         </div>
 
-        <div className="space-y-6">
-          {seminars.map((seminar, index) => {
-            // Check if it is a holiday/no seminar entry
-            const isHoliday = seminar.speaker === "N/A";
-
-            return (
-              <div 
-                key={index}
-                className={`rounded-lg shadow-md overflow-hidden border ${
-                  isHoliday ? 'bg-gray-100 border-gray-200 opacity-75' : 'bg-white border-gray-200'
-                }`}
-              >
-                <div className="p-6">
-                  {/* Header: Date and Time */}
-                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-4">
-                    <div className="flex items-center space-x-2 text-indigo-600 font-semibold">
-                      <span>{seminar.date}</span>
-                      <span>•</span>
-                      <span>{seminar.time}</span>
-                    </div>
-                    <div className="text-sm text-gray-500 mt-1 sm:mt-0">
-                      {seminar.location}
-                    </div>
-                  </div>
-
-                  {/* Title */}
-                  <h2 className={`text-2xl font-bold mb-2 ${isHoliday ? 'text-gray-500 italic' : 'text-gray-900'}`}>
-                    {seminar.seminar_title}
-                  </h2>
-
-                  {/* Speaker Info (Hide if N/A) */}
-                  {!isHoliday && (
-                    <>
-                      <div className="mb-4">
-                        <span className="text-lg font-medium text-gray-800">
-                          {seminar.speaker}
-                        </span>
-                        {seminar.affiliation && (
-                          <span className="text-gray-600 ml-2">
-                            ({seminar.affiliation})
-                          </span>
-                        )}
-                      </div>
-
-                      {/* Details: Abstract & Bio */}
-                      <div className="space-y-4 text-gray-700">
-                        <details className="group">
-                          <summary className="cursor-pointer font-medium text-indigo-600 hover:text-indigo-800 focus:outline-none">
-                            Read Abstract
-                          </summary>
-                          <p className="mt-2 text-sm leading-relaxed border-l-4 border-indigo-100 pl-4">
-                            {seminar.abstract}
-                          </p>
-                        </details>
-
-                        {seminar.bio && (
-                          <details className="group">
-                            <summary className="cursor-pointer font-medium text-indigo-600 hover:text-indigo-800 focus:outline-none">
-                              Speaker Bio
-                            </summary>
-                            <p className="mt-2 text-sm leading-relaxed border-l-4 border-indigo-100 pl-4 italic">
-                              {seminar.bio}
-                            </p>
-                          </details>
-                        )}
-                      </div>
-                    </>
-                  )}
-                </div>
+        <div className="space-y-12">
+          {/* TODAY */}
+          {todaySeminars.length > 0 && (
+            <section>
+              <h2 className="text-2xl font-bold text-indigo-700 mb-6 border-b border-indigo-200 pb-2">
+                Happening Today
+              </h2>
+              <div className="space-y-6">
+                {todaySeminars.map((seminar, index) => (
+                  <SeminarCard key={`today-${index}`} seminar={seminar} />
+                ))}
               </div>
-            );
-          })}
+            </section>
+          )}
+
+          {/* UPCOMING */}
+          {upcomingSeminars.length > 0 && (
+            <section>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6 border-b border-gray-200 pb-2">
+                Upcoming Seminars
+              </h2>
+              <div className="space-y-6">
+                {upcomingSeminars.map((seminar, index) => (
+                  <SeminarCard key={`upcoming-${index}`} seminar={seminar} />
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* PAST */}
+          {pastSeminars.length > 0 && (
+            <section>
+              <h2 className="text-2xl font-bold text-gray-500 mb-6 border-b border-gray-200 pb-2">
+                Past Seminars
+              </h2>
+              <div className="space-y-6 opacity-90">
+                {pastSeminars.map((seminar, index) => (
+                  <SeminarCard key={`past-${index}`} seminar={seminar} />
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* EMPTY STATE */}
+          {todaySeminars.length === 0 && upcomingSeminars.length === 0 && pastSeminars.length === 0 && (
+            <div className="text-center py-12">
+              <p className="text-xl text-gray-500">No seminars found matching "{searchQuery}"</p>
+              <button 
+                onClick={() => setSearchQuery('')}
+                className="mt-4 text-indigo-600 font-medium hover:underline"
+              >
+                Clear Search
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </main>
