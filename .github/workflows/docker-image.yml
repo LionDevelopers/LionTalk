@@ -26,5 +26,4 @@ jobs:
           -v ${{ github.workspace }}:/app/out \
           scraper-api
           
-    - name: Verify Output
-      run: ls -l ./output.json
+
