@@ -4,6 +4,7 @@ from google import genai
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 from typing import List, Optional
+from pathlib import Path
 import os
 import csv
 import pandas as pd
@@ -25,14 +26,13 @@ class Seminar(BaseModel):
     entries: List[Entry]
 
 def parse_html(source):
-    # Send scraped data to Gemini
-    load_dotenv() 
-    api_key_value = os.getenv("GEMINI_API_KEY")
-    if not api_key_value:
-        print("Error: GEMINI_API_KEY not found.")
-        return
 
-    client = genai.Client(api_key=api_key_value)
+    # Send scraped data to Gemini
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        raise ValueError("GEMINI_API_KEY not found in environment!")
+
+    client = genai.Client(api_key=api_key)
 
     prompt = "Extract every single occurrence of an entry found in the HTML. " \
     "Do not summarize or truncate the list. " \
@@ -54,9 +54,13 @@ def parse_html(source):
         },
     )
 
-    print(f"Writing Gemini response to output.json...")
+    output_dir = os.getenv("OUTPUT_DIR", ".")
+    output_path = Path(output_dir) / "output.json"
+
+    print(f"Writing Gemini response to {output_path}...")
     seminar = Seminar.model_validate_json(response.text)
-    with open("output.json", "a") as f:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_path, "a") as f:
         f.write(seminar.model_dump_json() + "\n")
     
     print(f"Completed!" + "\n")
