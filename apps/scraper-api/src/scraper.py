@@ -54,8 +54,9 @@ def parse_html(source):
     #     },
     # )
 
-    output_dir = os.getenv("OUTPUT_DIR", ".")
-    output_path = Path(output_dir) / "output.json"
+    output_path = Path("/app/out/output.json")
+    print(f"DEBUG: Attempting to write to {output_path.absolute()}")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
 
     print(f"Writing Gemini response to {output_path}...")
     # seminar = Seminar.model_validate_json(response.text)
@@ -63,6 +64,14 @@ def parse_html(source):
     with open(output_path, "a") as f:
         f.write("DEBUG: OUTPUT FILE GENERATION" + "\n")
         # f.write(seminar.model_dump_json() + "\n")
+        f.flush()  # Ensure data is written to buffer
+        os.fsync(f.fileno())  # Force write to disk and sync to host filesystem
+    
+    # Verify file exists and has content
+    if output_path.exists():
+        print(f"File exists: {output_path}, size: {output_path.stat().st_size} bytes")
+    else:
+        print(f"ERROR: File was not created at {output_path}")
     
     print(f"Completed!" + "\n")
 

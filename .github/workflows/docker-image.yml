@@ -25,9 +25,26 @@ jobs:
           -e GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }} \
           -v ${{ github.workspace }}:/app/out \
           scraper-api
-          
+        
+        # Check container exit code
+        EXIT_CODE=$(docker inspect scraper-instance --format='{{.State.ExitCode}}')
+        echo "Container exited with code: $EXIT_CODE"
+        
+        # Clean up container
+        docker rm scraper-instance || true
+        
     - name: Verify Output
-      run: ls -l ./output.json
+      run: |
+        echo "Checking for output.json..."
+        ls -la ./output.json || echo "ERROR: output.json not found!"
+        if [ -f ./output.json ]; then
+          echo "File exists! Contents:"
+          head -20 ./output.json
+        else
+          echo "File does not exist. Listing workspace contents:"
+          ls -la
+          exit 1
+        fi
 
     - name: Commit and Push changes
       uses: stefanzweifel/git-auto-commit-action@v5
