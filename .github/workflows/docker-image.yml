@@ -1,0 +1,30 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Build the Docker image in subfolder
+      run: docker build -t scraper-api ./apps/scraper-api
+      
+    - name: Run the build docker image
+      run: |
+        docker run \
+          --name scraper-instance \
+          -e GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }} \
+          -v ${{ github.workspace }}:/app/out \
+          scraper-api
+          
+    - name: Verify Output
+      run: ls -l ./output.json
