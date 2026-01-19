@@ -32,36 +32,37 @@ def parse_html(source):
     if not api_key:
         raise ValueError("GEMINI_API_KEY not found in environment!")
 
-    client = genai.Client(api_key=api_key)
+    # client = genai.Client(api_key=api_key)
 
-    prompt = "Extract every single occurrence of an entry found in the HTML. " \
-    "Do not summarize or truncate the list. " \
-    "The final JSON must contain a list of all items found, from the first to the very last one in the file."
+    # prompt = "Extract every single occurrence of an entry found in the HTML. " \
+    # "Do not summarize or truncate the list. " \
+    # "The final JSON must contain a list of all items found, from the first to the very last one in the file."
 
-    print(f"Retrieving response from Gemini...")
+    # print(f"Retrieving response from Gemini...")
     
-    # Ensure source.html exists before uploading
-    if not os.path.exists(source):
-        print("Error: source.html was not created.")
-        return
+    # # Ensure source.html exists before uploading
+    # if not os.path.exists(source):
+    #     print("Error: source.html was not created.")
+    #     return
 
-    myfile = client.files.upload(file="./source.html")
-    response = client.models.generate_content(
-        model="gemini-2.5-flash-lite", contents=[prompt, myfile],
-        config={
-        "response_mime_type": "application/json",
-        "response_json_schema": Seminar.model_json_schema(),
-        },
-    )
+    # myfile = client.files.upload(file="./source.html")
+    # response = client.models.generate_content(
+    #     model="gemini-2.5-flash-lite", contents=[prompt, myfile],
+    #     config={
+    #     "response_mime_type": "application/json",
+    #     "response_json_schema": Seminar.model_json_schema(),
+    #     },
+    # )
 
     output_dir = os.getenv("OUTPUT_DIR", ".")
     output_path = Path(output_dir) / "output.json"
 
     print(f"Writing Gemini response to {output_path}...")
-    seminar = Seminar.model_validate_json(response.text)
+    # seminar = Seminar.model_validate_json(response.text)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, "a") as f:
-        f.write(seminar.model_dump_json() + "\n")
+        f.write("DEBUG: OUTPUT FILE GENERATION" + "\n")
+        # f.write(seminar.model_dump_json() + "\n")
     
     print(f"Completed!" + "\n")
 

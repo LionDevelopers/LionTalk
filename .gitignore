@@ -3,15 +3,8 @@ __pycache__/
 *.py[cod]
 .venv/
 
-# Project Data
-output.json
-
 # uv
 .python-version
 
-# Environment
-.env
-
 # File dumps
 source.html
-output.json
