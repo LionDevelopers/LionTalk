@@ -1,5 +1,25 @@
 {
   "entries": [
+   {
+      "seminar_title": "Test 2, Empirical Explorations of Optimization and Generalization for Neural Nets",
+      "date": "20-Jan-26",
+      "location": "Room Bop",
+      "time": "4:10 pm - 5:00 pm",
+      "speaker": "Micah Goldblum",
+      "affiliation": "Columbia University",
+      "abstract": "The fundamental building blocks of machine learning are (1) optimization or fitting the training data and (2) generalization or extrapolating from the training data to unseen samples. In this talk, we will explore both of these topics in the context of neural networks. First, we will inspect neural network loss functions and what they can tell us about generalization. Then, we will discuss recent work on stabilizing optimization for language models. We show that vanilla SGD without momentum is nearly as fast as Adam in the small-batch regime.",
+      "bio": "(goldblum.github.io/): Micah Goldblum is an assistant professor in the department of electrical engineering at Columbia University. Before his current position, Micah was a postdoctoral researcher at New York University with Yann LeCun and Andrew Gordon Wilson. Micah’s research focuses on both applied and fundamental problems in machine learning including AI safety, automated data science, training and inference strategies for large-scale models, and building a mathematical and also scientific understanding of why complex AI systems work."
+    },
+    {
+      "seminar_title": "Test, Empirical Explorations of Optimization and Generalization for Neural Nets",
+      "date": "19-Jan-26",
+      "location": "Room Bop, 1255 Amsterdam Avenue",
+      "time": "4:10 pm - 5:00 pm",
+      "speaker": "Micah Goldblum",
+      "affiliation": "Columbia University",
+      "abstract": "The fundamental building blocks of machine learning are (1) optimization or fitting the training data and (2) generalization or extrapolating from the training data to unseen samples. In this talk, we will explore both of these topics in the context of neural networks. First, we will inspect neural network loss functions and what they can tell us about generalization. Then, we will discuss recent work on stabilizing optimization for language models. We show that vanilla SGD without momentum is nearly as fast as Adam in the small-batch regime.",
+      "bio": "(goldblum.github.io/): Micah Goldblum is an assistant professor in the department of electrical engineering at Columbia University. Before his current position, Micah was a postdoctoral researcher at New York University with Yann LeCun and Andrew Gordon Wilson. Micah’s research focuses on both applied and fundamental problems in machine learning including AI safety, automated data science, training and inference strategies for large-scale models, and building a mathematical and also scientific understanding of why complex AI systems work."
+    },
     {
       "seminar_title": "Empirical Explorations of Optimization and Generalization for Neural Nets",
       "date": "8-Sept-25",
