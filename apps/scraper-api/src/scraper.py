@@ -22,7 +22,8 @@ class Entry(BaseModel):
 class Seminar(BaseModel):
     department: str = Field(description="The department as identified in the first " \
                                         "path segment of the website URL being parsed." \
-                                        "i.e. Statistics, Applied Math, Student")
+                                        "i.e. https://stat.columbia.edu/seminars/statistics-seminar-series/ would be Statistics " \
+                                        "and https://math.columbia.edu/seminars/applied-math-seminar-series/ would be Applied Math")
     entries: List[Entry]
 
 def parse_html(source):
