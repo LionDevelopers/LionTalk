@@ -60,8 +60,9 @@ def parse_html(source):
 
     print(f"Writing Gemini response to {output_path}...")
     seminar = Seminar.model_validate_json(response.text)
-    with open(output_path, "w") as f:
-        f.write(seminar.model_dump_json(indent=2))
+    # Append each website's data as a single line (JSONL format)
+    with open(output_path, "a") as f:
+        f.write(seminar.model_dump_json() + "\n")  # No indent, one line per website
         f.flush()  # Ensure data is written to buffer
         os.fsync(f.fileno())  # Force write to disk and sync to host filesystem
     
@@ -123,6 +124,11 @@ def main():
     script_dir = os.path.dirname(__file__) # Get current filepath
     input_path = os.path.join(script_dir, 'input.csv') # Append input.csv
     df = pd.read_csv(input_path) # Read into pandas DataFrame
+
+    # Initialize output file (clear any existing content)
+    output_path = Path("/app/out/apps/liontalk/src/data/seminars.json")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text("")  # Clear file at start
 
     for index, row in df.iterrows():
         link = row['website'] # Get website link
