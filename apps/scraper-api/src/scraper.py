@@ -5,9 +5,11 @@ from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 from typing import List, Optional
 from pathlib import Path
+from urllib.parse import urlparse
 import os
 import csv
 import pandas as pd
+import json
 
 class Entry(BaseModel):
     seminar_title: str = Field(description="The title of the seminar.")
@@ -19,14 +21,44 @@ class Entry(BaseModel):
     abstract: str = Field(description="Brief detail overview of the seminar topic.")
     bio: str = Field(description="Information about the speaker.")
 
-class Seminar(BaseModel):
-    department: str = Field(description="The department as identified in the first " \
-                                    "path segment of the website URL being parsed." \
-                                    "i.e. https://stat.columbia.edu/seminars/statistics-seminar-series/ would be Statistics " \
-                                    "and https://math.columbia.edu/seminars/applied-math-seminar-series/ would be Applied Math")
+class SeminarWithoutDepartment(BaseModel):
+    """Schema for Gemini - excludes department field"""
     entries: List[Entry]
 
-def parse_html(source):
+class Seminar(BaseModel):
+    """Full schema with department for output"""
+    department: str
+    entries: List[Entry]
+
+def extract_department_from_url(url):
+    """Extract department name from URL path segment.
+    
+    Examples:
+    - https://stat.columbia.edu/seminars/statistics-seminar-series/ -> "Statistics"
+    - https://stat.columbia.edu/seminars/student-seminar-series/ -> "Student"
+    - https://stat.columbia.edu/seminars/mathematical-finance-seminar-series/ -> "Mathematical Finance"
+    """
+    parsed = urlparse(url)
+    path = parsed.path.strip('/')
+    
+    # Extract the last path segment (e.g., "statistics-seminar-series")
+    path_segments = [seg for seg in path.split('/') if seg]
+    if not path_segments:
+        return "Unknown"
+    
+    # Get the last segment (the seminar series name)
+    last_segment = path_segments[-1]
+    
+    # Remove common suffixes like "-seminar-series"
+    department_part = last_segment.replace('-seminar-series', '').replace('-seminar', '')
+    
+    # Convert kebab-case to Title Case (e.g., "mathematical-finance" -> "Mathematical Finance")
+    department_words = [word.capitalize() for word in department_part.split('-')]
+    department = ' '.join(department_words)
+    
+    return department
+
+def parse_html(source, url):
 
     # Send scraped data to Gemini
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -44,36 +76,27 @@ def parse_html(source):
     # Ensure source.html exists before uploading
     if not os.path.exists(source):
         print("Error: source.html was not created.")
-        return
+        return None
 
     myfile = client.files.upload(file=source)
     response = client.models.generate_content(
         model="gemini-2.5-flash-lite", contents=[prompt, myfile],
         config={
         "response_mime_type": "application/json",
-        "response_json_schema": Seminar.model_json_schema(),
+        "response_json_schema": SeminarWithoutDepartment.model_json_schema(),  # Schema without department
         },
     )
 
-    output_path = Path("/app/out/apps/liontalk/src/data/seminars.json")
-    print(f"DEBUG: Attempting to write to {output_path.absolute()}")
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-
-    print(f"Writing Gemini response to {output_path}...")
-    seminar = Seminar.model_validate_json(response.text)
-    # Append each website's data as a single line (JSONL format)
-    with open(output_path, "a") as f:
-        f.write(seminar.model_dump_json() + "\n")  # No indent, one line per website
-        f.flush()  # Ensure data is written to buffer
-        os.fsync(f.fileno())  # Force write to disk and sync to host filesystem
+    print(f"Parsing Gemini response...")
+    # Parse response without department field
+    seminar_without_dept = SeminarWithoutDepartment.model_validate_json(response.text)
     
-    # Verify file exists and has content
-    if output_path.exists():
-        print(f"File exists: {output_path}, size: {output_path.stat().st_size} bytes")
-    else:
-        print(f"ERROR: File was not created at {output_path}")
+    # Extract department from URL and create full Seminar object
+    department = extract_department_from_url(url)
+    seminar = Seminar(department=department, entries=seminar_without_dept.entries)
+    print(f"Set department to: {department} (from URL: {url})")
     
-    print(f"Completed!" + "\n")
+    return seminar
 
 def scrape_1(link):
     # Scrape HTML of specified website
@@ -115,10 +138,10 @@ def scrape_1(link):
             page.screenshot(path="debug_error.png")
             print("Screenshot saved to debug_error.png")
             browser.close()
-            return
+            return None
 
         browser.close()
-        parse_html("./source.html")
+        return parse_html("./source.html", link)
 
 def main():
 
@@ -126,10 +149,11 @@ def main():
     input_path = os.path.join(script_dir, 'input.csv') # Append input.csv
     df = pd.read_csv(input_path) # Read into pandas DataFrame
 
-    # Initialize output file (clear any existing content)
     output_path = Path("/app/out/apps/liontalk/src/data/seminars.json")
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text("")  # Clear file at start
+    
+    # Accumulate all seminars
+    all_seminars = []
 
     for index, row in df.iterrows():
         link = row['website'] # Get website link
@@ -138,14 +162,37 @@ def main():
         print(f"Processing row {index}: link={link}, scrape_method={scrape_method}")
 
         if scrape_method == 1:
-            scrape_1(link)
+            seminar = scrape_1(link)
+            if seminar:
+                all_seminars.append(seminar)
         # Add future scrape methods for different website layouts
         # else if scrape_method == 2:
-        #     scrape_2(link)
+        #     seminar = scrape_2(link)
+        #     if seminar:
+        #         all_seminars.append(seminar)
         # else if scrape_method == 3:
-        #     scrape_3(link)
+        #     seminar = scrape_3(link)
+        #     if seminar:
+        #         all_seminars.append(seminar)
         else:
             print(f"Unknown scrape method: {scrape_method}")
+    
+    # Write all seminars as a single JSON array
+    print(f"Writing {len(all_seminars)} seminars to {output_path}...")
+    with open(output_path, "w") as f:
+        # Convert to list of dicts and write as formatted JSON array
+        seminars_dict = [seminar.model_dump() for seminar in all_seminars]
+        json.dump(seminars_dict, f, indent=2)
+        f.flush()
+        os.fsync(f.fileno())
+    
+    # Verify file exists and has content
+    if output_path.exists():
+        print(f"File exists: {output_path}, size: {output_path.stat().st_size} bytes")
+    else:
+        print(f"ERROR: File was not created at {output_path}")
+    
+    print(f"Completed! Wrote {len(all_seminars)} seminars.")
     
 if __name__ == "__main__":
     main()
