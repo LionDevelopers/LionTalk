@@ -25,5 +25,9 @@ jobs:
           -e GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }} \
           -v ${{ github.workspace }}:/app/out \
           scraper-api
-          
 
+    - name: Commit and Push changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Auto-update scraped seminars [skip ci]"
+        file_pattern: 'output.json'
