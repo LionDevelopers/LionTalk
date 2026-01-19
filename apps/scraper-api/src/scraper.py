@@ -10,10 +10,6 @@ import csv
 import pandas as pd
 
 class Entry(BaseModel):
-    department: str = Field(description="The department as identified in the first " \
-                                    "path segment of the website URL being parsed." \
-                                    "i.e. https://stat.columbia.edu/seminars/statistics-seminar-series/ would be Statistics " \
-                                    "and https://math.columbia.edu/seminars/applied-math-seminar-series/ would be Applied Math")
     seminar_title: str = Field(description="The title of the seminar.")
     date: str = Field(description="Date of the seminar.")
     location: str = Field(description="Building location.")
@@ -24,6 +20,10 @@ class Entry(BaseModel):
     bio: str = Field(description="Information about the speaker.")
 
 class Seminar(BaseModel):
+    department: str = Field(description="The department as identified in the first " \
+                                    "path segment of the website URL being parsed." \
+                                    "i.e. https://stat.columbia.edu/seminars/statistics-seminar-series/ would be Statistics " \
+                                    "and https://math.columbia.edu/seminars/applied-math-seminar-series/ would be Applied Math")
     entries: List[Entry]
 
 def parse_html(source):
