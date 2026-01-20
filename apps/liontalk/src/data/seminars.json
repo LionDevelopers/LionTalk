@@ -173,7 +173,7 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "Jeremy Shen",
-        "affiliation": "Quantitative Research Lead (Global Quantitative Strategies)",
+        "affiliation": "Global Quantitative Strategies",
         "abstract": "We will discuss the general landscape of quantitative research on the buy-side, as well as highly stylized problems one might encounter as a statistician. This will be an interactive & conversational session.",
         "bio": "Jeremy Shen is currently on garden leave from his former post as a Quantitative Research Lead at Citadel Global Quantitative Strategies (GQS), where he led a team that focused on forecasting and trading in global futures & currencies markets. Prior to Citadel, he held systematic macro research roles at Two Sigma Investments. He holds a PhD in Statistics from Stanford University."
       },
@@ -193,7 +193,7 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "Adam Jaffe",
-        "affiliation": "Postdoc (Columbia University)",
+        "affiliation": "Columbia University",
         "abstract": "A celebrated results of Pollard proves the asymptotic consistency of k-means clustering when the population distribution has finite variance. In this talk, we point out that the population-level k-means clustering problem is, in fact, well-posed whenever the population distribution has finite expectation, and we investigate whether some form of asymptotic consistency holds in this setting. Surprisingly, the answer is no: We construct examples in which there is a unique set of population cluster centers, but where the empirical cluster centers oscillate to plus and minus infinity as the number of data increases. We show that this non-convergence is due to an extreme form of imbalance whereby a few outlying samples create clusters that contain very few points. Based on joint work with Mo\u00efse Blanchard and Nikita Zhivotovskiy.",
         "bio": ""
       },
@@ -204,7 +204,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Chris Harshaw",
         "affiliation": "Columbia University",
-        "abstract": "From political science and economics to public health and corporate strategy, the randomized experiment is a widely used methodological tool for estimating causal effects. In the past 15 years or so, there has been a growing interest in network experiments, where subjects are presumed to be interacting in the experiment and their interactions are of substantive interest. While the literature on interference has focused primarily on unbiased and consistent estimation, designing randomized network experiments to ensure tight rates of convergence is relatively under-explored. Not only are the optimal rates of estimation for different causal effects under interference an open question but previously proposed designs are created in an ad-hoc fashion.\n\nIn this talk, I will present a new experimental design for network experiments called the \"Conflict Graph Design\" which, given a pre-specified causal effect of interest and the underlying network, produces a randomization over treatment assignment with the goal of increasing the precision of effect estimation. Not only does this experiment design attain improved rates of consistency for several causal effects of interest, it also provides a unifying approach to designing network experiments. We also provide consistent variance estimators and asymptotically valid confidence intervals which facilitate inference of the causal effect under investigation.",
+        "abstract": "From political science and economics to public health and corporate strategy, the randomized experiment is a widely used methodological tool for estimating causal effects. In the past 15 years or so, there has been a growing interest in network experiments, where subjects are presumed to be interacting in the experiment and their interactions are of substantive interest. While the literature on interference has focused primarily on unbiased and consistent estimation, designing randomized network experiments to ensure tight rates of convergence is relatively under-explored. Not only are the optimal rates of estimation for different causal effects under interference an open question but previously proposed designs are created in an ad-hoc fashion.\nIn this talk, I will present a new experimental design for network experiments called the \"Conflict Graph Design\" which, given a pre-specified causal effect of interest and the underlying network, produces a randomization over treatment assignment with the goal of increasing the precision of effect estimation. Not only does this experiment design attain improved rates of consistency for several causal effects of interest, it also provides a unifying approach to designing network experiments. We also provide consistent variance estimators and asymptotically valid confidence intervals which facilitate inference of the causal effect under investigation.",
         "bio": ""
       },
       {
