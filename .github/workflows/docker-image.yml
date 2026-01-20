@@ -47,8 +47,14 @@ jobs:
           exit 1
         fi
 
+
     - name: Commit and Push changes
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        commit_message: "Auto-update scraped seminars [skip ci]"
-        file_pattern: 'apps/liontalk/src/data/seminars.json'
+          id: auto-commit-action
+          uses: stefanzweifel/git-auto-commit-action@v5
+          with:
+            commit_message: "Auto-update scraped seminars [skip ci]"
+            file_pattern: 'apps/liontalk/src/data/seminars.json'
+
+    - name: Trigger Vercel Deploy
+      if: steps.auto-commit-action.outputs.changes_detected == 'true'
+      run: curl -X POST ${{ secrets.VERCEL_DEPLOY_HOOK }}
