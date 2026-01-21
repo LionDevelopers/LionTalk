@@ -3,6 +3,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Columbia Palette Definitions */
+  --columbia-blue: #012169;       /* Primary Dark Blue */
+  --columbia-medium: #009EFF;     /* Medium Blue */
+  --columbia-light: #6CACE4;      /* Light Blue */
+  --columbia-magenta: #D4285B;
+  --columbia-turquoise: #259B9A;
+  --columbia-purple: #7B2A8D;
 }
 
 @theme inline {
@@ -10,6 +18,14 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Add Columbia Colors to Tailwind */
+  --color-columbia-blue: var(--columbia-blue);
+  --color-columbia-medium: var(--columbia-medium);
+  --color-columbia-light: var(--columbia-light);
+  --color-columbia-magenta: var(--columbia-magenta);
+  --color-columbia-turquoise: var(--columbia-turquoise);
+  --color-columbia-purple: var(--columbia-purple);
 }
 
 @media (prefers-color-scheme: dark) {
