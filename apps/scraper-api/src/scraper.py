@@ -21,44 +21,23 @@ class Entry(BaseModel):
     abstract: str = Field(description="Brief detail overview of the seminar topic.")
     bio: str = Field(description="Information about the speaker.")
 
-class SeminarWithoutDepartment(BaseModel):
-    """Schema for Gemini - excludes department field"""
-    entries: List[Entry]
-
-class Seminar(BaseModel):
-    """Full schema with department for output"""
-    department: str
-    entries: List[Entry]
-
-def extract_department_from_url(url):
-    """Extract department name from URL path segment.
-    
-    Examples:
-    - https://stat.columbia.edu/seminars/statistics-seminar-series/ -> "Statistics"
-    - https://stat.columbia.edu/seminars/student-seminar-series/ -> "Student"
-    - https://stat.columbia.edu/seminars/mathematical-finance-seminar-series/ -> "Mathematical Finance"
+class SeminarHalfBaked(BaseModel):
     """
-    parsed = urlparse(url)
-    path = parsed.path.strip('/')
-    
-    # Extract the last path segment (e.g., "statistics-seminar-series")
-    path_segments = [seg for seg in path.split('/') if seg]
-    if not path_segments:
-        return "Unknown"
-    
-    # Get the last segment (the seminar series name)
-    last_segment = path_segments[-1]
-    
-    # Remove common suffixes like "-seminar-series"
-    department_part = last_segment.replace('-seminar-series', '').replace('-seminar', '')
-    
-    # Convert kebab-case to Title Case (e.g., "mathematical-finance" -> "Mathematical Finance")
-    department_words = [word.capitalize() for word in department_part.split('-')]
-    department = ' '.join(department_words)
-    
-    return department
+    Intermediate schema for Gemini processing.
+    'HalfBaked' implies this data is raw from the LLM and missing external metadata (department, series).
+    """
+    entries: List[Entry]
 
-def parse_html(source, url):
+class SeminarFullyBaked(BaseModel):
+    """
+    Final schema for output.
+    'FullyBaked' implies the data is complete, combining LLM extraction with CSV metadata.
+    """
+    department: str
+    series: str
+    entries: List[Entry]
+
+def parse_html(source, department, series):
 
     # Send scraped data to Gemini
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -83,22 +62,25 @@ def parse_html(source, url):
         model="gemini-2.5-flash-lite", contents=[prompt, myfile],
         config={
         "response_mime_type": "application/json",
-        "response_json_schema": SeminarWithoutDepartment.model_json_schema(),  # Schema without department
+        "response_json_schema": SeminarHalfBaked.model_json_schema(),  # Use the HalfBaked schema for extraction
         },
     )
 
     print(f"Parsing Gemini response...")
-    # Parse response without department field
-    seminar_without_dept = SeminarWithoutDepartment.model_validate_json(response.text)
+    # Validate the raw response using the HalfBaked model
+    half_baked_data = SeminarHalfBaked.model_validate_json(response.text)
     
-    # Extract department from URL and create full Seminar object
-    department = extract_department_from_url(url)
-    seminar = Seminar(department=department, entries=seminar_without_dept.entries)
-    print(f"Set department to: {department} (from URL: {url})")
+    # Create the FullyBaked object by injecting department and series
+    fully_baked_data = SeminarFullyBaked(
+        department=department, 
+        series=series, 
+        entries=half_baked_data.entries
+    )
+    print(f"Set department to: {department}, series to: {series}")
     
-    return seminar
+    return fully_baked_data
 
-def scrape_1(link):
+def scrape_1(link, department, series):
     # Scrape HTML of specified website
     with sync_playwright() as p:
 
@@ -141,7 +123,7 @@ def scrape_1(link):
             return None
 
         browser.close()
-        return parse_html("./source.html", link)
+        return parse_html("./source.html", department, series)
 
 def main():
 
@@ -152,28 +134,26 @@ def main():
     output_path = Path("/app/out/apps/liontalk/src/data/seminars.json")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     
-    # Accumulate all seminars
+    # Accumulate all fully baked seminars
     all_seminars = []
 
     for index, row in df.iterrows():
         link = row['website'] # Get website link
+        department = row['department'] # Get department from CSV
+        series = row['series'] # Get series from CSV
         scrape_method = row['scrape_method'] # Get scrape method
 
-        print(f"Processing row {index}: link={link}, scrape_method={scrape_method}")
+        print(f"Processing row {index}: link={link}, department={department}, series={series}, scrape_method={scrape_method}")
 
         if scrape_method == 1:
-            seminar = scrape_1(link)
-            if seminar:
-                all_seminars.append(seminar)
+            seminar_data = scrape_1(link, department, series)
+            if seminar_data:
+                all_seminars.append(seminar_data)
         # Add future scrape methods for different website layouts
         # else if scrape_method == 2:
-        #     seminar = scrape_2(link)
-        #     if seminar:
-        #         all_seminars.append(seminar)
-        # else if scrape_method == 3:
-        #     seminar = scrape_3(link)
-        #     if seminar:
-        #         all_seminars.append(seminar)
+        #     seminar_data = scrape_2(link, department, series)
+        #     if seminar_data:
+        #         all_seminars.append(seminar_data)
         else:
             print(f"Unknown scrape method: {scrape_method}")
     

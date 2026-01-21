@@ -17,6 +17,11 @@
 
 ## Setup
 
+Set up your Gemini API key in a .env file my using the .env.example template.
+
+
+*Note: In the future .env should be migrated to docker-compose
+
 ```bash
     # Build Image
     docker build -t scraper-api .
@@ -28,7 +33,5 @@
     docker run --name scraper-instance --env-file .env -v $(pwd)/src:/app/src scraper-api
     
     # Copy out output.json from container
-    docker cp scraper-instance:/app/output.json ./output.json
+    docker cp scraper-instance:/app/out/apps/liontalk/src/data/seminars.json ./seminars.json
 ```
-
-In the future .env should be migrated to docker-compose

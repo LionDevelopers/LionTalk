@@ -8,3 +8,6 @@ __pycache__/
 
 # File dumps
 source.html
+
+# env
+.env

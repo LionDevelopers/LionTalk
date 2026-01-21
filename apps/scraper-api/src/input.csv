@@ -1,4 +1,4 @@
-website,scrape_method
-https://stat.columbia.edu/seminars/statistics-seminar-series/,1
-https://stat.columbia.edu/seminars/student-seminar-series/,1
-https://stat.columbia.edu/seminars/mathematical-finance-seminar-series/,1
+department,series,website,scrape_method
+Statistics,Statistics Seminar Series,https://stat.columbia.edu/seminars/statistics-seminar-series/,1
+Statistics,Student Seminar Series,https://stat.columbia.edu/seminars/student-seminar-series/,1
+Statistics,Mathematical Finance Seminar Series,https://stat.columbia.edu/seminars/mathematical-finance-seminar-series/,1
