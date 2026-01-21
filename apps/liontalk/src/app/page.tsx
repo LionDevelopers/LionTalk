@@ -3,21 +3,21 @@
 
 import React, { useState, useMemo } from 'react';
 import rawData from '../data/seminars.json'; 
-import { Seminar, DepartmentData } from '../types';
+// UPDATED: Import the new interface name
+import { Seminar, SeminarSeriesData } from '../types';
 import { SeminarCard } from '../components/SeminarCard';
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
 
-  // Process the raw data: Flatten departments and inject department name into each seminar
   const seminars: Seminar[] = useMemo(() => {
-    // Cast rawData to our new DepartmentData type
-    const departments = rawData as unknown as DepartmentData[];
+    const seminarGroups = rawData as unknown as SeminarSeriesData[];
     
-    return departments.flatMap((dept) => 
-      dept.entries.map((entry) => ({
+    return seminarGroups.flatMap((group) => 
+      group.entries.map((entry) => ({
         ...entry,
-        department: dept.department,
+        department: group.department,
+        series: group.series, 
       }))
     );
   }, []);
@@ -29,13 +29,15 @@ export default function Home() {
     // 1. Filter
     const filtered = seminars.filter((s) => {
       const query = searchQuery.toLowerCase();
+      // Added s.series check to the search filter
       return (
         s.seminar_title.toLowerCase().includes(query) ||
         s.speaker.toLowerCase().includes(query) ||
         s.abstract.toLowerCase().includes(query) ||
         s.date.toLowerCase().includes(query) ||
         s.location.toLowerCase().includes(query) ||
-        s.department.toLowerCase().includes(query) // Added department search
+        s.department.toLowerCase().includes(query) ||
+        (s.series && s.series.toLowerCase().includes(query))
       );
     });
 

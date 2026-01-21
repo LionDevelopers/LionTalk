@@ -8,13 +8,14 @@ export interface Seminar {
     speaker: string;
     affiliation: string;
     department: string;
+    series: string;
     abstract: string;
     bio: string;
 }
 
-// New interface for the grouped structure in seminars.json
-export interface DepartmentData {
+export interface SeminarSeriesData {
     department: string;
-    // The JSON entries are missing the 'department' field, so we Omit it here
-    entries: Omit<Seminar, 'department'>[];
+    series: string; 
+    // The raw JSON entries are missing 'department' and 'series', so we Omit them here
+    entries: Omit<Seminar, 'department' | 'series'>[];
 }

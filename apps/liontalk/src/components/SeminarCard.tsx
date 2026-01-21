@@ -1,4 +1,5 @@
 import React from 'react';
+// Ensure 'Seminar' type in types.ts includes 'series?: string;'
 import { Seminar } from '../types';
 
 export const SeminarCard = ({ seminar }: { seminar: Seminar }) => {
@@ -53,8 +54,8 @@ export const SeminarCard = ({ seminar }: { seminar: Seminar }) => {
         action: "TEMPLATE",
         text: `LionTalk: ${seminar.seminar_title}`,
         dates: `${fmt(startDate)}/${fmt(endDate)}`,
-        // UPDATED: Added Department to details
-        details: `Department: ${seminar.department}\nSpeaker: ${seminar.speaker}\nAffiliation: ${seminar.affiliation}\n\nAbstract: ${seminar.abstract}`,
+        // UPDATED: Added Department AND Series to details
+        details: `Department: ${seminar.department}\nSeries: ${seminar.series || 'N/A'}\nSpeaker: ${seminar.speaker}\nAffiliation: ${seminar.affiliation}\n\nAbstract: ${seminar.abstract}`,
         location: seminar.location,
       });
 
@@ -74,8 +75,9 @@ export const SeminarCard = ({ seminar }: { seminar: Seminar }) => {
       }`}
     >
       <div className="p-6">
-        {/* Header: Date, Time, and Location */}
+        {/* Header: Date, Time, Location AND Department/Series */}
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
+          {/* Left Side: Date/Time/Location */}
           <div>
             <div className="flex items-center space-x-2 text-indigo-600 font-semibold">
               <span>{seminar.date}</span>
@@ -87,11 +89,20 @@ export const SeminarCard = ({ seminar }: { seminar: Seminar }) => {
             </div>
           </div>
           
-          {/* UPDATED: Department Badge */}
+          {/* Right Side: Department Badge & Series */}
           {!isHoliday && (
-            <span className="mt-2 sm:mt-0 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
-              {seminar.department}
-            </span>
+            <div className="flex flex-col items-start sm:items-end mt-2 sm:mt-0">
+              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
+                {seminar.department}
+              </span>
+              
+              {/* Moved Series here: Displays below Department */}
+              {seminar.series && (
+                <span className="text-xs font-bold text-indigo-500 uppercase tracking-wide mt-1 text-right">
+                  {seminar.series}
+                </span>
+              )}
+            </div>
           )}
         </div>
 
