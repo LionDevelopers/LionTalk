@@ -91,19 +91,19 @@ export const SeminarCard = ({ seminar }: { seminar: Seminar }) => {
           
           {/* Right Side: Department Badge & Series */}
           {!isHoliday && (
-            <div className="flex flex-col items-start sm:items-end mt-2 sm:mt-0">
+            <div className="flex flex-col items-start sm:items-end mt-2 sm:mt-0 gap-2">
               <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
                 {seminar.department}
               </span>
               
-              {/* Moved Series here: Displays below Department */}
               {seminar.series && (
-                <span className="text-xs font-bold text-indigo-500 uppercase tracking-wide mt-1 text-right">
+                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-teal-100 text-teal-800">
                   {seminar.series}
                 </span>
               )}
             </div>
           )}
+
         </div>
 
         {/* Title */}

@@ -3,12 +3,13 @@
 
 import React, { useState, useMemo } from 'react';
 import rawData from '../data/seminars.json'; 
-// UPDATED: Import the new interface name
 import { Seminar, SeminarSeriesData } from '../types';
 import { SeminarCard } from '../components/SeminarCard';
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
+  // 1. State to toggle visibility of past seminars "upon request"
+  const [showRecentPast, setShowRecentPast] = useState(false);
 
   const seminars: Seminar[] = useMemo(() => {
     const seminarGroups = rawData as unknown as SeminarSeriesData[];
@@ -26,10 +27,13 @@ export default function Home() {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
-    // 1. Filter
+    // 2. Define the 30-day cutoff window
+    const thirtyDaysAgo = new Date(today);
+    thirtyDaysAgo.setDate(today.getDate() - 30);
+
+    // Filter by Search Query
     const filtered = seminars.filter((s) => {
       const query = searchQuery.toLowerCase();
-      // Added s.series check to the search filter
       return (
         s.seminar_title.toLowerCase().includes(query) ||
         s.speaker.toLowerCase().includes(query) ||
@@ -41,7 +45,7 @@ export default function Home() {
       );
     });
 
-    // 2. Segment
+    // Segment
     const todayList: Seminar[] = [];
     const upcomingList: Seminar[] = [];
     const pastList: Seminar[] = [];
@@ -55,11 +59,14 @@ export default function Home() {
       } else if (seminarDate.getTime() > today.getTime()) {
         upcomingList.push(seminar);
       } else {
-        pastList.push(seminar);
+        // 3. Only add to pastList if it happened within the last 30 days
+        if (seminarDate.getTime() >= thirtyDaysAgo.getTime()) {
+          pastList.push(seminar);
+        }
       }
     });
 
-    // 3. Sort Past Seminars (Newest first)
+    // Sort Past Seminars (Newest first)
     pastList.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
     return { todaySeminars: todayList, upcomingSeminars: upcomingList, pastSeminars: pastList };
@@ -114,17 +121,31 @@ export default function Home() {
             </section>
           )}
 
-          {/* PAST */}
+          {/* PAST (Last 30 Days) - Only shown upon request */}
           {pastSeminars.length > 0 && (
-            <section>
-              <h2 className="text-2xl font-bold text-gray-500 mb-6 border-b border-gray-200 pb-2">
-                Past Seminars
-              </h2>
-              <div className="space-y-6 opacity-90">
-                {pastSeminars.map((seminar, index) => (
-                  <SeminarCard key={`past-${index}`} seminar={seminar} />
-                ))}
+            <section className="pt-4">
+              <div className="flex items-center justify-between mb-6 border-b border-gray-200 pb-2">
+                <h2 className="text-2xl font-bold text-gray-500">
+                  Recent Past Seminars <span className="text-sm font-normal text-gray-400">(Last 30 days)</span>
+                </h2>
+                
+                {/* 4. Toggle Button */}
+                <button 
+                  onClick={() => setShowRecentPast(!showRecentPast)}
+                  className="text-sm font-medium text-indigo-600 hover:text-indigo-800 focus:outline-none transition-colors"
+                >
+                  {showRecentPast ? 'Hide' : 'Show'}
+                </button>
               </div>
+
+              {/* 5. Conditional Rendering based on state */}
+              {showRecentPast && (
+                <div className="space-y-6 opacity-90 transition-all duration-300 ease-in-out">
+                  {pastSeminars.map((seminar, index) => (
+                    <SeminarCard key={`past-${index}`} seminar={seminar} />
+                  ))}
+                </div>
+              )}
             </section>
           )}
 
