@@ -1,70 +1,10 @@
 import React from 'react';
 // Ensure 'Seminar' type in types.ts includes 'series?: string;'
 import { Seminar } from '../types';
+import { getGoogleCalendarLink } from '../utils/dates';
 
 export const SeminarCard = ({ seminar }: { seminar: Seminar }) => {
   const isHoliday = seminar.speaker === "N/A";
-
-  // Helper to generate Google Calendar Link
-  const getGoogleCalendarLink = (seminar: Seminar) => {
-    try {
-      // 1. Parse the Date: "20-Jan-26" -> [20, Jan, 26]
-      const monthMap: { [key: string]: number } = {
-        Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5,
-        Jul: 6, Aug: 7, Sep: 8, Sept: 8, Oct: 9, Nov: 10, Dec: 11
-      };
-      
-      const [dayStr, monthStr, yearStr] = seminar.date.split('-');
-      const day = parseInt(dayStr, 10);
-      const month = monthMap[monthStr];
-      const year = 2000 + parseInt(yearStr, 10); // Assume 2000s
-
-      // 2. Parse the Time: "4:10 pm - 5:00 pm"
-      const [startTimeStr, endTimeStr] = seminar.time.split('-').map(s => s.trim());
-
-      const parseTime = (timeString: string) => {
-        const match = timeString.match(/(\d+):(\d+)\s*(am|pm)/i);
-        if (!match) return { hours: 0, minutes: 0 };
-        
-        let [_, h, m, meridiem] = match;
-        let hours = parseInt(h, 10);
-        const minutes = parseInt(m, 10);
-
-        if (meridiem.toLowerCase() === 'pm' && hours < 12) hours += 12;
-        if (meridiem.toLowerCase() === 'am' && hours === 12) hours = 0;
-        
-        return { hours, minutes };
-      };
-
-      const start = parseTime(startTimeStr);
-      const end = parseTime(endTimeStr);
-
-      // 3. Create Date Objects
-      const startDate = new Date(year, month, day, start.hours, start.minutes);
-      // Fallback: If end time parsing fails, assume 1 hour duration
-      let endDate = new Date(year, month, day, end.hours, end.minutes);
-      if (isNaN(endDate.getTime()) || endDate <= startDate) {
-         endDate = new Date(startDate.getTime() + 60 * 60 * 1000); 
-      }
-
-      // 4. Format for Google (YYYYMMDDTHHmmssZ)
-      const fmt = (date: Date) => date.toISOString().replace(/-|:|\.\d\d\d/g, "");
-
-      const params = new URLSearchParams({
-        action: "TEMPLATE",
-        text: `LionTalk: ${seminar.seminar_title}`,
-        dates: `${fmt(startDate)}/${fmt(endDate)}`,
-        // UPDATED: Added Department AND Series to details
-        details: `Department: ${seminar.department}\nSeries: ${seminar.series || 'N/A'}\nSpeaker: ${seminar.speaker}\nAffiliation: ${seminar.affiliation}\n\nAbstract: ${seminar.abstract}`,
-        location: seminar.location,
-      });
-
-      return `https://calendar.google.com/calendar/render?${params.toString()}`;
-    } catch (e) {
-      console.error("Error generating calendar link", e);
-      return "#";
-    }
-  };
 
   return (
     <div
