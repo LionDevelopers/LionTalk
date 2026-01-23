@@ -99,10 +99,8 @@ def scrape_1(link, department, series):
             page.goto(link, wait_until="networkidle", timeout=60000)
             
             print("Waiting for content...")
-            # Wait for target selector before grabbing HTML
-            page.wait_for_selector('#seminar-content', state="attached", timeout=60000)
 
-            html = page.inner_html('#seminar-content')
+            html = page.locator('#seminar-content').inner_html()
             soup = BeautifulSoup(html, 'html.parser')
 
             # Sanitize HTML before sending to Gemini
@@ -133,7 +131,7 @@ def main():
 
     output_path = Path("/app/out/apps/liontalk/src/data/seminars.json")
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    
+
     # Accumulate all fully baked seminars
     all_seminars = []
 
