@@ -8,6 +8,7 @@ __pycache__/
 
 # File dumps
 source.html
+seminars.json
 
 # env
 .env
