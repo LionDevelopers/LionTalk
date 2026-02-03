@@ -15,7 +15,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    
+      with:
+        fetch-depth: 0
+
     - name: Build the Docker image in subfolder
       run: docker build -t scraper-api ./apps/scraper-api
       
@@ -47,6 +49,8 @@ jobs:
           exit 1
         fi
 
+    - name: Pull latest changes
+      run: git pull origin main --rebase --autostash
 
     - name: Commit and Push changes
       id: auto-commit-action
