@@ -10,7 +10,7 @@ import os, csv, pandas as pd, json, re, time
 
 class Entry(BaseModel):
     seminar_title: str = Field(description="The title of the seminar.")
-    date: str = Field(description="Date of the seminar.")
+    date: str = Field(description="Date of the seminar in dd-MMM-yy format.")
     location: str = Field(description="Building location.")
     time: str = Field(description="Time of the seminar.")
     speaker: str = Field(description="Name of the speaker.")
@@ -246,6 +246,58 @@ def scrape_3(link, department, series):
         browser.close()
         return parse_html("./source.html", department, series)
 
+def scrape_4(link, department, series):
+    """
+    Scrape method for columbia.seminars.app style pages.
+    Targets <section id="events"> and waits for <article class="seminar-event">.
+    """
+    with sync_playwright() as p:
+
+        is_headless = os.getenv("HEADLESS", "true").lower() == "true"
+        browser = p.chromium.launch(headless=is_headless, slow_mo=50)
+
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
+        page = context.new_page()
+
+        try:
+            print("Navigating to URL...")
+            # increased timeout for SPA loading
+            page.goto(link, wait_until="networkidle", timeout=60000)
+            
+            print("Waiting for seminar events to render...")
+            # Wait specifically for the event cards to appear
+            page.wait_for_selector('article.seminar-event', timeout=30000)
+
+            # Extract specific section to reduce noise for the LLM (removes navbars/modals)
+            html = page.locator('section#events').inner_html()
+            
+            if not html:
+                print("Warning: section#events was empty or not found.")
+                html = page.content() # Fallback to full page
+
+            soup = BeautifulSoup(html, 'html.parser')
+
+            # Clean up: Remove 'More' buttons or hidden text that might confuse extraction if needed
+            # In this specific HTML, the abstract text is fully present in div.abstract-text
+            # so no click actions are required.
+
+            with open('source.html', 'wb') as f:
+                f.write(soup.encode('utf-8'))
+
+            print(f"HTML written to source.html...")
+        
+        except Exception as e:
+            print(f"Scraping failed: {e}")
+            page.screenshot(path="debug_error.png")
+            print("Screenshot saved to debug_error.png")
+            browser.close()
+            return None
+
+        browser.close()
+        return parse_html("./source.html", department, series)
+
 def main():
 
     script_dir = os.path.dirname(__file__) # Get current filepath
@@ -275,7 +327,11 @@ def main():
             if seminar_data:
                 all_seminars.append(seminar_data)
         elif scrape_method == 3:
-            seminar_data = scrape_2(link, department, series)
+            seminar_data = scrape_3(link, department, series)
+            if seminar_data:
+                all_seminars.append(seminar_data)
+        elif scrape_method == 4:
+            seminar_data = scrape_4(link, department, series)
             if seminar_data:
                 all_seminars.append(seminar_data)
         # Add future scrape methods for different website layouts
