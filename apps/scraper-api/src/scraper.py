@@ -46,7 +46,10 @@ def parse_html(source: Union[str, list], department: str, series: str):
         prompt = (
             "Extract every single occurrence of an entry from the following JSON event list. "
             "Do not summarize or truncate. Map each event into the schema (seminar_title, date, location, time, speaker, affiliation, abstract, bio). "
-            "Use empty string for any missing field. The final JSON must contain a list of all items found, from the first to the very last one.\n\n"
+            "Use empty string for any missing field. The final JSON must contain a list of all items found, from the first to the very last one. "
+            "Each event has from_timestamp and to_timestamp as Unix timestamps (seconds since 1970-01-01 UTC). "
+            "Convert from_timestamp into a short date for the date field (e.g. ‘dd-MMM-yy’). Use both timestamps to form a time range for the time field (e.g. ‘5:45 pm - 6:30 pm’). "
+            "Use the event’s item_tz_offset if present for local time.\n\n"
             + json.dumps(source, indent=2)
         )
         contents = [prompt]
