@@ -13,3 +13,17 @@
 *   [X] Create JSON fields
 *   [X] Produce output.json for frontend
 *   [X] Fix incorrect department identification in output.json
+
+```bash
+    # Build Image
+    docker build -t scraper-api .
+
+    # Run Container with src as volume
+        # --name is scraper-instance
+        # --env-file for having env var in container (GEMINI_API_KEY)
+        # -v Volume so it gets live code so we don't always have to rebuild
+    docker run --name scraper-instance --env-file .env -v $(pwd)/src:/app/src scraper-api
+    
+    # Copy out output.json from container
+    docker cp scraper-instance:/app/out/apps/liontalk/src/data/seminars.json ./seminars.json
+```
