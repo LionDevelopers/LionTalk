@@ -10,7 +10,7 @@ import os, csv, pandas as pd, json, re, time
 
 class Entry(BaseModel):
     seminar_title: str = Field(description="The title of the seminar.")
-    date: str = Field(description="Date of the seminar.")
+    date: str = Field(description="Date of the seminar in dd-MMM-yy format.")
     location: str = Field(description="Building location.")
     time: str = Field(description="Time of the seminar.")
     speaker: str = Field(description="Name of the speaker.")
