@@ -277,7 +277,7 @@ def main():
             if seminar_data:
                 all_seminars.append(seminar_data)
         elif scrape_method == 3:
-            seminar_data = scrape_2(link, department, series)
+            seminar_data = scrape_3(link, department, series)
             if seminar_data:
                 all_seminars.append(seminar_data)
         # Add future scrape methods for different website layouts
