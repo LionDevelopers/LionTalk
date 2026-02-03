@@ -6,10 +6,7 @@ from pydantic import BaseModel, Field
 from typing import List, Optional
 from pathlib import Path
 from urllib.parse import urlparse
-import os
-import csv
-import pandas as pd
-import json
+import os, csv, pandas as pd, json, re, time
 
 class Entry(BaseModel):
     seminar_title: str = Field(description="The title of the seminar.")
@@ -123,6 +120,132 @@ def scrape_1(link, department, series):
         browser.close()
         return parse_html("./source.html", department, series)
 
+def scrape_2(link, department, series):
+    # Scrape HTML of specified website
+    with sync_playwright() as p:
+
+        is_headless = os.getenv("HEADLESS", "true").lower() == "true"
+        browser = p.chromium.launch(headless=is_headless, slow_mo=50)
+
+        # Use a real browser Context + User Agent to avoid bot detection
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
+        page = context.new_page()
+
+        try:
+            print("Navigating to URL...")
+            # Wait for 'networkidle' (ensures the page is actually finished loading)
+            page.goto(link, wait_until="networkidle", timeout=60000)
+            
+            print("Waiting for content...")
+
+            html = page.content()
+            soup = BeautifulSoup(html, 'html.parser')
+
+            script_tag = soup.find("script", string=re.compile("var events_data"))
+
+            if script_tag:
+                script_text = script_tag.string
+                match = re.search(r"var events_data = (\[.*?\]);", script_text, re.DOTALL)
+                
+                if match:
+                    events_json = match.group(1)
+                    events = json.loads(events_json)
+
+                    # Keep only events that start after the current time
+                    now = int(time.time())
+                    events = [e for e in events if int(e.get("from_timestamp", 0)) > now]
+
+                    # Keep only events with "Seminar" in the title
+                    events = [e for e in events if "Seminar" in e.get("title", "")]
+
+                    print(f"Found {len(events)} upcoming events:\n")
+                    
+                else:
+                    print("Found the script, but could not extract the events_data array.")
+            else:
+                print("Could not find the script tag containing event data.")
+
+            with open('source.html', 'wb') as f:
+                f.write(soup.encode('utf-8'))
+
+            print(f"HTML written to source.html...")
+                    
+        except Exception as e:
+            # Add Screenshot debugging to see failure (e.g., CAPTCHA)
+            print(f"Scraping failed: {e}")
+            page.screenshot(path="debug_error.png")
+            print("Screenshot saved to debug_error.png")
+            browser.close()
+            return None
+
+        browser.close()
+        return parse_html("./source.html", department, series)
+
+def scrape_3(link, department, series):
+    # Scrape HTML of specified website
+    with sync_playwright() as p:
+
+        is_headless = os.getenv("HEADLESS", "true").lower() == "true"
+        browser = p.chromium.launch(headless=is_headless, slow_mo=50)
+
+        # Use a real browser Context + User Agent to avoid bot detection
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
+        page = context.new_page()
+
+        try:
+            print("Navigating to URL...")
+            # Wait for 'networkidle' (ensures the page is actually finished loading)
+            page.goto(link, wait_until="networkidle", timeout=60000)
+            
+            print("Waiting for content...")
+
+            html = page.content()
+            soup = BeautifulSoup(html, 'html.parser')
+
+            script_tag = soup.find("script", string=re.compile("var events_data"))
+
+            if script_tag:
+                script_text = script_tag.string
+                match = re.search(r"var events_data = (\[.*?\]);", script_text, re.DOTALL)
+                
+                if match:
+                    events_json = match.group(1)
+                    events = json.loads(events_json)
+
+                    # Keep only events that start after the current time
+                    now = int(time.time())
+                    events = [e for e in events if int(e.get("from_timestamp", 0)) > now]
+
+                    # Keep only events with "Seminar" in the title
+                    events = [e for e in events]
+
+                    print(f"Found {len(events)} upcoming events:\n")
+                    
+                else:
+                    print("Found the script, but could not extract the events_data array.")
+            else:
+                print("Could not find the script tag containing event data.")
+
+            with open('source.html', 'wb') as f:
+                f.write(soup.encode('utf-8'))
+
+            print(f"HTML written to source.html...")
+                    
+        except Exception as e:
+            # Add Screenshot debugging to see failure (e.g., CAPTCHA)
+            print(f"Scraping failed: {e}")
+            page.screenshot(path="debug_error.png")
+            print("Screenshot saved to debug_error.png")
+            browser.close()
+            return None
+
+        browser.close()
+        return parse_html("./source.html", department, series)
+
 def main():
 
     script_dir = os.path.dirname(__file__) # Get current filepath
@@ -147,9 +270,17 @@ def main():
             seminar_data = scrape_1(link, department, series)
             if seminar_data:
                 all_seminars.append(seminar_data)
+        elif scrape_method == 2:
+            seminar_data = scrape_2(link, department, series)
+            if seminar_data:
+                all_seminars.append(seminar_data)
+        elif scrape_method == 3:
+            seminar_data = scrape_2(link, department, series)
+            if seminar_data:
+                all_seminars.append(seminar_data)
         # Add future scrape methods for different website layouts
-        # else if scrape_method == 2:
-        #     seminar_data = scrape_2(link, department, series)
+        # elif scrape_method == n:
+        #     seminar_data = scrape_n(link, department, series)
         #     if seminar_data:
         #         all_seminars.append(seminar_data)
         else:
