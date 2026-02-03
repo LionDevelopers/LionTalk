@@ -170,7 +170,10 @@ def scrape_2(link, department, series):
 
                     # Keep only events with "Seminar" in the title
                     events = [e for e in events if "Seminar" in e.get("title", "")]
-                    print(f"Found {len(events)} upcoming events.")
+                    
+                    # LIMIT TO TOP 5
+                    events = events[:5]
+                    print(f"Found {len(events)} upcoming events (limited to top 5).")
                 else:
                     print("Found the script, but could not extract the events_data array.")
             else:
@@ -229,7 +232,10 @@ def scrape_3(link, department, series):
                     # Keep only events that start after the current time
                     now = int(time.time())
                     events = [e for e in events if int(e.get("from_timestamp", 0)) > now]
-                    print(f"Found {len(events)} upcoming events.")
+                    
+                    # LIMIT TO TOP 5
+                    events = events[:5]
+                    print(f"Found {len(events)} upcoming events (limited to top 5).")
                 else:
                     print("Found the script, but could not extract the events_data array.")
             else:
@@ -284,12 +290,21 @@ def scrape_4(link, department, series):
 
             soup = BeautifulSoup(html, 'html.parser')
 
-            # Clean up: Remove 'More' buttons or hidden text that might confuse extraction if needed
-            # In this specific HTML, the abstract text is fully present in div.abstract-text
-            # so no click actions are required.
+            # Find all event articles and limit to top 5
+            articles = soup.find_all('article', class_='seminar-event')
+            top_articles = articles[:5]
+
+            # Rebuild a minimal HTML structure with only the top 5 events
+            new_soup = BeautifulSoup("<html><body><section id='events'></section></body></html>", "html.parser")
+            section = new_soup.find("section")
+
+            for article in top_articles:
+                section.append(article)
+            
+            print(f"Truncated HTML to top {len(top_articles)} events.")
 
             with open('source.html', 'wb') as f:
-                f.write(soup.encode('utf-8'))
+                f.write(new_soup.encode('utf-8'))
 
             print(f"HTML written to source.html...")
         
@@ -336,11 +351,10 @@ def main():
             seminar_data = scrape_3(link, department, series)
             if seminar_data:
                 all_seminars.append(seminar_data)
-        # Add future scrape methods for different website layouts
-        # elif scrape_method == n:
-        #     seminar_data = scrape_n(link, department, series)
-        #     if seminar_data:
-        #         all_seminars.append(seminar_data)
+        elif scrape_method == 4:
+            seminar_data = scrape_4(link, department, series)
+            if seminar_data:
+                all_seminars.append(seminar_data)
         else:
             print(f"Unknown scrape method: {scrape_method}")
     

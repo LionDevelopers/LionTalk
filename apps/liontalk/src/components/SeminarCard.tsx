@@ -35,8 +35,13 @@ export const SeminarCard = ({ seminar }: { seminar: Seminar }) => {
       
       {/* 1. Left Side: Visual Date Badge - COLUMBIA BLUE */}
       <div className="md:w-24 bg-columbia-blue/5 border-b md:border-b-0 md:border-r border-columbia-blue/10 flex md:flex-col items-center justify-center p-4 md:py-0 shrink-0">
-        <span className="text-columbia-blue font-bold uppercase text-sm tracking-wider md:mb-1">{monthAbbr}</span>
-        <span className="text-gray-900 font-extrabold text-2xl md:text-3xl ml-2 md:ml-0">{dayDisplay}</span>
+        {/* Added suppressHydrationWarning to these two spans to fix the error */}
+        <span suppressHydrationWarning className="text-columbia-blue font-bold uppercase text-sm tracking-wider md:mb-1">
+          {monthAbbr}
+        </span>
+        <span suppressHydrationWarning className="text-gray-900 font-extrabold text-2xl md:text-3xl ml-2 md:ml-0">
+          {dayDisplay}
+        </span>
       </div>
 
       <div className="flex-1 p-5 sm:p-6 flex flex-col">
