@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from google import genai
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
-from typing import List, Optional
+from typing import List, Optional, Union
 from pathlib import Path
 from urllib.parse import urlparse
 import os, csv, pandas as pd, json, re, time
@@ -34,32 +34,41 @@ class SeminarFullyBaked(BaseModel):
     series: str
     entries: List[Entry]
 
-def parse_html(source, department, series):
-
-    # Send scraped data to Gemini
+def parse_html(source: Union[str, list], department: str, series: str):
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise ValueError("GEMINI_API_KEY not found in environment!")
 
     client = genai.Client(api_key=api_key)
 
-    prompt = "Extract every single occurrence of an entry found in the HTML. " \
-    "Do not summarize or truncate the list. " \
-    "The final JSON must contain a list of all items found, from the first to the very last one in the file."
+    if isinstance(source, list):
+        # Pass events as JSON in the prompt (no file upload)
+        prompt = (
+            "Extract every single occurrence of an entry from the following JSON event list. "
+            "Do not summarize or truncate. Map each event into the schema (seminar_title, date, location, time, speaker, affiliation, abstract, bio). "
+            "Use empty string for any missing field. The final JSON must contain a list of all items found, from the first to the very last one.\n\n"
+            + json.dumps(source, indent=2)
+        )
+        contents = [prompt]
+    else:
+        # File path: upload HTML and use existing prompt
+        prompt = (
+            "Extract every single occurrence of an entry found in the HTML. "
+            "Do not summarize or truncate the list. "
+            "The final JSON must contain a list of all items found, from the first to the very last one in the file."
+        )
+        if not os.path.exists(source):
+            print("Error: source file was not created.")
+            return None
+        myfile = client.files.upload(file=source)
+        contents = [prompt, myfile]
 
-    print(f"Retrieving response from Gemini...")
-    
-    # Ensure source.html exists before uploading
-    if not os.path.exists(source):
-        print("Error: source.html was not created.")
-        return None
-
-    myfile = client.files.upload(file=source)
+    print("Retrieving response from Gemini...")
     response = client.models.generate_content(
-        model="gemini-2.5-flash-lite", contents=[prompt, myfile],
+        model="gemini-2.5-flash-lite", contents=contents,
         config={
-        "response_mime_type": "application/json",
-        "response_json_schema": SeminarHalfBaked.model_json_schema(),  # Use the HalfBaked schema for extraction
+            "response_mime_type": "application/json",
+            "response_json_schema": SeminarHalfBaked.model_json_schema(),
         },
     )
 
@@ -92,8 +101,7 @@ def scrape_1(link, department, series):
 
         try:
             print("Navigating to URL...")
-            # Wait for 'networkidle' (ensures the page is actually finished loading)
-            page.goto(link, wait_until="networkidle", timeout=60000)
+            page.goto(link, wait_until="domcontentloaded")
             
             print("Waiting for content...")
 
@@ -135,8 +143,7 @@ def scrape_2(link, department, series):
 
         try:
             print("Navigating to URL...")
-            # Wait for 'networkidle' (ensures the page is actually finished loading)
-            page.goto(link, wait_until="networkidle", timeout=60000)
+            page.goto(link, wait_until="domcontentloaded")
             
             print("Waiting for content...")
 
@@ -144,6 +151,7 @@ def scrape_2(link, department, series):
             soup = BeautifulSoup(html, 'html.parser')
 
             script_tag = soup.find("script", string=re.compile("var events_data"))
+            events = None
 
             if script_tag:
                 script_text = script_tag.string
@@ -159,19 +167,21 @@ def scrape_2(link, department, series):
 
                     # Keep only events with "Seminar" in the title
                     events = [e for e in events if "Seminar" in e.get("title", "")]
-
-                    print(f"Found {len(events)} upcoming events:\n")
-                    
+                    print(f"Found {len(events)} upcoming events.")
                 else:
                     print("Found the script, but could not extract the events_data array.")
             else:
                 print("Could not find the script tag containing event data.")
 
-            with open('source.html', 'wb') as f:
-                f.write(soup.encode('utf-8'))
+            browser.close()
+            if events is not None:
+                return parse_html(events, department, series)
+            # Fallback: write full HTML and let Gemini extract from it
+            with open("source.html", "wb") as f:
+                f.write(soup.encode("utf-8"))
+            print("HTML written to source.html (fallback).")
+            return parse_html("./source.html", department, series)
 
-            print(f"HTML written to source.html...")
-                    
         except Exception as e:
             # Add Screenshot debugging to see failure (e.g., CAPTCHA)
             print(f"Scraping failed: {e}")
@@ -179,9 +189,6 @@ def scrape_2(link, department, series):
             print("Screenshot saved to debug_error.png")
             browser.close()
             return None
-
-        browser.close()
-        return parse_html("./source.html", department, series)
 
 def scrape_3(link, department, series):
     # Scrape HTML of specified website
@@ -198,8 +205,7 @@ def scrape_3(link, department, series):
 
         try:
             print("Navigating to URL...")
-            # Wait for 'networkidle' (ensures the page is actually finished loading)
-            page.goto(link, wait_until="networkidle", timeout=60000)
+            page.goto(link, wait_until="domcontentloaded")
             
             print("Waiting for content...")
 
@@ -207,6 +213,7 @@ def scrape_3(link, department, series):
             soup = BeautifulSoup(html, 'html.parser')
 
             script_tag = soup.find("script", string=re.compile("var events_data"))
+            events = None
 
             if script_tag:
                 script_text = script_tag.string
@@ -219,22 +226,20 @@ def scrape_3(link, department, series):
                     # Keep only events that start after the current time
                     now = int(time.time())
                     events = [e for e in events if int(e.get("from_timestamp", 0)) > now]
-
-                    # Keep only events with "Seminar" in the title
-                    events = [e for e in events]
-
-                    print(f"Found {len(events)} upcoming events:\n")
-                    
+                    print(f"Found {len(events)} upcoming events.")
                 else:
                     print("Found the script, but could not extract the events_data array.")
             else:
                 print("Could not find the script tag containing event data.")
 
-            with open('source.html', 'wb') as f:
-                f.write(soup.encode('utf-8'))
+            browser.close()
+            if events is not None:
+                return parse_html(events, department, series)
+            with open("source.html", "wb") as f:
+                f.write(soup.encode("utf-8"))
+            print("HTML written to source.html (fallback).")
+            return parse_html("./source.html", department, series)
 
-            print(f"HTML written to source.html...")
-                    
         except Exception as e:
             # Add Screenshot debugging to see failure (e.g., CAPTCHA)
             print(f"Scraping failed: {e}")
@@ -242,9 +247,6 @@ def scrape_3(link, department, series):
             print("Screenshot saved to debug_error.png")
             browser.close()
             return None
-
-        browser.close()
-        return parse_html("./source.html", department, series)
 
 def main():
 
