@@ -1,48 +1,6 @@
 [
   {
     "department": "Statistics",
-    "series": "Statistics Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "Algorithmic Stability in Statistical Inference",
-        "date": "26-Jan-26",
-        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
-        "time": "4:10 pm - 5:00 pm",
-        "speaker": "Yuetian Luo",
-        "affiliation": "Rutgers University",
-        "abstract": "Algorithmic stability is a central concept in statistics and learning theory that measures how sensitive an algorithm's output is to small changes in the training data. In this talk, we consider two different perspectives of algorithmic stability in statistical inference. In the first part, we investigate the problem of distribution-free algorithm risk evaluation, uncovering fundamental limitations for answering these questions with limited amounts of data. To navigate the challenge, we will discuss how incorporating an assumption about algorithmic stability might help. In this second part, we reveal that while stability entails desirable properties, it is typically not sufficient on its own for statistical learning. For example, an algorithm that always outputs a constant function is perfectly stable but statistically meaningless. Then we will discuss the trade-offs between stability and accuracy in statistical inference.",
-        "bio": "Yuetian Luo is an assistant professor in the Department of Statistics at Rutgers University. Before that, he was a postdoctoral scholar in the Data Science Institute at the University of Chicago, advised by Professor Rina Foygel Barber. He received his Ph.D. in Statistics from the University of Wisconsin-Madison in 2022 under the supervision of Professor Anru Zhang. His research interests lie broadly in distribution-free inference, computational complexity of statistical inference, tensor learning, robust statistics, and non-convex optimization."
-      },
-      {
-        "seminar_title": "Nature-Inspired Metaheuristics as a General-Purpose Optimization Tool in Statistical Research",
-        "date": "2-Feb-2026",
-        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
-        "time": "4:10 pm - 5:00 pm",
-        "speaker": "Weng Kee Wong",
-        "affiliation": "UCLA",
-        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model. Keywords: Continuous Designs, Early Phase Trials, Equivalence Theorems, Optimal Experiment Designs, Particle Swarm Optimization.",
-        "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace. His main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications. His recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics. He has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator. He is fellow of the American Statistical Association, the Institute of Mathematical Statistics, the American Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
-      }
-    ]
-  },
-  {
-    "department": "Statistics",
-    "series": "Student Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "Robust Point Matching with Distance Profiles",
-        "date": "28-Jan-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Yoonhaeng Hur",
-        "affiliation": "",
-        "abstract": "Computational difficulty of quadratic matching and the Gromov-Wasserstein distance has led to various approximation and relaxation schemes. One of such methods, relying on the notion of distance profiles, has been widely used in practice, but its theoretical understanding is limited. By delving into the statistical complexity of the previously proposed method based on distance profiles, we show that it suffers from the curse of dimensionality unless we make certain assumptions on the underlying metric measure spaces. Building on this insight, we propose and analyze a modified matching procedure that can be used to robustly match points under a certain probabilistic setting. We demonstrate the performance of the proposed methods using simulations and real data applications to complement the theoretical findings. As a result, we contribute to the literature by providing theoretical underpinnings of the matching procedures based on distance invariants like distance profiles, which have been widely used in practice but rarely analyzed theoretically.",
-        "bio": ""
-      }
-    ]
-  },
-  {
-    "department": "Statistics",
     "series": "Mathematical Finance Seminar Series",
     "entries": [
       {
@@ -52,18 +10,18 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Goran Peskir",
         "affiliation": "University of Manchester",
-        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.\nThe quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.\nThe solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
-        "bio": "N/A"
+        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price. The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting. The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
+        "bio": ""
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "This entry does not have a title",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Jim Gatheral and Xin Zhang",
         "affiliation": "Baruch and NYU",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "abstract": "This entry does not have an abstract.",
+        "bio": ""
       },
       {
         "seminar_title": "NO SEMINAR",
@@ -72,490 +30,114 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "N/A",
         "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "abstract": "This entry does not have an abstract.",
+        "bio": ""
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "This entry does not have a title",
         "date": "19-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Yucheng Guo",
         "affiliation": "Princeton",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "abstract": "This entry does not have an abstract.",
+        "bio": ""
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "This entry does not have a title",
         "date": "26-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Mathias Beiglboeck and David Itkin",
         "affiliation": "Vienna and Imperial",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "abstract": "This entry does not have an abstract.",
+        "bio": ""
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "This entry does not have a title",
         "date": "5-Mar-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Thibault Mastrolia",
         "affiliation": "Berkeley",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "abstract": "This entry does not have an abstract.",
+        "bio": ""
       }
     ]
   },
   {
     "department": "Cancer Dynamics",
     "series": "IICD Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "HICCC Distinguished Seminar Speaker: Steven Artandi, MD, PhD",
-        "date": "02-JUN-06",
-        "location": "Online",
-        "time": "5:00 pm - 6:00 pm",
-        "speaker": "Steven Artandi, MD, PhD",
-        "affiliation": "Stanford Cancer Institute",
-        "abstract": "Regulation of telomerase in cancer and stem cells",
-        "bio": "Steven Artandi, MD, PhD is the Laurie Kraus Lacob Director of the Stanford Cancer\nInstitute (SCI) Jerome and Daisy Low Gilbert Professor and Professor of Biochemistry\nStanford Cancer Institute"
-      },
-      {
-        "seminar_title": "IICD Seminar Series: David Cheek, Harvard University",
-        "date": "10-JUN-06",
-        "location": "Hybrid Event Schermerhorn Hall 603",
-        "time": "2:00 pm - 3:00 pm",
-        "speaker": "David Cheek",
-        "affiliation": "Harvard University",
-        "abstract": "The Herbert and Florence Irving Institute for Cancer Dynamics will continue its seminar series on the topic of mathematical sciences underpinning cancer research. The monthly seminars take place on the second Wednesday of the month, 2:00-3:00 PM EST. The presentations are open to the Columbia community (in person and online\u2026",
-        "bio": ""
-      },
-      {
-        "seminar_title": "IICD Seminar Series: Maria Brbic, EFPL",
-        "date": "09-JUL-06",
-        "location": "Online Event",
-        "time": "2:00 pm - 3:00 pm",
-        "speaker": "Maria Brbic",
-        "affiliation": "EFPL",
-        "abstract": "The Herbert and Florence Irving Institute for Cancer Dynamics will continue its seminar series on the topic of mathematical sciences underpinning cancer research. The monthly seminars take place on the second Wednesday of the month, 2:00-3:00 PM EST. The presentations are open to the Columbia community (in person and online\u2026",
-        "bio": ""
-      },
-      {
-        "seminar_title": "IICD Seminar Series: Andrea Sottoriva, Human Technopole",
-        "date": "06-AUG-06",
-        "location": "Hybrid Event Schermerhorn Hall 603",
-        "time": "2:00 pm - 3:00 pm",
-        "speaker": "Andrea Sottoriva",
-        "affiliation": "Human Technopole",
-        "abstract": "The Herbert and Florence Irving Institute for Cancer Dynamics will continue its seminar series on the topic of mathematical sciences underpinning cancer research. The monthly seminars take place on the second Wednesday of the month, 2:00-3:00 PM EST. The presentations are open to the Columbia community (in person and online\u2026",
-        "bio": ""
-      },
-      {
-        "seminar_title": "IICD Seminar Series: Mona Singh, Princeton University",
-        "date": "03-SEP-06",
-        "location": "Hybrid Event Schermerhorn Hall 603",
-        "time": "2:00 pm - 3:00 pm",
-        "speaker": "Mona Singh",
-        "affiliation": "Princeton University",
-        "abstract": "The Herbert and Florence Irving Institute for Cancer Dynamics will continue its seminar series on the topic of mathematical sciences underpinning cancer research. The monthly seminars take place on the second Wednesday of the month, 2:00-3:00 PM EST. The presentations are open to the Columbia community (in person and online\u2026",
-        "bio": ""
-      }
-    ]
+    "entries": []
   },
   {
     "department": "Center for Science and Society",
     "series": "CSS Seminar Series",
+    "entries": []
+  },
+  {
+    "department": "Economics and Politics",
+    "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Udbhav Tiwari - Digital Governance for Democratic Renewal",
-        "date": "20-MAY-24",
-        "location": "Online",
-        "time": "1:00 pm - 2:00 pm",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "Columbia World Projects considers what is at stake when governments seek greater access to private communications.&nbsp;",
-        "bio": ""
+        "seminar_title": "Trade Liberalization and Implementation of Innovation",
+        "date": "04-Feb-26",
+        "location": "1101 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Haotian (Hao) Jiang",
+        "affiliation": "Columbia University",
+        "abstract": "This project studies how trade liberalization affects innovation when implementing new ideas requires scarce capacity. Contemporary trade policy argues that domestic production capacity is essential for innovation and thus productivity growth. Using Compustat and USITC data, we document tariff-induced shifts in R&D. Preliminary modelling features lower import tariffs raising output by reducing input prices but eroding profits of domestic varieties via business stealing. Firms then underinvest in implementation capital and design creation, reducing the variety of home inputs and slowing learning-by-doing. A planner internalizes the knowledge externality, implying dynamic gains from temporarily higher protection.",
+        "bio": "PhD Student in Economics"
       },
       {
-        "seminar_title": "Harnessing Nature Data and AI",
-        "date": "20-MAY-24",
-        "location": "Online",
-        "time": "10:00 am - 11:00 am",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The Masters of Biodiversity Data Analytics Program shares how biodiversity data is shaping financial and conservation decisions.",
-        "bio": ""
+        "seminar_title": "Hidden Strengths: Adversity, Adaptation, and the Measurement of Skills",
+        "date": "04-Feb-26",
+        "location": "",
+        "time": "1:00p-1:30p",
+        "speaker": "Alejandra Campos",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics and Education"
       },
       {
-        "seminar_title": "Mapping AI: Hype",
-        "date": "20-MAY-24",
-        "location": "Fayerweather Hall (Room 513), Columbia University, 1180 Amsterdam Avenue, New York",
-        "time": "9:00 am - 11:00 am",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The Center for Science and Society hosts an AI primer followed by a group activity mapping AI usages on Columbia University's campus.&nbsp;",
-        "bio": ""
+        "seminar_title": "Shaped by Narratives: Migration Inflow and Higher Education Decisions of Natives",
+        "date": "04-Feb-26",
+        "location": "",
+        "time": "1:30p-2:00p",
+        "speaker": "Alejandra Quintana",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Candidate at Teachers College"
       },
       {
-        "seminar_title": "Science and Society Speed Networking",
-        "date": "21-MAY-24",
-        "location": "Fayerweather Hall (Room 513), Columbia University, 1180 Amsterdam Avenue, New York",
-        "time": "1:00 pm - 3:00 pm",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The Center for Science and Society hosts a speed networking event for Columbia students interested in interdisciplinary topics.&nbsp;",
-        "bio": ""
+        "seminar_title": "Incentive Contracts and Peer Effects in the Workplace",
+        "date": "04-Feb-26",
+        "location": "1101 IAB",
+        "time": "1:00p-2:00p",
+        "speaker": "Nicol\u00e1s Oviedo-D\u00e1vila",
+        "affiliation": "Universitat Aut\u00f2noma de Barcelona",
+        "abstract": "We analyze how firms should design wage contracts when workers collaborate in teams and effort costs depend on colleagues through a peer network. Performance-based compensation generates incentives that cascade through the organization, which firms target to boost profits. We analyze optimal incentive design if firms can\u2014and can\u2019t\u2014fully discriminate across workers, and when the production technology is separable or complementary across divisions. When workers\u2019 effort is substitutable, the most central workers\u2014those who influence most colleagues directly and indirectly\u2014receive the steepest incentives only when output risk is sufficiently large; otherwise firms prioritize workers that are closer to those they influence. We derive a sufficient network statistic that measures the surplus loss when firms must compensate workers of varying centrality equally. Finally, when production technology exhibits complementarity across teams, stronger incentives are assigned to workers who influence colleagues in small teams that receive little influence from others. We apply our findings to organizational design questions, such as optimal firm structure and workforce investments.",
+        "bio": "PhD Student in Economics"
       },
       {
-        "seminar_title": "Elizabeth Lunbeck - The Machine in the Therapist:  From Freud to ChatGPT",
-        "date": "22-MAY-24",
-        "location": "Fayerweather Hall (Room 413), Columbia University, 1180 Amsterdam Avenue, New York",
-        "time": "3:00 pm - 5:00 pm",
-        "speaker": "Elizabeth Lunbeck",
-        "affiliation": "",
-        "abstract": "The History of Medicine Workshop considers why generative AI is rapidly becoming a dominant figure in the psychotherapeutic landscape.&nbsp;",
-        "bio": ""
+        "seminar_title": "To be announced.",
+        "date": "05-Feb-26",
+        "location": "Teachers College, Horace Mann 433",
+        "time": "12:00p-1:30p",
+        "speaker": "Ana Br\u00e1s-Monteiro",
+        "affiliation": "University of Z\u00fcrich",
+        "abstract": "N/A",
+        "bio": "PhD Candidate in Economics"
       },
       {
-        "seminar_title": "Zoltan Dujisin - Building a Field of Counter-Disinformation Expertise: East-Central European Experts in the Globalization of the Disinformation Threat",
-        "date": "25-MAY-24",
-        "location": "Online and In-person: Knox Hall, Columbia University, 606 West 122th Street, New York",
-        "time": "11:00 am - 12:00 pm",
-        "speaker": "Zoltan Dujisin",
-        "affiliation": "",
-        "abstract": "The Sociology Department hosts workshops to share ongoing social studies of science and technology research projects.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Mae Ngai - ICE and Mass Deportation: The View from History",
-        "date": "25-MAY-24",
-        "location": "Online",
-        "time": "2:00 pm - 3:00 pm",
-        "speaker": "Mae Ngai",
-        "affiliation": "",
-        "abstract": "The Center for the History and Ethics of Public Health provides historical context and clarity to the current moment.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "When Clinical Judgment and AI Diverge: The Clinical, Legal, and Ethical Considerations",
-        "date": "25-MAY-24",
-        "location": "Online and In-person: Columbia University, 50 Haven Avenue, New York",
-        "time": "9:00 am - 5:00 pm",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The Data Science Institute shows why moments of \u201chuman\u2013AI dissonance\u201d may become one of the most consequential frontiers in modern medicine.",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Guardians of the Glaciers",
-        "date": "27-MAY-24",
-        "location": "Instituto Cervantes, 211-215 East 49th Street, New York",
-        "time": "5:00 pm - 6:30 pm",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The Instituto Cervantes discusses glacier loss and climate change.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Ted Gordon - The Composer\u2019s Black Box",
-        "date": "28-MAY-24",
-        "location": "Online and in-person; Prentis Hall (Room 317), Columbia University, 632 West 125th Street, New York",
-        "time": "1:00 pm - 4:00 pm",
-        "speaker": "Ted Gordon",
-        "affiliation": "",
-        "abstract": "Comparing Domains of Improvisation explores how listening, experimentation, failure, and tacit knowledge operate before and beyond formalized theory.",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Marcia N. Macedo - Breathing in the Amazon: Building a Community-Centered Network of Low- Cost Sensors to Monitor Local Air Pollution from Fires",
-        "date": "01-JUN-24",
-        "location": "Online and In-person: Fayerweather Hall (Room 513), Columbia University, 1180 Amsterdam Avenue, New York",
-        "time": "12:00 pm - 1:00 pm",
-        "speaker": "Marcia N. Macedo",
-        "affiliation": "",
-        "abstract": "The Center for Science and Society shares the story of a grassroots network working to fill the large gaps in air quality data for rural areas.",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Barbara Kiviat - The Moral Economy of Using Real-Time Driving Data to Price Car Insurance",
-        "date": "01-JUN-24",
-        "location": "Online and In-person: Knox Hall, Columbia University, 606 West 122th Street, New York",
-        "time": "1:00 pm - 2:00 pm",
-        "speaker": "Barbara Kiviat",
-        "affiliation": "",
-        "abstract": "The Sociology Department hosts workshops to share ongoing social studies of science and technology research projects.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Environmental Humanities Working Group Meeting",
-        "date": "02-JUN-24",
-        "location": "Fayerweather Hall (Room 513), Columbia University, 1180 Amsterdam Avenue, New York",
-        "time": "11:00 am - 12:10 pm",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The Center for Science and Society hosts an evening of networking, community building, and a short film screening.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Vinciane Despret - Doing History with Animals",
-        "date": "03-JUN-24",
-        "location": "Buell Hall, Columbia University, 515 West 116th Street, New York",
-        "time": "7:00 pm - 8:00 pm",
-        "speaker": "Vinciane Despret",
-        "affiliation": "",
-        "abstract": "Maison Francaise explores why doing history with animals is urgent in this period of dangerous threats to so many living beings.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Justin Stearns - Revealed Sciences: Religion, Science, and the Occult in Early Modern Morocco",
-        "date": "03-JUN-24",
-        "location": "Online and in-person: Gallatin School (Room 527), New York University, 1 Washington Place, New York",
-        "time": "7:30 pm - 9:00 pm",
-        "speaker": "Justin Stearns",
-        "affiliation": "",
-        "abstract": "The New York History of Science Lecture explores the social status of the natural sciences in the Arab Muslim world in the early modern period.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Yingyao Wang - The World in China and China in the World: A Preliminary Analysis of the Rise of Area Studies in China",
-        "date": "06-JUN-24",
-        "location": "Knox Hall (Room 707), Columbia University, 606 West 122nd Street, New York",
-        "time": "1:00 pm - 2:00 pm",
-        "speaker": "Yingyao Wang",
-        "affiliation": "",
-        "abstract": "The China Reading and Innovation Lab asks asks how the rise of area studies in China has reshaped the circulation of knowledge and transformed China\u2019s own self-understanding.",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Yingyao Wang - Seeing Like Many States: Economic Policy Paradigms and the Remaking of the Chinese State in the Reform Era",
-        "date": "06-JUN-24",
-        "location": "Online and In-person: Knox Hall, Columbia University, 606 West 122th Street, New York",
-        "time": "2:10 pm - 3:10 pm",
-        "speaker": "Yingyao Wang",
-        "affiliation": "",
-        "abstract": "The Sociology Department hosts workshops to share ongoing social studies of science and technology research projects.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Asian Americans in Focus: Data, Narrative, and Action",
-        "date": "06-JUN-24",
-        "location": "Pulitzer Hall (Lecture Hall), Columbia University, 2950 Broadway, New York",
-        "time": "4:10 pm - 5:00 pm",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The Asian American Initiative showcases several existing projects that analyze national and local data on Asian Americans",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Edwidge Danticat: We\u2019re Alone",
-        "date": "08-JUN-24",
-        "location": "Buell Hall, Columbia University, 515 West 116th Street, New York",
-        "time": "10:00 am - 11:00 am",
-        "speaker": "Edwidge Danticat",
-        "affiliation": "",
-        "abstract": "Maison Francaise explores environmental catastrophe, the traumas of colonialism, motherhood, and the complexities of resilience.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Premodern Information Overload",
-        "date": "09-JUN-24",
-        "location": "Online",
-        "time": "12:30 pm - 1:30 pm",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The Institute for Religion, Culture, and Public Life weaves together histories of information management and the religious sciences",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Jun Zhou - Dancing with Metrics: Digitalization of Women's Labor in China",
-        "date": "12-JUN-24",
-        "location": "Online and In-person: Knox Hall (Room 707), Columbia University, 606 West 122th Street, New York",
-        "time": "11:00 am - 11:40 am",
-        "speaker": "Jun Zhou",
-        "affiliation": "",
-        "abstract": "The China Reading and Innovation Lab examines how data-driven measurement systems<br>produce new forms of labor stratification.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Jun Zhou - Selling Live: Metrics Architecture and the Reorganization of Service Work in China",
-        "date": "12-JUN-24",
-        "location": "Online and In-person: Knox Hall, Columbia University, 606 West 122th Street, New York",
-        "time": "1:00 pm - 1:40 pm",
-        "speaker": "Jun Zhou",
-        "affiliation": "",
-        "abstract": "The Sociology Department hosts workshops to share ongoing social studies of science and technology research projects.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Petroleum in (and out of) the Visual Arts",
-        "date": "13-JUN-24",
-        "location": "Heyman Center (Second Floor Common Room), Columbia University, New York",
-        "time": "4:00 pm - 7:15 pm",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The Heyman Center for the Humanities explores oil's entanglement with the visual arts.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Justice Forum: Supply Side Harm Reduction: Public Health Interventions in Drug Markets",
-        "date": "14-JUN-24",
-        "location": "Online and in-person: Casa Hispanica (Room 201), Columbia University, 612 West 112th Street, New York",
-        "time": "11:00 am - 12:00 pm",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The Heyman Center for the Humanities asks what it would entail to incorporate people who sell drugs into harm reduction research and intervention.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Climate Justice Now Round Table",
-        "date": "15-JUN-24",
-        "location": "Heyman Center (Second Floor Common Room), Columbia University, New York",
-        "time": "2:15 pm - 3:10 pm",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The Heyman Center for the Humanities discusses the current challenges facing the climate justice movement.",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Current Directions in Neuroscience and the Law",
-        "date": "16-JUN-24",
-        "location": "Jerome Greene Hall (Room 101), Columbia University, 435 West 116th Street, New York",
-        "time": "9:00 am - 5:30 pm",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The Center for Justice strategizes about how best to direct neuroscience research towards current legal battles.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Humanities and Social Sciences in National Scientific Projects: Mental Health, Avatars, and the \u201cELSI\u201d of Japan\u2019s  Moonshot Program",
-        "date": "17-JUN-24",
-        "location": "Online and In-person: Knox Hall, Columbia University, 606 West 122th Street, New York",
-        "time": "12:00 pm - 1:00 pm",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The Sociology Department hosts workshops to share ongoing social studies of science and technology research projects.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Johanna Schoen - The Pain Debate in Neonatology and How to Talk to Clinicians About It",
-        "date": "18-JUN-24",
-        "location": "Fayerweather Hall (Room 413), Columbia University, 1180 Amsterdam Avenue, New York",
-        "time": "11:00 am - 1:00 pm",
-        "speaker": "Johanna Schoen",
-        "affiliation": "",
-        "abstract": "The History of Medicine Workshop explores the lack of anesthesia and pain control offered to neonates.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Jessica Ratcliff - Monopolizing Knowledge: The East India Company and Britain\u2019s Second Scientific Revolution",
-        "date": "19-JUN-24",
-        "location": "Online and in-person: Fayerweather Hall (Room 513), Columbia University, 1180 Amsterdam Avenue, New York",
-        "time": "1:00 pm - 2:10 pm",
-        "speaker": "Jessica Ratcliff",
-        "affiliation": "",
-        "abstract": "The New York History of Science Lecture shows how science led by the East India Company became part of the cultural fabric of science in Britain.",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Joanna Kempner - Cyberbotany: Towards a Typology of Digital Enclosure of Community Knowledge in Forbidden and Undone Science",
-        "date": "24-JUN-24",
-        "location": "Online and In-person: Knox Hall, Columbia University, 606 West 122th Street, New York",
-        "time": "1:00 pm - 2:00 pm",
-        "speaker": "Joanna Kempner",
-        "affiliation": "",
-        "abstract": "The Sociology Department hosts workshops to share ongoing social studies of science and technology research projects.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Mayanthi Fernando - Toward a Negative Zoology: More-than-Secular, More-than-Human Worlds",
-        "date": "26-JUN-24",
-        "location": "Heyman Center (Second Floor Common Room), Columbia University, New York",
-        "time": "10:35 am - 11:20 am",
-        "speaker": "Mayanthi Fernando",
-        "affiliation": "",
-        "abstract": "The Heyman Center for the Humanities imagines possible worlds that nonhumans may be worlding without and unbeknownst to humans.",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Erin McElroy - Technofeudal Fever Dreams: Silicon Fiefdoms, Doom Loop Dystopics, and the Urban Anxieties of Empire",
-        "date": "01-JUL-24",
-        "location": "Heyman Center (Second Floor Common Room), Columbia University, New York",
-        "time": "8:15 am - 9:15 am",
-        "speaker": "Erin McElroy",
-        "affiliation": "",
-        "abstract": "The Heyman Center for the Humanities discusses the impact of spaces that are being carved out of cities by Silicon Valley investors with visions of creating exclusive enclaves.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "An Archaeology of Plastics: From Small Things Forgotten to the Synthetic Revolution",
-        "date": "01-JUL-24",
-        "location": "Online and In-person: New York Academy of Sciences (8th Floor),115 Broadway, New York",
-        "time": "9:30 am - 11:00 am",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The New York Academy of Sciences tracks the lifecycle of a plastic bag.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Ruotong Niu - Asymmetrical Intimacy: How People Form Emotional Relationships with AI Companions",
-        "date": "10-JUL-24",
-        "location": "Online and In-person: Knox Hall, Columbia University, 606 West 122th Street, New York",
-        "time": "9:00 am - 9:40 am",
-        "speaker": "Ruotong Niu",
-        "affiliation": "",
-        "abstract": "The Sociology Department hosts workshops to share ongoing social studies of science and technology research projects.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Kavita Sivaramakrishnan - Chronic Nation: The Politics of Experts, Health and Making  Modern Indian Citizens (1940-70s)",
-        "date": "12-JUL-24",
-        "location": "Online and in-person: Fayerweather Hall (Room 513), Columbia University, 1180 Amsterdam Avenue, New York",
-        "time": "11:00 am - 12:00 pm",
-        "speaker": "Kavita Sivaramakrishnan",
-        "affiliation": "",
-        "abstract": "The New York History of Science Lecture traces debates about chronic diseases and questions of modernization in post-colonial India.",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Learning in Lenapehoking",
-        "date": "24-JUL-24",
-        "location": "Online and In-person: Fayerweather Hall (Room 513), Columbia University, 1180 Amsterdam Avenue, New York",
-        "time": "11:00 am - 11:40 am",
-        "speaker": "",
-        "affiliation": "",
-        "abstract": "The Center for Science and Society shares a land-based curriculum that centers Lenape presence and futurity.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Maja Hojer Bruun - Automated Expertise? Transformations of Professional Expertise with Artificial Intelligence and Algorithmic Systems",
-        "date": "24-JUL-24",
-        "location": "Online and In-person: Knox Hall, Columbia University, 606 West 122th Street, New York",
-        "time": "11:40 am - 12:40 pm",
-        "speaker": "Maja Hojer Bruun",
-        "affiliation": "",
-        "abstract": "The Sociology Department hosts workshops to share ongoing social studies of science and technology research projects.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "JS Tan - Cloud Capitalism and the AI Transition",
-        "date": "30-JUL-24",
-        "location": "Online and In-person: Knox Hall, Columbia University, 606 West 122th Street, New York",
-        "time": "10:00 am - 10:40 am",
-        "speaker": "JS Tan",
-        "affiliation": "",
-        "abstract": "The Sociology Department hosts workshops to share ongoing social studies of science and technology research projects.&nbsp;",
-        "bio": ""
-      },
-      {
-        "seminar_title": "Cecilia Mart\u00ednez-Plaza - Lay Performance of Meta-Expertise: Using Informal Credentialing to Connect and Redistribute Technical Knowledge Across Siloed Professions",
-        "date": "05-AUG-24",
-        "location": "Online and In-person: Knox Hall, Columbia University, 606 West 122th Street, New York",
-        "time": "1:00 pm - 1:40 pm",
-        "speaker": "Cecilia Mart\u00ednez-Plaza",
-        "affiliation": "",
-        "abstract": "The Sociology Department hosts workshops to share ongoing social studies of science and technology research projects.&nbsp;",
-        "bio": ""
+        "seminar_title": "\u201cThe Doom Loop: Why the World Economic Order Is Spiraling into Disorder\u201d",
+        "date": "05-Feb-26",
+        "location": "IAB 1501",
+        "time": "4:30p-6:00p",
+        "speaker": "Eswar Prasad",
+        "affiliation": "Cornell University",
+        "abstract": "N/A",
+        "bio": "Nandlal P. Tolani Senior Professor of International Trade Policy"
       }
     ]
   }
