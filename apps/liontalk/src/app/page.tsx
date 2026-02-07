@@ -8,7 +8,6 @@ import { SeminarCard } from '../components/SeminarCard';
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
-  // 1. State to toggle visibility of past seminars "upon request"
   const [showRecentPast, setShowRecentPast] = useState(false);
 
   const seminars: Seminar[] = useMemo(() => {
@@ -27,11 +26,9 @@ export default function Home() {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
-    // 2. Define the 30-day cutoff window
     const thirtyDaysAgo = new Date(today);
     thirtyDaysAgo.setDate(today.getDate() - 30);
 
-    // Filter by Search Query
     const filtered = seminars.filter((s) => {
       const query = searchQuery.toLowerCase();
       return (
@@ -45,7 +42,6 @@ export default function Home() {
       );
     });
 
-    // Segment
     const todayList: Seminar[] = [];
     const upcomingList: Seminar[] = [];
     const pastList: Seminar[] = [];
@@ -59,14 +55,21 @@ export default function Home() {
       } else if (seminarDate.getTime() > today.getTime()) {
         upcomingList.push(seminar);
       } else {
-        // 3. Only add to pastList if it happened within the last 30 days
         if (seminarDate.getTime() >= thirtyDaysAgo.getTime()) {
           pastList.push(seminar);
         }
       }
     });
 
-    // Sort Past Seminars (Newest first)
+    // --- SORTING LOGIC ADDED HERE ---
+
+    // 1. Sort Today's seminars (Earliest time first)
+    todayList.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+
+    // 2. Sort Upcoming seminars (Soonest date first)
+    upcomingList.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+
+    // 3. Sort Past Seminars (Newest/Most recent first) - Existing logic
     pastList.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
     return { todaySeminars: todayList, upcomingSeminars: upcomingList, pastSeminars: pastList };
@@ -121,7 +124,7 @@ export default function Home() {
             </section>
           )}
 
-          {/* PAST (Last 30 Days) - Only shown upon request */}
+          {/* PAST */}
           {pastSeminars.length > 0 && (
             <section className="pt-4">
               <div className="flex items-center justify-between mb-6 border-b border-gray-200 pb-2">
@@ -129,7 +132,6 @@ export default function Home() {
                   Recent Past Seminars <span className="text-sm font-normal text-gray-400">(Last 30 days)</span>
                 </h2>
                 
-                {/* 4. Toggle Button */}
                 <button 
                   onClick={() => setShowRecentPast(!showRecentPast)}
                   className="text-sm font-medium text-indigo-600 hover:text-indigo-800 focus:outline-none transition-colors"
@@ -138,7 +140,6 @@ export default function Home() {
                 </button>
               </div>
 
-              {/* 5. Conditional Rendering based on state */}
               {showRecentPast && (
                 <div className="space-y-6 opacity-90 transition-all duration-300 ease-in-out">
                   {pastSeminars.map((seminar, index) => (
