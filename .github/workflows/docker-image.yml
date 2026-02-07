@@ -49,24 +49,8 @@ jobs:
           exit 1
         fi
 
-    - name: Pull and Resolve Conflicts
-      run: |
-        # 1. Stash the newly generated file so the working directory is clean
-        # We use -u to include it even if it's currently untracked
-        git stash push -u -m "freshly-scraped-data" apps/liontalk/src/data/seminars.json
-        
-        # 2. Pull the latest changes from remote
-        git pull origin main --rebase
-        
-        # 3. Restore the generated file from the stash
-        # We use 'checkout' to force-overwrite whatever is currently in the repo
-        # with the version we just stashed.
-        if git stash list | grep -q "freshly-scraped-data"; then
-          git checkout stash@{0} -- apps/liontalk/src/data/seminars.json
-          git stash drop
-        else
-          echo "No stash found. The file might not have changed."
-        fi
+    - name: Pull latest changes
+      run: git pull origin main --rebase --autostash
 
     - name: Commit and Push changes
       id: auto-commit-action
@@ -77,4 +61,4 @@ jobs:
 
     - name: Trigger Vercel Deploy
       if: steps.auto-commit-action.outputs.changes_detected == 'true'
-    run: curl -X POST ${{ secrets.VERCEL_DEPLOY_HOOK }}
+      run: curl -X POST ${{ secrets.VERCEL_DEPLOY_HOOK }}
