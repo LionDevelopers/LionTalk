@@ -398,20 +398,24 @@ def main():
 
         print(f"Processing row {index}: link={link}, department={department}, series={series}, scrape_method={scrape_method}")
 
-        if scrape_method == 1:
-            seminar_data = scrape_1(link, department, series)
-            if seminar_data:
-                all_seminars.append(seminar_data)
-        elif scrape_method == 2:
-            seminar_data = scrape_2(link, department, series)
-            if seminar_data:
-                all_seminars.append(seminar_data)
-        elif scrape_method == 3:
-            seminar_data = scrape_3(link, department, series)
-            if seminar_data:
-                all_seminars.append(seminar_data)
-        else:
-            print(f"Unknown scrape method: {scrape_method}")
+        try:
+            if scrape_method == 1:
+                seminar_data = scrape_1(link, department, series)
+                if seminar_data:
+                    all_seminars.append(seminar_data)
+            elif scrape_method == 2:
+                seminar_data = scrape_2(link, department, series)
+                if seminar_data:
+                    all_seminars.append(seminar_data)
+            elif scrape_method == 3:
+                seminar_data = scrape_3(link, department, series)
+                if seminar_data:
+                    all_seminars.append(seminar_data)
+            else:
+                print(f"Unknown scrape method: {scrape_method}")
+        except Exception as e:
+            print(f"Scrape failed for row {index} (method {scrape_method}, link={link}): {e}")
+            # Continue so we still write output from other rows
 
     # Convert Pydantic objects to standard dictionaries
     seminars_dict = [seminar.model_dump() for seminar in all_seminars]
