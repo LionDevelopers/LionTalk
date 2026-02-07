@@ -5,7 +5,8 @@ from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 from typing import List, Optional, Union
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urljoin
+from datetime import datetime, timedelta, timezone
 import os, csv, pandas as pd, json, re, time
 
 class Entry(BaseModel):
@@ -46,10 +47,8 @@ def parse_html(source: Union[str, list], department: str, series: str):
         prompt = (
             "Extract every single occurrence of an entry from the following JSON event list. "
             "Do not summarize or truncate. Map each event into the schema (seminar_title, date, location, time, speaker, affiliation, abstract, bio). "
-            "Use empty string for any missing field. The final JSON must contain a list of all items found, from the first to the very last one.\n"
-            # "Each event has from_timestamp and to_timestamp as Unix timestamps (seconds since 1970-01-01 UTC). "
-            # "Convert from_timestamp into a short date for the date field (e.g. ‘dd-MMM-yy’). Use both timestamps to form a time range for the time field (e.g. ‘5:45 pm - 6:30 pm’). "
-            # "Use the event’s item_tz_offset if present for local time.\n\n"
+            "Use empty string for any missing field. The final JSON must contain a list of all items found, from the first to the very last one. "
+            "For date and time use the event's date_display and time_display when present; otherwise use empty string.\n\n"
             + json.dumps(source, indent=2)
         )
         contents = [prompt]
@@ -132,132 +131,165 @@ def scrape_1(link, department, series):
         return parse_html("./source.html", department, series)
 
 def scrape_2(link, department, series):
-    # Scrape HTML of specified website
+    # 1. Define the Date Window (Now to +14 days)
+    now_ts = time.time()
+    end_ts = now_ts + (14 * 24 * 60 * 60)
+    
+    print(f"Filter Window: {datetime.fromtimestamp(now_ts).date()} to {datetime.fromtimestamp(end_ts).date()}")
+
+    events_data = []
+
     with sync_playwright() as p:
-
+        # Launch Browser (Headless for speed)
         is_headless = os.getenv("HEADLESS", "true").lower() == "true"
-        browser = p.chromium.launch(headless=is_headless, slow_mo=50)
-
-        # Use a real browser Context + User Agent to avoid bot detection
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        )
-        page = context.new_page()
-
-        try:
-            print("Navigating to URL...")
-            page.goto(link, wait_until="domcontentloaded")
-            
-            print("Waiting for content...")
-
-            html = page.content()
-            soup = BeautifulSoup(html, 'html.parser')
-
-            script_tag = soup.find("script", string=re.compile("var events_data"))
-            events = None
-
-            if script_tag:
-                script_text = script_tag.string
-                match = re.search(r"var events_data = (\[.*?\]);", script_text, re.DOTALL)
-                
-                if match:
-                    events_json = match.group(1)
-                    events = json.loads(events_json)
-
-                    # Keep only events that start after the current time
-                    now = int(time.time())
-                    events = [e for e in events if int(e.get("from_timestamp", 0)) > now]
-
-                    # Keep only events with "Seminar" in the title
-                    events = [e for e in events if "Seminar" in e.get("title", "")]
-                    
-                    # LIMIT TO TOP 5
-                    events = events[:5]
-                    print(f"Found {len(events)} upcoming events (limited to top 5).")
-                else:
-                    print("Found the script, but could not extract the events_data array.")
-            else:
-                print("Could not find the script tag containing event data.")
-
-            browser.close()
-            if events is not None:
-                return parse_html(events, department, series)
-            # Fallback: write full HTML and let Gemini extract from it
-            with open("source.html", "wb") as f:
-                f.write(soup.encode("utf-8"))
-            print("HTML written to source.html (fallback).")
-            return parse_html("./source.html", department, series)
-
-        except Exception as e:
-            # Add Screenshot debugging to see failure (e.g., CAPTCHA)
-            print(f"Scraping failed: {e}")
-            page.screenshot(path="debug_error.png")
-            print("Screenshot saved to debug_error.png")
-            browser.close()
-            return None
-
-def scrape_3(link, department, series):
-    # Scrape HTML of specified website
-    with sync_playwright() as p:
-
-        is_headless = os.getenv("HEADLESS", "true").lower() == "true"
-        browser = p.chromium.launch(headless=is_headless, slow_mo=50)
-
-        # Use a real browser Context + User Agent to avoid bot detection
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        )
-        page = context.new_page()
-
-        try:
-            print("Navigating to URL...")
-            page.goto(link, wait_until="domcontentloaded")
-            
-            print("Waiting for content...")
-
-            html = page.content()
-            soup = BeautifulSoup(html, 'html.parser')
-
-            script_tag = soup.find("script", string=re.compile("var events_data"))
-            events = None
-
-            if script_tag:
-                script_text = script_tag.string
-                match = re.search(r"var events_data = (\[.*?\]);", script_text, re.DOTALL)
-                
-                if match:
-                    events_json = match.group(1)
-                    events = json.loads(events_json)
-
-                    # Keep only events that start after the current time
-                    now = int(time.time())
-                    events = [e for e in events if int(e.get("from_timestamp", 0)) > now]
-                    
-                    # LIMIT TO TOP 5
-                    events = events[:5]
-                    print(f"Found {len(events)} upcoming events (limited to top 5).")
-                else:
-                    print("Found the script, but could not extract the events_data array.")
-            else:
-                print("Could not find the script tag containing event data.")
-
-            browser.close()
-            if events is not None:
-                return parse_html(events, department, series)
-            with open("source.html", "wb") as f:
-                f.write(soup.encode("utf-8"))
-            print("HTML written to source.html (fallback).")
-            return parse_html("./source.html", department, series)
-
-        except Exception as e:
-            # Add Screenshot debugging to see failure (e.g., CAPTCHA)
-            print(f"Scraping failed: {e}")
-            page.screenshot(path="debug_error.png")
-            print("Screenshot saved to debug_error.png")
-            browser.close()
-            return None
+        browser = p.chromium.launch(headless=is_headless)
         
-def scrape_4(link, department, series):
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
+        page = context.new_page()
+
+        try:
+            # --- STEP 1: Scrape Main List & Filter ---
+            print(f"Navigating to main list: {link}")
+            page.goto(link, wait_until="domcontentloaded")
+            
+            soup_main = BeautifulSoup(page.content(), 'html.parser')
+            view_content = soup_main.find('div', class_='view-content')
+            
+            if not view_content:
+                print("Could not find event list container.")
+                return None
+
+            articles = view_content.find_all('article', class_='cu-event')
+            events_to_visit = []
+
+            for article in articles:
+                # A. Get Timestamp (Fast & Reliable attribute)
+                time_div = article.find('div', class_='event-time')
+                if not time_div or not time_div.has_attr('data-start-time'):
+                    continue
+
+                try:
+                    event_ts = int(time_div['data-start-time'])
+                except ValueError:
+                    continue
+
+                # B. Date Filter
+                if now_ts <= event_ts <= end_ts:
+                    
+                    # Get URL
+                    link_tag = article.find('a', href=True)
+                    if not link_tag: continue
+                    url = link_tag['href']
+                    if url.startswith("/"):
+                        url = urljoin(link, url)
+                    
+                    # Get Title
+                    title_tag = article.find('span', class_='field--name-title')
+                    title = title_tag.get_text(strip=True) if title_tag else "No Title"
+
+                    events_to_visit.append({
+                        "title": title,
+                        "url": url,
+                        "start_timestamp": event_ts,
+                        "department": department,
+                        "series": series
+                    })
+
+            print(f"Found {len(events_to_visit)} events in window. Starting deep scrape...")
+
+            # --- STEP 2: Deep Scrape Each Event ---
+            for event in events_to_visit:
+                print(f"Processing: {event['title']}")
+                
+                try:
+                    page.goto(event['url'], wait_until="domcontentloaded")
+                    # Optional: wait for body text to ensure load
+                    # page.wait_for_selector('.field--name-body, .region-content', timeout=3000)
+
+                    sub_soup = BeautifulSoup(page.content(), 'html.parser')
+                    
+                    # --- PARSING LOGIC (Based on Drupal Structure) ---
+
+                    # 1. Location
+                    # Look for explicit field OR generic class with 'location'
+                    loc_div = sub_soup.find('div', class_=lambda c: c and 'field--name-field-event-location' in c)
+                    if not loc_div:
+                        loc_div = sub_soup.find('div', class_=lambda c: c and 'location' in c.lower())
+                    event['location'] = loc_div.get_text(strip=True) if loc_div else "Location not specified"
+
+                    # 2. Speaker Name
+                    # Look for explicit field OR generic class with 'speaker'
+                    speaker_div = sub_soup.find('div', class_=lambda c: c and 'field--name-field-speaker' in c)
+                    if not speaker_div:
+                        speaker_div = sub_soup.find('div', class_=lambda c: c and 'speaker' in c.lower())
+                    event['speaker'] = speaker_div.get_text(strip=True) if speaker_div else "See Abstract"
+
+                    # 3. Body Text (Abstract + Bio + Affiliation)
+                    # Drupal puts main content in 'field--name-body'
+                    body_div = sub_soup.find('div', class_='field--name-body')
+                    
+                    # Fallback: If no specific body field, grab the main content region
+                    if not body_div:
+                        body_div = sub_soup.find('div', class_='region-content')
+
+                    full_text = body_div.get_text("\n", strip=True) if body_div else ""
+                    
+                    # --- INTELLIGENT SPLITTING ---
+                    # Separate Abstract from Bio using regex patterns
+                    
+                    # Pattern 1: "About the speaker"
+                    if re.search(r'about\s+the\s+speaker', full_text, re.IGNORECASE):
+                        parts = re.split(r'about\s+the\s+speaker', full_text, flags=re.IGNORECASE, maxsplit=1)
+                        event['abstract'] = parts[0].strip()
+                        event['speaker_bio'] = parts[1].strip()
+                    
+                    # Pattern 2: "Bio:"
+                    elif re.search(r'\bbio:', full_text, re.IGNORECASE):
+                        parts = re.split(r'\bbio:', full_text, flags=re.IGNORECASE, maxsplit=1)
+                        event['abstract'] = parts[0].strip()
+                        event['speaker_bio'] = parts[1].strip()
+                    
+                    # Pattern 3: "Biography"
+                    elif re.search(r'\bbiography', full_text, re.IGNORECASE):
+                        parts = re.split(r'\bbiography', full_text, flags=re.IGNORECASE, maxsplit=1)
+                        event['abstract'] = parts[0].strip()
+                        event['speaker_bio'] = parts[1].strip()
+                        
+                    else:
+                        # Fallback: Everything is abstract
+                        event['abstract'] = full_text
+                        event['speaker_bio'] = "Not detected in text"
+
+                    # Add date_display and time_display for Gemini (Columbia = Eastern)
+                    try:
+                        ts = event["start_timestamp"]
+                        eastern = timezone(timedelta(hours=-5))
+                        dt = datetime.fromtimestamp(ts, tz=eastern)
+                        event["date_display"] = dt.strftime("%d-%b-%y")
+                        h, m = dt.hour, dt.minute
+                        event["time_display"] = f"{h % 12 or 12}:{m:02d} {'AM' if h < 12 else 'PM'}"
+                    except (ValueError, OSError, KeyError):
+                        event["date_display"] = ""
+                        event["time_display"] = ""
+
+                    events_data.append(event)
+
+                except Exception as e:
+                    print(f"Error parsing {event['url']}: {e}")
+
+        except Exception as e:
+            print(f"Critical Scraper Error: {e}")
+            
+        finally:
+            browser.close()
+
+    if not events_data:
+        return None
+    return parse_html(events_data, department, series)
+        
+def scrape_3(link, department, series):
     """
     Scrape method for columbia.seminars.app style pages.
     Targets <section id="events"> and waits for <article class="seminar-event">.
@@ -349,10 +381,6 @@ def main():
                 all_seminars.append(seminar_data)
         elif scrape_method == 3:
             seminar_data = scrape_3(link, department, series)
-            if seminar_data:
-                all_seminars.append(seminar_data)
-        elif scrape_method == 4:
-            seminar_data = scrape_4(link, department, series)
             if seminar_data:
                 all_seminars.append(seminar_data)
         else:
