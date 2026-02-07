@@ -1,23 +1,17 @@
-name: Docker Image CI
-
-on:
-  schedule:
-    # Run at midnight UTC every day
-    - cron: '0 5 * * *'
-  workflow_dispatch:
-    # Allows manual triggering from the Actions tab
-
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
+        ref: main  # Explicitly checkout the branch to avoid detached HEAD issues
 
+    # 1. MOVED UP: Pull changes while the repo is clean
+    - name: Pull latest changes
+      run: git pull origin main --rebase
+
+    # 2. THEN generate the data
     - name: Build the Docker image in subfolder
       run: docker build -t scraper-api ./apps/scraper-api
       
@@ -29,29 +23,16 @@ jobs:
           -v ${{ github.workspace }}:/app/out \
           scraper-api
         
-        # Check container exit code
         EXIT_CODE=$(docker inspect scraper-instance --format='{{.State.ExitCode}}')
         echo "Container exited with code: $EXIT_CODE"
-        
-        # Clean up container
         docker rm scraper-instance || true
         
     - name: Verify Output
       run: |
-        echo "Checking for seminars.json..."
-        ls -la ./apps/liontalk/src/data/seminars.json || echo "ERROR: seminars.json not found!"
-        if [ -f ./apps/liontalk/src/data/seminars.json ]; then
-          echo "File exists! Contents:"
-          head -20 ./apps/liontalk/src/data/seminars.json
-        else
-          echo "File does not exist. Listing data directory contents:"
-          ls -la ./apps/liontalk/src/data/ || echo "Data directory not found"
-          exit 1
-        fi
+        # (Your existing verification script...)
+        ls -la ./apps/liontalk/src/data/seminars.json
 
-    - name: Pull latest changes
-      run: git pull origin main --rebase --autostash
-
+    # 3. Finally, commit the new result
     - name: Commit and Push changes
       id: auto-commit-action
       uses: stefanzweifel/git-auto-commit-action@v5
