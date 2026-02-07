@@ -66,13 +66,40 @@ def parse_html(source: Union[str, list], department: str, series: str):
         contents = [prompt, myfile]
 
     print("Retrieving response from Gemini...")
-    response = client.models.generate_content(
-        model="gemini-2.5-flash-lite", contents=contents,
-        config={
-            "response_mime_type": "application/json",
-            "response_json_schema": SeminarHalfBaked.model_json_schema(),
-        },
-    )
+
+    # --- RETRY LOGIC for Gemini API 503 Error ---
+    response = None
+    max_retries = 5
+    base_delay = 2  # Start with 2 seconds wait
+
+    for attempt in range(max_retries):
+        try:
+            response = client.models.generate_content(
+                model="gemini-2.5-flash-lite", 
+                contents=contents,
+                config={
+                    "response_mime_type": "application/json",
+                    "response_json_schema": SeminarHalfBaked.model_json_schema(),
+                },
+            )
+            break # Success! Exit the loop.
+            
+        except Exception as e:
+            error_msg = str(e)
+            # Check for specific error codes: 503 (Unavailable) or 429 (Resource Exhausted)
+            if "503" in error_msg or "429" in error_msg:
+                if attempt == max_retries - 1:
+                    print(f"Max retries reached. Failing with error: {e}")
+                    raise e # Give up if we hit the limit
+                
+                # Exponential backoff: 2s, 4s, 8s... + random jitter
+                sleep_time = (base_delay * (2 ** attempt)) + random.uniform(0.1, 1.0)
+                print(f"Gemini overloaded (Attempt {attempt+1}/{max_retries}). Sleeping {sleep_time:.2f}s...")
+                time.sleep(sleep_time)
+            else:
+                # If it's a different error (e.g., Invalid API Key), crash immediately
+                raise e
+    # --- RETRY LOGIC ENDS HERE ---
 
     print(f"Parsing Gemini response...")
     # Validate the raw response using the HalfBaked model
@@ -385,12 +412,29 @@ def main():
                 all_seminars.append(seminar_data)
         else:
             print(f"Unknown scrape method: {scrape_method}")
-    
+
+    # Convert Pydantic objects to standard dictionaries
+    seminars_dict = [seminar.model_dump() for seminar in all_seminars]
+
+    # --- FILL EMPTY FIELDS WITH "N/A" ---
+    print("Post-processing: Filling empty fields with 'N/A'...")
+    for group in seminars_dict:
+        # 1. Clean top-level fields (department, series)
+        for key, value in group.items():
+            if value == "":
+                group[key] = "N/A"
+        
+        # 2. Clean nested entries
+        if "entries" in group and isinstance(group["entries"], list):
+            for entry in group["entries"]:
+                for key, value in entry.items():
+                    if value == "":
+                        entry[key] = "N/A"
+    # ------------------------------------
+
     # Write all seminars as a single JSON array
     print(f"Writing {len(all_seminars)} seminars to {output_path}...")
     with open(output_path, "w") as f:
-        # Convert to list of dicts and write as formatted JSON array
-        seminars_dict = [seminar.model_dump() for seminar in all_seminars]
         json.dump(seminars_dict, f, indent=2)
         f.flush()
         os.fsync(f.fileno())
