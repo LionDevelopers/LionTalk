@@ -7,7 +7,7 @@ from typing import List, Optional, Union
 from pathlib import Path
 from urllib.parse import urlparse, urljoin
 from datetime import datetime, timedelta, timezone
-import os, csv, pandas as pd, json, re, time
+import os, csv, pandas as pd, json, re, time, random
 
 class Entry(BaseModel):
     seminar_title: str = Field(description="The title of the seminar.")
