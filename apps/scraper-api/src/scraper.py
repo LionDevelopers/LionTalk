@@ -384,12 +384,29 @@ def main():
                 all_seminars.append(seminar_data)
         else:
             print(f"Unknown scrape method: {scrape_method}")
-    
+
+    # Convert Pydantic objects to standard dictionaries
+    seminars_dict = [seminar.model_dump() for seminar in all_seminars]
+
+    # --- FILL EMPTY FIELDS WITH "N/A" ---
+    print("Post-processing: Filling empty fields with 'N/A'...")
+    for group in seminars_dict:
+        # 1. Clean top-level fields (department, series)
+        for key, value in group.items():
+            if value == "":
+                group[key] = "N/A"
+        
+        # 2. Clean nested entries
+        if "entries" in group and isinstance(group["entries"], list):
+            for entry in group["entries"]:
+                for key, value in entry.items():
+                    if value == "":
+                        entry[key] = "N/A"
+    # ------------------------------------
+
     # Write all seminars as a single JSON array
     print(f"Writing {len(all_seminars)} seminars to {output_path}...")
     with open(output_path, "w") as f:
-        # Convert to list of dicts and write as formatted JSON array
-        seminars_dict = [seminar.model_dump() for seminar in all_seminars]
         json.dump(seminars_dict, f, indent=2)
         f.flush()
         os.fsync(f.fileno())
