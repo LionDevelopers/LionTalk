@@ -1,6 +1,122 @@
 [
   {
     "department": "Statistics",
+    "series": "Statistics Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Algorithmic Stability in Statistical Inference",
+        "date": "26-Jan-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Yuetian Luo",
+        "affiliation": "Rutgers University",
+        "abstract": "Algorithmic stability is a central concept in statistics and learning theory that measures how sensitive an algorithm's output is to small changes in the training data. In this talk, we consider two different perspectives of algorithmic stability in statistical inference. In the first part, we investigate the problem of distribution-free algorithm risk evaluation, uncovering fundamental limitations for answering these questions with limited amounts of data. To navigate the challenge, we will discuss how incorporating an assumption about algorithmic stability might help. In this second part, we reveal that while stability entails desirable properties, it is typically not sufficient on its own for statistical learning. For example, an algorithm that always outputs a constant function is perfectly stable but statistically meaningless. Then we will discuss the trade-offs between stability and accuracy in statistical inference.",
+        "bio": "Yuetian Luo is an assistant professor in the Department of Statistics at Rutgers University. Before that, he was a postdoctoral scholar in the Data Science Institute at the University of Chicago, advised by Professor Rina Foygel Barber. He received his Ph.D. in Statistics from the University of Wisconsin-Madison in 2022 under the supervision of Professor Anru Zhang. His research interests lie broadly in distribution-free inference, computational complexity of statistical inference, tensor learning, robust statistics, and non-convex optimization."
+      },
+      {
+        "seminar_title": "Nature-Inspired Metaheuristics as a General-Purpose Optimization Tool in Statistical Research",
+        "date": "2-Feb-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Weng Kee Wong",
+        "affiliation": "UCLA",
+        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model. Keywords: Continuous Designs, Early Phase Trials, Equivalence Theorems, Optimal Experiment Designs, Particle Swarm Optimization.",
+        "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace. His main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications. His recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics. He has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator. He is fellow of the American Statistical Association, the Institute of Mathematical Statistics, the American Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
+      },
+      {
+        "seminar_title": "Learning Pseudo-Differential Operators",
+        "date": "9-Feb-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Daniel Sanz-Alonso",
+        "affiliation": "University of Chicago",
+        "abstract": "Pseudo-differential operators (PDOs) are a broad and fundamental class of operators in analysis and partial differential equations, with wide-ranging applications in mathematical and computational sciences. In this talk I will present recent work with Jiaheng Chen on learning elliptic PDOs from noisy data. Within a wavelet--Galerkin framework, we formulate this task as a structured infinite-dimensional regression problem with multiscale sparsity. Building on this structure, we propose a sparse, data- and computation-efficient estimator, which leverages a novel matrix compression scheme tailored to the learning task and a nested-support strategy to balance approximation and estimation errors. In addition to establishing convergence rates for the estimator, we show that the learned operator induces an efficient and stable Galerkin solver whose numerical error matches its statistical accuracy. Our results therefore contribute to bringing together operator learning, data-driven solvers, and wavelet methods in scientific computing.",
+        "bio": "Daniel Sanz-Alonso is an Associate Professor in the Department of Statistics at the University of Chicago, where he is a member of the Committee on Computational and Applied Mathematics. Previously, he was a postdoctoral researcher in the Division of Applied Mathematics and a member of the Data Science Initiative at Brown University. He received his PhD in Mathematics and Statistics from the University of Warwick (UK) in 2016, under the supervision of Andrew Stuart and Gareth Roberts."
+      },
+      {
+        "seminar_title": "Multivariate Integer-Valued Time Series",
+        "date": "16-Feb-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Konstantinos Fokianos",
+        "affiliation": "University of Cyprus",
+        "abstract": "We study inference and modelling techniques for multivariate count time series. In particular, we focus on autoregressive, network, and space\u2013time models. The development of both the underlying theory and its applications depends critically on the choice of an appropriate response distribution for multivariate count data, as well as on the framework of observation\u2011driven models. Our aim is to highlight recent methodological advances in this area and to outline several directions for future research.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "23-Feb-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Sophie Langer",
+        "affiliation": "Ruhr University Bochum",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "2-March-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Robert Nowak",
+        "affiliation": "University of Wisconsin",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "9-March-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Anru Zhang",
+        "affiliation": "Duke University",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "SPRING BREAK",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "23-March-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Tony Cai",
+        "affiliation": "University of Pennsylvania",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "30-March-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Madhi Soltanolkotabi",
+        "affiliation": "University of Southern California",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "N/A",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      }
+    ]
+  },
+  {
+    "department": "Statistics",
     "series": "Student Seminar Series",
     "entries": [
       {
@@ -9,9 +125,9 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "Yoonhaeng Hur",
-        "affiliation": "N/A",
+        "affiliation": "Unknown",
         "abstract": "Computational difficulty of quadratic matching and the Gromov-Wasserstein distance has led to various approximation and relaxation schemes. One of such methods, relying on the notion of distance profiles, has been widely used in practice, but its theoretical understanding is limited. By delving into the statistical complexity of the previously proposed method based on distance profiles, we show that it suffers from the curse of dimensionality unless we make certain assumptions on the underlying metric measure spaces. Building on this insight, we propose and analyze a modified matching procedure that can be used to robustly match points under a certain probabilistic setting. We demonstrate the performance of the proposed methods using simulations and real data applications to complement the theoretical findings. As a result, we contribute to the literature by providing theoretical underpinnings of the matching procedures based on distance invariants like distance profiles, which have been widely used in practice but rarely analyzed theoretically.",
-        "bio": "N/A"
+        "bio": "Unknown"
       },
       {
         "seminar_title": "Regularized f-Divergence Kernel Tests",
@@ -21,7 +137,7 @@
         "speaker": "Monica Ribero",
         "affiliation": "Research Scientist at Google NYC",
         "abstract": "We propose a framework to construct practical kernel-based two-sample tests from the family of f-divergences. The test statistic is computed from the witness function of a regularized variational representation of the divergence, which we estimate using kernel methods. The proposed test is adaptive over hyperparameters such as the kernel bandwidth and the regularization parameter. We provide theoretical guarantees for statistical test power across our family of f-divergence estimates. While our test covers a variety of f-divergences, we bring particular focus to the Hockey-Stick divergence, motivated by its applications to differential privacy auditing and machine unlearning evaluation. For two-sample testing, experiments demonstrate that different f-divergences are sensitive to different localized differences, illustrating the importance of leveraging diverse statistics. For machine unlearning, we propose a relative test that distinguishes true unlearning failures from safe distributional variations.",
-        "bio": "N/A"
+        "bio": "Unknown"
       }
     ]
   },
@@ -36,17 +152,17 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Goran Peskir",
         "affiliation": "University of Manchester",
-        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.\nThe quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.\nThe solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
+        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price. The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting. The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
         "bio": "N/A"
       },
       {
-        "seminar_title": "columbia-nyu financial engineering colloquium-jim-gatheral-xin-zhang",
+        "seminar_title": "N/A",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Jim Gatheral and Xin Zhang",
         "affiliation": "Baruch and NYU",
-        "abstract": "Details for this seminar can be found here: https://urldefense.com/v3/__https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang__;!!BDUfV1Et5lrpZQ!UVYwxb7oHyja43uD8ANbDrnRbBWiCY4TfYTKmwgkhxcqkZe9FrUZ-nA7D74-FJOr5H29cX4qQEg7Q9K160L4Gf4$",
+        "abstract": "N/A",
         "bio": "N/A"
       },
       {
@@ -92,6 +208,112 @@
     ]
   },
   {
+    "department": "Center for Science and Society",
+    "series": "CSS Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Zoltan Dujisin - Building a Field of Counter-Disinformation Expertise: East-Central European Experts in the Globalization of the Disinformation Threat",
+        "date": "09-Feb-26",
+        "location": "Location not specified",
+        "time": "1:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Mae Ngai - ICE and Mass Deportation: The View from History",
+        "date": "09-Feb-26",
+        "location": "Location not specified",
+        "time": "4:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "When Clinical Judgment and AI Diverge: The Clinical, Legal, and Ethical Considerations",
+        "date": "09-Feb-26",
+        "location": "Location not specified",
+        "time": "9:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Guardians of the Glaciers",
+        "date": "11-Feb-26",
+        "location": "Location not specified",
+        "time": "6:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Ted Gordon - The Composer\b0\b2s Black Box",
+        "date": "12-Feb-26",
+        "location": "Location not specified",
+        "time": "2:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Marcia N. Macedo - Breathing in the Amazon: Building a Community-Centered Network of Low- Cost Sensors to Monitor Local Air Pollution from Fires",
+        "date": "16-Feb-26",
+        "location": "Location not specified",
+        "time": "12:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Barbara Kiviat - The Moral Economy of Using Real-Time Driving Data to Price Car Insurance",
+        "date": "16-Feb-26",
+        "location": "Location not specified",
+        "time": "1:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Environmental Humanities Working Group Meeting",
+        "date": "17-Feb-26",
+        "location": "Location not specified",
+        "time": "5:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Vinciane Despret - Doing History with Animals",
+        "date": "18-Feb-26",
+        "location": "Location not specified",
+        "time": "6:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Justin Stearns - Revealed Sciences: Religion, Science, and the Occult in Early Modern Morocco",
+        "date": "18-Feb-26",
+        "location": "Location not specified",
+        "time": "6:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      }
+    ]
+  },
+  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
@@ -103,7 +325,7 @@
         "speaker": "Tianyu Luo",
         "affiliation": "Columbia University",
         "abstract": "Barriers to Industrial Growth and Long-run Productive Efficiency: The Role of Policy Induced Misallocation",
-        "bio": "Tianyu Luo PhD Candidate in Economics Columbia University"
+        "bio": "Tianyu Luo is a PhD Candidate in Economics at Columbia University."
       },
       {
         "seminar_title": "Search Design",
@@ -113,7 +335,7 @@
         "speaker": "Antoine Chapel",
         "affiliation": "Columbia University",
         "abstract": "Search Design",
-        "bio": "Antoine Chapel PhD Student in Economics Columbia University"
+        "bio": "Antoine Chapel is a PhD Student in Economics at Columbia University."
       },
       {
         "seminar_title": "Information, Coordination and Welfare in Equity Financing",
@@ -123,7 +345,7 @@
         "speaker": "Rodrigo Pacheco",
         "affiliation": "Columbia University",
         "abstract": "Information, Coordination and Welfare in Equity Financing",
-        "bio": "Rodrigo Pacheco PhD Candidate in Economics Columbia University"
+        "bio": "Rodrigo Pacheco is a PhD Candidate in Economics at Columbia University."
       },
       {
         "seminar_title": "Data Centers and Residential Electricity Prices: Evidence from the United States",
@@ -133,7 +355,7 @@
         "speaker": "Cameron Scalera",
         "affiliation": "N/A",
         "abstract": "Data centers may cause electricity prices to increase, which threatens energy affordability and the goals of the clean energy transition. Despite recent growth in both, causal evidence linking them is scarce. We use proprietary data on data center locations and a novel shift-share approach to provide the first estimates of effects on residential electricity prices in the United States. Surprisingly, we find that an additional data center decreases same-year prices, and these effects persist for a few years. However, higher dependence on renewable energy is associated with price increases from data centers. Our results provide initial causal evidence while highlighting open questions about long-term market dynamics with artificial intelligence and the role of energy composition",
-        "bio": "Cameron Scalera PhD Student"
+        "bio": "Cameron Scalera is a PhD Student."
       },
       {
         "seminar_title": "Schedule Volatility in Hourly Service Work: Evidence and Implications for Federal Family Income-Support Policies",
@@ -142,8 +364,8 @@
         "time": "3:10p-4:40p",
         "speaker": "Elizabeth Ananat",
         "affiliation": "Barnard College - Columbia University",
-        "abstract": "In the US, work opportunities for those with lower levels of formal education have moved in recent years toward service employment, and this concentration is especially strong among households with children. Even compared to other jobs for those without college degrees, service work is characterized by shorter tenure and less access to full-time hours, patterns that are visible in national data and are more pronounced for those with children. In novel data collected through daily text-message reports from hourly service workers with young children, we document additional patterns of volatility that have not previously been visible: in particular, both volatility in total hours worked per day and week and volatility in which hours of the day and week are worked. We show that this volatility requires workers aiming to maximize their earnings to set aside many more hours for work than they are actually paid for, interfering with other life responsibilities and the ability to supplement earnings with a second job. We develop novel metrics to capture these forms of volatility and to describe their sources. Finally, we discuss the implications of these findings for both means-tested programs and earnings-linked tax credits, the two major forms of income support provided by the federal government to families with children.",
-        "bio": "Elizabeth Ananat Mallya Professor of Women and Economics Barnard College - Columbia University"
+        "abstract": "In the US, work opportunities for those with lower levels of formal education have moved in recent years toward service employment, and this concentration is especially strong among households with children. Even compared to other jobs for those without college degrees, service work is characterized by shorter tenure and less access to full-time hours, patterns that are visible in national data and are more pronounced for those with children. In novel data collected through daily text-message reports from hourly service workers with young children, we document additional patterns of volatility that have not previously been visible: in particular, both volatility in total hours worked per day and week and volatility in which hours of the day and week are worked. We show that this volatility requires workers aiming to maximize their earnings to set aside many more hours for work than they are actually paid for, interfering with other life responsibilities and the ability to supplement earnings with a second job.\u00a0 We develop novel metrics to capture these forms of volatility and to describe their sources. Finally, we discuss the implications of these findings for both means-tested programs and earnings-linked tax credits, the two major forms of income support provided by the federal government to families with children.",
+        "bio": "Elizabeth Ananat is the Mallya Professor of Women and Economics at Barnard College - Columbia University."
       },
       {
         "seminar_title": "US Monetary Policy: Past, Present, and Future",
@@ -153,7 +375,7 @@
         "speaker": "Richard Clarida",
         "affiliation": "Columbia University",
         "abstract": "US Monetary Policy: Past, Present, and Future",
-        "bio": "Richard Clarida C. Lowell Harriss Professor of Economics and Professor of International and Public Affairs Columbia University"
+        "bio": "Richard Clarida is the C. Lowell Harriss Professor of Economics and Professor of International and Public Affairs at Columbia University."
       }
     ]
   }
