@@ -20,8 +20,8 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Weng Kee Wong",
         "affiliation": "UCLA",
-        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model. Keywords: Continuous Designs, Early Phase Trials, Equivalence Theorems, Optimal Experiment Designs, Particle Swarm Optimization.",
-        "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace. His main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications. His recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics. He has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator. He is fellow of the American Statistical Association, the Institute of Mathematical Statistics, the American Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
+        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage.\nAbove all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs.\nIf time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model.\nKeywords: Continuous Designs, Early Phase Trials, Equivalence Theorems,\nOptimal Experiment Designs, Particle Swarm Optimization.",
+        "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace.\nHis main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications.\nHis recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics.\nHe has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator.\nHe is fellow of the American Statistical Association, the Institute of Mathematical Statistics,\nthe\nAmerican Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
       },
       {
         "seminar_title": "Learning Pseudo-Differential Operators",
@@ -125,9 +125,9 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "Yoonhaeng Hur",
-        "affiliation": "Unknown",
+        "affiliation": "N/A",
         "abstract": "Computational difficulty of quadratic matching and the Gromov-Wasserstein distance has led to various approximation and relaxation schemes. One of such methods, relying on the notion of distance profiles, has been widely used in practice, but its theoretical understanding is limited. By delving into the statistical complexity of the previously proposed method based on distance profiles, we show that it suffers from the curse of dimensionality unless we make certain assumptions on the underlying metric measure spaces. Building on this insight, we propose and analyze a modified matching procedure that can be used to robustly match points under a certain probabilistic setting. We demonstrate the performance of the proposed methods using simulations and real data applications to complement the theoretical findings. As a result, we contribute to the literature by providing theoretical underpinnings of the matching procedures based on distance invariants like distance profiles, which have been widely used in practice but rarely analyzed theoretically.",
-        "bio": "Unknown"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Regularized f-Divergence Kernel Tests",
@@ -137,7 +137,7 @@
         "speaker": "Monica Ribero",
         "affiliation": "Research Scientist at Google NYC",
         "abstract": "We propose a framework to construct practical kernel-based two-sample tests from the family of f-divergences. The test statistic is computed from the witness function of a regularized variational representation of the divergence, which we estimate using kernel methods. The proposed test is adaptive over hyperparameters such as the kernel bandwidth and the regularization parameter. We provide theoretical guarantees for statistical test power across our family of f-divergence estimates. While our test covers a variety of f-divergences, we bring particular focus to the Hockey-Stick divergence, motivated by its applications to differential privacy auditing and machine unlearning evaluation. For two-sample testing, experiments demonstrate that different f-divergences are sensitive to different localized differences, illustrating the importance of leveraging diverse statistics. For machine unlearning, we propose a relative test that distinguishes true unlearning failures from safe distributional variations.",
-        "bio": "Unknown"
+        "bio": "N/A"
       }
     ]
   },
@@ -152,18 +152,18 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Goran Peskir",
         "affiliation": "University of Manchester",
-        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price. The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting. The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
-        "bio": "N/A"
+        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.\nThe quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.\nThe solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
+        "bio": "Information about the speaker."
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Columbia-NYU Financial Engineering Colloquium",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Jim Gatheral and Xin Zhang",
         "affiliation": "Baruch and NYU",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "abstract": "Details available at https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang",
+        "bio": "Information about the speakers."
       },
       {
         "seminar_title": "Particle Systems with Local Interactions via Hitting Times and Cascades on Graphs",
@@ -173,37 +173,43 @@
         "speaker": "Yucheng Guo",
         "affiliation": "Princeton",
         "abstract": "We study particle systems interacting via hitting times on sparsely connected graphs, following the framework of Lacker, Ramanan and Wu (2023). We provide general robustness conditions that guarantee the well-posedness of physical solutions to the dynamics, and demonstrate their connections to the dynamic percolation theory. We then study the limiting behavior of the particle systems, establishing the continuous dependence of the joint law of the physical solution on the underlying graph structure with respect to local convergence and showing the convergence of the global empirical measure, which extends the general results by Lacker et al. to systems with singular interaction. The model proposed provides a general framework for analyzing systemic risks in large sparsely connected financial networks with a focus on local interactions, featuring instantaneous default cascades. Joint work with Qinxin Yan (Princeton PACM).",
-        "bio": "N/A"
+        "bio": "Information about the speaker."
       },
       {
-        "seminar_title": "N/A",
-        "date": "19-Feb-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
+        "seminar_title": "Location TBA",
         "date": "26-Feb-26",
-        "location": "TBA",
+        "location": "Location TBA",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Mathias Beiglboeck and David Itkin",
         "affiliation": "Vienna and Imperial",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "abstract": "No abstract provided.",
+        "bio": "Information about the speakers."
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "No title provided",
         "date": "5-Mar-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Thibault Mastrolia",
         "affiliation": "Berkeley",
+        "abstract": "No abstract provided.",
+        "bio": "Information about the speaker."
+      }
+    ]
+  },
+  {
+    "department": "Cancer Dynamics",
+    "series": "IICD Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "IICD Seminar Series: David Cheek, Harvard University",
+        "date": "11-Feb-26",
+        "location": "Location not specified",
+        "time": "2:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Harvard University",
         "abstract": "N/A",
-        "bio": "N/A"
+        "bio": "Not detected in text"
       }
     ]
   },
@@ -211,36 +217,6 @@
     "department": "Center for Science and Society",
     "series": "CSS Seminar Series",
     "entries": [
-      {
-        "seminar_title": "Zoltan Dujisin - Building a Field of Counter-Disinformation Expertise: East-Central European Experts in the Globalization of the Disinformation Threat",
-        "date": "09-Feb-26",
-        "location": "Location not specified",
-        "time": "1:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Mae Ngai - ICE and Mass Deportation: The View from History",
-        "date": "09-Feb-26",
-        "location": "Location not specified",
-        "time": "4:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "When Clinical Judgment and AI Diverge: The Clinical, Legal, and Ethical Considerations",
-        "date": "09-Feb-26",
-        "location": "Location not specified",
-        "time": "9:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
       {
         "seminar_title": "Guardians of the Glaciers",
         "date": "11-Feb-26",
@@ -252,7 +228,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Ted Gordon - The Composer\b0\b2s Black Box",
+        "seminar_title": "Ted Gordon - The Composer\b0s Black Box",
         "date": "12-Feb-26",
         "location": "Location not specified",
         "time": "2:00 PM",
@@ -310,6 +286,36 @@
         "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Yingyao Wang\n - The World in China and China in the World: A Preliminary Analysis of the Rise of Area Studies in China",
+        "date": "23-Feb-26",
+        "location": "Location not specified",
+        "time": "10:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Yingyao Wang - Seeing Like Many States: Economic Policy Paradigms and the Remaking of the Chinese State in the Reform Era",
+        "date": "23-Feb-26",
+        "location": "Location not specified",
+        "time": "12:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Asian Americans in Focus: Data, Narrative, and Action",
+        "date": "23-Feb-26",
+        "location": "Location not specified",
+        "time": "5:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
       }
     ]
   },
@@ -318,64 +324,64 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Barriers to Industrial Growth and Long-run Productive Efficiency: The Role of Policy Induced Misallocation",
-        "date": "09-FEB-26",
-        "location": "1101 IAB",
-        "time": "11:30a-12:10p",
-        "speaker": "Tianyu Luo",
-        "affiliation": "Columbia University",
-        "abstract": "Barriers to Industrial Growth and Long-run Productive Efficiency: The Role of Policy Induced Misallocation",
-        "bio": "Tianyu Luo is a PhD Candidate in Economics at Columbia University."
-      },
-      {
-        "seminar_title": "Search Design",
-        "date": "09-FEB-26",
-        "location": "1101 IAB",
-        "time": "12:10p-12:50p",
-        "speaker": "Antoine Chapel",
-        "affiliation": "Columbia University",
-        "abstract": "Search Design",
-        "bio": "Antoine Chapel is a PhD Student in Economics at Columbia University."
-      },
-      {
-        "seminar_title": "Information, Coordination and Welfare in Equity Financing",
-        "date": "09-FEB-26",
-        "location": "IAB 1101",
-        "time": "1:00p-2:00p",
-        "speaker": "Rodrigo Pacheco",
-        "affiliation": "Columbia University",
-        "abstract": "Information, Coordination and Welfare in Equity Financing",
-        "bio": "Rodrigo Pacheco is a PhD Candidate in Economics at Columbia University."
-      },
-      {
-        "seminar_title": "Data Centers and Residential Electricity Prices: Evidence from the United States",
-        "date": "09-FEB-26",
-        "location": "N/A",
-        "time": "1:00p-2:00p",
-        "speaker": "Cameron Scalera",
-        "affiliation": "N/A",
-        "abstract": "Data centers may cause electricity prices to increase, which threatens energy affordability and the goals of the clean energy transition. Despite recent growth in both, causal evidence linking them is scarce. We use proprietary data on data center locations and a novel shift-share approach to provide the first estimates of effects on residential electricity prices in the United States. Surprisingly, we find that an additional data center decreases same-year prices, and these effects persist for a few years. However, higher dependence on renewable energy is associated with price increases from data centers. Our results provide initial causal evidence while highlighting open questions about long-term market dynamics with artificial intelligence and the role of energy composition",
-        "bio": "Cameron Scalera is a PhD Student."
-      },
-      {
-        "seminar_title": "Schedule Volatility in Hourly Service Work: Evidence and Implications for Federal Family Income-Support Policies",
-        "date": "09-FEB-26",
-        "location": "801 IAB",
-        "time": "3:10p-4:40p",
-        "speaker": "Elizabeth Ananat",
-        "affiliation": "Barnard College - Columbia University",
-        "abstract": "In the US, work opportunities for those with lower levels of formal education have moved in recent years toward service employment, and this concentration is especially strong among households with children. Even compared to other jobs for those without college degrees, service work is characterized by shorter tenure and less access to full-time hours, patterns that are visible in national data and are more pronounced for those with children. In novel data collected through daily text-message reports from hourly service workers with young children, we document additional patterns of volatility that have not previously been visible: in particular, both volatility in total hours worked per day and week and volatility in which hours of the day and week are worked. We show that this volatility requires workers aiming to maximize their earnings to set aside many more hours for work than they are actually paid for, interfering with other life responsibilities and the ability to supplement earnings with a second job.\u00a0 We develop novel metrics to capture these forms of volatility and to describe their sources. Finally, we discuss the implications of these findings for both means-tested programs and earnings-linked tax credits, the two major forms of income support provided by the federal government to families with children.",
-        "bio": "Elizabeth Ananat is the Mallya Professor of Women and Economics at Barnard College - Columbia University."
-      },
-      {
         "seminar_title": "US Monetary Policy: Past, Present, and Future",
-        "date": "10-FEB-26",
+        "date": "10-Feb-26",
         "location": "IAB 1512",
         "time": "12:00p-1:30p",
         "speaker": "Richard Clarida",
         "affiliation": "Columbia University",
         "abstract": "US Monetary Policy: Past, Present, and Future",
-        "bio": "Richard Clarida is the C. Lowell Harriss Professor of Economics and Professor of International and Public Affairs at Columbia University."
+        "bio": "C. Lowell Harriss Professor of Economics and Professor of International and Public Affairs"
+      },
+      {
+        "seminar_title": "Policy Instruments and Firm Selection: The (Non-)Equivalence of Place-Based Policies in Spatial Equilibrium",
+        "date": "11-Feb-26",
+        "location": "1101 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Leran Qi",
+        "affiliation": "Columbia University",
+        "abstract": "This project examines how the specific design of place-based policy instruments shapes firm selection and productivity sorting. While standard approaches often abstract from asymmetries across instruments, I demonstrate that instrument equivalence breaks down once firm-level production and cost structures are taken into account. Using a general equilibrium framework with heterogeneous firms, I show that different instruments generate divergent sorting outcomes and industry composition through their interaction with local factor markets. These findings suggest that instrument choice has important implications for the evaluation and design of place-based industrial policies.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Online Estimation and Inference of ATE Using SGD",
+        "date": "11-Feb-26",
+        "location": "1102 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Thu Pham",
+        "affiliation": "Columbia University",
+        "abstract": "Online Estimation and Inference of ATE Using SGD",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Evaluating the Advertising Deduction: Optimal Deductions for Non-Production Activities",
+        "date": "11-Feb-26",
+        "location": "N/A",
+        "time": "12:30p-1:15p",
+        "speaker": "Eric Heiser",
+        "affiliation": "Columbia University",
+        "abstract": "Evaluating the Advertising Deduction: Optimal Deductions for Non-Production Activities",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "The Effects of Reallocating Severance Savings on Firms and Workers",
+        "date": "11-Feb-26",
+        "location": "N/A",
+        "time": "1:15p-2:00p",
+        "speaker": "Isabella Di Filippo",
+        "affiliation": "Columbia University",
+        "abstract": "The Effects of Reallocating Severance Savings on Firms and Workers",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "How Do Voters Process Information? The Case of Criminal Politicians in India",
+        "date": "12-Feb-26",
+        "location": "1101 IAB",
+        "time": "4:10p-5:25p",
+        "speaker": "Yusuf Neggers",
+        "affiliation": "N/A",
+        "abstract": "We study how voters process information through two experiments around Indian elections. In a large-scale experiment, we show that providing voters information about candidates\u2019 criminal charges increases votes for clean candidates and reduces votes for criminal politicians, with larger penalties for candidates facing more and serious charges. A follow-up experiment replicates these results and identifies two mechanisms. First, information facilitates learning: voters form more accurate beliefs and evaluate criminal candidates less favorably. Second, using direct measures of voter attention, we show that information makes criminality more salient\u2014especially when it is surprising or highlights contrast\u2014and increases its weight in voting decisions. Our findings demonstrate that information can improve political selection in polarized environments by helping voters learn about, and drawing their attention to, valence qualities.",
+        "bio": "N/A"
       }
     ]
   }
