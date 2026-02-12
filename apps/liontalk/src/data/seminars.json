@@ -1,6 +1,42 @@
 [
   {
     "department": "Statistics",
+    "series": "Student Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Robust Point Matching with Distance Profiles",
+        "date": "28-Jan-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Yoonhaeng Hur",
+        "affiliation": "N/A",
+        "abstract": "Computational difficulty of quadratic matching and the Gromov-Wasserstein distance has led to various approximation and relaxation schemes. One of such methods, relying on the notion of distance profiles, has been widely used in practice, but its theoretical understanding is limited. By delving into the statistical complexity of the previously proposed method based on distance profiles, we show that it suffers from the curse of dimensionality unless we make certain assumptions on the underlying metric measure spaces. Building on this insight, we propose and analyze a modified matching procedure that can be used to robustly match points under a certain probabilistic setting. We demonstrate the performance of the proposed methods using simulations and real data applications to complement the theoretical findings. As a result, we contribute to the literature by providing theoretical underpinnings of the matching procedures based on distance invariants like distance profiles, which have been widely used in practice but rarely analyzed theoretically.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Regularized f-Divergence Kernel Tests",
+        "date": "4-Feb-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Monica Ribero",
+        "affiliation": "Research Scientist at Google NYC",
+        "abstract": "We propose a framework to construct practical kernel-based two-sample tests from the family of f-divergences. The test statistic is computed from the witness function of a regularized variational representation of the divergence, which we estimate using kernel methods. The proposed test is adaptive over hyperparameters such as the kernel bandwidth and the regularization parameter. We provide theoretical guarantees for statistical test power across our family of f-divergence estimates. While our test covers a variety of f-divergences, we bring particular focus to the Hockey-Stick divergence, motivated by its applications to differential privacy auditing and machine unlearning evaluation. For two-sample testing, experiments demonstrate that different f-divergences are sensitive to different localized differences, illustrating the importance of leveraging diverse statistics. For machine unlearning, we propose a relative test that distinguishes true unlearning failures from safe distributional variations.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "11-Feb-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Prof. Andrew Gelman",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      }
+    ]
+  },
+  {
+    "department": "Statistics",
     "series": "Mathematical Finance Seminar Series",
     "entries": [
       {
@@ -14,13 +50,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Columbia-NYU Financial Engineering Colloquium",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
-        "speaker": "Jim Gatheral and Xin Zhang",
-        "affiliation": "Baruch and NYU",
-        "abstract": "N/A",
+        "speaker": "Jim Gatheral, Xin Zhang",
+        "affiliation": "Baruch, NYU",
+        "abstract": "Details available at https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang",
         "bio": "N/A"
       },
       {
@@ -34,13 +70,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Robust hedging of American options via aggregated Snell envelopes",
         "date": "19-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
+        "speaker": "Marco Rodrigues",
+        "affiliation": "Weierstrass Institute and TU Berlin",
+        "abstract": "We study the robust hedging of American options under model uncertainty in a nondominated setting. Our approach is based on the construction of a Snell envelope under a sublinear expectation. We prove a duality formula for the robust superhedging price and establish the existence of a minimal superhedging strategy. Our results encompass continuous processes or processes with jumps and non-vanishing diffusion. A key application is to financial market models, where uncertainty is quantified through the semi-martingale characteristics.",
         "bio": "N/A"
       },
       {
@@ -48,8 +84,8 @@
         "date": "26-Feb-26",
         "location": "Location TBA",
         "time": "4:10 pm - 5:25 pm",
-        "speaker": "Mathias Beiglboeck and David Itkin",
-        "affiliation": "Vienna and Imperial",
+        "speaker": "Mathias Beiglboeck, David Itkin",
+        "affiliation": "Vienna, Imperial",
         "abstract": "N/A",
         "bio": "N/A"
       },
@@ -66,84 +102,88 @@
     ]
   },
   {
-    "department": "Cancer Dynamics",
-    "series": "IICD Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "IICD Seminar Series: David Cheek, Harvard University",
-        "date": "11-Feb-26",
-        "location": "Location not specified",
-        "time": "2:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Harvard University",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      }
-    ]
-  },
-  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Policy Instruments and Firm Selection: The (Non-)Equivalence of Place-Based Policies in Spatial Equilibrium",
-        "date": "11-Feb-26",
-        "location": "1101 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Leran Qi",
-        "affiliation": "Columbia University",
-        "abstract": "This project examines how the specific design of place-based policy instruments shapes firm selection and productivity sorting. While standard approaches often abstract from asymmetries across instruments, I demonstrate that instrument equivalence breaks down once firm-level production and cost structures are taken into account. Using a general equilibrium framework with heterogeneous firms, I show that different instruments generate divergent sorting outcomes and industry composition through their interaction with local factor markets. These findings suggest that instrument choice has important implications for the evaluation and design of place-based industrial policies.",
-        "bio": "PhD Student in Economics Columbia University"
-      },
-      {
-        "seminar_title": "Online Estimation and Inference of ATE Using SGD",
-        "date": "11-Feb-26",
-        "location": "1102 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Thu Pham",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics Columbia University"
-      },
-      {
-        "seminar_title": "Evaluating the Advertising Deduction: Optimal Deductions for Non-Production Activities",
-        "date": "11-Feb-26",
-        "location": "N/A",
-        "time": "12:30p-1:15p",
-        "speaker": "Eric Heiser",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics Columbia University"
-      },
-      {
-        "seminar_title": "The Effects of Reallocating Severance Savings on Firms and Workers",
-        "date": "11-Feb-26",
-        "location": "N/A",
-        "time": "1:15p-2:00p",
-        "speaker": "Isabella Di Filippo",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics Columbia University"
-      },
-      {
         "seminar_title": "How Do Voters Process Information? The Case of Criminal Politicians in India",
-        "date": "12-Feb-26",
+        "date": "12-FEB-26",
         "location": "1101 IAB",
         "time": "4:10p-5:25p",
         "speaker": "Yusuf Neggers",
-        "affiliation": "N/A",
+        "affiliation": "Michigan\u2013Ann Arbor: Ford School",
         "abstract": "We study how voters process information through two experiments around Indian elections. In a large-scale experiment, we show that providing voters information about candidates\u2019 criminal charges increases votes for clean candidates and reduces votes for criminal politicians, with larger penalties for candidates facing more and serious charges. A follow-up experiment replicates these results and identifies two mechanisms. First, information facilitates learning: voters form more accurate beliefs and evaluate criminal candidates less favorably. Second, using direct measures of voter attention, we show that information makes criminality more salient\u2014especially when it is surprising or highlights contrast\u2014and increases its weight in voting decisions. Our findings demonstrate that information can improve political selection in polarized environments by helping voters learn about, and drawing their attention to, valence qualities.",
-        "bio": "N/A"
+        "bio": "Assistant Professor of Public Policy"
       },
       {
         "seminar_title": "The New Economic Geography",
-        "date": "12-Feb-26",
+        "date": "12-FEB-26",
         "location": "IAB 1219",
         "time": "4:30p-6:00p",
         "speaker": "Adam Posen",
         "affiliation": "Peterson Institution for International Economics",
-        "abstract": "N/A",
-        "bio": "President Peterson Institution for International Economics"
+        "abstract": "No abstract available.",
+        "bio": "President"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "13-FEB-26",
+        "location": "Not specified",
+        "time": "12:00p-12:30p",
+        "speaker": "Matteo Fillipi",
+        "affiliation": "Not specified",
+        "abstract": "No abstract available.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "13-FEB-26",
+        "location": "Not specified",
+        "time": "12:30p-1:00p",
+        "speaker": "Matteo Fillipi",
+        "affiliation": "Not specified",
+        "abstract": "No abstract available.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "AI Exposure and Freelancer Job Preferences: Evidence from Upwork",
+        "date": "16-FEB-26",
+        "location": "Not specified",
+        "time": "11:30a-11:55a",
+        "speaker": "Piper Wang",
+        "affiliation": "Columbia University",
+        "abstract": "No abstract available.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Who Should Buy? Public Procurement and Bureaucratic Quality",
+        "date": "16-FEB-26",
+        "location": "Not specified",
+        "time": "11:55a-12:20p",
+        "speaker": "Giacomo Massimiliano Anastasia",
+        "affiliation": "Columbia University",
+        "abstract": "No abstract available.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "The Effects of Reallocating Severance Savings on Firms and Workers",
+        "date": "16-FEB-26",
+        "location": "Not specified",
+        "time": "12:20p-12:45p",
+        "speaker": "Isabella Di Filippo",
+        "affiliation": "Columbia University",
+        "abstract": "No abstract available.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Distributional Welfare Effects of Labour Market Power",
+        "date": "16-FEB-26",
+        "location": "IAB 1101",
+        "time": "1:00p-2:00p",
+        "speaker": "Madeline Hanson",
+        "affiliation": "Columbia University",
+        "abstract": "No abstract available.",
+        "bio": "Ph.D. Candidate in Economics"
       }
     ]
   }
