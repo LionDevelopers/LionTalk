@@ -24,11 +24,21 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Some Open Problems in Probability that are Relevant to Applied Statistics",
         "date": "11-Feb-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
+        "affiliation": "N/A",
+        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "TBA",
+        "date": "18-Feb-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "TBA",
         "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "N/A"
@@ -50,13 +60,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Columbia-NYU Financial Engineering Colloquium",
+        "seminar_title": "N/A",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Jim Gatheral, Xin Zhang",
         "affiliation": "Baruch, NYU",
-        "abstract": "Details available at https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang",
+        "abstract": "Details available at: https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang",
         "bio": "N/A"
       },
       {
@@ -102,88 +112,194 @@
     ]
   },
   {
+    "department": "Center for Science and Society",
+    "series": "CSS Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Marcia N. Macedo - Breathing in the Amazon: Building a Community-Centered Network of Low- Cost Sensors to Monitor Local Air Pollution from Fires",
+        "date": "16-Feb-26",
+        "location": "Location not specified",
+        "time": "12:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Barbara Kiviat - The Moral Economy of Using Real-Time Driving Data to Price Car Insurance",
+        "date": "16-Feb-26",
+        "location": "Location not specified",
+        "time": "1:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Environmental Humanities Working Group Meeting",
+        "date": "17-Feb-26",
+        "location": "Location not specified",
+        "time": "5:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Vinciane Despret - Doing History with Animals",
+        "date": "18-Feb-26",
+        "location": "Location not specified",
+        "time": "6:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Justin Stearns - Revealed Sciences: Religion, Science, and the Occult in Early Modern Morocco",
+        "date": "18-Feb-26",
+        "location": "Location not specified",
+        "time": "6:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Yingyao Wang\r\n - The World in China and China in the World: A Preliminary Analysis of the Rise of Area Studies in China",
+        "date": "23-Feb-26",
+        "location": "Location not specified",
+        "time": "10:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Yingyao Wang - Seeing Like Many States: Economic Policy Paradigms and the Remaking of the Chinese State in the Reform Era",
+        "date": "23-Feb-26",
+        "location": "Location not specified",
+        "time": "12:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Asian Americans in Focus: Data, Narrative, and Action",
+        "date": "23-Feb-26",
+        "location": "Location not specified",
+        "time": "5:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Edwidge Danticat: We\r\n\r\n\u2019re Alone",
+        "date": "25-Feb-26",
+        "location": "Location not specified",
+        "time": "6:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Premodern Information Overload",
+        "date": "26-Feb-26",
+        "location": "Location not specified",
+        "time": "12:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Heat Stories: Memory, Place, and a Changing Climate",
+        "date": "26-Feb-26",
+        "location": "Location not specified",
+        "time": "6:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      }
+    ]
+  },
+  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "How Do Voters Process Information? The Case of Criminal Politicians in India",
-        "date": "12-FEB-26",
-        "location": "1101 IAB",
-        "time": "4:10p-5:25p",
-        "speaker": "Yusuf Neggers",
-        "affiliation": "Michigan\u2013Ann Arbor: Ford School",
-        "abstract": "We study how voters process information through two experiments around Indian elections. In a large-scale experiment, we show that providing voters information about candidates\u2019 criminal charges increases votes for clean candidates and reduces votes for criminal politicians, with larger penalties for candidates facing more and serious charges. A follow-up experiment replicates these results and identifies two mechanisms. First, information facilitates learning: voters form more accurate beliefs and evaluate criminal candidates less favorably. Second, using direct measures of voter attention, we show that information makes criminality more salient\u2014especially when it is surprising or highlights contrast\u2014and increases its weight in voting decisions. Our findings demonstrate that information can improve political selection in polarized environments by helping voters learn about, and drawing their attention to, valence qualities.",
-        "bio": "Assistant Professor of Public Policy"
-      },
-      {
-        "seminar_title": "The New Economic Geography",
-        "date": "12-FEB-26",
-        "location": "IAB 1219",
-        "time": "4:30p-6:00p",
-        "speaker": "Adam Posen",
-        "affiliation": "Peterson Institution for International Economics",
-        "abstract": "No abstract available.",
-        "bio": "President"
-      },
-      {
         "seminar_title": "To be announced.",
-        "date": "13-FEB-26",
-        "location": "Not specified",
+        "date": "13-Feb-26",
+        "location": "N/A",
         "time": "12:00p-12:30p",
         "speaker": "Matteo Fillipi",
-        "affiliation": "Not specified",
-        "abstract": "No abstract available.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "To be announced.",
-        "date": "13-FEB-26",
-        "location": "Not specified",
-        "time": "12:30p-1:00p",
-        "speaker": "Matteo Fillipi",
-        "affiliation": "Not specified",
-        "abstract": "No abstract available.",
+        "affiliation": "N/A",
+        "abstract": "To be announced.",
         "bio": "N/A"
       },
       {
         "seminar_title": "AI Exposure and Freelancer Job Preferences: Evidence from Upwork",
-        "date": "16-FEB-26",
-        "location": "Not specified",
+        "date": "16-Feb-26",
+        "location": "N/A",
         "time": "11:30a-11:55a",
         "speaker": "Piper Wang",
         "affiliation": "Columbia University",
-        "abstract": "No abstract available.",
+        "abstract": "AI Exposure and Freelancer Job Preferences: Evidence from Upwork",
         "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "Who Should Buy? Public Procurement and Bureaucratic Quality",
-        "date": "16-FEB-26",
-        "location": "Not specified",
+        "date": "16-Feb-26",
+        "location": "N/A",
         "time": "11:55a-12:20p",
         "speaker": "Giacomo Massimiliano Anastasia",
         "affiliation": "Columbia University",
-        "abstract": "No abstract available.",
+        "abstract": "Who Should Buy? Public Procurement and Bureaucratic Quality",
         "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "The Effects of Reallocating Severance Savings on Firms and Workers",
-        "date": "16-FEB-26",
-        "location": "Not specified",
+        "date": "16-Feb-26",
+        "location": "N/A",
         "time": "12:20p-12:45p",
         "speaker": "Isabella Di Filippo",
         "affiliation": "Columbia University",
-        "abstract": "No abstract available.",
+        "abstract": "The Effects of Reallocating Severance Savings on Firms and Workers",
         "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "Distributional Welfare Effects of Labour Market Power",
-        "date": "16-FEB-26",
+        "date": "16-Feb-26",
         "location": "IAB 1101",
         "time": "1:00p-2:00p",
         "speaker": "Madeline Hanson",
         "affiliation": "Columbia University",
-        "abstract": "No abstract available.",
+        "abstract": "Distributional Welfare Effects of Labour Market Power",
         "bio": "Ph.D. Candidate in Economics"
+      },
+      {
+        "seminar_title": "The Impact of Air Pollution on Consumer Behavior: Evidence from Credit Card and Mobility Data in South Korea",
+        "date": "16-Feb-26",
+        "location": "N/A",
+        "time": "1:00p-2:00p",
+        "speaker": "Ruixue Li",
+        "affiliation": "Columbia University",
+        "abstract": "The Impact of Air Pollution on Consumer Behavior: Evidence from Credit Card and Mobility Data in South Korea",
+        "bio": "PhD Student in Sustainable Development"
+      },
+      {
+        "seminar_title": "The Influence of Police Unions in Local Elections. Evidence from U.S. Cities Spending and Performance",
+        "date": "17-Feb-26",
+        "location": "Room 707",
+        "time": "12:15p-1:30p",
+        "speaker": "Maria Carreri",
+        "affiliation": "Universit\u00e0 Bocconi",
+        "abstract": "Despite growing attention to local policies governing public safety issues, and mounting reports of police union spending to local candidates, the role of police unions in local politics remains understudied. We address this gap by assembling a novel, large-scale dataset on campaign finance in U.S. mayoral elections, covering 2,303 races across 1,073 cities from 2001 to 2019. We document that police unions frequently donate to mayoral candidates\u2014especially in mid-sized and large cities\u2014targeting likely winners and incumbents, and without displaying clear partisan bias. Using a within-city design that accounts for heterogeneous treatment effects in presence of staggered treatment timing, we find that the election of a police union\u2013backed mayor leads to an expansion in police department size. However, we do not find improvements in police performance in these cities, suggesting that unions\u2019 political involvement, while providing additional resources, might also be associated with reduced incentives for effort.",
+        "bio": "Assistant Professor of Political Science"
       }
     ]
   }
