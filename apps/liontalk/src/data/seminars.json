@@ -20,8 +20,8 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Weng Kee Wong",
         "affiliation": "UCLA",
-        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage.\nAbove all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs.\nIf time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model.",
-        "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace.\nHis main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications.\nHis recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics.\nHe has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator.\nHe is fellow of the American Statistical Association, the Institute of Mathematical Statistics,\nthe\nAmerican Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
+        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model. Keywords: Continuous Designs, Early Phase Trials, Equivalence Theorems, Optimal Experiment Designs, Particle Swarm Optimization.",
+        "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace. His main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications. His recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics. He has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator. He is fellow of the American Statistical Association, the Institute of Mathematical Statistics, the American Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
       },
       {
         "seminar_title": "Learning Pseudo-Differential Operators",
@@ -31,7 +31,7 @@
         "speaker": "Daniel Sanz-Alonso",
         "affiliation": "University of Chicago",
         "abstract": "Pseudo-differential operators (PDOs) are a broad and fundamental class of operators in analysis and partial differential equations, with wide-ranging applications in mathematical and computational sciences. In this talk I will present recent work with Jiaheng Chen on learning elliptic PDOs from noisy data. Within a wavelet--Galerkin framework, we formulate this task as a structured infinite-dimensional regression problem with multiscale sparsity. Building on this structure, we propose a sparse, data- and computation-efficient estimator, which leverages a novel matrix compression scheme tailored to the learning task and a nested-support strategy to balance approximation and estimation errors. In addition to establishing convergence rates for the estimator, we show that the learned operator induces an efficient and stable Galerkin solver whose numerical error matches its statistical accuracy. Our results therefore contribute to bringing together operator learning, data-driven solvers, and wavelet methods in scientific computing.",
-        "bio": "Daniel Sanz-Alonso is an Associate Professor in the Department of Statistics at the University of Chicago, where he is a member of the Committee on Computational and Applied Mathematics. Previously, he was a postdoctoral researcher in the Division of Applied Mathematics and a member of the Data Science Initiative at Brown University. He received his PhD in Mathematics and Statistics from the University of Warwick (UK) in 2016, under the supervision of Andrew Stuart and Gareth Roberts.\nHis research interests include inverse problems, data assimilation, and scientific machine learning. A central theme of his work is the integration of complex predictive models with large data sets, addressing theoretical and computational challenges motivated by data-centric applications.\nHe was awarded the Jos\u00e9 Luis Rubio de Francia Prize by the Spanish Royal Society of Mathematics, recognizing the best Spanish mathematician under the age of 32, and received an NSF CAREER Award in 2023. Since 2025, he has served as an Associate Editor of the SIAM/ASA Journal on Uncertainty Quantification and Stochastics and Partial Differential Equations: Analysis and Computations. His research has been supported by the National Science Foundation, the National Geospatial-Intelligence Agency, the Department of Energy, and the BBVA Foundation."
+        "bio": "Daniel Sanz-Alonso is an Associate Professor in the Department of Statistics at the University of Chicago, where he is a member of the Committee on Computational and Applied Mathematics. Previously, he was a postdoctoral researcher in the Division of Applied Mathematics and a member of the Data Science Initiative at Brown University. He received his PhD in Mathematics and Statistics from the University of Warwick (UK) in 2016, under the supervision of Andrew Stuart and Gareth Roberts. His research interests include inverse problems, data assimilation, and scientific machine learning. A central theme of his work is the integration of complex predictive models with large data sets, addressing theoretical and computational challenges motivated by data-centric applications. He was awarded the Jos\u00e9 Luis Rubio de Francia Prize by the Spanish Royal Society of Mathematics, recognizing the best Spanish mathematician under the age of 32, and received an NSF CAREER Award in 2023. Since 2025, he has served as an Associate Editor of the SIAM/ASA Journal on Uncertainty Quantification and Stochastics and Partial Differential Equations: Analysis and Computations. His research has been supported by the National Science Foundation, the National Geospatial-Intelligence Agency, the Department of Energy, and the BBVA Foundation."
       },
       {
         "seminar_title": "Topics on Multivariate Integer-Valued Time Series",
@@ -41,7 +41,7 @@
         "speaker": "Konstantinos Fokianos",
         "affiliation": "University of Cyprus",
         "abstract": "We study inference and modelling techniques for multivariate count time series. In particular, we focus on autoregressive, network, and space\u2013time models. The development of both the underlying theory and its applications depends critically on the choice of an appropriate response distribution for multivariate count data, as well as on the framework of observation\u2011driven models. Our aim is to highlight recent methodological advances in this area and to outline several directions for future research.",
-        "bio": "Kostas Fokianos is a Professor of Statistics at the University of Cyprus, where he has served since 1999 and acted as a Head of Department between 2020-2024. He has also taught at The Ohio State University and Lancaster University. He has been a visiting scholar at Ludwig Maximilian University of Munich, the National Institutes of Health, EPFL, CY Cergy Paris University, the University of Bergen, TU Dortmund University, and the University of Rome Tor Vergata.\nHe is a Fellow of the American Statistical Association, an elected member of the International Statistical Institute, and has held multiple editorial positions in leading statistical journals. His primary methodological contributions lie in time series analysis, with a particular focus on univariate and multivariate models for count time series."
+        "bio": "Kostas Fokianos is a Professor of Statistics at the University of Cyprus, where he has served since 1999 and acted as a Head of Department between 2020-2024. He has also taught at The Ohio State University and Lancaster University. He has been a visiting scholar at Ludwig Maximilian University of Munich, the National Institutes of Health, EPFL, CY Cergy Paris University, the University of Bergen, TU Dortmund University, and the University of Rome Tor Vergata. He is a Fellow of the American Statistical Association, an elected member of the International Statistical Institute, and has held multiple editorial positions in leading statistical journals. His primary methodological contributions lie in time series analysis, with a particular focus on univariate and multivariate models for count time series."
       },
       {
         "seminar_title": "N/A",
@@ -75,7 +75,7 @@
       },
       {
         "seminar_title": "SPRING BREAK",
-        "date": "9-March-2026",
+        "date": "SPRING BREAK",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "N/A",
@@ -212,17 +212,17 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Goran Peskir",
         "affiliation": "University of Manchester",
-        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price. The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting. The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
+        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Columbia-NYU Financial Engineering Colloquium",
-        "date": "05-Feb-26",
+        "seminar_title": "columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang",
+        "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
-        "speaker": "Jim Gatheral, Xin Zhang",
-        "affiliation": "Baruch, NYU",
-        "abstract": "Details can be found at the provided link.",
+        "speaker": "Jim Gatheral and Xin Zhang",
+        "affiliation": "Baruch and NYU",
+        "abstract": "Details can be found at https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang",
         "bio": "N/A"
       },
       {
@@ -246,18 +246,18 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Location TBA",
+        "seminar_title": "N/A",
         "date": "26-Feb-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
+        "location": "Location TBA",
         "time": "4:10 pm - 5:25 pm",
-        "speaker": "Mathias Beiglboeck, David Itkin",
-        "affiliation": "Vienna, Imperial",
+        "speaker": "Mathias Beiglboeck and David Itkin",
+        "affiliation": "Vienna and Imperial",
         "abstract": "N/A",
         "bio": "N/A"
       },
       {
         "seminar_title": "N/A",
-        "date": "05-Mar-26",
+        "date": "5-Mar-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Thibault Mastrolia",
@@ -277,7 +277,7 @@
         "location": "Location not specified",
         "time": "12:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -287,7 +287,7 @@
         "location": "Location not specified",
         "time": "1:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -297,7 +297,7 @@
         "location": "Location not specified",
         "time": "5:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -307,7 +307,7 @@
         "location": "Location not specified",
         "time": "6:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -317,17 +317,17 @@
         "location": "Location not specified",
         "time": "6:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Yingyao Wang\n- The World in China and China in the World: A Preliminary Analysis of the Rise of Area Studies in China",
+        "seminar_title": "Yingyao Wang\r\n - The World in China and China in the World: A Preliminary Analysis of the Rise of Area Studies in China",
         "date": "23-Feb-26",
         "location": "Location not specified",
         "time": "10:00 AM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -337,7 +337,7 @@
         "location": "Location not specified",
         "time": "12:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -347,17 +347,17 @@
         "location": "Location not specified",
         "time": "5:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Edwidge Danticat: We\n\rare Alone",
+        "seminar_title": "Edwidge Danticat: We\r\n\u2019re Alone",
         "date": "25-Feb-26",
         "location": "Location not specified",
         "time": "6:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -367,7 +367,7 @@
         "location": "Location not specified",
         "time": "12:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -377,7 +377,7 @@
         "location": "Location not specified",
         "time": "6:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       }
@@ -389,73 +389,73 @@
     "entries": [
       {
         "seminar_title": "AI Exposure and Freelancer Job Preferences: Evidence from Upwork",
-        "date": "16-FEB-26",
+        "date": "16-Feb-26",
         "location": "N/A",
-        "time": "11:30a-12:45p",
+        "time": "11:30a-11:55a",
         "speaker": "Piper Wang",
         "affiliation": "Columbia University",
         "abstract": "AI Exposure and Freelancer Job Preferences: Evidence from Upwork",
-        "bio": "Piper Wang, PhD Student in Economics at Columbia University."
+        "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "Who Should Buy? Public Procurement and Bureaucratic Quality",
-        "date": "16-FEB-26",
+        "date": "16-Feb-26",
         "location": "N/A",
-        "time": "11:30a-12:45p",
+        "time": "11:55a-12:20p",
         "speaker": "Giacomo Massimiliano Anastasia",
         "affiliation": "Columbia University",
         "abstract": "Who Should Buy? Public Procurement and Bureaucratic Quality",
-        "bio": "Giacomo Massimiliano Anastasia, PhD Student in Economics at Columbia University."
+        "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "The Effects of Reallocating Severance Savings on Firms and Workers",
-        "date": "16-FEB-26",
+        "date": "16-Feb-26",
         "location": "N/A",
-        "time": "11:30a-12:45p",
+        "time": "12:20p-12:45p",
         "speaker": "Isabella Di Filippo",
         "affiliation": "Columbia University",
         "abstract": "The Effects of Reallocating Severance Savings on Firms and Workers",
-        "bio": "Isabella Di Filippo, PhD Student in Economics at Columbia University."
+        "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "Distributional Welfare Effects of Labour Market Power",
-        "date": "16-FEB-26",
+        "date": "16-Feb-26",
         "location": "IAB 1101",
         "time": "1:00p-2:00p",
         "speaker": "Madeline Hanson",
         "affiliation": "Columbia University",
         "abstract": "Distributional Welfare Effects of Labour Market Power",
-        "bio": "Madeline Hanson, Ph.D. Candidate in Economics at Columbia University."
+        "bio": "Ph.D. Candidate in Economics"
       },
       {
         "seminar_title": "The Impact of Air Pollution on Consumer Behavior: Evidence from Credit Card and Mobility Data in South Korea",
-        "date": "16-FEB-26",
+        "date": "16-Feb-26",
         "location": "N/A",
         "time": "1:00p-2:00p",
         "speaker": "Ruixue Li",
         "affiliation": "Columbia University",
         "abstract": "The Impact of Air Pollution on Consumer Behavior: Evidence from Credit Card and Mobility Data in South Korea",
-        "bio": "Ruixue Li, PhD Student in Sustainable Development at Columbia University."
+        "bio": "PhD Student in Sustainable Development"
       },
       {
         "seminar_title": "The Influence of Police Unions in Local Elections. Evidence from U.S. Cities Spending and Performance",
-        "date": "17-FEB-26",
+        "date": "17-Feb-26",
         "location": "Room 707",
         "time": "12:15p-1:30p",
         "speaker": "Maria Carreri",
         "affiliation": "Universit\u00e0 Bocconi",
         "abstract": "Despite growing attention to local policies governing public safety issues, and mounting reports of police union spending to local candidates, the role of police unions in local politics remains understudied. We address this gap by assembling a novel, large-scale dataset on campaign finance in U.S. mayoral elections, covering 2,303 races across 1,073 cities from 2001 to 2019. We document that police unions frequently donate to mayoral candidates\u2014especially in mid-sized and large cities\u2014targeting likely winners and incumbents, and without displaying clear partisan bias. Using a within-city design that accounts for heterogeneous treatment effects in presence of staggered treatment timing, we find that the election of a police union\u2013backed mayor leads to an expansion in police department size. However, we do not find improvements in police performance in these cities, suggesting that unions\u2019 political involvement, while providing additional resources, might also be associated with reduced incentives for effort.",
-        "bio": "Maria Carreri, Assistant Professor of Political Science at Universit\u00e0 Bocconi."
+        "bio": "Assistant Professor of Political Science"
       },
       {
         "seminar_title": "The Costs of Buyer Counterparty Risk in Long-Term Contracts",
-        "date": "17-FEB-26",
+        "date": "17-Feb-26",
         "location": "1101 IAB",
         "time": "2:45p-4:00p",
         "speaker": "Natalia Fabra",
         "affiliation": "Center for Monetary and Financial Studies (CEMFI)",
         "abstract": "This paper examines how buyer counterparty risk -arising from the possibility that buyers renegotiate long-term contracts under the threat of default- distorts market efficiency. We develop a theoretical model showing that the prospect of renegotiation raises contract prices, further increasing the likelihood of renegotiation, and depresses investment. We then assess several policy interventions to promote contract liquidity in the presence of buyer counterparty risk, including public subsidies, financial guarantees, and collateral requirements. While these tools can mitigate price distortions and stimulate investment, they also introduce trade-offs, such as moral hazard and reliance on costly public funds. These insights are particularly relevant in sectors with capital-intensive, long-lived assets exposed to price volatility, notably electricity markets, where underinvestment in renewable generation may slow the energy transition and hinder decarbonization goals. Finally, we simulate the Spanish electricity contract market to quantify the model\u2019s predictions.",
-        "bio": "Natalia Fabra, Professor of Economics at Center for Monetary and Financial Studies (CEMFI)."
+        "bio": "Professor of Economics"
       }
     ]
   }
