@@ -44,14 +44,14 @@
         "bio": "Kostas Fokianos is a Professor of Statistics at the University of Cyprus, where he has served since 1999 and acted as a Head of Department between 2020-2024. He has also taught at The Ohio State University and Lancaster University. He has been a visiting scholar at Ludwig Maximilian University of Munich, the National Institutes of Health, EPFL, CY Cergy Paris University, the University of Bergen, TU Dortmund University, and the University of Rome Tor Vergata. He is a Fellow of the American Statistical Association, an elected member of the International Statistical Institute, and has held multiple editorial positions in leading statistical journals. His primary methodological contributions lie in time series analysis, with a particular focus on univariate and multivariate models for count time series."
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Statistical learning theory for deep learning",
         "date": "23-Feb-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Sophie Langer",
         "affiliation": "Ruhr University Bochum",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "abstract": "Statistical learning theory for deep learning has primarily focused on analyzing neural networks as estimators in nonparametric regression and classification problems. A central question is under which assumptions neural networks can circumvent the well-known curse of dimensionality. Existing literature typically addresses this question by either imposing structural assumptions on the target function or by assuming that the covariates possess a low-dimensional structure. In this talk, we present a unified framework that incorporates both types of assumptions within a single model. We show that neural networks can adapt to this framework and establish approximation and excess risk bounds that are independent of the ambient input dimension. Our results apply to simple fully connected neural networks with flexible width and depth. In the second part of the talk, we address the persistent gap between the statistical and optimization perspectives in deep learning. We present first results that jointly account for both aspects by deriving statistical risk bounds for estimators obtained via gradient descent. This talk is based on joint work with Alina Braun, Michael Kohler, Adam Krzyzak, and Thomas Nagler.",
+        "bio": "Sophie Langer studied Mathematics with Economics at the Technical University of Darmstadt, and received a PhD in Statistics in 2020 under the supervision of Michael Kohler. After graduating, she worked as a postdoctoral student with Johannes Schmidt-Hieber at the University of Twente, the Netherlands, and with Lorenzo Rosasco at the University of Genoa, Italy. In October 2022, she was appointed an Assistant Professor at the University of Twente. Since April 2025, she has been a professor at Ruhr University Bochum, Germany. Her research focuses on the statistical foundations and theory of deep learning."
       },
       {
         "seminar_title": "N/A",
@@ -70,16 +70,6 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Anru Zhang",
         "affiliation": "Duke University",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "SPRING BREAK",
-        "date": "SPRING BREAK",
-        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
-        "time": "4:10 pm - 5:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "N/A"
       },
@@ -213,17 +203,17 @@
         "speaker": "Goran Peskir",
         "affiliation": "University of Manchester",
         "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.\nThe quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.\nThe solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
-        "bio": "N/A"
+        "bio": "Information about the speaker is not available in the provided text."
       },
       {
-        "seminar_title": "columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang",
+        "seminar_title": "Columbia-NYU Financial Engineering Colloquium",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
-        "speaker": "Jim Gatheral and Xin Zhang",
-        "affiliation": "Baruch and NYU",
-        "abstract": "Details available at the provided link.",
-        "bio": "N/A"
+        "speaker": "Jim Gatheral, Xin Zhang",
+        "affiliation": "Baruch, NYU",
+        "abstract": "Details for this seminar can be found at the provided link: https://urldefense.com/v3/__https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang__;!!BDUfV1Et5lrpZQ!UVYwxb7oHyja43uD8ANbDrnRbBWiCY4TfYTKmwgkhxcqkZe9FrUZ-nA7D74-FJOr5H29cX4qQEg7Q9K160L4Gf4$",
+        "bio": "Information about the speakers is not available in the provided text."
       },
       {
         "seminar_title": "Particle Systems with Local Interactions via Hitting Times and Cascades on Graphs",
@@ -233,7 +223,7 @@
         "speaker": "Yucheng Guo",
         "affiliation": "Princeton",
         "abstract": "We study particle systems interacting via hitting times on sparsely connected graphs, following the framework of Lacker, Ramanan and Wu (2023). We provide general robustness conditions that guarantee the well-posedness of physical solutions to the dynamics, and demonstrate their connections to the dynamic percolation theory. We then study the limiting behavior of the particle systems, establishing the continuous dependence of the joint law of the physical solution on the underlying graph structure with respect to local convergence and showing the convergence of the global empirical measure, which extends the general results by Lacker et al. to systems with singular interaction. The model proposed provides a general framework for analyzing systemic risks in large sparsely connected financial networks with a focus on local interactions, featuring instantaneous default cascades. Joint work with Qinxin Yan (Princeton PACM).",
-        "bio": "N/A"
+        "bio": "Information about the speaker is not available in the provided text."
       },
       {
         "seminar_title": "Robust hedging of American options via aggregated Snell envelopes",
@@ -243,27 +233,43 @@
         "speaker": "Marco Rodrigues",
         "affiliation": "Weierstrass Institute and TU Berlin",
         "abstract": "We study the robust hedging of American options under model uncertainty in a nondominated setting. Our approach is based on the construction of a Snell envelope under a sublinear expectation. We prove a duality formula for the robust superhedging price and establish the existence of a minimal superhedging strategy. Our results encompass continuous processes or processes with jumps and non-vanishing diffusion. A key application is to financial market models, where uncertainty is quantified through the semi-martingale characteristics.",
-        "bio": "N/A"
+        "bio": "Information about the speaker is not available in the provided text."
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Location TBA",
         "date": "26-Feb-26",
         "location": "Location TBA",
         "time": "4:10 pm - 5:25 pm",
-        "speaker": "Mathias Beiglboeck and David Itkin",
-        "affiliation": "Vienna and Imperial",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "speaker": "Mathias Beiglboeck, David Itkin",
+        "affiliation": "Vienna, Imperial",
+        "abstract": "Abstract information is not available in the provided text.",
+        "bio": "Information about the speakers is not available in the provided text."
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Title not provided",
         "date": "5-Mar-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Thibault Mastrolia",
         "affiliation": "Berkeley",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "abstract": "Abstract information is not available in the provided text.",
+        "bio": "Information about the speaker is not available in the provided text."
+      }
+    ]
+  },
+  {
+    "department": "Cancer Dynamics",
+    "series": "IICD Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "IICD Monthly Research Meeting",
+        "date": "04-Mar-26",
+        "location": "Schermerhorn Hall, 1198 Amsterdam Ave., New York, NY 10027\t603Show Map",
+        "time": "1:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "The\nIrving Institute for Cancer Dynamics\nhosts a monthly research meeting and lunch for their members. In each meeting, two speakers (students, postdocs, research scientists, or sometimes invited guests) give a 20-min informal talk, followed by a Q&A. All the IICD labs are invited to attend and participate in our monthly meetings to foster networking and collaboration opportunities among the IICD groups.\nThe event is only open to IICD members.",
+        "bio": "Not detected in text"
       }
     ]
   },
@@ -271,26 +277,6 @@
     "department": "Center for Science and Society",
     "series": "CSS Seminar Series",
     "entries": [
-      {
-        "seminar_title": "Vinciane Despret - Doing History with Animals",
-        "date": "18-Feb-26",
-        "location": "Buell Hall, Columbia University, 515 West 116th Street, New York",
-        "time": "6:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Justin Stearns - Revealed Sciences: Religion, Science, and the Occult in Early Modern Morocco",
-        "date": "18-Feb-26",
-        "location": "Online and in-person: Gallatin School (Room 527), New York University, 1 Washington Place, New York",
-        "time": "6:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
       {
         "seminar_title": "Yekatit 12: A VR Window into a Silenced Past",
         "date": "19-Feb-26",
@@ -302,7 +288,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Yingyao Wang\r\n - The World in China and China in the World: A Preliminary Analysis of the Rise of Area Studies in China",
+        "seminar_title": "Yingyao Wang\r\n- The World in China and China in the World: A Preliminary Analysis of the Rise of Area Studies in China",
         "date": "23-Feb-26",
         "location": "Knox Hall (Room 707), Columbia University, 606 West 122nd Street, New York",
         "time": "10:00 AM",
@@ -342,7 +328,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Edwidge Danticat: We\r\n\r\n\r\n\r\n\u2019re Alone",
+        "seminar_title": "Edwidge Danticat: We\r\n\r\n\r\n\u2019re Alone",
         "date": "25-Feb-26",
         "location": "Buell Hall, Columbia University, 515 West 116th Street, New York",
         "time": "6:00 PM",
@@ -372,7 +358,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Jun Zhou\r\n - Dancing with Metrics: Digitalization of Women's Labor in China",
+        "seminar_title": "Jun Zhou\r\n- Dancing with Metrics: Digitalization of Women's Labor in China",
         "date": "02-Mar-26",
         "location": "Online and In-person: Knox Hall (Room 707), Columbia University, 606 West 122nd Street, New York",
         "time": "10:00 AM",
@@ -420,6 +406,26 @@
         "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Mapping AI: Labor",
+        "date": "04-Mar-26",
+        "location": "Fayerweather Hall (Room 513), Columbia University, 1180 Amsterdam Avenue, New York",
+        "time": "5:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Justice Forum: Supply Side Harm Reduction: Public Health Interventions in Drug Markets",
+        "date": "04-Mar-26",
+        "location": "Online and in-person: Casa Hispanica (Room 201), Columbia University, 612 West 112th Street, New York",
+        "time": "6:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
       }
     ]
   },
@@ -428,73 +434,83 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "The Costs of Buyer Counterparty Risk in Long-Term Contracts",
-        "date": "17-Feb-26",
+        "seminar_title": "Critical Minerals, Geopolitics, and the Green Transition",
+        "date": "19-Feb-26",
         "location": "1101 IAB",
-        "time": "2:45p-4:00p",
-        "speaker": "Natalia Fabra",
-        "affiliation": "Center for Monetary and Financial Studies (CEMFI)",
-        "abstract": "This paper examines how buyer counterparty risk -arising from the possibility that buyers renegotiate long-term contracts under the threat of default- distorts market efficiency. We develop a theoretical model showing that the prospect of renegotiation raises contract prices, further increasing the likelihood of renegotiation, and depresses investment. We then assess several policy interventions to promote contract liquidity in the presence of buyer counterparty risk, including public subsidies, financial guarantees, and collateral requirements. While these tools can mitigate price distortions and stimulate investment, they also introduce trade-offs, such as moral hazard and reliance on costly public funds. These insights are particularly relevant in sectors with capital-intensive, long-lived assets exposed to price volatility, notably electricity markets, where underinvestment in renewable generation may slow the energy transition and hinder decarbonization goals. Finally, we simulate the Spanish electricity contract market to quantify the model\u2019s predictions.",
+        "time": "4:10p-5:25p",
+        "speaker": "Allan Hsiao",
+        "affiliation": "Stanford University",
+        "abstract": "Critical Minerals, Geopolitics, and the Green Transition",
+        "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "How to Grow an Invoicing Currency: Micro Evidence from Argentina",
+        "date": "19-Feb-26",
+        "location": "IAB 1512",
+        "time": "4:30p-6:00p",
+        "speaker": "Dennis Novy",
+        "affiliation": "University of Warwick",
+        "abstract": "How to Grow an Invoicing Currency: Micro Evidence from Argentina",
         "bio": "Professor of Economics"
       },
       {
-        "seminar_title": "Public-Sector Pay, Worker Selection, and Government Performance: Evidence from Locality Pay Areas in the U.S.",
-        "date": "18-Feb-26",
+        "seminar_title": "Labor Inspections, Misallocation, and Welfare",
+        "date": "20-Feb-26",
         "location": "1101 IAB",
         "time": "12:00p-1:00p",
-        "speaker": "Diego Tocre",
+        "speaker": "Eshaan Patel",
         "affiliation": "Columbia University",
-        "abstract": "How does geographically differentiated pay affect the selection and performance of public-sector workers? We study the creation and expansion of Locality Pay Areas (LPAs), which raise federal wages to better reflect local private-sector pay conditions across U.S. labor markets. Leveraging county-level staggered adoption and worker-level administrative data, we examine effects on recruitment, retention, and agency performance. Preliminary evidence indicates that higher pay reduces quits and shifts workforce composition toward older, more educated, and higher outside-option workers, with little change in total employment. Contract-level procurement data suggest improvements in project execution. The results highlight how centralized wage policies shape talent allocation and the effectiveness of government across space.",
-        "bio": "PhD Student in Economics"
+        "abstract": "In developing countries, labor regulations are often enforced through complaint-driven inspections. This creates a trade-off: firms can lower inspection risk by reducing their size or increasing compliance. If labor markets are not perfectly competitive, the aggregate effects of enforcement patterns on misallocation and welfare are ambiguous. To disentangle these forces, we develop a structural model of imperfectly competitive firms that choose size and compliance to manage inspection risk. We discipline and quantify the model using novel data on the universe of labor inspections from Peru and show how our model can rationalize enforcement patterns in the data.",
+        "bio": "Ph.D. Candidate in Economics"
       },
       {
-        "seminar_title": "Estimating the Effects of Temperature on Growth: Some Cautionary Notes",
-        "date": "18-Feb-26",
-        "location": "1102 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Serena Ng",
-        "affiliation": "Columbia University",
-        "abstract": "No abstract available.",
-        "bio": "Edwin W. Rickert Professor of Economics"
+        "seminar_title": "No Prices No Games!: Four Economic Models",
+        "date": "20-Feb-26",
+        "location": "1027 IAB",
+        "time": "2:00p-4:00p",
+        "speaker": "Ariel Rubinstein",
+        "affiliation": "Tel Aviv University",
+        "abstract": "While current economic theory focuses on prices and games, this book models economic settings where harmony is established through one of the following societal conventions: -A power relation according to which stronger agents are able to force weaker ones to do things against their will. -A norm that categorizes actions as permissible or forbidden. -A status relation over alternatives which limits each agent\u2019s choices. -Systematic biases in agents\u2019 preferences. These four conventions are analysed using simple and mathematically straightforward models, without any pretensions regarding direct applied usefulness. While we do not advocate for the adoption of any of these conventions specifically \u2013 we do advocate that when modelling an economic situation, alternative equilibrium notions should be considered, rather than automatically reaching for the familiar approaches of prices or games.",
+        "bio": "Professor of Economics"
       },
       {
-        "seminar_title": "Peer Information at Work: A Large-Scale Field Experiment with Rideshare Drivers",
-        "date": "18-Feb-26",
+        "seminar_title": "No Prices No Games!: Four Economic Models",
+        "date": "27-Feb-26",
+        "location": "1027 IAB",
+        "time": "2:00p-4:00p",
+        "speaker": "Ariel Rubinstein",
+        "affiliation": "Tel Aviv University",
+        "abstract": "While current economic theory focuses on prices and games, this book models economic settings where harmony is established through one of the following societal conventions: -A power relation according to which stronger agents are able to force weaker ones to do things against their will. -A norm that categorizes actions as permissible or forbidden. -A status relation over alternatives which limits each agent\u2019s choices. -Systematic biases in agents\u2019 preferences. These four conventions are analysed using simple and mathematically straightforward models, without any pretensions regarding direct applied usefulness. While we do not advocate for the adoption of any of these conventions specifically \u2013 we do advocate that when modelling an economic situation, alternative equilibrium notions should be considered, rather than automatically reaching for the familiar approaches of prices or games.",
+        "bio": "Professor of Economics"
+      },
+      {
+        "seminar_title": "Nursing Homes and Congestion Externalities in the Market for EMS",
+        "date": "23-Feb-26",
         "location": "N/A",
-        "time": "12:30p-1:30p",
-        "speaker": "Zhi Hao Lim",
+        "time": "11:30a-11:55a",
+        "speaker": "Jack Cenatempo",
         "affiliation": "Columbia University",
-        "abstract": "No abstract available.",
+        "abstract": "Nursing Homes and Congestion Externalities in the Market for EMS",
         "bio": "PhD Student in Economics"
       },
       {
-        "seminar_title": "The Opioid Epidemic and Substitution to Alternative Pain Treatments",
-        "date": "18-Feb-26",
+        "seminar_title": "Supply shocks and \"greedflation\": the case of the egg industry",
+        "date": "23-Feb-26",
         "location": "N/A",
-        "time": "1:30p-2:00p",
-        "speaker": "Renee Garrow",
+        "time": "11:55a-12:20p",
+        "speaker": "Diogo Wolff Surdi",
         "affiliation": "Columbia University",
-        "abstract": "No abstract available.",
+        "abstract": "Supply shocks and \"greedflation\": the case of the egg industry",
         "bio": "PhD Student in Economics"
       },
       {
-        "seminar_title": "Sequential Menu Choice with Behavioral Local Comparisons",
-        "date": "18-Feb-26",
-        "location": "1101 IAB",
-        "time": "1:00p-1:30p",
-        "speaker": "Renjie Zhong",
-        "affiliation": "Columbia University",
-        "abstract": "No abstract available.",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "To be announced.",
-        "date": "18-Feb-26",
+        "seminar_title": "Fulfillment Plans and Platform Steering",
+        "date": "23-Feb-26",
         "location": "N/A",
-        "time": "1:30p-2:00p",
-        "speaker": "Thomas Anton",
+        "time": "12:20p-12:45p",
+        "speaker": "Riccardo Martina",
         "affiliation": "Columbia University",
-        "abstract": "No abstract available.",
+        "abstract": "Fulfillment Plans and Platform Steering",
         "bio": "PhD Student in Economics"
       }
     ]
