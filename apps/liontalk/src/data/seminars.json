@@ -1,6 +1,162 @@
 [
   {
     "department": "Statistics",
+    "series": "Statistics Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Algorithmic Stability in Statistical Inference",
+        "date": "26-Jan-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Yuetian Luo",
+        "affiliation": "Rutgers University",
+        "abstract": "Algorithmic stability is a central concept in statistics and learning theory that measures how sensitive an algorithm's output is to small changes in the training data. In this talk, we consider two different perspectives of algorithmic stability in statistical inference. In the first part, we investigate the problem of distribution-free algorithm risk evaluation, uncovering fundamental limitations for answering these questions with limited amounts of data. To navigate the challenge, we will discuss how incorporating an assumption about algorithmic stability might help. In this second part, we reveal that while stability entails desirable properties, it is typically not sufficient on its own for statistical learning. For example, an algorithm that always outputs a constant function is perfectly stable but statistically meaningless. Then we will discuss the trade-offs between stability and accuracy in statistical inference.",
+        "bio": "Yuetian Luo is an assistant professor in the Department of Statistics at Rutgers University. Before that, he was a postdoctoral scholar in the Data Science Institute at the University of Chicago, advised by Professor Rina Foygel Barber. He received his Ph.D. in Statistics from the University of Wisconsin-Madison in 2022 under the supervision of Professor Anru Zhang. His research interests lie broadly in distribution-free inference, computational complexity of statistical inference, tensor learning, robust statistics, and non-convex optimization."
+      },
+      {
+        "seminar_title": "Nature-Inspired Metaheuristics as a General-Purpose Optimization Tool in Statistical Research",
+        "date": "2-Feb-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Weng Kee Wong",
+        "affiliation": "UCLA",
+        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage.\nAbove all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs.\nIf time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model.",
+        "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace.\nHis main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications.\nHis recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics.\nHe has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator.\nHe is fellow of the American Statistical Association, the Institute of Mathematical Statistics,\nthe\nAmerican Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
+      },
+      {
+        "seminar_title": "Learning Pseudo-Differential Operators",
+        "date": "9-Feb-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Daniel Sanz-Alonso",
+        "affiliation": "University of Chicago",
+        "abstract": "Pseudo-differential operators (PDOs) are a broad and fundamental class of operators in analysis and partial differential equations, with wide-ranging applications in mathematical and computational sciences. In this talk I will present recent work with Jiaheng Chen on learning elliptic PDOs from noisy data. Within a wavelet--Galerkin framework, we formulate this task as a structured infinite-dimensional regression problem with multiscale sparsity. Building on this structure, we propose a sparse, data- and computation-efficient estimator, which leverages a novel matrix compression scheme tailored to the learning task and a nested-support strategy to balance approximation and estimation errors. In addition to establishing convergence rates for the estimator, we show that the learned operator induces an efficient and stable Galerkin solver whose numerical error matches its statistical accuracy. Our results therefore contribute to bringing together operator learning, data-driven solvers, and wavelet methods in scientific computing.",
+        "bio": "Daniel Sanz-Alonso is an Associate Professor in the Department of Statistics at the University of Chicago, where he is a member of the Committee on Computational and Applied Mathematics. Previously, he was a postdoctoral researcher in the Division of Applied Mathematics and a member of the Data Science Initiative at Brown University. He received his PhD in Mathematics and Statistics from the University of Warwick (UK) in 2016, under the supervision of Andrew Stuart and Gareth Roberts.\nHis research interests include inverse problems, data assimilation, and scientific machine learning. A central theme of his work is the integration of complex predictive models with large data sets, addressing theoretical and computational challenges motivated by data-centric applications.\nHe was awarded the Jos\u00e9 Luis Rubio de Francia Prize by the Spanish Royal Society of Mathematics, recognizing the best Spanish mathematician under the age of 32, and received an NSF CAREER Award in 2023. Since 2025, he has served as an Associate Editor of the SIAM/ASA Journal on Uncertainty Quantification and Stochastics and Partial Differential Equations: Analysis and Computations. His research has been supported by the National Science Foundation, the National Geospatial-Intelligence Agency, the Department of Energy, and the BBVA Foundation."
+      },
+      {
+        "seminar_title": "Topics on Multivariate Integer-Valued Time Series",
+        "date": "16-Feb-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Konstantinos Fokianos",
+        "affiliation": "University of Cyprus",
+        "abstract": "We study inference and modelling techniques for multivariate count time series. In particular, we focus on autoregressive, network, and space\u2013time models. The development of both the underlying theory and its applications depends critically on the choice of an appropriate response distribution for multivariate count data, as well as on the framework of observation\u2011driven models. Our aim is to highlight recent methodological advances in this area and to outline several directions for future research.",
+        "bio": "Kostas Fokianos is a Professor of Statistics at the University of Cyprus, where he has served since 1999 and acted as a Head of Department between 2020-2024. He has also taught at The Ohio State University and Lancaster University. He has been a visiting scholar at Ludwig Maximilian University of Munich, the National Institutes of Health, EPFL, CY Cergy Paris University, the University of Bergen, TU Dortmund University, and the University of Rome Tor Vergata.\nHe is a Fellow of the American Statistical Association, an elected member of the International Statistical Institute, and has held multiple editorial positions in leading statistical journals. His primary methodological contributions lie in time series analysis, with a particular focus on univariate and multivariate models for count time series."
+      },
+      {
+        "seminar_title": "Deep learning theory: Statistics, optimization and the space in between",
+        "date": "23-Feb-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Sophie Langer",
+        "affiliation": "Ruhr University Bochum",
+        "abstract": "Statistical learning theory for deep learning has primarily focused on analyzing neural networks as estimators in nonparametric regression and classification problems. A central question is under which assumptions neural networks can circumvent the well-known curse of dimensionality. Existing literature typically addresses this question by either imposing structural assumptions on the target function or by assuming that the covariates possess a low-dimensional structure.\nIn this talk, we present a unified framework that incorporates both types of assumptions within a single model. We show that neural networks can adapt to this framework and establish approximation and excess risk bounds that are independent of the ambient input dimension. Our results apply to simple fully connected neural networks with flexible width and depth.\nIn the second part of the talk, we address the persistent gap between the statistical and optimization perspectives in deep learning. We present first results that jointly account for both aspects by deriving statistical risk bounds for estimators obtained via gradient descent.\nThis talk is based on joint work with Alina Braun, Michael Kohler, Adam Krzyzak, and Thomas Nagler.",
+        "bio": "Sophie Langer studied Mathematics with Economics at the Technical University of Darmstadt, and received a PhD in Statistics in 2020 under the supervision of Michael Kohler. After graduating, she worked as a postdoctoral student with Johannes Schmidt-Hieber at the University of Twente, the Netherlands, and with Lorenzo Rosasco at the University of Genoa, Italy.\nIn October 2022, she was appointed an Assistant Professor at the University of Twente. Since April 2025, she has been a professor at Ruhr University Bochum, Germany. Her research focuses on the statistical foundations and theory of deep learning."
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "2-March-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Robert Nowak",
+        "affiliation": "University of Wisconsin",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "9-March-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Anru Zhang",
+        "affiliation": "Duke University",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "SPRING BREAK",
+        "date": "SPRING BREAK",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "23-March-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Tony Cai",
+        "affiliation": "University of Pennsylvania",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "30-March-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Madhi Soltanolkotabi",
+        "affiliation": "University of Southern California",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "6-Apr-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "13-Apr-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Theodor Misiakiewicz",
+        "affiliation": "Yale University",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "20-Apr-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "27-Apr-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Steve Marron",
+        "affiliation": "UNC",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "4-May-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Hans Muller",
+        "affiliation": "UC Davis",
+        "abstract": "N/A",
+        "bio": "N/A"
+      }
+    ]
+  },
+  {
+    "department": "Statistics",
     "series": "Student Seminar Series",
     "entries": [
       {
@@ -9,9 +165,9 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "Yoonhaeng Hur",
-        "affiliation": "Unknown",
+        "affiliation": "N/A",
         "abstract": "Computational difficulty of quadratic matching and the Gromov-Wasserstein distance has led to various approximation and relaxation schemes. One of such methods, relying on the notion of distance profiles, has been widely used in practice, but its theoretical understanding is limited. By delving into the statistical complexity of the previously proposed method based on distance profiles, we show that it suffers from the curse of dimensionality unless we make certain assumptions on the underlying metric measure spaces. Building on this insight, we propose and analyze a modified matching procedure that can be used to robustly match points under a certain probabilistic setting. We demonstrate the performance of the proposed methods using simulations and real data applications to complement the theoretical findings. As a result, we contribute to the literature by providing theoretical underpinnings of the matching procedures based on distance invariants like distance profiles, which have been widely used in practice but rarely analyzed theoretically.",
-        "bio": "Unknown"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Regularized f-Divergence Kernel Tests",
@@ -21,7 +177,7 @@
         "speaker": "Monica Ribero",
         "affiliation": "Research Scientist at Google NYC",
         "abstract": "We propose a framework to construct practical kernel-based two-sample tests from the family of f-divergences. The test statistic is computed from the witness function of a regularized variational representation of the divergence, which we estimate using kernel methods. The proposed test is adaptive over hyperparameters such as the kernel bandwidth and the regularization parameter. We provide theoretical guarantees for statistical test power across our family of f-divergence estimates. While our test covers a variety of f-divergences, we bring particular focus to the Hockey-Stick divergence, motivated by its applications to differential privacy auditing and machine unlearning evaluation. For two-sample testing, experiments demonstrate that different f-divergences are sensitive to different localized differences, illustrating the importance of leveraging diverse statistics. For machine unlearning, we propose a relative test that distinguishes true unlearning failures from safe distributional variations.",
-        "bio": "Unknown"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Some Open Problems in Probability that are Relevant to Applied Statistics",
@@ -29,9 +185,9 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
-        "affiliation": "Unknown",
-        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics. Here are some references that start to address these topics: https://sites.stat.columbia.edu/gelman/research/published/piranha_published.pdf https://sites.stat.columbia.edu/gelman/research/published/arnold2.pdf https://sites.stat.columbia.edu/gelman/research/published/mi_theory9.pdf https://statmodeling.stat.columbia.edu/2024/09/24/its-martingale-time-baby-how-to-evaluate-probabilistic-forecasts-before-the-event-happens-rajiv-sethi-has-an-idea-hint-it-involves-time-series/ https://arxiv.org/abs/2507.11833 https://statmodeling.stat.columbia.edu/2013/05/30/infill-asymptotics-and-sprawl-asymptotics/",
-        "bio": "Unknown"
+        "affiliation": "N/A",
+        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
+        "bio": "N/A"
       },
       {
         "seminar_title": "A Generalized Potts Model",
@@ -41,7 +197,7 @@
         "speaker": "Reihaneh Malekian",
         "affiliation": "Columbia",
         "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph H in a randomly colored large graph G. This framework generalizes the well-known Potts model, which corresponds to the special case H = K2, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.",
-        "bio": "Unknown"
+        "bio": "N/A"
       },
       {
         "seminar_title": "An uncertainty-aware framework for data-efficient multi-view animal pose estimation",
@@ -51,17 +207,17 @@
         "speaker": "Lenny Aharon",
         "affiliation": "Columbia",
         "abstract": "Multi-view pose estimation is essential for quantifying animal behavior in scientific research, yet current methods struggle to achieve accurate tracking with limited labeled data and suffer from poor uncertainty estimates. We address these challenges with a comprehensive framework combining novel training and post-processing techniques, and a model distillation procedure that leverages the strengths of these techniques to produce a more efficient and effective pose estimator. Our multi-view transformer (MVT) utilizes pretrained backbones and enables simultaneous processing of information across all views, while a novel patch masking scheme learns robust cross-view correspondences without camera calibration. For calibrated setups, we incorporate geometric consistency through 3D augmentation and a triangulation loss. We extend the existing Ensemble Kalman Smoother (EKS) post-processor to the nonlinear case and enhance uncertainty quantification via a variance inflation technique. Finally, to leverage the scaling properties of the MVT, we design a distillation procedure that exploits improved EKS predictions and uncertainty estimates to generate high-quality pseudo-labels, thereby reducing dependence on manual labels. Our framework components consistently outperform existing methods across three diverse animal species (flies, mice, chickadees), with each component contributing complementary benefits. The result is a practical, uncertainty-aware system for reliable pose estimation that enables downstream behavioral analyses under real-world data constraints.",
-        "bio": "Unknown"
+        "bio": "N/A"
       },
       {
         "seminar_title": "TWO SIGMA\u2019S QUANT RESEARCH PHD SEMINAR @COLUMBIA",
         "date": "25-Feb-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
-        "speaker": "Two Sigma",
-        "affiliation": "Unknown",
+        "speaker": "N/A",
+        "affiliation": "Two Sigma",
         "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process. Register now to save your spot by RSVPing here. We hope to see you there! Food and Two Sigma swag will be provided.",
-        "bio": "Unknown"
+        "bio": "N/A"
       }
     ]
   },
@@ -76,17 +232,17 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Goran Peskir",
         "affiliation": "University of Manchester",
-        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.\nThe quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.\nThe solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
+        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price. The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting. The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Speakers: Jim Gatheral (Baruch) and Xin Zhang (NYU) details here",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Jim Gatheral and Xin Zhang",
         "affiliation": "Baruch and NYU",
-        "abstract": "details here",
+        "abstract": "N/A",
         "bio": "N/A"
       },
       {
@@ -110,13 +266,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Speakers: Mathias Beiglboeck (Vienna) and David Itkin (Imperial)",
         "date": "26-Feb-26",
         "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
         "time": "4:00pm-6:00pm",
         "speaker": "Mathias Beiglboeck and David Itkin",
         "affiliation": "Vienna and Imperial",
-        "abstract": "Register here",
+        "abstract": "N/A",
         "bio": "N/A"
       },
       {
@@ -148,172 +304,6 @@
     ]
   },
   {
-    "department": "Center for Science and Society",
-    "series": "CSS Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "Yingyao Wang - The World in China and China in the World: A Preliminary Analysis of the Rise of Area Studies in China",
-        "date": "23-Feb-26",
-        "location": "Knox Hall (Room 707), Columbia University, 606 West 122nd Street, New York",
-        "time": "10:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Yingyao Wang - Seeing Like Many States: Economic Policy Paradigms and the Remaking of the Chinese State in the Reform Era",
-        "date": "23-Feb-26",
-        "location": "Online and In-person: Knox Hall (Room 509), Columbia University, 606 West 122th Street, New York",
-        "time": "12:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Asian Americans in Focus: Data, Narrative, and Action",
-        "date": "23-Feb-26",
-        "location": "Pulitzer Hall (Lecture Hall), Columbia University, 2950 Broadway, New York",
-        "time": "5:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Climate and the Economy",
-        "date": "24-Feb-26",
-        "location": "Heyman Center (Second Floor Common Room), Columbia University, New York",
-        "time": "4:15 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Edwidge Danticat: We\nk707;re Alone",
-        "date": "25-Feb-26",
-        "location": "Buell Hall, Columbia University, 515 West 116th Street, New York",
-        "time": "6:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Premodern Information Overload",
-        "date": "26-Feb-26",
-        "location": "Online",
-        "time": "12:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Heat Stories: Memory, Place, and a Changing Climate",
-        "date": "26-Feb-26",
-        "location": "Queens Landing Boathouse and Environmental Center, 56-27 2nd Street, New York",
-        "time": "6:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Jun Zhou - Dancing with Metrics: Digitalization of Women's Labor in China",
-        "date": "02-Mar-26",
-        "location": "Online and In-person: Knox Hall (Room 707), Columbia University, 606 West 122nd Street, New York",
-        "time": "10:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Nokwanda P. Makunga - Of Plants and People: Looking Through a Medicinal Plant Biotechnology Lens",
-        "date": "02-Mar-26",
-        "location": "Online and In-person: Fayerweather Hall (Room 513), Columbia University, 1180 Amsterdam Avenue, New York",
-        "time": "12:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Jun Zhou - Selling Live: Metrics Architecture and the Reorganization of Service Work in China",
-        "date": "02-Mar-26",
-        "location": "Online and In-person: Knox Hall (Room 501D), Columbia University, 606 West 122th Street, New York",
-        "time": "1:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Petroleum in (and out of) the Visual Arts",
-        "date": "03-Mar-26",
-        "location": "Heyman Center (Second Floor Common Room), Columbia University, New York",
-        "time": "9:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Post-Earthquake Reconstruction: L'Aquila, Italy",
-        "date": "03-Mar-26",
-        "location": "Italian Academy (Teatro), Columbia University, 1161 Amsterdam Avenue, New York",
-        "time": "2:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Mapping AI: Labor",
-        "date": "04-Mar-26",
-        "location": "Fayerweather Hall (Room 513), Columbia University, 1180 Amsterdam Avenue, New York",
-        "time": "5:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Justice Forum: Supply Side Harm Reduction: Public Health Interventions in Drug Markets",
-        "date": "04-Mar-26",
-        "location": "Online and in-person: Casa Hispanica (Room 201), Columbia University, 612 West 112th Street, New York",
-        "time": "6:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Climate Justice Now Round Table",
-        "date": "05-Mar-26",
-        "location": "Heyman Center (Second Floor Common Room), Columbia University, New York",
-        "time": "4:15 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Current Directions in Neuroscience and the Law",
-        "date": "06-Mar-26",
-        "location": "Jerome Greene Hall (Room 101), Columbia University, 435 West 116th Street, New York",
-        "time": "9:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      }
-    ]
-  },
-  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
@@ -328,74 +318,44 @@
         "bio": "Professor of Economics"
       },
       {
-        "seminar_title": "Nursing Homes and Congestion Externalities in the Market for EMS",
-        "date": "23-Feb-26",
-        "location": "N/A",
-        "time": "11:30a-11:55a",
-        "speaker": "Jack Cenatempo",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
+        "seminar_title": "Canceled",
+        "date": "24-Feb-26",
+        "location": "1101 IAB",
+        "time": "2:45p-4:00p",
+        "speaker": "Vivek Bhattacharya",
+        "affiliation": "Northwestern University",
+        "abstract": "Canceled",
+        "bio": "Associate Professor of Economics"
       },
       {
-        "seminar_title": "Supply shocks and \"greedflation\": the case of the egg industry",
-        "date": "23-Feb-26",
-        "location": "N/A",
-        "time": "11:55a-12:20p",
-        "speaker": "Diogo Wolff Surdi",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Fulfillment Plans and Platform Steering",
-        "date": "23-Feb-26",
-        "location": "N/A",
-        "time": "12:20p-12:45p",
-        "speaker": "Riccardo Martina",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Innovation Networks and Slow Recoveries from Financial Crises",
-        "date": "23-Feb-26",
-        "location": "N/A",
-        "time": "1:00p-2:00p",
-        "speaker": "Yoel Feinberg",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Innovation Networks and Slow Recoveries from Financial Crises",
-        "date": "23-Feb-26",
-        "location": "N/A",
-        "time": "1:00p-2:00p",
-        "speaker": "Lucas Rosso",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Understanding energy savings in a crisis: The role of prices and non-monetary factors",
-        "date": "23-Feb-26",
-        "location": "N/A",
-        "time": "1:00p-2:00p",
-        "speaker": "Sophie Behr",
-        "affiliation": "DIW Berlin",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Got Beef with Beef? Evidence from a Large-Scale Carbon Labeling Experiment",
-        "date": "23-Feb-26",
-        "location": "801 IAB",
-        "time": "3:10p-4:40p",
-        "speaker": "Lisa Ho",
-        "affiliation": "Columbia University",
-        "abstract": "Carbon-footprint labeling has emerged as a prominent tool to shift consumers towards lower- emissions choices, but its effectiveness remains unclear, especially in polarized settings like the US. We report on the first large-scale evaluation of carbon labeling\u2014a randomized field experiment with over 230,000 customers of a major food company. Carbon-footprint labels yielded modest average emission reductions of 0.6% but caused backlash: customers opposed to environmental nudges increased their dietary emissions. Despite limited environmental impact, the labels had positive financial returns, increasing customer retention by 1.0% and average customer-week profits by 0.9%. Thus, while climate labels will likely remain a popular sustainability nudge, they have only small environmental benefits and may backfire in polarized settings.",
+        "seminar_title": "To be announced.",
+        "date": "24-Feb-26",
+        "location": "Kravis 670",
+        "time": "4:15p-5:30p",
+        "speaker": "Jonathan Hazell",
+        "affiliation": "London School of Economics",
+        "abstract": "To be announced.",
         "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "Resource Nationalism and Industrial Policy: Evidence from Indonesia",
+        "date": "25-Feb-26",
+        "location": "1101 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Patrick Farrell",
+        "affiliation": "Columbia University",
+        "abstract": "Many developing countries have implemented industrial policies that support local processing of natural resources. These policies are often motivated by resource nationalism, the aim of capturing more of the benefits from natural resource endowments. This project examines the consequences of Indonesia\u2019s 2009 Mining Law, which restricted exports of unprocessed natural resources to encourage the development of domestic processing. While the policy did spur local processing capability for nickel, the nature of rents in the processing sector (and how these were affected by the ban) remains unclear. Future work will estimate a model of two-sided market power exercised by intermediary processors.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Learning Against Nature: Minimax Regret and the Price of Robustness",
+        "date": "25-Feb-26",
+        "location": "1102 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Tianling Luo",
+        "affiliation": "Columbia University",
+        "abstract": "Learning Against Nature: Minimax Regret and the Price of Robustness",
+        "bio": "PhD Student in Economics"
       }
     ]
   }
