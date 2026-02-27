@@ -20,8 +20,8 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Weng Kee Wong",
         "affiliation": "UCLA",
-        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage.\nAbove all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs.\nIf time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model.\nKeywords: Continuous Designs, Early Phase Trials, Equivalence Theorems,\nOptimal Experiment Designs, Particle Swarm Optimization.",
-        "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace.\nHis main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications.\nHis recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics.\nHe has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator.\nHe is fellow of the American Statistical Association, the Institute of Mathematical Statistics,\nthe\nAmerican Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
+        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model.",
+        "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace. His main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications. His recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics. He has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator. He is fellow of the American Statistical Association, the Institute of Mathematical Statistics, the American Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
       },
       {
         "seminar_title": "Learning Pseudo-Differential Operators",
@@ -31,7 +31,7 @@
         "speaker": "Daniel Sanz-Alonso",
         "affiliation": "University of Chicago",
         "abstract": "Pseudo-differential operators (PDOs) are a broad and fundamental class of operators in analysis and partial differential equations, with wide-ranging applications in mathematical and computational sciences. In this talk I will present recent work with Jiaheng Chen on learning elliptic PDOs from noisy data. Within a wavelet--Galerkin framework, we formulate this task as a structured infinite-dimensional regression problem with multiscale sparsity. Building on this structure, we propose a sparse, data- and computation-efficient estimator, which leverages a novel matrix compression scheme tailored to the learning task and a nested-support strategy to balance approximation and estimation errors. In addition to establishing convergence rates for the estimator, we show that the learned operator induces an efficient and stable Galerkin solver whose numerical error matches its statistical accuracy. Our results therefore contribute to bringing together operator learning, data-driven solvers, and wavelet methods in scientific computing.",
-        "bio": "Daniel Sanz-Alonso is an Associate Professor in the Department of Statistics at the University of Chicago, where he is a member of the Committee on Computational and Applied Mathematics. Previously, he was a postdoctoral researcher in the Division of Applied Mathematics and a member of the Data Science Initiative at Brown University. He received his PhD in Mathematics and Statistics from the University of Warwick (UK) in 2016, under the supervision of Andrew Stuart and Gareth Roberts.\nHis research interests include inverse problems, data assimilation, and scientific machine learning. A central theme of his work is the integration of complex predictive models with large data sets, addressing theoretical and computational challenges motivated by data-centric applications.\nHe was awarded the Jos\u00e9 Luis Rubio de Francia Prize by the Spanish Royal Society of Mathematics, recognizing the best Spanish mathematician under the age of 32, and received an NSF CAREER Award in 2023. Since 2025, he has served as an Associate Editor of the SIAM/ASA Journal on Uncertainty Quantification and Stochastics and Partial Differential Equations: Analysis and Computations. His research has been supported by the National Science Foundation, the National Geospatial-Intelligence Agency, the Department of Energy, and the BBVA Foundation."
+        "bio": "Daniel Sanz-Alonso is an Associate Professor in the Department of Statistics at the University of Chicago, where he is a member of the Committee on Computational and Applied Mathematics. Previously, he was a postdoctoral researcher in the Division of Applied Mathematics and a member of the Data Science Initiative at Brown University. He received his PhD in Mathematics and Statistics from the University of Warwick (UK) in 2016, under the supervision of Andrew Stuart and Gareth Roberts. His research interests include inverse problems, data assimilation, and scientific machine learning. A central theme of his work is the integration of complex predictive models with large data sets, addressing theoretical and computational challenges motivated by data-centric applications. He was awarded the Jos\u00e9 Luis Rubio de Francia Prize by the Spanish Royal Society of Mathematics, recognizing the best Spanish mathematician under the age of 32, and received an NSF CAREER Award in 2023. Since 2025, he has served as an Associate Editor of the SIAM/ASA Journal on Uncertainty Quantification and Stochastics and Partial Differential Equations: Analysis and Computations. His research has been supported by the National Science Foundation, the National Geospatial-Intelligence Agency, the Department of Energy, and the BBVA Foundation."
       },
       {
         "seminar_title": "Topics on Multivariate Integer-Valued Time Series",
@@ -41,7 +41,7 @@
         "speaker": "Konstantinos Fokianos",
         "affiliation": "University of Cyprus",
         "abstract": "We study inference and modelling techniques for multivariate count time series. In particular, we focus on autoregressive, network, and space\u2013time models. The development of both the underlying theory and its applications depends critically on the choice of an appropriate response distribution for multivariate count data, as well as on the framework of observation\u2011driven models. Our aim is to highlight recent methodological advances in this area and to outline several directions for future research.",
-        "bio": "Kostas Fokianos is a Professor of Statistics at the University of Cyprus, where he has served since 1999 and acted as a Head of Department between 2020-2024. He has also taught at The Ohio State University and Lancaster University. He has been a visiting scholar at Ludwig Maximilian University of Munich, the National Institutes of Health, EPFL, CY Cergy Paris University, the University of Bergen, TU Dortmund University, and the University of Rome Tor Vergata.\nHe is a Fellow of the American Statistical Association, an elected member of the International Statistical Institute, and has held multiple editorial positions in leading statistical journals. His primary methodological contributions lie in time series analysis, with a particular focus on univariate and multivariate models for count time series."
+        "bio": "Kostas Fokianos is a Professor of Statistics at the University of Cyprus, where he has served since 1999 and acted as a Head of Department between 2020-2024. He has also taught at The Ohio State University and Lancaster University. He has been a visiting scholar at Ludwig Maximilian University of Munich, the National Institutes of Health, EPFL, CY Cergy Paris University, the University of Bergen, TU Dortmund University, and the University of Rome Tor Vergata. He is a Fellow of the American Statistical Association, an elected member of the International Statistical Institute, and has held multiple editorial positions in leading statistical journals. His primary methodological contributions lie in time series analysis, with a particular focus on univariate and multivariate models for count time series."
       },
       {
         "seminar_title": "Deep learning theory: Statistics, optimization and the space in between",
@@ -50,8 +50,8 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Sophie Langer",
         "affiliation": "Ruhr University Bochum",
-        "abstract": "Statistical learning theory for deep learning has primarily focused on analyzing neural networks as estimators in nonparametric regression and classification problems. A central question is under which assumptions neural networks can circumvent the well-known curse of dimensionality. Existing literature typically addresses this question by either imposing structural assumptions on the target function or by assuming that the covariates possess a low-dimensional structure.\nIn this talk, we present a unified framework that incorporates both types of assumptions within a single model. We show that neural networks can adapt to this framework and establish approximation and excess risk bounds that are independent of the ambient input dimension. Our results apply to simple fully connected neural networks with flexible width and depth.\nIn the second part of the talk, we address the persistent gap between the statistical and optimization perspectives in deep learning. We present first results that jointly account for both aspects by deriving statistical risk bounds for estimators obtained via gradient descent.\nThis talk is based on joint work with Alina Braun, Michael Kohler, Adam Krzyzak, and Thomas Nagler.",
-        "bio": "Sophie Langer studied Mathematics with Economics at the Technical University of Darmstadt, and received a PhD in Statistics in 2020 under the supervision of Michael Kohler. After graduating, she worked as a postdoctoral student with Johannes Schmidt-Hieber at the University of Twente, the Netherlands, and with Lorenzo Rosasco at the University of Genoa, Italy.\nIn October 2022, she was appointed an Assistant Professor at the University of Twente. Since April 2025, she has been a professor at Ruhr University Bochum, Germany. Her research focuses on the statistical foundations and theory of deep learning."
+        "abstract": "Statistical learning theory for deep learning has primarily focused on analyzing neural networks as estimators in nonparametric regression and classification problems. A central question is under which assumptions neural networks can circumvent the well-known curse of dimensionality. Existing literature typically addresses this question by either imposing structural assumptions on the target function or by assuming that the covariates possess a low-dimensional structure. In this talk, we present a unified framework that incorporates both types of assumptions within a single model. We show that neural networks can adapt to this framework and establish approximation and excess risk bounds that are independent of the ambient input dimension. Our results apply to simple fully connected neural networks with flexible width and depth. In the second part of the talk, we address the persistent gap between the statistical and optimization perspectives in deep learning. We present first results that jointly account for both aspects by deriving statistical risk bounds for estimators obtained via gradient descent. This talk is based on joint work with Alina Braun, Michael Kohler, Adam Krzyzak, and Thomas Nagler.",
+        "bio": "Sophie Langer studied Mathematics with Economics at the Technical University of Darmstadt, and received a PhD in Statistics in 2020 under the supervision of Michael Kohler. After graduating, she worked as a postdoctoral student with Johannes Schmidt-Hieber at the University of Twente, the Netherlands, and with Lorenzo Rosasco at the University of Genoa, Italy. In October 2022, she was appointed an Assistant Professor at the University of Twente. Since April 2025, she has been a professor at Ruhr University Bochum, Germany. Her research focuses on the statistical foundations and theory of deep learning."
       },
       {
         "seminar_title": "N/A",
@@ -70,16 +70,6 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Anru Zhang",
         "affiliation": "Duke University",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "SPRING BREAK",
-        "date": "SPRING BREAK",
-        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
-        "time": "4:10 pm - 5:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "N/A"
       },
@@ -222,68 +212,48 @@
     ]
   },
   {
-    "department": "Statistics",
-    "series": "Mathematical Finance Seminar Series",
+    "department": "Cancer Dynamics",
+    "series": "IICD Seminar Series",
     "entries": [
       {
-        "seminar_title": "The Optimal Mean-Variance Selling Problem with Finite Horizon",
-        "date": "29-Jan-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Goran Peskir",
-        "affiliation": "University of Manchester",
-        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price. The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting. The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
-        "bio": "N/A"
+        "seminar_title": "IICD Monthly Research Meeting",
+        "date": "04-Mar-26",
+        "location": "Schermerhorn Hall, 1198 Amsterdam Ave., New York, NY 10027\t603Show Map",
+        "time": "1:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "The\nIrving Institute for Cancer Dynamics\nhosts a monthly research meeting and lunch for their members. In each meeting, two speakers (students, postdocs, research scientists, or sometimes invited guests) give a 20-min informal talk, followed by a Q&A. All the IICD labs are invited to attend and participate in our monthly meetings to foster networking and collaboration opportunities among the IICD groups.\nThe event is only open to IICD members.",
+        "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Columbia-NYU Financial Engineering Colloquium",
-        "date": "5-Feb-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Jim Gatheral and Xin Zhang",
-        "affiliation": "Baruch and NYU",
-        "abstract": "Details can be found at the provided link.",
-        "bio": "N/A"
+        "seminar_title": "IN-PERSON: HICCC Guest Seminar",
+        "date": "10-Mar-26",
+        "location": "Herbert Irving Comprehensive Cancer Center, 1130 St. Nicholas Ave., New York, NY 10032\t1st Floor AuditoriumShow Map",
+        "time": "1:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "Jair Bar, MD, PhD\nHead - Thoracic Oncology Unit |\nMedical Director\n - Oncology Data Lab - OncoMind | Head - Lab for Novel Therapies Lung Cancer\nJusidman Cancer Center\nSheba Medical Center\nTel Hashomer, Ramat Gan, 5262000, Israel\nChair of\nAcademy of\nthe International Association for the Study of Lung Cancer (IASLC)\nFull Prof. of Oncology (regular track),\nThe Gray Faculty of Medical and Health Sciences,\nTel Aviv University,\nTel Aviv, Israel\nTitle\n: \"The role of B-cells in immune checkpoint inhibitor efficacy in lung cancer\"\nDescription\n:\nImmune-check-point inhibitors (ICI) have transformed the treatment of lung cancer patients, achieving higher response rates and durable responses lasting years in some cases. However, the majority of patients demonstrate primary or secondary resistance to these drugs. Insight into the mechanisms of action of ICI and into resistance mechanisms is required in order to improve on these results. Our lab, as well as other labs have identified B cells and plasma cells as major participants in the response to ICI. Spatial proteomics of NSCLC specimens and additional studies demonstrate early activated B cells, as well as activated memory T-cells to be involved in this response, mostly within tertiary lymphoid structures. Using single-cell RNA and B cell receptor sequencing we have identified clonal expansion of specific B-cell subtypes. To conclude, the response to ICI involves coordinated T-cell as well as B-cell activation, suggesting novel therapeutic targets.\nHosted by\nDr. Brian Henick.",
+        "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Particle Systems with Local Interactions via Hitting Times and Cascades on Graphs",
-        "date": "12-Feb-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Yucheng Guo",
-        "affiliation": "Princeton",
-        "abstract": "We study particle systems interacting via hitting times on sparsely connected graphs, following the framework of Lacker, Ramanan and Wu (2023). We provide general robustness conditions that guarantee the well-posedness of physical solutions to the dynamics, and demonstrate their connections to the dynamic percolation theory. We then study the limiting behavior of the particle systems, establishing the continuous dependence of the joint law of the physical solution on the underlying graph structure with respect to local convergence and showing the convergence of the global empirical measure, which extends the general results by Lacker et al. to systems with singular interaction. The model proposed provides a general framework for analyzing systemic risks in large sparsely connected financial networks with a focus on local interactions, featuring instantaneous default cascades. Joint work with Qinxin Yan (Princeton PACM).",
-        "bio": "N/A"
+        "seminar_title": "IICD Seminar Series: Maria Brbic, EFPL",
+        "date": "11-Mar-26",
+        "location": "Online Event",
+        "time": "1:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "The\nHerbert and Florence Irving Institute for Cancer Dynamics\nwill continue its seminar series on the topic of mathematical sciences underpinning cancer research. The monthly seminars take place on the second Wednesday of the month, 2:00-3:00 PM EST. The presentations are open to the Columbia community (in person and online) and to researchers outside Columbia (via Zoom).\nOn\nWednesday, March 11th (2:00 PM ET)\n, IICD welcomes Dr. Maria Brbic from EFPL. Seminar hosted by Dr. Simon Tavar\n\ne. The seminar will take place virtually. If you wish to attend the seminar, please register using the following link:\nhttps://columbiauniversity.zoom.us/meeting/register/uf8WKN1ZRbiHKd5jiGusqA\nTitle:\nLinking Cellular Modalities with Generative AI\nAbstract:\nWe are witnessing an AI revolution. At the heart of this revolution are generative AI models that, powered by advanced architectures and large datasets, are transforming AI across a variety of disciplines. But how can AI facilitate and eventually enable discoveries in life sciences? How can it bring us closer to understanding biology, the functions of our cells and relationships across different molecular layers? In this talk, I will introduce generative AI methods designed to uncover relationships across different omics layers. I will demonstrate how these approaches enable the reassembly of tissues from dissociated single cells and how they can help us to understand the relationship between cellular morphology and transcriptomic profiles. Finally, I will present an evaluation framework that disentangles perturbation-specific effects from systematic variation.",
+        "bio": "Maria Brbi\n\n is an Assistant Professor of Computer Science and Life Sciences at EPFL. Her research bridges AI and biology, focusing on developing new AI methods that drive advances in biology and biomedicine. Maria received her Ph.D. from University of Zagreb in 2019, earning an Outstanding Thesis Award. During her PhD, she also conducted research at Stanford University as a Fulbright Scholar and University of Tokyo. Prior to joining the EPFL faculty in 2022, Maria was a postdoctoral fellow at Stanford University. Among other recognitions and awards, she was named a Rising Star in EECS by MIT in 2021, she received an Early Career Award by SIB in 2023 and she was awarded with the SNSF Starting Grant in 2024. Maria is a CIFAR Fellow in the Multiscale Human Program."
       },
       {
-        "seminar_title": "Robust hedging of American options via aggregated Snell envelopes",
-        "date": "19-Feb-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Marco Rodrigues",
-        "affiliation": "Weierstrass Institute and TU Berlin",
-        "abstract": "We study the robust hedging of American options under model uncertainty in a nondominated setting. Our approach is based on the construction of a Snell envelope under a sublinear expectation. We prove a duality formula for the robust superhedging price and establish the existence of a minimal superhedging strategy. Our results encompass continuous processes or processes with jumps and non-vanishing diffusion. A key application is to financial market models, where uncertainty is quantified through the semi-martingale characteristics.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Columbia-NYU Financial Engineering Colloquium",
-        "date": "26-Feb-26",
-        "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
-        "time": "4:00pm-6:00pm",
-        "speaker": "Mathias Beiglboeck and David Itkin",
-        "affiliation": "Vienna and Imperial",
-        "abstract": "Details and registration information can be found at the provided links.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "5-Mar-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Thibault Mastrolia",
-        "affiliation": "Berkeley",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "seminar_title": "HICCC Distinguished Speaker Seminar: Melissa B. Davis, PhD",
+        "date": "11-Mar-26",
+        "location": "Online Event",
+        "time": "3:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "In this Distinguished Speaker Seminar from the HICCC, Melissa B. Davis, Director of the Institute of Translational Genomic Medicine at the Morehouse School of Medicine, will speak on the \"\nThe Grand Challenge of Breast Cancer Inequities from the Darc-side of Disparities.\"\nMore information:\nMelissa Boneta Davis, PhD\nEndowed Georgia Research Alliance Distinguished Investigator\nInaugural Director, Institute of Translational Genomic Medicine, Morehouse School of Medicine\nProfessor, Microbiology Biochemistry and Immunology, Morehouse School of Medicine\nAdjunct Associate Professor of Cell and Developmental Biology, Weill Cornell Medicine\nInterim Director of Health Equity, Englander Institute of Precision Medicine, Weill Cornell Medicine Cancer\nEthnicity Scholar, New York Genome Center\nMore about Dr. Davis:\nOver the past 15 years, my research focus has been hinged upon the theme of cancer health disparities and utilization of cutting-edge technology in pursuit of improving clinical outcomes. My work has pioneered the novel concepts of linking genetic ancestry, the only biological link that traverses the African diaspora, to the cause of aggressive tumor phenotypes, which cause disparate burden in already underserved populations across the world. My global oncology approach has uncovered unique biological traits of tumor progression that provides insight to treatment and prevention strategies, to be tailored into precision medicine tools.\nJoin Zoom Meeting\nhttps://columbiacuimc.zoom.us/j/93269055670?pwd=RiA2n0N1EjW9B3GeaifF461bdbOLdE.1\nMeeting ID: 932 6905 5670\nPasscode: 546000\n---\nOne tap mobile\n+13092053325,,93269055670#\nUS\n+13126266799,,93269055670#\nUS (Chicago)",
+        "bio": "Not detected in text"
       }
     ]
   },
@@ -292,47 +262,7 @@
     "series": "CSS Seminar Series",
     "entries": [
       {
-        "seminar_title": "Premodern Information Overload",
-        "date": "26-Feb-26",
-        "location": "Online",
-        "time": "12:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "CHIPS Act Retrospective",
-        "date": "26-Feb-26",
-        "location": "Schapiro CEPSR (Room 414), Columbia University, 530 West 120th Street, New York",
-        "time": "4:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Maria Berbara - Cartographies of Youth: Lakes, Oases, and Springs Between the Old and the New Worlds",
-        "date": "26-Feb-26",
-        "location": "Casa Hispanica (Room 201), Columbia University, 612 West 112th Street, New York",
-        "time": "6:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Heat Stories: Memory, Place, and a Changing Climate",
-        "date": "26-Feb-26",
-        "location": "Queens Landing Boathouse and Environmental Center, 56-27 2nd Street, New York",
-        "time": "6:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Jun Zhou\r\n - Dancing with Metrics: Digitalization of Women's Labor in China",
+        "seminar_title": "Jun Zhou - Dancing with Metrics: Digitalization of Women's Labor in China",
         "date": "02-Mar-26",
         "location": "Online and In-person: Knox Hall (Room 707), Columbia University, 606 West 122nd Street, New York",
         "time": "10:00 AM",
@@ -422,7 +352,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Humanities and Social Sciences in National Scientific Projects: Mental Health, Avatars, and the \r\n\u201cELSI\u201d of Japan\r\n\r\n\u2019s  Moonshot Program",
+        "seminar_title": "Humanities and Social Sciences in National Scientific Projects: Mental Health, Avatars, and the \n\u201cELSI\u201d of Japan\u2019s  Moonshot Program",
         "date": "09-Mar-26",
         "location": "Online and In-person: Knox Hall (Room 501D), Columbia University, 606 West 122th Street, New York",
         "time": "12:00 PM",
@@ -442,7 +372,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Jessica Ratcliff - Monopolizing Knowledge: The East India Company and Britain\r\n\r\n\u2019s Second Scientific Revolution",
+        "seminar_title": "Jessica Ratcliff - Monopolizing Knowledge: The East India Company and Britain\u2019s Second Scientific Revolution",
         "date": "11-Mar-26",
         "location": "Online and in-person: Fayerweather Hall (Room 513), Columbia University, 1180 Amsterdam Avenue, New York",
         "time": "5:00 PM",
@@ -468,43 +398,13 @@
         "bio": "Professor of Economics"
       },
       {
-        "seminar_title": "Busing to Opportunity? The Impacts of the METCO Voluntary School Desegregation Program on Urban Students of Color",
-        "date": "26-Feb-26",
-        "location": "Teachers College, Horace Mann 433",
-        "time": "12:00p-1:30p",
-        "speaker": "Elizabeth Setren",
-        "affiliation": "Tufts University",
-        "abstract": "School assignment policies are a key lever to increase access to high performing schools and to promote racial and socioeconomic integration. For over 50 years, the Metropolitan Council for Educational Opportunity (METCO) has bussed students of color from Boston, Massachusetts to relatively wealthier and predominantly White suburbs. Using a combination of digitized historical records and administrative data, I analyze the short and long run effects of attending a high-performing suburban school for applicants to the METCO program. I compare those with and without offers to enroll in suburban schools. I use a two-stage least squares approach that utilizes the waitlist assignment priorities and controls for a rich set of characteristics from birth records and application data. Attending a suburban school boosts 10th grade Math and English test scores by 0.13 and 0.21 standard deviations respectively. The program reduces dropout rates by 75 percent and increases on-time high school graduation by 13 percentage points. The suburban schools increase four-year college aspirations by 17 percentage points and enrollment by 21 percentage points. Participation results in a 12 percentage point increase in four-year college graduation rates. Enrollment increases average earnings at age 35 by $16,250. Evidence of tracking to lower performing classes in the suburban schools suggests these effects could be larger with access to more advanced coursework. Effects are strongest for students whose parents did not graduate college.",
-        "bio": "Gunnar Myrdal Assistant Professor of Economics"
-      },
-      {
-        "seminar_title": "Evaluating Counterfactual Policies Using Instruments",
-        "date": "26-Feb-26",
-        "location": "1101 IAB",
-        "time": "2:10p-4:00p",
-        "speaker": "Jonathan Roth",
-        "affiliation": "Brown University",
-        "abstract": "We study settings in which a researcher has an instrumental variable (IV) and seeks to evaluate the effects of a counterfactual policy that alters treatment assignment, such as a directive encouraging randomly assigned judges to release more defendants. We develop a general and computationally tractable framework for computing sharp bounds on the effects of such policies. Our approach does not require the often tenuous IV monotonicity assumption. Moreover, for an important class of policy exercises, we show that IV monotonicity\u2014while crucial for a causal interpretation of two-stage least squares\u2014does not tighten the bounds on the counterfactual policy impact. We analyze the identifying power of alternative restrictions, including the policy invariance assumption used in the marginal treatment effect literature, and develop a relaxation of this assumption. We illustrate our framework using applications to quasi-random assignment of bail judges in New York City and prosecutors in Massachusetts.",
-        "bio": "Associate Professor of Economics"
-      },
-      {
-        "seminar_title": "Mobile Internet and Market Integration: Evidence from China",
-        "date": "26-Feb-26",
-        "location": "1101 IAB",
-        "time": "4:10p-5:25p",
-        "speaker": "Benjamin Faber",
-        "affiliation": "University of California, Berkeley",
-        "abstract": "N/A",
-        "bio": "Professor of Economics"
-      },
-      {
         "seminar_title": "To be announced.",
         "date": "27-Feb-26",
         "location": "N/A",
         "time": "12:00p-12:30p",
         "speaker": "Alejandra Quintana",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
+        "abstract": "To be announced.",
         "bio": "PhD Candidate at Teachers College"
       },
       {
@@ -514,7 +414,57 @@
         "time": "12:30p-1:00p",
         "speaker": "Zhi Hao Lim",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
+        "abstract": "To be announced.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "The Opioid Epidemic and Substitution to Alternative Pain Treatments",
+        "date": "02-Mar-26",
+        "location": "N/A",
+        "time": "11:30a-11:55a",
+        "speaker": "Renee Garrow",
+        "affiliation": "Columbia University",
+        "abstract": "The Opioid Epidemic and Substitution to Alternative Pain Treatments",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Urgent Care Expansion, Patient Sorting, and Health System Efficiency",
+        "date": "02-Mar-26",
+        "location": "N/A",
+        "time": "11:55a-12:20p",
+        "speaker": "Catalina G\u00f3mez Colomer",
+        "affiliation": "Columbia University",
+        "abstract": "Urgent Care Expansion, Patient Sorting, and Health System Efficiency",
+        "bio": "PhD Candidate in Economics"
+      },
+      {
+        "seminar_title": "Estimating How US Federal Land-Use Decisions Are Made",
+        "date": "02-Mar-26",
+        "location": "N/A",
+        "time": "12:20p-12:45p",
+        "speaker": "Maya Norman",
+        "affiliation": "Columbia University",
+        "abstract": "Estimating How US Federal Land-Use Decisions Are Made",
+        "bio": "PhD Student in Sustainable Development"
+      },
+      {
+        "seminar_title": "Workers in the Sun: Immigration Policy and Equilibrium Wage Effects of Climate Change",
+        "date": "02-Mar-26",
+        "location": "IAB 501",
+        "time": "1:00p-2:00p",
+        "speaker": "Alina Gafanova",
+        "affiliation": "Columbia University",
+        "abstract": "Exposure to heat is a workplace disamenity expected to worsen with climate change. Yet, because heat simultaneously reduces worker productivity, wages do not necessarily increase with exposure. Instead, the relative impact of amenity and productivity shocks on wages is mediated by the structure of worker-firm matching. We study the wage returns to heat exposure in the US labor market, highlighting the contribution of these two channels, the role of occupational sorting, and the influence of immigration policy in shaping this sorting. Empirically, citizenship status strongly predicts heat exposure. We also show that the share of non-citizen workers in exposed occupations rises with heat shocks, and that the tightening of immigration enforcement during the Secure Communities program significantly reduced compensation for heat. To quantify these mechanisms, we estimate a two-sided matching model where firms exercise differentiated monopsony power over citizen and non-citizen workers. Counterfactual simulations suggest that future climate-driven temperature shifts will induce labor resorting and lower the average wage returns to heat.",
+        "bio": "PhD Student in Sustainable Development"
+      },
+      {
+        "seminar_title": "First Impressions, Equity Shares, and Beliefs",
+        "date": "02-Mar-26",
+        "location": "IAB 1101",
+        "time": "1:00p-1:30p",
+        "speaker": "John Johnson",
+        "affiliation": "Columbia University",
+        "abstract": "First Impressions, Equity Shares, and Beliefs",
         "bio": "PhD Student in Economics"
       }
     ]
