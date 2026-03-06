@@ -20,7 +20,7 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Weng Kee Wong",
         "affiliation": "UCLA",
-        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model. Keywords: Continuous Designs, Early Phase Trials, Equivalence Theorems, Optimal Experiment Designs, Particle Swarm Optimization.",
+        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model.",
         "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace. His main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications. His recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics. He has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator. He is fellow of the American Statistical Association, the Institute of Mathematical Statistics, the American Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
       },
       {
@@ -60,7 +60,7 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Robert Nowak",
         "affiliation": "University of Wisconsin",
-        "abstract": "This talk reviews a theory of the functions learned by ReLU neural networks. At its core is the observation that deep ReLU networks can be characterized as solutions to data-fitting problems in certain infinite dimensional function spaces. The solutions are compositions of functions from Banach spaces of second-order bounded variation, defined in the Radon transform domain. Functions in these spaces exhibit strong smoothness in most directions, making it a natural setting for adapting to intrinsic low-dimensional structure in data. Moreover, the norms in these spaces are closely tied to the size of neural network weights, providing a direct connection between function complexity and network parametrization. In particular, the total variation norm provides an analytic tool for identifying functions that cannot be realized by shallow networks, thereby yielding a precise characterization of depth separation. Representer theorems reveal the solutions are sparse in the number of active neurons per layer. Sparsity provides a principled path to network compression, yet some sparse solutions can suffer from poor generalization. The theory suggests new training strategies to promote solutions that generalize more robustly. Beyond these theoretical contributions, the framework also informs the design of implicit neural representations, where multi-layer networks represent continuous signals, images, and 3D scenes. In this setting, the theory points to improved strategies for training, hyperparameter selection, and architecture design. Parhi, R., & Nowak, R. D. (2026). Compositional Function Spaces for Deep Learning. SIAM Review, 68(1), 127-149.",
+        "abstract": "This talk reviews a theory of the functions learned by ReLU neural networks. At its core is the observation that deep ReLU networks can be characterized as solutions to data-fitting problems in certain infinite dimensional function spaces. The solutions are compositions of functions from Banach spaces of second-order bounded variation, defined in the Radon transform domain. Functions in these spaces exhibit strong smoothness in most directions, making it a natural setting for adapting to intrinsic low-dimensional structure in data. Moreover, the norms in these spaces are closely tied to the size of neural network weights, providing a direct connection between function complexity and network parametrization. In particular, the total variation norm provides an analytic tool for identifying functions that cannot be realized by shallow networks, thereby yielding a precise characterization of depth separation. Representer theorems reveal the solutions are sparse in the number of active neurons per layer. Sparsity provides a principled path to network compression, yet some sparse solutions can suffer from poor generalization. The theory suggests new training strategies to promote solutions that generalize more robustly. Beyond these theoretical contributions, the framework also informs the design of implicit neural representations, where multi-layer networks represent continuous signals, images, and 3D scenes. In this setting, the theory points to improved strategies for training, hyperparameter selection, and architecture design.",
         "bio": "Robert Nowak is the Grace Wahba Professor of Data Science and Keith and Jane Nosbusch Professor in Electrical and Computer Engineering at the University of Wisconsin-Madison. His research focuses on machine learning, optimization, and signal processing. He serves on the editorial boards of the SIAM Journal on the Mathematics of Data Science and the IEEE Journal on Selected Areas in Information Theory."
       },
       {
@@ -185,8 +185,8 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
-        "affiliation": "Columbia University",
-        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
+        "affiliation": "N/A",
+        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.\nHere are some references that start to address these topics: https://sites.stat.columbia.edu/gelman/research/published/piranha_published.pdf https://sites.stat.columbia.edu/gelman/research/published/arnold2.pdf https://sites.stat.columbia.edu/gelman/research/published/mi_theory9.pdf https://statmodeling.stat.columbia.edu/2024/09/24/its-martingale-time-baby-how-to-evaluate-probabilistic-forecasts-before-the-event-happens-rajiv-sethi-has-an-idea-hint-it-involves-time-series/ https://arxiv.org/abs/2507.11833 https://statmodeling.stat.columbia.edu/2013/05/30/infill-asymptotics-and-sprawl-asymptotics/",
         "bio": "N/A"
       },
       {
@@ -214,9 +214,9 @@
         "date": "25-Feb-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "Two Sigma",
-        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process. Register now to save your spot by RSVPing here. We hope to see you there! Food and Two Sigma swag will be provided.",
+        "speaker": "TWO SIGMA\u2019S QUANT RESEARCH PHD SEMINAR @COLUMBIA",
+        "affiliation": "N/A",
+        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\nRegister now to save your spot by RSVPing here.\nWe hope to see you there! Food and Two Sigma swag will be provided.",
         "bio": "N/A"
       },
       {
@@ -242,7 +242,7 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Goran Peskir",
         "affiliation": "University of Manchester",
-        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price. The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting. The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
+        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.\nThe quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.\nThe solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
         "bio": "N/A"
       },
       {
@@ -252,7 +252,7 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Jim Gatheral and Xin Zhang",
         "affiliation": "Baruch and NYU",
-        "abstract": "Details can be found at the provided link.",
+        "abstract": "Details about the seminar can be found at the provided link.",
         "bio": "N/A"
       },
       {
@@ -282,7 +282,7 @@
         "time": "4:00pm-6:00pm",
         "speaker": "Mathias Beiglboeck and David Itkin",
         "affiliation": "Vienna and Imperial",
-        "abstract": "Details and registration information available at the provided links.",
+        "abstract": "Details about the seminar and registration can be found at the provided links.",
         "bio": "N/A"
       },
       {
@@ -332,7 +332,7 @@
         "time": "4:00pm-6:00pm",
         "speaker": "Pierre Henry-Labordere and Martin Larsson",
         "affiliation": "QRT and CMU",
-        "abstract": "Details and registration information TBA.",
+        "abstract": "Details TBA",
         "bio": "N/A"
       },
       {
@@ -398,22 +398,12 @@
     "series": "CSS Seminar Series",
     "entries": [
       {
-        "seminar_title": "Climate Justice Now Round Table",
-        "date": "05-Mar-26",
-        "location": "Location not specified",
-        "time": "4:15 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
         "seminar_title": "Current Directions in Neuroscience and the Law",
         "date": "06-Mar-26",
         "location": "Location not specified",
         "time": "9:00 AM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -423,7 +413,7 @@
         "location": "Location not specified",
         "time": "12:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -433,7 +423,7 @@
         "location": "Location not specified",
         "time": "4:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -443,7 +433,7 @@
         "location": "Location not specified",
         "time": "11:10 AM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -453,7 +443,7 @@
         "location": "Location not specified",
         "time": "12:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -463,7 +453,7 @@
         "location": "Location not specified",
         "time": "9:00 AM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -473,17 +463,17 @@
         "location": "Location not specified",
         "time": "10:30 AM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Jessica Ratcliff - Monopolizing Knowledge: The East India Company and Britain\n\u2019s Second Scientific Revolution",
+        "seminar_title": "Jessica Ratcliff - Monopolizing Knowledge: The East India Company and Britain\u2019s Second Scientific Revolution",
         "date": "11-Mar-26",
         "location": "Location not specified",
         "time": "5:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       }
@@ -494,64 +484,54 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Boundaries in Motion: Effectiveness and Efficiency of School Redistricting",
-        "date": "05-Mar-26",
-        "location": "Teachers College, Horace Mann 433",
-        "time": "12:00p-1:30p",
-        "speaker": "Tom\u00e1s Monarrez",
-        "affiliation": "Federal Reserve: Philadelphia",
-        "abstract": "Most school districts in the United States use attendance boundaries to delineate access to public schools. We use newly available data on the complete set of boundaries from 5000 school districts over 2011 to 2021 to show that these boundaries change frequently in what we call redistricting events, with important consequences for students and homeowners. Using a matched pair design, we profile the nature of each redistricting event in terms of its impacts on diversity, proximity, capacity, and choice in the district. We then estimate the average and profile-specific effects of redistricting on student outcomes and home values. The final step of the analysis employs a double-matching approach",
-        "bio": "Senior Research Fellow"
-      },
-      {
-        "seminar_title": "\"A Decision-Theoretic Approach to Sensitivity Analysis\"",
-        "date": "05-Mar-26",
-        "location": "1101 IAB",
-        "time": "2:15p-3:45p",
-        "speaker": "Vira Semenova",
-        "affiliation": "University of California, Berkeley",
-        "abstract": "Empirical researchers often face a dilemma: trust a convenient but potentially wrong assumption and get a precise estimate, or abandon it and get bounds too wide to be useful. We provide a principled middle ground \u2014 a formula for how far to relax the assumption that balances the risk of being too credulous against the risk of being too agnostic. The optimal degree of relaxation depends on a single quantity: how much additional ambiguity about the parameter of interest is created by each unit of departure from the assumption. When the sensitivity analysis allows departures in both directions symmetrically, no informative intermediate recommendation exists \u2014 the method correctly identifies that full agnosticism is unavoidable. However, when the researcher has directional information \u2014 for instance, the sign of selection bias \u2014 the formula delivers a concrete, less conservative recommendation. We illustrate with applications to instrumental-variables estimation, sentencing and recidivism, and wage distributions with missing data.",
-        "bio": "Assistant Professor of Economics"
-      },
-      {
-        "seminar_title": "Does Progressivity Raise Tax Capacity? Experimental Evidence from the D.R. Congo",
-        "date": "05-Mar-26",
-        "location": "1101 IAB",
-        "time": "4:10p-5:25p",
-        "speaker": "Augustin Bergeron",
-        "affiliation": "Harvard University",
-        "abstract": "N/A",
-        "bio": "Assistant Professor of Economics"
-      },
-      {
-        "seminar_title": "Beyond Disclosure: How Technology Shapes Deception in International Competition",
-        "date": "05-Mar-26",
-        "location": "IAB 1512",
-        "time": "4:30p-6:00p",
-        "speaker": "Jane Vaynman",
-        "affiliation": "Johns Hopkins University",
-        "abstract": "Technology fuels both economic prosperity and military power. This duality enables deception: states can accumulate armaments under commercial cover or exploit civilian achievements to bluff strength. Yet existing theories overlook these opportunities, providing an incomplete picture of how states manage information as they arm. We unify two dimensions\u2014how much to disclose and whether to deceive\u2014to identify four strategies: reveal, conceal, obfuscate, or distort. Two technology attributes shape strategy selection. Fragility captures how easily a capability loses its edge upon exposure. Distinguishability reflects how easily observers can separate military from civilian applications. Using original data on all modern armament technologies from 1850\u20132025, we find that fragile capabilities invite deception rather than the pure concealment scholars expect. Yet such technologies are rare; most incentivize open revelation. Our results have implications for understanding which technologies create information asymmetries, enable covert arming, and make misrepresentation cheap\u2014advancing debates about the cost of deception in politics.",
-        "bio": "Assistant Professor of Strategic Studies"
-      },
-      {
         "seminar_title": "To be announced.",
-        "date": "06-Mar-26",
-        "location": "N/A",
-        "time": "12:00p-12:30p",
-        "speaker": "Madhuri Vempati",
+        "date": "06-Mar-2026",
+        "location": "IAB 1101",
+        "time": "12:00p-1:00p",
+        "speaker": "Madhuri Vempati and Mariel Bedoya-Guevara",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
+        "abstract": "To be announced.",
+        "bio": "PhD Student in Economics, PhD. student in Economics and Education"
+      },
+      {
+        "seminar_title": "Bounding High Dimensional Comparative Statics",
+        "date": "06-Mar-2026",
+        "location": "IAB 1101",
+        "time": "1:30p-3:00p",
+        "speaker": "Jordan Norris",
+        "affiliation": "New York University, Abu Dhabi",
+        "abstract": "Comparative statistics in high dimensional models are empirically demand- ing and analytically complicated. Complete identification of the correspond- ingly many models parameters is required, which is often infeasible due to data availability. I derive novel, sharp bounds on high dimensional comparative stat- ics that depend only on low dimensional sufficient statistics, the knowledge of which is often more feasible, and have a simpler functional form relative to the exact relationship. I demonstrate application in canonical models across economics, and address existing methodological limitations in the research on peer effects, the gains from trade, and price-cost passthrough.",
+        "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "Are Big Cities Important for Economic Growth?",
+        "date": "06-Mar-2026",
+        "location": "IAB 1101",
+        "time": "3:30p-5:00p",
+        "speaker": "Matthew Turner",
+        "affiliation": "Brown University",
+        "abstract": "Cities are often described as engines of economic growth. We assess this statement quantitatively. We focus on two mechanisms: a static agglomeration effect that makes production in bigger cities more efficient, and a dynamic effect whereby urban scale impacts the productivity of invention, which in turn determines the speed of technological progress for the country as a whole. Using estimates of these effects from the literature and MSA-level patent and population data since 1900, we ask how much lower US output would be in 2010 if city size had been limited to one million or one hundred thousand starting in 1900. These effects are small. If city sizes had been limited to one million people since 1900, output in 2010 would have been only 8% lower than its observed value.",
+        "bio": "Professor of Economics"
+      },
+      {
+        "seminar_title": "Medical Innovation in Hospitals: Adoption and Consequences, Jobs are Experience Goods: Endogenous Choice Set Formation and Labor Market Power",
+        "date": "09-Mar-2026",
+        "location": "1101 IAB",
+        "time": "11:30a-12:50p",
+        "speaker": "Kate Kennedy-Moulton and Gina Markov",
+        "affiliation": "Columbia University",
+        "abstract": "Medical Innovation in Hospitals: Adoption and Consequences, Jobs are Experience Goods: Endogenous Choice Set Formation and Labor Market Power",
+        "bio": "PhD Student in Economics, PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Supply Chains, Technology Switching, and Innovation",
+        "date": "09-Mar-2026",
+        "location": "IAB 1101",
+        "time": "1:00p-1:30p",
+        "speaker": "Grace Chuan",
+        "affiliation": "Columbia University",
+        "abstract": "Supply Chains, Technology Switching, and Innovation",
         "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "To be announced.",
-        "date": "06-Mar-26",
-        "location": "N/A",
-        "time": "12:30p-1:00p",
-        "speaker": "Mariel Bedoya-Guevara",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "Ph.D. student in Economics and Education"
       }
     ]
   }
