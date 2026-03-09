@@ -20,7 +20,7 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Weng Kee Wong",
         "affiliation": "UCLA",
-        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model.",
+        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model. Keywords: Continuous Designs, Early Phase Trials, Equivalence Theorems, Optimal Experiment Designs, Particle Swarm Optimization.",
         "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace. His main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications. His recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics. He has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator. He is fellow of the American Statistical Association, the Institute of Mathematical Statistics, the American Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
       },
       {
@@ -60,7 +60,7 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Robert Nowak",
         "affiliation": "University of Wisconsin",
-        "abstract": "This talk reviews a theory of the functions learned by ReLU neural networks. At its core is the observation that deep ReLU networks can be characterized as solutions to data-fitting problems in certain infinite dimensional function spaces. The solutions are compositions of functions from Banach spaces of second-order bounded variation, defined in the Radon transform domain. Functions in these spaces exhibit strong smoothness in most directions, making it a natural setting for adapting to intrinsic low-dimensional structure in data. Moreover, the norms in these spaces are closely tied to the size of neural network weights, providing a direct connection between function complexity and network parametrization. In particular, the total variation norm provides an analytic tool for identifying functions that cannot be realized by shallow networks, thereby yielding a precise characterization of depth separation. Representer theorems reveal the solutions are sparse in the number of active neurons per layer. Sparsity provides a principled path to network compression, yet some sparse solutions can suffer from poor generalization. The theory suggests new training strategies to promote solutions that generalize more robustly. Beyond these theoretical contributions, the framework also informs the design of implicit neural representations, where multi-layer networks represent continuous signals, images, and 3D scenes. In this setting, the theory points to improved strategies for training, hyperparameter selection, and architecture design.",
+        "abstract": "This talk reviews a theory of the functions learned by ReLU neural networks. At its core is the observation that deep ReLU networks can be characterized as solutions to data-fitting problems in certain infinite dimensional function spaces. The solutions are compositions of functions from Banach spaces of second-order bounded variation, defined in the Radon transform domain. Functions in these spaces exhibit strong smoothness in most directions, making it a natural setting for adapting to intrinsic low-dimensional structure in data. Moreover, the norms in these spaces are closely tied to the size of neural network weights, providing a direct connection between function complexity and network parametrization. In particular, the total variation norm provides an analytic tool for identifying functions that cannot be realized by shallow networks, thereby yielding a precise characterization of depth separation. Representer theorems reveal the solutions are sparse in the number of active neurons per layer. Sparsity provides a principled path to network compression, yet some sparse solutions can suffer from poor generalization. The theory suggests new training strategies to promote solutions that generalize more robustly. Beyond these theoretical contributions, the framework also informs the design of implicit neural representations, where multi-layer networks represent continuous signals, images, and 3D scenes. In this setting, the theory points to improved strategies for training, hyperparameter selection, and architecture design. Parhi, R., & Nowak, R. D. (2026). Compositional Function Spaces for Deep Learning. SIAM Review, 68(1), 127-149.",
         "bio": "Robert Nowak is the Grace Wahba Professor of Data Science and Keith and Jane Nosbusch Professor in Electrical and Computer Engineering at the University of Wisconsin-Madison. His research focuses on machine learning, optimization, and signal processing. He serves on the editorial boards of the SIAM Journal on the Mathematics of Data Science and the IEEE Journal on Selected Areas in Information Theory."
       },
       {
@@ -75,7 +75,7 @@
       },
       {
         "seminar_title": "SPRING BREAK",
-        "date": "SPRING BREAK",
+        "date": "23-March-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "N/A",
@@ -186,27 +186,17 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
         "affiliation": "N/A",
-        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.\nHere are some references that start to address these topics:\nhttps://sites.stat.columbia.edu/gelman/research/published/piranha_published.pdf\nhttps://sites.stat.columbia.edu/gelman/research/published/arnold2.pdf\nhttps://sites.stat.columbia.edu/gelman/research/published/mi_theory9.pdf\nhttps://statmodeling.stat.columbia.edu/2024/09/24/its-martingale-time-baby-how-to-evaluate-probabilistic-forecasts-before-the-event-happens-rajiv-sethi-has-an-idea-hint-it-involves-time-series/\nhttps://arxiv.org/abs/2507.11833\nhttps://statmodeling.stat.columbia.edu/2013/05/30/infill-asymptotics-and-sprawl-asymptotics/",
+        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.\n\nHere are some references that start to address these topics: https://sites.stat.columbia.edu/gelman/research/published/piranha_published.pdf https://sites.stat.columbia.edu/gelman/research/published/arnold2.pdf https://sites.stat.columbia.edu/gelman/research/published/mi_theory9.pdf https://statmodeling.stat.columbia.edu/2024/09/24/its-martingale-time-baby-how-to-evaluate-probabilistic-forecasts-before-the-event-happens-rajiv-sethi-has-an-idea-hint-it-involves-time-series/ https://arxiv.org/abs/2507.11833 https://statmodeling.stat.columbia.edu/2013/05/30/infill-asymptotics-and-sprawl-asymptotics/",
         "bio": "N/A"
       },
       {
-        "seminar_title": "A Generalized Potts Model",
+        "seminar_title": "A Generalized Potts Model and An uncertainty-aware framework for data-efficient multi-view animal pose estimation",
         "date": "18-Feb-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
-        "speaker": "Reihaneh Malekian",
+        "speaker": "Reihaneh Malekian, Lenny Aharon",
         "affiliation": "Columbia",
-        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph H in a randomly colored large graph G. This framework generalizes the well-known Potts model, which corresponds to the special case H = K2, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "An uncertainty-aware framework for data-efficient multi-view animal pose estimation",
-        "date": "18-Feb-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Lenny Aharon",
-        "affiliation": "Columbia",
-        "abstract": "Multi-view pose estimation is essential for quantifying animal behavior in scientific research, yet current methods struggle to achieve accurate tracking with limited labeled data and suffer from poor uncertainty estimates. We address these challenges with a comprehensive framework combining novel training and post-processing techniques, and a model distillation procedure that leverages the strengths of these techniques to produce a more efficient and effective pose estimator. Our multi-view transformer (MVT) utilizes pretrained backbones and enables simultaneous processing of information across all views, while a novel patch masking scheme learns robust cross-view correspondences without camera calibration. For calibrated setups, we incorporate geometric consistency through 3D augmentation and a triangulation loss. We extend the existing Ensemble Kalman Smoother (EKS) post-processor to the nonlinear case and enhance uncertainty quantification via a variance inflation technique. Finally, to leverage the scaling properties of the MVT, we design a distillation procedure that exploits improved EKS predictions and uncertainty estimates to generate high-quality pseudo-labels, thereby reducing dependence on manual labels. Our framework components consistently outperform existing methods across three diverse animal species (flies, mice, chickadees), with each component contributing complementary benefits. The result is a practical, uncertainty-aware system for reliable pose estimation that enables downstream behavioral analyses under real-world data constraints.",
+        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph H in a randomly colored large graph G. This framework generalizes the well-known Potts model, which corresponds to the special case H = K2, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.\n\nMulti-view pose estimation is essential for quantifying animal behavior in scientific research, yet current methods struggle to achieve accurate tracking with limited labeled data and suffer from poor uncertainty estimates. We address these challenges with a comprehensive framework combining novel training and post-processing techniques, and a model distillation procedure that leverages the strengths of these techniques to produce a more efficient and effective pose estimator. Our multi-view transformer (MVT) utilizes pretrained backbones and enables simultaneous processing of information across all views, while a novel patch masking scheme learns robust cross-view correspondences without camera calibration. For calibrated setups, we incorporate geometric consistency through 3D augmentation and a triangulation loss. We extend the existing Ensemble Kalman Smoother (EKS) post-processor to the nonlinear case and enhance uncertainty quantification via a variance inflation technique. Finally, to leverage the scaling properties of the MVT, we design a distillation procedure that exploits improved EKS predictions and uncertainty estimates to generate high-quality pseudo-labels, thereby reducing dependence on manual labels. Our framework components consistently outperform existing methods across three diverse animal species (flies, mice, chickadees), with each component contributing complementary benefits. The result is a practical, uncertainty-aware system for reliable pose estimation that enables downstream behavioral analyses under real-world data constraints.",
         "bio": "N/A"
       },
       {
@@ -215,8 +205,8 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "N/A",
-        "affiliation": "TWO SIGMA",
-        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\nRegister now to save your spot by RSVPing here.\nWe hope to see you there! Food and Two Sigma swag will be provided.",
+        "affiliation": "Two Sigma",
+        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\n\nRegister now to save your spot by RSVPing here.\n\nWe hope to see you there! Food and Two Sigma swag will be provided.",
         "bio": "N/A"
       },
       {
@@ -227,66 +217,6 @@
         "speaker": "Prof. Sumit Mukherjee",
         "affiliation": "Columbia University",
         "abstract": "In this talk we will focus on a discrete exponential family, where the sufficient statistics is given in terms of a tensor form. In the simplest case when the tensor is a quadratic, the exponential family reduces to the celebrated Ising model of statistical physics, which has since found applications in several disciplines including statistics and machine learning. Another special case is the exponential random graph models (ERGMs) of social networks, originating in the social sciences. We will discuss what is known about parameter estimation in such exponential families, and possible directions for future research.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "11-March-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "SPRING BREAK",
-        "date": "16 to 20-March-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "25-March-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "1-April-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "8-April-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "N/A",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
         "bio": "N/A"
       }
     ]
@@ -302,16 +232,16 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Goran Peskir",
         "affiliation": "University of Manchester",
-        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price. The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting. The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
+        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Columbia-NYU Financial Engineering Colloquium: Jim Gatheral & Xin Zhang",
+        "seminar_title": "Financial Engineering Colloquium: Jim Gatheral and Xin Zhang",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
-        "speaker": "Jim Gatheral, Xin Zhang",
-        "affiliation": "Baruch, NYU",
+        "speaker": "Jim Gatheral and Xin Zhang",
+        "affiliation": "Baruch and NYU",
         "abstract": "Details available at the provided link.",
         "bio": "N/A"
       },
@@ -336,13 +266,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Columbia-NYU Financial Engineering Colloquium: Mathias Beiglboeck & David Itkin",
+        "seminar_title": "Financial Engineering Colloquium: Mathias Beiglboeck and David Itkin",
         "date": "26-Feb-26",
         "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
         "time": "4:00pm-6:00pm",
-        "speaker": "Mathias Beiglboeck, David Itkin",
-        "affiliation": "Vienna, Imperial",
-        "abstract": "Details available at the provided link. Registration available at the provided link.",
+        "speaker": "Mathias Beiglboeck and David Itkin",
+        "affiliation": "Vienna and Imperial",
+        "abstract": "Details and registration available at the provided links.",
         "bio": "N/A"
       },
       {
@@ -357,7 +287,7 @@
       },
       {
         "seminar_title": "Dynamic contracting with limited liability",
-        "date": "12-Mar-2026",
+        "date": "12-Mar-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Tiziano De Angelis",
@@ -386,13 +316,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Financial Engineering Colloquium",
         "date": "2-Apr-2026",
         "location": "NYU",
         "time": "4:00pm-6:00pm",
-        "speaker": "Pierre Henry-Labordere, Martin Larsson",
-        "affiliation": "QRT, CMU",
-        "abstract": "Details TBA. Registration TBA.",
+        "speaker": "Pierre Henry-Labordere and Martin Larsson",
+        "affiliation": "QRT and CMU",
+        "abstract": "Details and registration TBA.",
         "bio": "N/A"
       },
       {
@@ -458,12 +388,12 @@
     "series": "CSS Seminar Series",
     "entries": [
       {
-        "seminar_title": "Humanities and Social Sciences in National Scientific Projects: Mental Health, Avatars, and the \n\u201cELSI\u201d of Japan\n\u2019s  Moonshot Program",
+        "seminar_title": "Humanities and Social Sciences in National Scientific Projects: Mental Health, Avatars, and the \n\u201cELSI\u201d of Japan\u2019s  Moonshot Program",
         "date": "09-Mar-26",
         "location": "Location not specified",
         "time": "12:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -473,7 +403,7 @@
         "location": "Location not specified",
         "time": "4:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -483,7 +413,7 @@
         "location": "Location not specified",
         "time": "11:10 AM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -493,7 +423,7 @@
         "location": "Location not specified",
         "time": "12:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -503,7 +433,7 @@
         "location": "Location not specified",
         "time": "9:00 AM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -513,7 +443,7 @@
         "location": "Location not specified",
         "time": "10:30 AM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -523,7 +453,7 @@
         "location": "Location not specified",
         "time": "5:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       }
@@ -535,7 +465,7 @@
     "entries": [
       {
         "seminar_title": "Medical Innovation in Hospitals: Adoption and Consequences",
-        "date": "09-MAR-26",
+        "date": "09-Mar-26",
         "location": "1101 IAB",
         "time": "11:30a-12:10p",
         "speaker": "Kate Kennedy-Moulton",
@@ -545,7 +475,7 @@
       },
       {
         "seminar_title": "Jobs are Experience Goods: Endogenous Choice Set Formation and Labor Market Power",
-        "date": "09-MAR-26",
+        "date": "09-Mar-26",
         "location": "1101 IAB",
         "time": "12:10p-12:50p",
         "speaker": "Gina Markov",
@@ -555,7 +485,7 @@
       },
       {
         "seminar_title": "Supply Chains, Technology Switching, and Innovation",
-        "date": "09-MAR-26",
+        "date": "09-Mar-26",
         "location": "IAB 1101",
         "time": "1:00p-1:30p",
         "speaker": "Grace Chuan",
@@ -565,7 +495,7 @@
       },
       {
         "seminar_title": "Distortions and Emissions: When Fixing Market Failures Beats Taxing Carbon",
-        "date": "09-MAR-26",
+        "date": "09-Mar-26",
         "location": "IAB 501",
         "time": "1:00p-2:00p",
         "speaker": "Abhishek Deshwal",
@@ -575,7 +505,7 @@
       },
       {
         "seminar_title": "Specialization in Frictional Labor Markets",
-        "date": "09-MAR-26",
+        "date": "09-Mar-26",
         "location": "IAB 1101",
         "time": "1:30p-2:00p",
         "speaker": "Korok Dasgupta",
@@ -585,7 +515,7 @@
       },
       {
         "seminar_title": "Self- and Social Signaling: Evidence from Solar Adoption in California",
-        "date": "09-MAR-26",
+        "date": "09-Mar-26",
         "location": "N/A",
         "time": "3:10p-4:40p",
         "speaker": "Kenneth Gillingham",
