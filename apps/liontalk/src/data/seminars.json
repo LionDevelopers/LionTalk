@@ -186,7 +186,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
         "affiliation": "N/A",
-        "abstract": "How does probability theory apply to statistical practice? \u00a0Not just through the usual limit theorems of fixed-model asymptotics. \u00a0Probability theory also has interesting and important challenges related to models of growing complexity. \u00a0Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. \u00a0We motivate and explain several of these open problems: \u00a0piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.\n\nHere are some references that start to address these topics: https://sites.stat.columbia.edu/gelman/research/published/piranha_published.pdf https://sites.stat.columbia.edu/gelman/research/published/arnold2.pdf https://sites.stat.columbia.edu/gelman/research/published/mi_theory9.pdf https://statmodeling.stat.columbia.edu/2024/09/24/its-martingale-time-baby-how-to-evaluate-probabilistic-forecasts-before-the-event-happens-rajiv-sethi-has-an-idea-hint-it-involves-time-series/ https://arxiv.org/abs/2507.11833 https://statmodeling.stat.columbia.edu/2013/05/30/infill-asymptotics-and-sprawl-asymptotics/",
+        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
         "bio": "N/A"
       },
       {
@@ -196,7 +196,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Reihaneh Malekian",
         "affiliation": "Columbia",
-        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph $H$ in a randomly colored large graph $G$. This framework generalizes the well-known Potts model, which corresponds to the special case $H = K_2$, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and\u00a0Sohom Bhattacharya.",
+        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph H in a randomly colored large graph G. This framework generalizes the well-known Potts model, which corresponds to the special case H = K2, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.",
         "bio": "N/A"
       },
       {
@@ -216,7 +216,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "N/A",
         "affiliation": "Two Sigma",
-        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. \u00a0Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\n\nRegister now to save your spot by RSVPing here.\n\nWe hope to see you there! \u00a0Food\u00a0and Two Sigma\u00a0swag\u00a0will be provided.",
+        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process. Register now to save your spot by RSVPing here. We hope to see you there! Food and Two Sigma swag will be provided.",
         "bio": "N/A"
       },
       {
@@ -236,12 +236,12 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Aaradhya Pandey",
         "affiliation": "PhD Student at Princeton ORFE",
-        "abstract": "In this talk, I introduce a hypothesis-testing-based formulation of differential privacy in classical computation. \u00a0The Gaussian Differential Privacy framework of Dong--Roth--Su (2022) established a central limit theorem for the composition of multiple private mechanisms.\u00a0 Building on this work, I present a Poisson extension of their result and show that both the Gaussian and Poisson limits are unified under a broader framework of infinitely divisible privacy.\u00a0 This perspective reveals structural connections between differential privacy, probability theory, statistics, and discrete mathematics. I conclude by discussing computational differential privacy and its connections to cryptographic constructions such as pseudorandom generators, as well as a step toward quantizing privacy in quantum computation, outlining a framework for both computational and quantum differential privacy.",
+        "abstract": "In this talk, I introduce a hypothesis-testing-based formulation of differential privacy in classical computation. The Gaussian Differential Privacy framework of Dong--Roth--Su (2022) established a central limit theorem for the composition of multiple private mechanisms. Building on this work, I present a Poisson extension of their result and show that both the Gaussian and Poisson limits are unified under a broader framework of infinitely divisible privacy. This perspective reveals structural connections between differential privacy, probability theory, statistics, and discrete mathematics. I conclude by discussing computational differential privacy and its connections to cryptographic constructions such as pseudorandom generators, as well as a step toward quantizing privacy in quantum computation, outlining a framework for both computational and quantum differential privacy.",
         "bio": "N/A"
       },
       {
         "seminar_title": "SPRING BREAK",
-        "date": "16-March-2026",
+        "date": "16 to 20-March-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "N/A",
@@ -296,7 +296,7 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Columbian-NYU Financial Engineering Colloquium: Jim Gatheral and Xin Zhang",
+        "seminar_title": "N/A",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
@@ -326,13 +326,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Columbian-NYU Financial Engineering Colloquium: Mathias Beiglboeck and David Itkin",
+        "seminar_title": "N/A",
         "date": "26-Feb-26",
         "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
         "time": "4:00pm-6:00pm",
         "speaker": "Mathias Beiglboeck and David Itkin",
         "affiliation": "Vienna and Imperial",
-        "abstract": "Details available at the provided link. Registration link also provided.",
+        "abstract": "Details available at the provided link. Registration required.",
         "bio": "N/A"
       },
       {
@@ -356,16 +356,6 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "NO SEMINAR",
-        "date": "Spring Break",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "No seminar due to Spring Break.",
-        "bio": "N/A"
-      },
-      {
         "seminar_title": "N/A",
         "date": "26-Mar-2026",
         "location": "Room 903, 1255 Amsterdam Ave.",
@@ -376,7 +366,7 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Columbian-NYU Financial Engineering Colloquium: Pierre Henry-Labordere and Martin Larsson",
+        "seminar_title": "N/A",
         "date": "2-Apr-2026",
         "location": "NYU",
         "time": "4:00pm-6:00pm",
@@ -401,16 +391,6 @@
     "department": "Cancer Dynamics",
     "series": "IICD Seminar Series",
     "entries": [
-      {
-        "seminar_title": "IN-PERSON: HICCC Guest Seminar",
-        "date": "10-Mar-26",
-        "location": "Location not specified",
-        "time": "1:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
       {
         "seminar_title": "IICD Seminar Series: Maria Brbic, EFPL",
         "date": "11-Mar-26",
@@ -444,105 +424,9 @@
     ]
   },
   {
-    "department": "Center for Science and Society",
-    "series": "CSS Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "Human Rights in an Aging World: Technology, Inclusion, and Accounta",
-        "date": "10-Mar-26",
-        "location": "Location not specified",
-        "time": "11:10 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Johanna Schoen - The Pain Debate in Neonatology and How to Talk to Clinicians About It",
-        "date": "10-Mar-26",
-        "location": "Location not specified",
-        "time": "12:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Digital Governance for Democratic Renewa",
-        "date": "11-Mar-26",
-        "location": "Location not specified",
-        "time": "9:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Can Journalism Shape Public Health?",
-        "date": "11-Mar-26",
-        "location": "Location not specified",
-        "time": "10:30 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Jessica Ratcliff - Monopolizing Knowledge: The East India Company and Britain\n\tu2019s Second Scientific Revolution",
-        "date": "11-Mar-26",
-        "location": "Location not specified",
-        "time": "5:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Joanna Kempner - Cyberbotany: Towards a Typology of Digital Enclosure of Community Knowledge in Forbidden and Undone Science",
-        "date": "23-Mar-26",
-        "location": "Location not specified",
-        "time": "12:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      }
-    ]
-  },
-  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
-      {
-        "seminar_title": "Local Currency Corporate Bonds in Global Financial Cycle",
-        "date": "10-Mar-26",
-        "location": "1101 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "John Ma",
-        "affiliation": "Columbia University",
-        "abstract": "Local Currency Corporate Bonds in Global Financial Cycle",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Moral Hazard and Imperfect Competition  in Financial Markets",
-        "date": "10-Mar-26",
-        "location": "1101 IAB",
-        "time": "2:45p-4:00p",
-        "speaker": "Milena Wittwer",
-        "affiliation": "Columbia: Business",
-        "abstract": "Moral hazard is traditionally analyzed as a bilateral principal\u2013agent problem. In financial markets, however, intermediaries (agents) investing on behalf of clients  (principals) must also compete with one another when trading, creating an interac- tion between incentives and market clearing. I develop a model to study how fric- tions from moral hazard and imperfect competition interact. Greater competition  can reduce welfare by tightening incentive constraints, contradicting the standard  prediction that more competition improves efficiency. Using trade data from Cana- dian exchanges, I show that the model can be used to assess the relative importance  of moral hazard and its interaction with competition, highlighting the empirical rel- evance of the theoretical welfare results.",
-        "bio": "Assistant Professor of Finance"
-      },
-      {
-        "seminar_title": "To be announced.",
-        "date": "10-Mar-26",
-        "location": "Kravis 670",
-        "time": "4:15p-5:30p",
-        "speaker": "Jonathan Vogel",
-        "affiliation": "University of California, Los Angeles",
-        "abstract": "To be announced.",
-        "bio": "Professor of Economics"
-      },
       {
         "seminar_title": "Innovation Networks and Slow Recoveries from Financial Crises",
         "date": "11-Mar-26",
@@ -550,7 +434,7 @@
         "time": "10:00a-11:00a",
         "speaker": "Lucas Rosso",
         "affiliation": "Columbia University",
-        "abstract": "Innovation Networks and Slow Recoveries from Financial Crises",
+        "abstract": "N/A",
         "bio": "PhD Student in Economics"
       },
       {
@@ -561,6 +445,46 @@
         "speaker": "Daniel Garcia",
         "affiliation": "Columbia University",
         "abstract": "Large cities vary substantially in transit availability by time of day, shaping where firms and workers locate. This paper studies geographic sorting in response to within-day variation in transit access. I augment a standard commuting model with two worker types - conventional and shift workers - who face distinct commuting regimes. Firms producing non-tradable leisure goods sort toward shift worker access as production requires off-peak labor that standard transit networks may underserve. Expanding transit coverage during non-peak hours reduces the spatial mismatch between leisure consumers and shift work producers, increasing aggregate welfare.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Nonlinear Cointegration in Panels with Common Stochastic Trends",
+        "date": "11-Mar-26",
+        "location": "1102 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Pablo Mones",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "The Children of the Great Recession",
+        "date": "11-Mar-26",
+        "location": "N/A",
+        "time": "12:30p-1:30p",
+        "speaker": "Jacob Spitz",
+        "affiliation": "Columbia: Business",
+        "abstract": "N/A",
+        "bio": "PhD Candidate in Economics"
+      },
+      {
+        "seminar_title": "Urgent Care Expansion, Patient Sorting, and Health System Efficiency",
+        "date": "11-Mar-26",
+        "location": "N/A",
+        "time": "1:30p-2:00p",
+        "speaker": "Catalina G\u00f3mez Colomer",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Candidate in Economics"
+      },
+      {
+        "seminar_title": "Delegating Experiments",
+        "date": "11-Mar-26",
+        "location": "1101 IAB",
+        "time": "1:00p-2:00p",
+        "speaker": "Cole Wittbrodt",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
         "bio": "PhD Student in Economics"
       }
     ]
