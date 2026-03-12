@@ -20,7 +20,7 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Weng Kee Wong",
         "affiliation": "UCLA",
-        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model. Keywords: Continuous Designs, Early Phase Trials, Equivalence Theorems, Optimal Experiment Designs, Particle Swarm Optimization.",
+        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model.",
         "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace. His main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications. His recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics. He has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator. He is fellow of the American Statistical Association, the Institute of Mathematical Statistics, the American Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
       },
       {
@@ -186,7 +186,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
         "affiliation": "N/A",
-        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
+        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.\n\nHere are some references that start to address these topics:\nhttps://sites.stat.columbia.edu/gelman/research/published/piranha_published.pdf\nhttps://sites.stat.columbia.edu/gelman/research/published/arnold2.pdf\nhttps://sites.stat.columbia.edu/gelman/research/published/mi_theory9.pdf\nhttps://statmodeling.stat.columbia.edu/2024/09/24/its-martingale-time-baby-how-to-evaluate-probabilistic-forecasts-before-the-event-happens-rajiv-sethi-has-an-idea-hint-it-involves-time-series/\nhttps://arxiv.org/abs/2507.11833\nhttps://statmodeling.stat.columbia.edu/2013/05/30/infill-asymptotics-and-sprawl-asymptotics/",
         "bio": "N/A"
       },
       {
@@ -216,7 +216,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "N/A",
         "affiliation": "Two Sigma",
-        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process. Register now to save your spot by RSVPing here. We hope to see you there! Food and Two Sigma swag will be provided.",
+        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\n\nRegister now to save your spot by RSVPing here.\n\nWe hope to see you there! Food and Two Sigma swag will be provided.",
         "bio": "N/A"
       },
       {
@@ -296,13 +296,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Columbian-NYU Financial Engineering Colloquium: Jim Gatheral and Xin Zhang",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Jim Gatheral and Xin Zhang",
         "affiliation": "Baruch and NYU",
-        "abstract": "Details available at the provided link.",
+        "abstract": "Details can be found here: https://urldefense.com/v3/__https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang__;!!BDUfV1Et5lrpZQ!UVYwxb7oHyja43uD8ANbDrnRbBWiCY4TfYTKmwgkhxcqkZe9FrUZ-nA7D74-FJOr5H29cX4qQEg7Q9K160L4Gf4$",
         "bio": "N/A"
       },
       {
@@ -326,13 +326,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Columbian-NYU Financial Engineering Colloquium: Mathias Beiglboeck and David Itkin",
         "date": "26-Feb-26",
         "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
         "time": "4:00pm-6:00pm",
         "speaker": "Mathias Beiglboeck and David Itkin",
         "affiliation": "Vienna and Imperial",
-        "abstract": "Details available at the provided link. Registration required.",
+        "abstract": "Details can be found here: https://engineering.nyu.edu/events/2026/02/26/columbia-nyu-financial-engineering-colloquium-mathias-beiglbock-david-itkin. Register here: https://docs.google.com/forms/d/e/1FAIpQLSciW0z0X9CJR5Yzy6JMySGt54ys4y4OX7e-unGSD0-Tfqj6vw/viewform",
         "bio": "N/A"
       },
       {
@@ -356,33 +356,23 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
-        "date": "26-Mar-2026",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Max Reppen",
-        "affiliation": "BU",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "2-Apr-2026",
-        "location": "NYU",
-        "time": "4:00pm-6:00pm",
-        "speaker": "Pierre Henry-Labordere and Martin Larsson",
-        "affiliation": "QRT and CMU",
-        "abstract": "Details TBA. Registration TBA.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "9-Apr-2026",
+        "seminar_title": "NO SEMINAR",
+        "date": "Spring Break",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "N/A",
         "affiliation": "N/A",
         "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Columbian-NYU Financial Engineering Colloquium: Pierre Henry-Labordere and Martin Larsson",
+        "date": "2-Apr-2026",
+        "location": "NYU",
+        "time": "4:00pm-6:00pm",
+        "speaker": "Pierre Henry-Labordere and Martin Larsson",
+        "affiliation": "QRT and CMU",
+        "abstract": "Details TBA. Register TBA",
         "bio": "N/A"
       }
     ]
@@ -392,30 +382,46 @@
     "series": "IICD Seminar Series",
     "entries": [
       {
-        "seminar_title": "IICD Seminar Series: Maria Brbic, EFPL",
-        "date": "11-Mar-26",
-        "location": "Location not specified",
-        "time": "1:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "HICCC Distinguished Speaker Seminar: Melissa B. Davis, PhD",
-        "date": "11-Mar-26",
-        "location": "Location not specified",
-        "time": "3:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "IICD Symposium: Next-Generation Cancer Research \n\u2014 AI and Computation",
+        "seminar_title": "IICD Symposium: Next-Generation Cancer Research \nAI and Computation",
         "date": "16-Mar-26",
         "location": "Location not specified",
         "time": "12:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      }
+    ]
+  },
+  {
+    "department": "Center for Science and Society",
+    "series": "CSS Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Joanna Kempner - Cyberbotany: Towards a Typology of Digital Enclosure of Community Knowledge in Forbidden and Undone Science",
+        "date": "23-Mar-26",
+        "location": "Location not specified",
+        "time": "12:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Prakash Kumar - The History and the Present of the Green Revolution",
+        "date": "24-Mar-26",
+        "location": "Location not specified",
+        "time": "3:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Climate and Ice: From Rising Seas to Shrinking Mountain Glaciers",
+        "date": "25-Mar-26",
+        "location": "Location not specified",
+        "time": "5:00 PM",
         "speaker": "See Abstract",
         "affiliation": "N/A",
         "abstract": "N/A",
@@ -428,64 +434,64 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Innovation Networks and Slow Recoveries from Financial Crises",
-        "date": "11-Mar-26",
-        "location": "1120 IAB",
-        "time": "10:00a-11:00a",
-        "speaker": "Lucas Rosso",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
+        "seminar_title": "State Preschool Investment and Population Achievement",
+        "date": "12-MAR-26",
+        "location": "Teachers College, Horace Mann 433",
+        "time": "12:00p-1:30p",
+        "speaker": "Jade Jenkins",
+        "affiliation": "UC Irvine: Education",
+        "abstract": "Over the past several decades, many states have increased their investment in prekindergarten (pre-k) for four-year-old children. This investment has coincided with an increasingly mixed picture of program effectiveness from evaluation studies, with some reporting positive, some negative, and others null effects on children\u2019s longer-term outcomes. Although pre-k policy is heterogeneous across states, we use a \u201cuniversal\u201d metric of pre-k investment: state dollars spent on pre-k for four-year-old children. This operationalization allows us to evaluate whether public investment at the state level broadly generates benefits for the national population of children. We take advantage of states\u2019 differential periods of scale-up and investment over a 14-year period, using a simple state- and year-fixed-effect analytic approach to evaluate the effects of investments in pre-k on children\u2019s academic achievement during elementary and middle school. We also test whether investments generate larger effects for key subgroups of children based on gender, race, ethnicity, and income. We find a small, positive relationship between pre-k spending and academic achievement that is robust across specifications: one-thousand dollars spent per age-eligible child in a state\u2019s population is associated with a 0.016 SD increase in 4th grade academic achievement. Analyses of heterogeneity indicate that this relationship is strongest for math achievement, and for children who identify as Hispanic and those from families who are economically disadvantaged. However, we find no impact on 8th-grade achievement scores, nor did we find impacts when states were weighted equally in our analyses. We discuss implications for national- and state-level educational policy.",
+        "bio": "Associate Professor of Education"
       },
       {
-        "seminar_title": "The Effects of Variation in Transit Access Over the Work Day",
-        "date": "11-Mar-26",
+        "seminar_title": "\"Dynamic Local Average Treatment Effects in Time Series\"",
+        "date": "12-MAR-26",
         "location": "1101 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Daniel Garcia",
-        "affiliation": "Columbia University",
-        "abstract": "Large cities vary substantially in transit availability by time of day, shaping where firms and workers locate. This paper studies geographic sorting in response to within-day variation in transit access. I augment a standard commuting model with two worker types - conventional and shift workers - who face distinct commuting regimes. Firms producing non-tradable leisure goods sort toward shift worker access as production requires off-peak labor that standard transit networks may underserve. Expanding transit coverage during non-peak hours reduces the spatial mismatch between leisure consumers and shift work producers, increasing aggregate welfare.",
-        "bio": "PhD Student in Economics"
+        "time": "2:15p-3:45p",
+        "speaker": "Alessandro Casini",
+        "affiliation": "University of Rome: Tor Vergata",
+        "abstract": "This paper discusses identification, estimation, and inference on dynamic local average treatment effects (LATEs) in instrumental variables (IVs) settings. First, we show that compliers\u2014observations whose treatment status is affected by the instrument\u2014can be identified individually in time series data using smoothness assumptions and local comparisons of treatment assignments. Second, we show that this result enables not only better interpretability of IV estimates but also direct testing of the exclusion restriction by comparing outcomes among identified non-compliers across instrument values. Third, we document pervasive weak identification in applied work using IVs with time series data by surveying recent publications in leading economics journals. However, we find that strong identification often holds in large subsamples for which the instrument induces changes in the treatment. Motivated by this, we introduce a method based on dynamic programming to detect the most strongly-identified subsample and show how to use this subsample to improve estimation and inference. We also develop new identification-robust inference procedures that focus on the most strongly-identified subsample, offering efficiency gains relative to existing full sample identification-robust inference when identification fails over parts of the sample. Finally, we apply our results to heteroskedasticity-based identification of monetary policy effects. We find that about 75% of observations are compliers (i.e., cases where the variance of the policy shifts up on FOMC announcement days), and we fail to reject the exclusion restriction. Estimation using the most strongly-identified subsample helps reconcile conflicting IV and GMM estimates in the literature.",
+        "bio": "Assistant Professor of Economics"
       },
       {
-        "seminar_title": "Nonlinear Cointegration in Panels with Common Stochastic Trends",
-        "date": "11-Mar-26",
-        "location": "1102 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Pablo Mones",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "The Children of the Great Recession",
-        "date": "11-Mar-26",
-        "location": "N/A",
-        "time": "12:30p-1:30p",
-        "speaker": "Jacob Spitz",
-        "affiliation": "Columbia: Business",
-        "abstract": "N/A",
-        "bio": "PhD Candidate in Economics"
-      },
-      {
-        "seminar_title": "Urgent Care Expansion, Patient Sorting, and Health System Efficiency",
-        "date": "11-Mar-26",
-        "location": "N/A",
-        "time": "1:30p-2:00p",
-        "speaker": "Catalina G\u00f3mez Colomer",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Candidate in Economics"
-      },
-      {
-        "seminar_title": "Delegating Experiments",
-        "date": "11-Mar-26",
+        "seminar_title": "The Economics of Caste Norms: Purity, Status, and Women\u2019s Work in India",
+        "date": "12-MAR-26",
         "location": "1101 IAB",
-        "time": "1:00p-2:00p",
-        "speaker": "Cole Wittbrodt",
+        "time": "4:10p-5:25p",
+        "speaker": "Arielle Bernhardt",
+        "affiliation": "New York University",
+        "abstract": "N/A",
+        "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "13-MAR-26",
+        "location": "N/A",
+        "time": "12:00p-12:30p",
+        "speaker": "Juan Facal",
         "affiliation": "Columbia University",
         "abstract": "N/A",
         "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "13-MAR-26",
+        "location": "N/A",
+        "time": "12:30p-1:00p",
+        "speaker": "Bruno Escobar",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "15-MAR-26",
+        "location": "N/A",
+        "time": "N/A",
+        "speaker": "To be announced.",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
       }
     ]
   }
