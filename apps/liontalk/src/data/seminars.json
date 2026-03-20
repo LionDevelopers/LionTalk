@@ -92,6 +92,16 @@
         "affiliation": "Johns Hopkins University",
         "abstract": "Symmetries play a significant role in machine learning. In scientific applications, they often arise as constraints imposed by physical laws. More broadly, symmetries emerge whenever objects admit multiple ways to express them (for example, in graph machine learning). In addition, modern machine learning models are heavily overparameterized, so many distinct sets of parameters can represent the same function, revealing further underlying symmetries. In this talk, we describe methods for incorporating symmetries into machine learning models using classical tools from algebra, including invariant theory and Galois theory. A particularly interesting feature of symmetry-preserving models is that they can be defined independently of the size or dimension of the input. The formalization of this setting, known as any-dimensional machine learning, is inspired by ideas from representation stability. In this talk we present a theoretical framework for understanding the assumptions imposed by such models, which allows us to align learning models with data of varying sizes and learning tasks in a principled way. Any-dimensional models use a fixed set of parameters and can be evaluated on data of varying sizes. Hyperparameter transfer considers the complementary setting, in which the data are fixed while the model size varies, and studies how optimal hyperparameters (such as the learning rate) can be transferred from smaller models to larger ones. If time permits, we will also discuss recent connections between any-dimensional machine learning and hyperparameter transfer.",
         "bio": "Soledad Villar is an Assistant Professor of Applied Mathematics and Statistics at Johns Hopkins. Her research is in the mathematical foundations of deep learning, including geometric deep learning. She received an NSF CAREER award, a Sloan Fellowship in Mathematics, and her research has been supported by ONR, Apple, Amazon, and the Simons Foundation. She is originally from Uruguay."
+      },
+      {
+        "seminar_title": "SPRING BREAK",
+        "date": "SPRING BREAK",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
       }
     ]
   },
@@ -126,7 +136,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
         "affiliation": "N/A",
-        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
+        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.\nHere are some references that start to address these topics:\nhttps://sites.stat.columbia.edu/gelman/research/published/piranha_published.pdf\nhttps://sites.stat.columbia.edu/gelman/research/published/arnold2.pdf\nhttps://sites.stat.columbia.edu/gelman/research/published/mi_theory9.pdf\nhttps://statmodeling.stat.columbia.edu/2024/09/24/its-martingale-time-baby-how-to-evaluate-probabilistic-forecasts-before-the-event-happens-rajiv-sethi-has-an-idea-hint-it-involves-time-series/\nhttps://arxiv.org/abs/2507.11833\nhttps://statmodeling.stat.columbia.edu/2013/05/30/infill-asymptotics-and-sprawl-asymptotics/",
         "bio": "N/A"
       },
       {
@@ -154,9 +164,9 @@
         "date": "25-Feb-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "Two Sigma",
-        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process. Register now to save your spot by RSVPing here. We hope to see you there! Food and Two Sigma swag will be provided.",
+        "speaker": "TWO SIGMA\u2019S QUANT RESEARCH PHD SEMINAR",
+        "affiliation": "N/A",
+        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\nRegister now to save your spot by RSVPing here.\nWe hope to see you there! Food and Two Sigma swag will be provided.",
         "bio": "N/A"
       },
       {
@@ -181,7 +191,7 @@
       },
       {
         "seminar_title": "SPRING BREAK",
-        "date": "16 to 20-March-2026",
+        "date": "16-March-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "N/A",
@@ -232,6 +242,132 @@
     ]
   },
   {
+    "department": "Statistics",
+    "series": "Mathematical Finance Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "The Optimal Mean-Variance Selling Problem with Finite Horizon",
+        "date": "29-Jan-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Goran Peskir",
+        "affiliation": "University of Manchester",
+        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.\nThe quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.\nThe solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Details",
+        "date": "5-Feb-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Jim Gatheral and Xin Zhang",
+        "affiliation": "Baruch and NYU",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Particle Systems with Local Interactions via Hitting Times and Cascades on Graphs",
+        "date": "12-Feb-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Yucheng Guo",
+        "affiliation": "Princeton",
+        "abstract": "We study particle systems interacting via hitting times on sparsely connected graphs, following the framework of Lacker, Ramanan and Wu (2023). We provide general robustness conditions that guarantee the well-posedness of physical solutions to the dynamics, and demonstrate their connections to the dynamic percolation theory. We then study the limiting behavior of the particle systems, establishing the continuous dependence of the joint law of the physical solution on the underlying graph structure with respect to local convergence and showing the convergence of the global empirical measure, which extends the general results by Lacker et al. to systems with singular interaction. The model proposed provides a general framework for analyzing systemic risks in large sparsely connected financial networks with a focus on local interactions, featuring instantaneous default cascades. Joint work with Qinxin Yan (Princeton PACM).",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Robust hedging of American options via aggregated Snell envelopes",
+        "date": "19-Feb-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Marco Rodrigues",
+        "affiliation": "Weierstrass Institute and TU Berlin",
+        "abstract": "We study the robust hedging of American options under model uncertainty in a nondominated setting. Our approach is based on the construction of a Snell envelope under a sublinear expectation. We prove a duality formula for the robust superhedging price and establish the existence of a minimal superhedging strategy. Our results encompass continuous processes or processes with jumps and non-vanishing diffusion. A key application is to financial market models, where uncertainty is quantified through the semi-martingale characteristics.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Details",
+        "date": "26-Feb-26",
+        "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
+        "time": "4:00pm-6:00pm",
+        "speaker": "Mathias Beiglboeck and David Itkin",
+        "affiliation": "Vienna and Imperial",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Auction Market Design: Trading, Contract, and Learning",
+        "date": "5-Mar-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Thibault Mastrolia",
+        "affiliation": "Berkeley",
+        "abstract": "This presentation explores the optimization of trading strategy and regulatory policies in financial auctions market. First, we address systemic vulnerabilities in auctions, demonstrating how randomizing closing times and optimizing transaction fees can successfully mitigate the market-distorting price impact of strategic late arrivals (snipping). Shifting to the exchange's perspective, we then frame optimal rebate and fee policies as a continuous-time principal-multi-agent problem, utilizing the Deep BSDE method to design incentive structures that enhance market efficiency and narrow clearing price spreads. Finally, we adopt the market maker's perspective by introducing a Deep Q-Learning framework. Rather than relying on traditional terminal inventory penalties, this adaptive model explicitly anticipates the closing auction's liquidity, dynamically refining execution strategies to outperform classical benchmarks on both stochastic and historical data. Together, these frameworks offer a holistic approach to building and navigating more resilient financial markets. Based on joint works with Tianrui Xu and Julius Graf.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Dynamic contracting with limited liability",
+        "date": "12-Mar-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Tiziano De Angelis",
+        "affiliation": "Torino",
+        "abstract": "We study a problem of dynamic contracting in continuous time between a risk-neutral Principal and an Agent with CARA utility. The production process (in the absence of agent's effort) is a Brownian motion and the time horizon of the contract is finite. In the classical Holmstrom-Milgrom model, with quadratic cost of effort for the agent and no limited liability, the optimal contract is linear in the Brownian production process. This implies that at the terminal time, the agent may incur arbitrarily large losses with positive probability, due to the Gaussian fluctuations. To avoid this unpleasant feature we tweak the model and introduce limited liability for the agent in the form of a non-negativity constraint for the contract. The resulting HJB for the Principal inherits an additional Dirichlet boundary condition that makes the analysis much more involved than in the classical case without constraints. Leveraging on probabilistic estimates we are able to prove that the agent's value function is an infinitely smooth solution of a fully non-linear parabolic PDE with Cauchy and Dirichlet boundary conditions. We find the agent's optimal effort in Markovian form and characterise the dynamics of the optimal contract as the unique strong solution of an SDE absorbed at zero. We also derive a PDE that fully characterises the agent's optimal effort from an analytic perspective. Finally, we perform a theoretical analysis of the sensitivity of the optimal effort with respect to time and to the promised utility arising from the contract. Joint work with Andrea Bovo (University of Brescia) and Stephane Villeneuve (Toulouse School of Economics).",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "NO SEMINAR",
+        "date": "Spring Break",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Aggregate Cournot games and cryptocurrency mining",
+        "date": "26-Mar-2026",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Max Reppen",
+        "affiliation": "BU",
+        "abstract": "Analyzing games with many strategic agents is often computationally intractable, motivating the use of mean field game (MFG) approximations. However, in many economically relevant environments, the underlying game does not naturally possess a mean field structure, raising the question of how accurate such approximations are and how their parameters should be interpreted. We study this issue in the context of Cournot competition with heterogeneous agents. We show that a na\u00efve MFG approximation introduces systematic but quantitatively relevant errors in equilibrium predictions. For the class of Cournot games we study, these inaccuracies stem from a common structural mismatch between the finite-player game and its mean field limit. We provide a natural interpretation of the mean-field parameters\u2014linking them to an effective number of players\u2014and show how they can be adjusted to account for this error in a way that depends on the equilibrium statistics of interest.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Details TBA",
+        "date": "2-Apr-2026",
+        "location": "NYU",
+        "time": "4:00pm-6:00pm",
+        "speaker": "Pierre Henry-Labordere and Martin Larsson",
+        "affiliation": "QRT and CMU",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Title:",
+        "date": "9-Apr-2026",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Title:",
+        "date": "16-Apr-2026",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Philippe Bergault",
+        "affiliation": "Paris Dauphine",
+        "abstract": "N/A",
+        "bio": "N/A"
+      }
+    ]
+  },
+  {
     "department": "Cancer Dynamics",
     "series": "IICD Seminar Series",
     "entries": [
@@ -252,22 +388,12 @@
     "series": "CSS Seminar Series",
     "entries": [
       {
-        "seminar_title": "Sarah Richardson - The Maternal Imprint",
-        "date": "19-Mar-26",
-        "location": "Location not specified",
-        "time": "5:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
         "seminar_title": "Joanna Kempner - Cyberbotany: Towards a Typology of Digital Enclosure of Community Knowledge in Forbidden and Undone Science",
         "date": "23-Mar-26",
         "location": "Location not specified",
         "time": "12:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -277,7 +403,7 @@
         "location": "Location not specified",
         "time": "2:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -287,7 +413,7 @@
         "location": "Location not specified",
         "time": "3:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -297,7 +423,7 @@
         "location": "Location not specified",
         "time": "10:45 AM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -307,7 +433,7 @@
         "location": "Location not specified",
         "time": "5:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -317,7 +443,7 @@
         "location": "Location not specified",
         "time": "11:15 AM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -327,7 +453,17 @@
         "location": "Location not specified",
         "time": "3:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Housing Stability and Public Health in NYC",
+        "date": "26-Mar-26",
+        "location": "Location not specified",
+        "time": "4:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -337,7 +473,7 @@
         "location": "Location not specified",
         "time": "5:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -347,7 +483,7 @@
         "location": "Location not specified",
         "time": "5:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -357,7 +493,7 @@
         "location": "Location not specified",
         "time": "5:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -367,17 +503,17 @@
         "location": "Location not specified",
         "time": "7:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Charu Singh - When Science became Vij\u00f1\u0101na: Rethinking Categories of Knowledge in the Global History of Science from Early Twentieth Century South Asia",
+        "seminar_title": "Charu Singh - When Science Became Vij\n\na\nna: Rethinking Categories of Knowledge in the Global History of Science from Early Twentieth Century South Asia",
         "date": "30-Mar-26",
         "location": "Location not specified",
         "time": "3:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -387,7 +523,7 @@
         "location": "Location not specified",
         "time": "1:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -397,17 +533,17 @@
         "location": "Location not specified",
         "time": "3:15 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "American Religion is\u2026 Memory",
+        "seminar_title": "American Religion is\n\nMemory",
         "date": "31-Mar-26",
         "location": "Location not specified",
         "time": "4:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -417,7 +553,7 @@
         "location": "Location not specified",
         "time": "2:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -427,7 +563,47 @@
         "location": "Location not specified",
         "time": "3:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "N/A",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Erin McElroy - Technofeudal Fever Dreams: Silicon Fiefdoms, Doom Loop Dystopics, and the Urban Anxieties of Empire",
+        "date": "02-Apr-26",
+        "location": "Location not specified",
+        "time": "11:15 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "An Archaeology of Plastics: From Small Things Forgotten to the Synthetic Revolution",
+        "date": "02-Apr-26",
+        "location": "Location not specified",
+        "time": "3:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Connecting Sustainable Fashion Initiatives Across Universities",
+        "date": "02-Apr-26",
+        "location": "Location not specified",
+        "time": "3:40 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Weihong Bao - Cybernetics of Influence: Set Design in the Age of Television",
+        "date": "02-Apr-26",
+        "location": "Location not specified",
+        "time": "5:10 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
       }
@@ -444,7 +620,7 @@
         "time": "11:30a-12:10p",
         "speaker": "Akseli Palom\u00e4ki",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
+        "abstract": "Learning About School Effectiveness: Rational Inattention in High School Choice",
         "bio": "PhD Student in Economics"
       },
       {
@@ -454,7 +630,7 @@
         "time": "12:10p-12:50p",
         "speaker": "Abhishek Deshwal",
         "affiliation": "Columbia: SIPA",
-        "abstract": "N/A",
+        "abstract": "Distortions and Emissions: When Fixing Market Failures Beats Taxing Carbon",
         "bio": "PhD Student in Sustainable Development"
       },
       {
@@ -474,7 +650,7 @@
         "time": "1:30p-2:00p",
         "speaker": "Sahil Lalwani",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
+        "abstract": "Long-run effects of investments in AI infrastructure",
         "bio": "PhD Student in Economics"
       },
       {
@@ -494,7 +670,7 @@
         "time": "3:10p-4:40p",
         "speaker": "Susanna Berkouwer",
         "affiliation": "UPenn: The Wharton School",
-        "abstract": "N/A",
+        "abstract": "To be announced.",
         "bio": "Assistant Professor of Economics"
       },
       {
