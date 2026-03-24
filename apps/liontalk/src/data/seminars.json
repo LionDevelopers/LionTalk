@@ -186,7 +186,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Reihaneh Malekian",
         "affiliation": "Columbia",
-        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph H in a randomly colored large graph G. This framework generalizes the well-known Potts model, which corresponds to the special case H = K2, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.",
+        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph $H$ in a randomly colored large graph $G$. This framework generalizes the well-known Potts model, which corresponds to the special case $H = K_2$, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.",
         "bio": "N/A"
       },
       {
@@ -268,6 +268,16 @@
         "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "N/A",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
       }
     ]
   },
@@ -282,17 +292,7 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Goran Peskir",
         "affiliation": "University of Manchester",
-        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.\nThe quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.\nThe solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Details",
-        "date": "5-Feb-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Jim Gatheral and Xin Zhang",
-        "affiliation": "Baruch and NYU",
-        "abstract": "Details found at https://urldefense.com/v3/__https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang__;!!BDUfV1Et5lrpZQ!UVYwxb7oHyja43uD8ANbDrnRbBWiCY4TfYTKmwgkhxcqkZe9FrUZ-nA7D74-FJOr5H29cX4qQEg7Q9K160L4Gf4$",
+        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price. The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting. The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
         "bio": "N/A"
       },
       {
@@ -316,16 +316,6 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Details",
-        "date": "26-Feb-26",
-        "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
-        "time": "4:00pm-6:00pm",
-        "speaker": "Mathias Beiglboeck and David Itkin",
-        "affiliation": "Vienna and Imperial",
-        "abstract": "Details found at https://engineering.nyu.edu/events/2026/02/26/columbia-nyu-financial-engineering-colloquium-mathias-beiglbock-david-itkin. Register here: https://docs.google.com/forms/d/e/1FAIpQLSciW0z0X9CJR5Yzy6JMySGt54ys4y4OX7e-unGSD0-Tfqj6vw/viewform",
-        "bio": "N/A"
-      },
-      {
         "seminar_title": "Auction Market Design: Trading, Contract, and Learning",
         "date": "5-Mar-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
@@ -346,16 +336,6 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "NO SEMINAR",
-        "date": "Spring Break",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
         "seminar_title": "Aggregate Cournot games and cryptocurrency mining",
         "date": "26-Mar-2026",
         "location": "Room 903, 1255 Amsterdam Ave.",
@@ -366,13 +346,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Details TBA",
-        "date": "2-Apr-2026",
-        "location": "NYU",
-        "time": "4:00pm-6:00pm",
-        "speaker": "Pierre Henry-Labordere and Martin Larsson",
-        "affiliation": "QRT and CMU",
-        "abstract": "Details TBA. Register TBA.",
+        "seminar_title": "Aggregate Cournot games and cryptocurrency mining",
+        "date": "26-Mar-2026",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Max Reppen",
+        "affiliation": "BU",
+        "abstract": "Analyzing games with many strategic agents is often computationally intractable, motivating the use of mean field game (MFG) approximations. However, in many economically relevant environments, the underlying game does not naturally possess a mean field structure, raising the question of how accurate such approximations are and how their parameters should be interpreted. We study this issue in the context of Cournot competition with heterogeneous agents. We show that a na\u00efve MFG approximation introduces systematic but quantitatively relevant errors in equilibrium predictions. For the class of Cournot games we study, these inaccuracies stem from a common structural mismatch between the finite-player game and its mean field limit. We provide a natural interpretation of the mean-field parameters\u2014linking them to an effective number of players\u2014and show how they can be adjusted to account for this error in a way that depends on the equilibrium statistics of interest.",
         "bio": "N/A"
       },
       {
@@ -418,22 +398,12 @@
     "series": "CSS Seminar Series",
     "entries": [
       {
-        "seminar_title": "Joanna Kempner - Cyberbotany: Towards a Typology of Digital Enclosure of Community Knowledge in Forbidden and Undone Science",
-        "date": "23-Mar-26",
-        "location": "Location not specified",
-        "time": "12:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
         "seminar_title": "Energy Policy and the Nuclear Renaissance",
         "date": "24-Mar-26",
         "location": "Location not specified",
         "time": "2:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -443,7 +413,7 @@
         "location": "Location not specified",
         "time": "3:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -453,7 +423,7 @@
         "location": "Location not specified",
         "time": "10:45 AM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -463,7 +433,7 @@
         "location": "Location not specified",
         "time": "5:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -473,7 +443,7 @@
         "location": "Location not specified",
         "time": "11:15 AM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -483,7 +453,7 @@
         "location": "Location not specified",
         "time": "3:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -493,7 +463,7 @@
         "location": "Location not specified",
         "time": "4:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -503,7 +473,7 @@
         "location": "Location not specified",
         "time": "5:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -513,7 +483,7 @@
         "location": "Location not specified",
         "time": "5:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -523,7 +493,7 @@
         "location": "Location not specified",
         "time": "5:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -533,7 +503,7 @@
         "location": "Location not specified",
         "time": "5:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -543,17 +513,17 @@
         "location": "Location not specified",
         "time": "7:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Charu Singh - When Science Became Vij\n\nana: Rethinking Categories of Knowledge in the Global History of Science from Early Twentieth Century South Asia",
+        "seminar_title": "Charu Singh - When Science Became Vij\nana: Rethinking Categories of Knowledge in the Global History of Science from Early Twentieth Century South Asia",
         "date": "30-Mar-26",
         "location": "Location not specified",
         "time": "3:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -563,7 +533,7 @@
         "location": "Location not specified",
         "time": "1:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -573,7 +543,7 @@
         "location": "Location not specified",
         "time": "1:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -583,17 +553,17 @@
         "location": "Location not specified",
         "time": "3:15 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "American Religion is\n\nMemory",
+        "seminar_title": "American Religion is\n\u2026 Memory",
         "date": "31-Mar-26",
         "location": "Location not specified",
         "time": "4:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -603,7 +573,7 @@
         "location": "Location not specified",
         "time": "2:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -613,7 +583,7 @@
         "location": "Location not specified",
         "time": "3:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -623,7 +593,7 @@
         "location": "Location not specified",
         "time": "11:15 AM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -633,7 +603,7 @@
         "location": "Location not specified",
         "time": "3:30 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -643,7 +613,7 @@
         "location": "Location not specified",
         "time": "3:40 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -653,7 +623,7 @@
         "location": "Location not specified",
         "time": "5:10 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -663,7 +633,7 @@
         "location": "Location not specified",
         "time": "12:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       },
@@ -673,7 +643,17 @@
         "location": "Location not specified",
         "time": "9:00 AM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Information Sick: How Misinformation Harms Our Health",
+        "date": "06-Apr-26",
+        "location": "Location not specified",
+        "time": "3:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       }
@@ -684,114 +664,54 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Learning About School Effectiveness: Rational Inattention in High School Choice",
-        "date": "23-MAR-26",
-        "location": "1101 IAB",
-        "time": "11:30a-12:10p",
-        "speaker": "Akseli Palom\u00e4ki",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Learning About School Effectiveness: Rational Inattention in High School Choice",
-        "date": "23-MAR-26",
-        "location": "1101 IAB",
-        "time": "12:10p-12:50p",
-        "speaker": "Akseli Palom\u00e4ki",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Distortions and Emissions: When Fixing Market Failures Beats Taxing Carbon",
-        "date": "23-MAR-26",
-        "location": "1101 IAB",
-        "time": "11:30a-12:10p",
-        "speaker": "Abhishek Deshwal",
-        "affiliation": "Columbia: SIPA",
-        "abstract": "N/A",
-        "bio": "PhD Student in Sustainable Development"
-      },
-      {
-        "seminar_title": "Distortions and Emissions: When Fixing Market Failures Beats Taxing Carbon",
-        "date": "23-MAR-26",
-        "location": "1101 IAB",
-        "time": "12:10p-12:50p",
-        "speaker": "Abhishek Deshwal",
-        "affiliation": "Columbia: SIPA",
-        "abstract": "N/A",
-        "bio": "PhD Student in Sustainable Development"
-      },
-      {
-        "seminar_title": "Overhead Costs, Endogenous Productivity, and the Phillips Curve",
-        "date": "23-MAR-26",
-        "location": "N/A",
-        "time": "1:00p-1:30p",
-        "speaker": "Szymon Kopyta",
-        "affiliation": "Columbia University",
-        "abstract": "Over the past few decades, firms\u2019 cost structures suggest that production has become less variable-cost intensive and more reliant on fixed or quasi-fixed intangible inputs. This raises the question of how shocks transmit in such an economy. I study a New Keynesian model in which firms choose productivity-enhancing technology, trading off lower variable production costs against higher overhead costs. This creates an endogenous link between expected firm-level demand, cost structure, and pricing dynamics. Since productivity responds endogenously to demand shocks, the model implies a potentially flatter Phillips curve than the standard New Keynesian benchmark.",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Overhead Costs, Endogenous Productivity, and the Phillips Curve",
-        "date": "23-MAR-26",
-        "location": "N/A",
-        "time": "1:30p-2:00p",
-        "speaker": "Szymon Kopyta",
-        "affiliation": "Columbia University",
-        "abstract": "Over the past few decades, firms\u2019 cost structures suggest that production has become less variable-cost intensive and more reliant on fixed or quasi-fixed intangible inputs. This raises the question of how shocks transmit in such an economy. I study a New Keynesian model in which firms choose productivity-enhancing technology, trading off lower variable production costs against higher overhead costs. This creates an endogenous link between expected firm-level demand, cost structure, and pricing dynamics. Since productivity responds endogenously to demand shocks, the model implies a potentially flatter Phillips curve than the standard New Keynesian benchmark.",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Long-run effects of investments in AI infrastructure",
-        "date": "23-MAR-26",
-        "location": "N/A",
-        "time": "1:00p-1:30p",
-        "speaker": "Sahil Lalwani",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Long-run effects of investments in AI infrastructure",
-        "date": "23-MAR-26",
-        "location": "N/A",
-        "time": "1:30p-2:00p",
-        "speaker": "Sahil Lalwani",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "When Words Save Watts: Government Communication and Household Electricity Use",
-        "date": "23-MAR-26",
-        "location": "N/A",
-        "time": "1:00p-2:00p",
-        "speaker": "Marie Bruguet",
-        "affiliation": "Universit\u00e9 Paris - Dauphine PSL",
-        "abstract": "A central question for policymakers is whether communication can serve as an effective policy instrument. This paper examines France's 2022 energy crisis, when reduced nuclear availability and surging prices prompted the government to launch one of Europe's largest conservation campaigns. Using more than 12,000 official communications, narrative-specific attention indices from Google searches, and tariff-disaggregated electricity data, the analysis examines the process by which communication leads to attention and subsequently to change in demand. The effectiveness of communication is determined by message framing and household flexibility: conservation appeals gain traction only when embedded within crisis narratives, and translate into consumption reductions exclusively among households with actionable adjustment capacity.",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Green subsidies with demand distortions",
-        "date": "23-MAR-26",
-        "location": "801 IAB",
-        "time": "3:10p-4:40p",
-        "speaker": "Susanna Berkouwer",
-        "affiliation": "UPenn: The Wharton School",
-        "abstract": "Standard Pigouvian theory predicts that externalities should be corrected at the margin. However, demand distortions such as credit constraints or behavioral biases create a wedge between marginal benefit and marginal cost. While these distortions can lower aggregate abatement, they can increase the efficiency of green subsidy spending. In theory, this happens through two channels: by shifting the marginal adopter toward higher private and social benefits and by increasing demand elasticity. We test these predictions by cross-randomizing fixed cost subsidies, marginal cost subsidies, and loan access for an induction stove among 2,100 charcoal users in Kenya. Marginal cost subsidies that lower electricity costs by up to 75% have a precise zero effect on both adoption and usage. Fixed cost subsidies abate CO2e at US$10.3 per ton, and demand distortions are responsible for making this cost low: relaxing credit constraints raises abatement costs to US$16.8 per tCO2e. Demand distortions furthermore increase the socialwelfare gain from US$16 to US$25 per subsidy dollar. These efficiency gains operate through the two hypothesized channels: demand distortions lower the subsidy cost per marginal abatement by 30% and increase the marginal positive externality by 14%. Without any distortions, counterfactual simulations suggest costs would reach US$137 per tCO2e.",
-        "bio": "Assistant Professor of Economics"
-      },
-      {
         "seminar_title": "To be announced.",
-        "date": "24-MAR-26",
+        "date": "24-Mar-26",
         "location": "1101 IAB",
         "time": "12:00p-1:00p",
         "speaker": "Shuwen Wang",
         "affiliation": "Columbia: Business",
-        "abstract": "N/A",
+        "abstract": "To be announced.",
         "bio": "PhD Student in Finance"
+      },
+      {
+        "seminar_title": "Social Media Comments",
+        "date": "24-Mar-26",
+        "location": "Room 707",
+        "time": "12:15p-1:30p",
+        "speaker": "Dante Donati",
+        "affiliation": "Columbia: Business",
+        "abstract": "Comment sections are a central feature of social media platforms, enabling users to engage with content and one another. This paper studies how the presence and stance of comments on social media posts affect subsequent users\u2019 on-platform engagement and off-platform attitudes and behavior. For identification, we develop a novel experimental pipeline that manipulates and randomizes comment visibility and stance using Meta\u2019s built-in A/B testing infrastructure. In collaboration with a leading racial justice organization, we conduct a large-scale field experiment on Facebook reaching over one million U.S. users randomly assigned to one of four conditions: (i) no visible comments (control), (ii) opposing, (iii) supportive, and (iv) mixed comments displaying both stances. We find that the presence of a comment section increases engagement with the post. Importantly, comment stance matters: opposing comments significantly amplify reactions, comments, and link clicks relative to the control, whereas supportive comments have little effect. In a complementary artefactual field experiment, we find that comments increase the time spent viewing the post, and exposure to opposing comments leads to more negative perceptions of the organization, less progressive attitudes, and reduced donations. Our results reveal a fundamental tradeoff between on-platform engagement and off-platform attitudes and behavior, underscoring the role of comment ranking and moderation policies for businesses, users, platforms, and regulators.",
+        "bio": "Assistant Professor of Business"
+      },
+      {
+        "seminar_title": "\"Flexible Estimation of Differentiated Product Demand Models Using Aggregate Data\"",
+        "date": "24-Mar-26",
+        "location": "830 Kravis",
+        "time": "2:45p-4:00p",
+        "speaker": "Aviv Nevo",
+        "affiliation": "University of Pennsylvania",
+        "abstract": "We propose a method to estimate a flexible differentiated-products demand system, where the distribution of consumer heterogeneity in tastes for product characteristics is specified flexibly. We reduce the dimensionality of the problem by exploiting the symmetry of the inverse demand function in shares and the differences in product characteristics. We propose a two-stage estimator where in the first stage we flexibly estimate the inverse demand function using linear GMM/2SLS, which allows us to recover the fixed coefficients and price elasticities using the Implicit Function Theorem. In the second stage, we uncover the distribution of consumer heterogeneity via a (computationally relatively simple) minimum distance procedure. We demonstrate the performance of our estimator with Monte Carlo simulations.",
+        "bio": "George A. Weiss and Lydia Bravo Weiss University Professor"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "24-Mar-26",
+        "location": "Kravis 670",
+        "time": "4:15p-5:30p",
+        "speaker": "Daniela Vidart",
+        "affiliation": "University of Connecticut",
+        "abstract": "To be announced.",
+        "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "The Disruptive Economics of Artificial Intelligence (RSVP required)",
+        "date": "25-Mar-26",
+        "location": "Uris Hall, Room 107 (Calder Lounge)",
+        "time": "11:45a-1:00p",
+        "speaker": "Avi Goldfarb",
+        "affiliation": "U. Toronto: Rotman Business",
+        "abstract": "Artificial intelligence technology is likely to be the next general purpose technology, with potential to have an outsized impact on productivity and our standard of living. As with electricity and the internet, this impact depends on redesigning systems, rather than inserting AI into existing processes. Economic models of the implications of these changes on existential risk, jobs, inequality, market power, and misinformation point to where ambiguity lies and where it does not.\n\nPlease RSVP at https://econ.columbia.edu/event/avigoldfarb/.",
+        "bio": "Rotman Chair in Artificial Intelligence and Healthcare, Professor of Marketing"
       }
     ]
   }
