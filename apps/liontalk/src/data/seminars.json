@@ -81,17 +81,17 @@
         "speaker": "Tony Cai",
         "affiliation": "University of Pennsylvania",
         "abstract": "Privacy-preserving data analysis has become a central challenge in modern statistics, and federated learning has increasingly attracted attention in both statistics and machine learning. In this talk, we study minimax and adaptive federated learning under differential privacy (FDP) in the context of density estimation, considering both global and pointwise estimation over Besov spaces.\nWe first establish minimax rates of convergence under FDP and propose optimal distributed, privacy-preserving estimators. Our results uncover phase-transition phenomena that highlight the trade-offs between statistical accuracy and privacy, showing how privacy budgets, the number of servers, and sample size jointly determine achievable performance.\nWe then turn to adaptive estimation when the smoothness parameters are unknown. We derive sharp characterizations of the cost of adaptation under FDP for both global and pointwise estimation and introduce an adaptive estimator based on a new noise mechanism that enables one-shot adaptation via post-processing. This method provides strict improvements over existing adaptive DP approaches.\nOur findings reveal a striking contrast between private and non-private settings. For global estimation, where adaptation can be achieved for free in the classical non-private setting, we prove that under FDP an intrinsic adaptation cost is unavoidable. For pointwise estimation, where a logarithmic penalty is already known to arise in the non-private setting, we show that FDP introduces an additional logarithmic factor, thereby compounding the cost of adaptation. Taken together, these results provide the first rigorous characterization of the adaptive privacy-accuracy trade-off.\nThis is joint work with Abhinav Chakraborty and Lasse Vuursteen",
-        "bio": "N/A"
+        "bio": "Not provided in the HTML."
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "When Both Layers Learn: Gradient Descent Dynamics for Learning Simple ReLU Networks",
         "date": "30-March-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Madhi Soltanolkotabi",
         "affiliation": "University of Southern California",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "abstract": "We study gradient descent dynamics for jointly training both layers of a one-hidden-layer ReLU network to fit simple planted models under Gaussian covariates. This problem provides a simple but nontrivial setting for understanding end-to-end feature learning beyond lazy-training or fixed-feature regimes. Despite the simplicity of the target, the optimization landscape is highly degenerate and contains a continuum of non-strict saddle points, making it far from obvious why gradient descent from random initialization should recover the underlying planted model. We show that, from a moderately small random initialization and with a sample size scaling linearly with parameters, full-batch gradient descent provably converges to a global minimizer at a linear rate. A central technical ingredient is a set of trajectory-uniform concentration bounds that control empirical-population deviations simultaneously along the entire gradient descent path, enabling order-optimal sample complexity with data reuse across iterations. These results provide a sharp theoretical characterization of end-to-end representation learning in a minimal nonlinear model.",
+        "bio": "Mahdi Soltanolkotabi is the director of the center on AI Foundations for the Sciences (AIF4S) at the University of Southern California. He is also a professor in the Departments of Electrical and Computer Engineering, Computer Science, and Industrial and Systems engineering and part time research scientist at google. Prior to joining USC, he completed his PhD in electrical engineering at Stanford in 2014. He was a postdoctoral researcher in the EECS department at UC Berkeley during the 2014-2015 academic year.\nMahdi is the recipient of the Information Theory Society Best Paper Award, Packard Fellowship in Science and Engineering, an NIH Director\u2019s new innovator award, a Sloan Research Fellowship, an NSF Career award, an Airforce Office of Research Young Investigator award (AFOSR-YIP), the Viterbi school of engineering junior faculty research award, and faculty awards from Google and Amazon. His research focuses on developing the mathematical foundations of modern data science via characterizing the behavior and pitfalls of contemporary nonconvex learning and optimization algorithms with applications in AI, deep learning, large scale distributed training, federated learning, computational imaging, and AI for scientific and medical applications. Most recently his applied research is focused on developing and deploying reliable and trustworthy AI in healthcare."
       },
       {
         "seminar_title": "Machine learning and symmetries",
@@ -104,44 +104,44 @@
         "bio": "Soledad Villar is an Assistant Professor of Applied Mathematics and Statistics at Johns Hopkins. Her research is in the mathematical foundations of deep learning, including geometric deep learning. She received an NSF CAREER award, a Sloan Fellowship in Mathematics, and her research has been supported by ONR, Apple, Amazon, and the Simons Foundation. She is originally from Uruguay."
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "No title provided",
         "date": "13-Apr-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Theodor Misiakiewicz",
         "affiliation": "Yale University",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "abstract": "No abstract provided.",
+        "bio": "No bio provided."
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "No title provided",
         "date": "20-Apr-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "speaker": "No speaker provided",
+        "affiliation": "No affiliation provided",
+        "abstract": "No abstract provided.",
+        "bio": "No bio provided."
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "No title provided",
         "date": "27-Apr-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Steve Marron",
         "affiliation": "UNC",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "abstract": "No abstract provided.",
+        "bio": "No bio provided."
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "No title provided",
         "date": "4-May-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Hans Muller",
         "affiliation": "UC Davis",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "abstract": "No abstract provided.",
+        "bio": "No bio provided."
       }
     ]
   },
@@ -155,9 +155,9 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "Yoonhaeng Hur",
-        "affiliation": "N/A",
+        "affiliation": "Unknown",
         "abstract": "Computational difficulty of quadratic matching and the Gromov-Wasserstein distance has led to various approximation and relaxation schemes. One of such methods, relying on the notion of distance profiles, has been widely used in practice, but its theoretical understanding is limited. By delving into the statistical complexity of the previously proposed method based on distance profiles, we show that it suffers from the curse of dimensionality unless we make certain assumptions on the underlying metric measure spaces. Building on this insight, we propose and analyze a modified matching procedure that can be used to robustly match points under a certain probabilistic setting. We demonstrate the performance of the proposed methods using simulations and real data applications to complement the theoretical findings. As a result, we contribute to the literature by providing theoretical underpinnings of the matching procedures based on distance invariants like distance profiles, which have been widely used in practice but rarely analyzed theoretically.",
-        "bio": "N/A"
+        "bio": "Unknown"
       },
       {
         "seminar_title": "Regularized f-Divergence Kernel Tests",
@@ -167,7 +167,7 @@
         "speaker": "Monica Ribero",
         "affiliation": "Research Scientist at Google NYC",
         "abstract": "We propose a framework to construct practical kernel-based two-sample tests from the family of f-divergences. The test statistic is computed from the witness function of a regularized variational representation of the divergence, which we estimate using kernel methods. The proposed test is adaptive over hyperparameters such as the kernel bandwidth and the regularization parameter. We provide theoretical guarantees for statistical test power across our family of f-divergence estimates. While our test covers a variety of f-divergences, we bring particular focus to the Hockey-Stick divergence, motivated by its applications to differential privacy auditing and machine unlearning evaluation. For two-sample testing, experiments demonstrate that different f-divergences are sensitive to different localized differences, illustrating the importance of leveraging diverse statistics. For machine unlearning, we propose a relative test that distinguishes true unlearning failures from safe distributional variations.",
-        "bio": "N/A"
+        "bio": "Unknown"
       },
       {
         "seminar_title": "Some Open Problems in Probability that are Relevant to Applied Statistics",
@@ -175,9 +175,9 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
-        "affiliation": "N/A",
-        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
-        "bio": "N/A"
+        "affiliation": "Unknown",
+        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.\n\nHere are some references that start to address these topics: https://sites.stat.columbia.edu/gelman/research/published/piranha_published.pdf https://sites.stat.columbia.edu/gelman/research/published/arnold2.pdf https://sites.stat.columbia.edu/gelman/research/published/mi_theory9.pdf https://statmodeling.stat.columbia.edu/2024/09/24/its-martingale-time-baby-how-to-evaluate-probabilistic-forecasts-before-the-event-happens-rajiv-sethi-has-an-idea-hint-it-involves-time-series/ https://arxiv.org/abs/2507.11833 https://statmodeling.stat.columbia.edu/2013/05/30/infill-asymptotics-and-sprawl-asymptotics/",
+        "bio": "Unknown"
       },
       {
         "seminar_title": "A Generalized Potts Model",
@@ -187,7 +187,7 @@
         "speaker": "Reihaneh Malekian",
         "affiliation": "Columbia",
         "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph H in a randomly colored large graph G. This framework generalizes the well-known Potts model, which corresponds to the special case H = K2, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.",
-        "bio": "N/A"
+        "bio": "Unknown"
       },
       {
         "seminar_title": "An uncertainty-aware framework for data-efficient multi-view animal pose estimation",
@@ -197,17 +197,17 @@
         "speaker": "Lenny Aharon",
         "affiliation": "Columbia",
         "abstract": "Multi-view pose estimation is essential for quantifying animal behavior in scientific research, yet current methods struggle to achieve accurate tracking with limited labeled data and suffer from poor uncertainty estimates. We address these challenges with a comprehensive framework combining novel training and post-processing techniques, and a model distillation procedure that leverages the strengths of these techniques to produce a more efficient and effective pose estimator. Our multi-view transformer (MVT) utilizes pretrained backbones and enables simultaneous processing of information across all views, while a novel patch masking scheme learns robust cross-view correspondences without camera calibration. For calibrated setups, we incorporate geometric consistency through 3D augmentation and a triangulation loss. We extend the existing Ensemble Kalman Smoother (EKS) post-processor to the nonlinear case and enhance uncertainty quantification via a variance inflation technique. Finally, to leverage the scaling properties of the MVT, we design a distillation procedure that exploits improved EKS predictions and uncertainty estimates to generate high-quality pseudo-labels, thereby reducing dependence on manual labels. Our framework components consistently outperform existing methods across three diverse animal species (flies, mice, chickadees), with each component contributing complementary benefits. The result is a practical, uncertainty-aware system for reliable pose estimation that enables downstream behavioral analyses under real-world data constraints.",
-        "bio": "N/A"
+        "bio": "Unknown"
       },
       {
         "seminar_title": "TWO SIGMA\u2019S QUANT RESEARCH PHD SEMINAR @COLUMBIA",
         "date": "25-Feb-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "Two Sigma",
-        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process. Register now to save your spot by RSVPing here. We hope to see you there! Food and Two Sigma swag will be provided.",
-        "bio": "N/A"
+        "speaker": "TWO SIGMA\u2019S QUANT RESEARCH PHD SEMINAR @COLUMBIA",
+        "affiliation": "Unknown",
+        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\n\nRegister now to save your spot by RSVPing here.\n\nWe hope to see you there! Food and Two Sigma swag will be provided.",
+        "bio": "Unknown"
       },
       {
         "seminar_title": "Inference in discrete tensor exponential families",
@@ -217,7 +217,7 @@
         "speaker": "Prof. Sumit Mukherjee",
         "affiliation": "Columbia University",
         "abstract": "In this talk we will focus on a discrete exponential family, where the sufficient statistics is given in terms of a tensor form. In the simplest case when the tensor is a quadratic, the exponential family reduces to the celebrated Ising model of statistical physics, which has since found applications in several disciplines including statistics and machine learning. Another special case is the exponential random graph models (ERGMs) of social networks, originating in the social sciences. We will discuss what is known about parameter estimation in such exponential families, and possible directions for future research.",
-        "bio": "N/A"
+        "bio": "Unknown"
       },
       {
         "seminar_title": "Information, Computation, & Quantization: Infinitely divisible privacy and beyond",
@@ -227,47 +227,57 @@
         "speaker": "Aaradhya Pandey",
         "affiliation": "PhD Student at Princeton ORFE",
         "abstract": "In this talk, I introduce a hypothesis-testing-based formulation of differential privacy in classical computation. The Gaussian Differential Privacy framework of Dong--Roth--Su (2022) established a central limit theorem for the composition of multiple private mechanisms. Building on this work, I present a Poisson extension of their result and show that both the Gaussian and Poisson limits are unified under a broader framework of infinitely divisible privacy. This perspective reveals structural connections between differential privacy, probability theory, statistics, and discrete mathematics. I conclude by discussing computational differential privacy and its connections to cryptographic constructions such as pseudorandom generators, as well as a step toward quantizing privacy in quantum computation, outlining a framework for both computational and quantum differential privacy.",
-        "bio": "N/A"
+        "bio": "Unknown"
       },
       {
         "seminar_title": "SPRING BREAK",
         "date": "16 to 20-March-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "speaker": "Unknown",
+        "affiliation": "Unknown",
+        "abstract": "SPRING BREAK",
+        "bio": "Unknown"
       },
       {
         "seminar_title": "N/A",
         "date": "25-March-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
+        "speaker": "Unknown",
+        "affiliation": "Unknown",
         "abstract": "N/A",
-        "bio": "N/A"
+        "bio": "Unknown"
       },
       {
         "seminar_title": "N/A",
         "date": "1-April-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
+        "speaker": "Unknown",
+        "affiliation": "Unknown",
         "abstract": "N/A",
-        "bio": "N/A"
+        "bio": "Unknown"
       },
       {
         "seminar_title": "N/A",
         "date": "8-April-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
+        "speaker": "Unknown",
+        "affiliation": "Unknown",
         "abstract": "N/A",
-        "bio": "N/A"
+        "bio": "Unknown"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "Unknown",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Unknown",
+        "affiliation": "Unknown",
+        "abstract": "N/A",
+        "bio": "Unknown"
       }
     ]
   },
@@ -282,7 +292,7 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Goran Peskir",
         "affiliation": "University of Manchester",
-        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
+        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.\nThe quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.\nThe solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
         "bio": "N/A"
       },
       {
@@ -292,7 +302,7 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Jim Gatheral and Xin Zhang",
         "affiliation": "Baruch and NYU",
-        "abstract": "N/A",
+        "abstract": "Details here: https://urldefense.com/v3/__https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang__;!!BDUfV1Et5lrpZQ!UVYwxb7oHyja43uD8ANbDrnRbBWiCY4TfYTKmwgkhxcqkZe9FrUZ-nA7D74-FJOr5H29cX4qQEg7Q9K160L4Gf4$",
         "bio": "N/A"
       },
       {
@@ -322,7 +332,7 @@
         "time": "4:00pm-6:00pm",
         "speaker": "Mathias Beiglboeck and David Itkin",
         "affiliation": "Vienna and Imperial",
-        "abstract": "N/A",
+        "abstract": "Details here: https://engineering.nyu.edu/events/2026/02/26/columbia-nyu-financial-engineering-colloquium-mathias-beiglbock-david-itkin\nRegister here: https://docs.google.com/forms/d/e/1FAIpQLSciW0z0X9CJR5Yzy6JMySGt54ys4y4OX7e-unGSD0-Tfqj6vw/viewform",
         "bio": "N/A"
       },
       {
@@ -346,6 +356,16 @@
         "bio": "N/A"
       },
       {
+        "seminar_title": "NO SEMINAR",
+        "date": "Spring Break",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
         "seminar_title": "Neural optimal stopping boundary",
         "date": "26-Mar-2026",
         "location": "Room 903, 1255 Amsterdam Ave.",
@@ -362,7 +382,7 @@
         "time": "4:00pm-6:00pm",
         "speaker": "Martin Larsson and Gregoire Loeper",
         "affiliation": "CMU and BNP Paribas and genOTC",
-        "abstract": "N/A",
+        "abstract": "Details and registration here: https://engineering.nyu.edu/events/2026/04/02/columbia-nyu-financial-engineering-colloquium-martin-larsson-and-gregoire-loeper",
         "bio": "N/A"
       },
       {
@@ -389,20 +409,20 @@
         "seminar_title": "N/A",
         "date": "23-Apr-26",
         "location": "MAFN seminar",
-        "time": "4:10 pm - 5:25 pm",
+        "time": "N/A",
         "speaker": "Zhenyu Cui",
         "affiliation": "Stevens",
-        "abstract": "N/A",
+        "abstract": "Joint with MAFN seminar, see https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
         "bio": "N/A"
       },
       {
         "seminar_title": "N/A",
         "date": "30-Apr-26",
         "location": "MAFN seminar",
-        "time": "4:10 pm - 5:25 pm",
+        "time": "N/A",
         "speaker": "Ioannis Kyriakou",
         "affiliation": "Bayes Business School",
-        "abstract": "N/A",
+        "abstract": "Joint with MAFN seminar, see https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
         "bio": "N/A"
       }
     ]
@@ -430,6 +450,16 @@
         "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "IICD Workshop Series: Parameter Estimation Workshop",
+        "date": "09-Apr-26",
+        "location": "Location not specified",
+        "time": "12:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
       }
     ]
   },
@@ -438,87 +468,7 @@
     "series": "CSS Seminar Series",
     "entries": [
       {
-        "seminar_title": "Mayanthi Fernando - Toward a Negative Zoology: More-than-Secular, More-than-Human Worlds",
-        "date": "26-Mar-26",
-        "location": "Location not specified",
-        "time": "11:15 AM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "AI Risk Governance and Impactful Use Cases in Lending Institutions",
-        "date": "26-Mar-26",
-        "location": "Location not specified",
-        "time": "3:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Housing Stability and Public Health in NYC",
-        "date": "26-Mar-26",
-        "location": "Location not specified",
-        "time": "4:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Off the Spectrum: The Lost Girls of Autism",
-        "date": "26-Mar-26",
-        "location": "Location not specified",
-        "time": "5:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Jessica Riskin - The Power of Life",
-        "date": "26-Mar-26",
-        "location": "Location not specified",
-        "time": "5:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Pakal: Meaning and Legacy",
-        "date": "26-Mar-26",
-        "location": "Location not specified",
-        "time": "5:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Water for Life Screening",
-        "date": "26-Mar-26",
-        "location": "Location not specified",
-        "time": "5:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Dan Falk - The Science of Shakespeare",
-        "date": "26-Mar-26",
-        "location": "Location not specified",
-        "time": "7:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Charu Singh - When Science Became Vij\n\nana: Rethinking Categories of Knowledge in the Global History of Science from Early Twentieth Century South Asia",
+        "seminar_title": "Charu Singh - When Science Became Vij\n\n\nana: Rethinking Categories of Knowledge in the Global History of Science from Early Twentieth Century South Asia",
         "date": "30-Mar-26",
         "location": "Location not specified",
         "time": "3:30 PM",
@@ -558,7 +508,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "American Religion is\n\n... Memory",
+        "seminar_title": "American Religion is\n\n\nMemory",
         "date": "31-Mar-26",
         "location": "Location not specified",
         "time": "4:30 PM",
@@ -678,7 +628,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Andreas Friedolin Lingg - Architectures of Abundance: Venice\n\ns Industry and the History of Economic Growth",
+        "seminar_title": "Andreas Friedolin Lingg - Architectures of Abundance: Venice\n\n\nIndustry and the History of Economic Growth",
         "date": "08-Apr-26",
         "location": "Location not specified",
         "time": "3:00 PM",
@@ -696,6 +646,16 @@
         "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Quantum Science and Technology: Where We Are, Where We Are Headed",
+        "date": "09-Apr-26",
+        "location": "Location not specified",
+        "time": "8:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
       }
     ]
   },
@@ -703,26 +663,6 @@
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
-      {
-        "seminar_title": "Public and Private Transit: Evidence from Lagos",
-        "date": "26-Mar-26",
-        "location": "1101 IAB",
-        "time": "4:10p-5:25p",
-        "speaker": "Nick Tsivanidis",
-        "affiliation": "UC Berkeley: Haas Business",
-        "abstract": "Private minibuses dominate transport in many developing country cities. They serve 62% of trips in Lagos, the largest city in sub-Saharan Africa. We collect panel data to measure how private minibuses respond to the rollout of a new public bus network. When the government enters a route, minibuses depart less frequently, driver profits fall, and drivers switch to connected routes, reducing prices. We develop a custom app to estimate how commuters trade off prices and wait times in an RCT. The private response harms commuters on treated routes, who wait longer, but benefits those on connected routes, who face only lower prices. Overall, 10% of the commuter welfare gains of building the public transit system arise from the response of private transit. Drivers lose welfare equal to half of the commuter gains.",
-        "bio": "Assistant Professor of Economics"
-      },
-      {
-        "seminar_title": "How Do Economic Factors Influence Security Affairs?",
-        "date": "26-Mar-26",
-        "location": "IAB 1219",
-        "time": "4:30p-6:00p",
-        "speaker": "Stephen Brooks",
-        "affiliation": "Dartmouth College",
-        "abstract": "N/A",
-        "bio": "Professor of Government"
-      },
       {
         "seminar_title": "To be announced.",
         "date": "27-Mar-26",
@@ -770,8 +710,38 @@
         "time": "1:00p-2:00p",
         "speaker": "L\u00e9o Denis",
         "affiliation": "\u00c9cole Polytechnique",
-        "abstract": "Sustainable finance, understood as the integration of environmental and social criteria into investment decisions, is expected to generate system-level environmental and social impact, yet the evidence remains contested. Most research has focused on the direct levers used by investors to affect firms, such as capital allocation (toward green assets or away from brown assets) and governance engagement. In this talk, I argue that because the financial system is highly intermediated, an important part of the impact potential of sustainable finance is determined earlier, when mandates are negotiated between asset owners and asset managers and investment funds are designed as organizations.\n<br/>\n<br/>I develop this argument using two studies of private equity funds in France. The first is a qualitative case study of an impact fund, showing how asset owners and asset managers jointly define a fund\u2019s objectives, resources, incentives, and control mechanisms before investment activity begins. The second draws on a hand-collected dataset of 89 French private equity funds to examine how these organizational features vary across sustainable and impact-oriented vehicles. Using a clustering analysis, I show that funds with similar intentions often rely on very different organizational architectures. These differences matter because extra-financial ambitions are more likely to be sustained when they are embedded in a fund\u2019s structure rather than left as broad statements of intent. Taken together, the findings suggest that the impact of sustainable finance depends not only on what investors do in markets, but also on how they are organizationally designed to carry out these activities systematically. From a policy perspective, current regulatory frameworks such as the Sustainable Finance Disclosure Regulation (EU SFDR), as well as widely used labels such as \u201cimpact funds,\u201d only imperfectly capture the organizational heterogeneity observed across vehicles.",
+        "abstract": "Sustainable finance, understood as the integration of environmental and social criteria into investment decisions, is expected to generate system-level environmental and social impact, yet the evidence remains contested. Most research has focused on the direct levers used by investors to affect firms, such as capital allocation (toward green assets or away from brown assets) and governance engagement. In this talk, I argue that because the financial system is highly intermediated, an important part of the impact potential of sustainable finance is determined earlier, when mandates are negotiated between asset owners and asset managers and investment funds are designed as organizations. I develop this argument using two studies of private equity funds in France. The first is a qualitative case study of an impact fund, showing how asset owners and asset managers jointly define a fund\u2019s objectives, resources, incentives, and control mechanisms before investment activity begins. The second draws on a hand-collected dataset of 89 French private equity funds to examine how these organizational features vary across sustainable and impact-oriented vehicles. Using a clustering analysis, I show that funds with similar intentions often rely on very different organizational architectures. These differences matter because extra-financial ambitions are more likely to be sustained when they are embedded in a fund\u2019s structure rather than left as broad statements of intent. Taken together, the findings suggest that the impact of sustainable finance depends not only on what investors do in markets, but also on how they are organizationally designed to carry out these activities systematically. From a policy perspective, current regulatory frameworks such as the Sustainable Finance Disclosure Regulation (EU SFDR), as well as widely used labels such as \u201cimpact funds,\u201d only imperfectly capture the organizational heterogeneity observed across vehicles.",
         "bio": "PhD Candidate in Management Science"
+      },
+      {
+        "seminar_title": "Firm Dynamics in the Data Economy",
+        "date": "30-Mar-26",
+        "location": "N/A",
+        "time": "1:00p-1:30p",
+        "speaker": "Haotian (Hao) Jiang",
+        "affiliation": "Columbia University",
+        "abstract": "This paper studies firm dynamics in a data economy where production generates both output and data that improves firm's decision-making. I develop a firm dynamics model in which firms differ in productivity, in the stock of predictive knowledge they have accumulated, and in their ability to convert production into useful information. Since current production affects future knowledge, firms face a dynamic trade-off between current profits and information accumulation. The model suggests that firm growth and survival depend also on the endogenous accumulation of predictive knowledge aside from their innate productivity, and that some firms may perform data barter: rationally tolerating low current profits while building future value. This framework can be applied to study new forces introduced by the data feedback loop in the cross-section of firms, and measurement questions of what we attribute firm-size dispersion to in the modern economy.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Firm Design, Household Bargaining, and the Gender Wage Gap",
+        "date": "30-Mar-26",
+        "location": "N/A",
+        "time": "1:30p-2:00p",
+        "speaker": "Evgeniia Lambrinaki",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Optimal Capital Regulation for Insurers Facing Interest Rate Risk",
+        "date": "31-Mar-26",
+        "location": "1101 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Nolwenn Allaire",
+        "affiliation": "Columbia: Business",
+        "abstract": "N/A",
+        "bio": "PhD Student in Finance"
       }
     ]
   }
