@@ -20,8 +20,8 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Weng Kee Wong",
         "affiliation": "UCLA",
-        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model.",
-        "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace. His main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications. His recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics. He has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator. He is fellow of the American Statistical Association, the Institute of Mathematical Statistics, the American Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
+        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage.\nAbove all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs.\nIf time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model.\nKeywords: Continuous Designs, Early Phase Trials, Equivalence Theorems,\nOptimal Experiment Designs, Particle Swarm Optimization.",
+        "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace.\nHis main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications.\nHis recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics.\nHe has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator.\nHe is fellow of the American Statistical Association, the Institute of Mathematical Statistics,\nthe\nAmerican Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
       },
       {
         "seminar_title": "Learning Pseudo-Differential Operators",
@@ -31,7 +31,7 @@
         "speaker": "Daniel Sanz-Alonso",
         "affiliation": "University of Chicago",
         "abstract": "Pseudo-differential operators (PDOs) are a broad and fundamental class of operators in analysis and partial differential equations, with wide-ranging applications in mathematical and computational sciences. In this talk I will present recent work with Jiaheng Chen on learning elliptic PDOs from noisy data. Within a wavelet--Galerkin framework, we formulate this task as a structured infinite-dimensional regression problem with multiscale sparsity. Building on this structure, we propose a sparse, data- and computation-efficient estimator, which leverages a novel matrix compression scheme tailored to the learning task and a nested-support strategy to balance approximation and estimation errors. In addition to establishing convergence rates for the estimator, we show that the learned operator induces an efficient and stable Galerkin solver whose numerical error matches its statistical accuracy. Our results therefore contribute to bringing together operator learning, data-driven solvers, and wavelet methods in scientific computing.",
-        "bio": "Daniel Sanz-Alonso is an Associate Professor in the Department of Statistics at the University of Chicago, where he is a member of the Committee on Computational and Applied Mathematics. Previously, he was a postdoctoral researcher in the Division of Applied Mathematics and a member of the Data Science Initiative at Brown University. He received his PhD in Mathematics and Statistics from the University of Warwick (UK) in 2016, under the supervision of Andrew Stuart and Gareth Roberts. His research interests include inverse problems, data assimilation, and scientific machine learning. A central theme of his work is the integration of complex predictive models with large data sets, addressing theoretical and computational challenges motivated by data-centric applications. He was awarded the Jos\u00e9 Luis Rubio de Francia Prize by the Spanish Royal Society of Mathematics, recognizing the best Spanish mathematician under the age of 32, and received an NSF CAREER Award in 2023. Since 2025, he has served as an Associate Editor of the SIAM/ASA Journal on Uncertainty Quantification and Stochastics and Partial Differential Equations: Analysis and Computations. His research has been supported by the National Science Foundation, the National Geospatial-Intelligence Agency, the Department of Energy, and the BBVA Foundation."
+        "bio": "Daniel Sanz-Alonso is an Associate Professor in the Department of Statistics at the University of Chicago, where he is a member of the Committee on Computational and Applied Mathematics. Previously, he was a postdoctoral researcher in the Division of Applied Mathematics and a member of the Data Science Initiative at Brown University. He received his PhD in Mathematics and Statistics from the University of Warwick (UK) in 2016, under the supervision of Andrew Stuart and Gareth Roberts.\nHis research interests include inverse problems, data assimilation, and scientific machine learning. A central theme of his work is the integration of complex predictive models with large data sets, addressing theoretical and computational challenges motivated by data-centric applications.\nHe was awarded the Jos\u00e9 Luis Rubio de Francia Prize by the Spanish Royal Society of Mathematics, recognizing the best Spanish mathematician under the age of 32, and received an NSF CAREER Award in 2023. Since 2025, he has served as an Associate Editor of the SIAM/ASA Journal on Uncertainty Quantification and Stochastics and Partial Differential Equations: Analysis and Computations. His research has been supported by the National Science Foundation, the National Geospatial-Intelligence Agency, the Department of Energy, and the BBVA Foundation."
       },
       {
         "seminar_title": "Topics on Multivariate Integer-Valued Time Series",
@@ -41,7 +41,7 @@
         "speaker": "Konstantinos Fokianos",
         "affiliation": "University of Cyprus",
         "abstract": "We study inference and modelling techniques for multivariate count time series. In particular, we focus on autoregressive, network, and space\u2013time models. The development of both the underlying theory and its applications depends critically on the choice of an appropriate response distribution for multivariate count data, as well as on the framework of observation\u2011driven models. Our aim is to highlight recent methodological advances in this area and to outline several directions for future research.",
-        "bio": "Kostas Fokianos is a Professor of Statistics at the University of Cyprus, where he has served since 1999 and acted as a Head of Department between 2020-2024. He has also taught at The Ohio State University and Lancaster University. He has been a visiting scholar at Ludwig Maximilian University of Munich, the National Institutes of Health, EPFL, CY Cergy Paris University, the University of Bergen, TU Dortmund University, and the University of Rome Tor Vergata. He is a Fellow of the American Statistical Association, an elected member of the International Statistical Institute, and has held multiple editorial positions in leading statistical journals. His primary methodological contributions lie in time series analysis, with a particular focus on univariate and multivariate models for count time series."
+        "bio": "Kostas Fokianos is a Professor of Statistics at the University of Cyprus, where he has served since 1999 and acted as a Head of Department between 2020-2024. He has also taught at The Ohio State University and Lancaster University. He has been a visiting scholar at Ludwig Maximilian University of Munich, the National Institutes of Health, EPFL, CY Cergy Paris University, the University of Bergen, TU Dortmund University, and the University of Rome Tor Vergata.\nHe is a Fellow of the American Statistical Association, an elected member of the International Statistical Institute, and has held multiple editorial positions in leading statistical journals. His primary methodological contributions lie in time series analysis, with a particular focus on univariate and multivariate models for count time series."
       },
       {
         "seminar_title": "Deep learning theory: Statistics, optimization and the space in between",
@@ -50,8 +50,8 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Sophie Langer",
         "affiliation": "Ruhr University Bochum",
-        "abstract": "Statistical learning theory for deep learning has primarily focused on analyzing neural networks as estimators in nonparametric regression and classification problems. A central question is under which assumptions neural networks can circumvent the well-known curse of dimensionality. Existing literature typically addresses this question by either imposing structural assumptions on the target function or by assuming that the covariates possess a low-dimensional structure. In this talk, we present a unified framework that incorporates both types of assumptions within a single model. We show that neural networks can adapt to this framework and establish approximation and excess risk bounds that are independent of the ambient input dimension. Our results apply to simple fully connected neural networks with flexible width and depth. In the second part of the talk, we address the persistent gap between the statistical and optimization perspectives in deep learning. We present first results that jointly account for both aspects by deriving statistical risk bounds for estimators obtained via gradient descent. This talk is based on joint work with Alina Braun, Michael Kohler, Adam Krzyzak, and Thomas Nagler.",
-        "bio": "Sophie Langer studied Mathematics with Economics at the Technical University of Darmstadt, and received a PhD in Statistics in 2020 under the supervision of Michael Kohler. After graduating, she worked as a postdoctoral student with Johannes Schmidt-Hieber at the University of Twente, the Netherlands, and with Lorenzo Rosasco at the University of Genoa, Italy. In October 2022, she was appointed an Assistant Professor at the University of Twente. Since April 2025, she has been a professor at Ruhr University Bochum, Germany. Her research focuses on the statistical foundations and theory of deep learning."
+        "abstract": "Statistical learning theory for deep learning has primarily focused on analyzing neural networks as estimators in nonparametric regression and classification problems. A central question is under which assumptions neural networks can circumvent the well-known curse of dimensionality. Existing literature typically addresses this question by either imposing structural assumptions on the target function or by assuming that the covariates possess a low-dimensional structure.\nIn this talk, we present a unified framework that incorporates both types of assumptions within a single model. We show that neural networks can adapt to this framework and establish approximation and excess risk bounds that are independent of the ambient input dimension. Our results apply to simple fully connected neural networks with flexible width and depth.\nIn the second part of the talk, we address the persistent gap between the statistical and optimization perspectives in deep learning. We present first results that jointly account for both aspects by deriving statistical risk bounds for estimators obtained via gradient descent.\nThis talk is based on joint work with Alina Braun, Michael Kohler, Adam Krzyzak, and Thomas Nagler.",
+        "bio": "Sophie Langer studied Mathematics with Economics at the Technical University of Darmstadt, and received a PhD in Statistics in 2020 under the supervision of Michael Kohler. After graduating, she worked as a postdoctoral student with Johannes Schmidt-Hieber at the University of Twente, the Netherlands, and with Lorenzo Rosasco at the University of Genoa, Italy.\nIn October 2022, she was appointed an Assistant Professor at the University of Twente. Since April 2025, she has been a professor at Ruhr University Bochum, Germany. Her research focuses on the statistical foundations and theory of deep learning."
       },
       {
         "seminar_title": "What Functions Do Deep Networks Really Learn?",
@@ -175,8 +175,8 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
-        "affiliation": "Columbia University",
-        "abstract": "How does probability theory apply to statistical practice? \u00a0Not just through the usual limit theorems of fixed-model asymptotics. \u00a0Probability theory also has interesting and important challenges related to models of growing complexity. \u00a0Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. \u00a0We motivate and explain several of these open problems: \u00a0piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
+        "affiliation": "N/A",
+        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.\nHere are some references that start to address these topics: https://sites.stat.columbia.edu/gelman/research/published/piranha_published.pdf\nhttps://sites.stat.columbia.edu/gelman/research/published/arnold2.pdf\nhttps://sites.stat.columbia.edu/gelman/research/published/mi_theory9.pdf\nhttps://statmodeling.stat.columbia.edu/2024/09/24/its-martingale-time-baby-how-to-evaluate-probabilistic-forecasts-before-the-event-happens-rajiv-sethi-has-an-idea-hint-it-involves-time-series/\nhttps://arxiv.org/abs/2507.11833\nhttps://statmodeling.stat.columbia.edu/2013/05/30/infill-asymptotics-and-sprawl-asymptotics/",
         "bio": "N/A"
       },
       {
@@ -204,9 +204,9 @@
         "date": "25-Feb-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
-        "speaker": "Two Sigma's Quant Researchers",
-        "affiliation": "Two Sigma",
-        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process. Register now to save your spot by RSVPing here. We hope to see you there! Food and Two Sigma swag will be provided.",
+        "speaker": "TWO SIGMA\u2019S QUANT RESEARCH PHD SEMINAR @COLUMBIA",
+        "affiliation": "N/A",
+        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\n\nRegister now to save your spot by RSVPing here.\n\nWe hope to see you there! Food and Two Sigma swag will be provided.",
         "bio": "N/A"
       },
       {
@@ -296,13 +296,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Speakers: Jim Gatheral (Baruch) and Xin Zhang (NYU)",
+        "seminar_title": "NA",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Jim Gatheral and Xin Zhang",
         "affiliation": "Baruch and NYU",
-        "abstract": "Details here: https://urldefense.com/v3/__https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang__;!!BDUfV1Et5lrpZQ!UVYwxb7oHyja43uD8ANbDrnRbBWiCY4TfYTKmwgkhxcqkZe9FrUZ-nA7D74-FJOr5H29cX4qQEg7Q9K160L4Gf4$",
+        "abstract": "NA",
         "bio": "N/A"
       },
       {
@@ -326,13 +326,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Speakers: Mathias Beiglboeck (Vienna) and David Itkin (Imperial)",
+        "seminar_title": "NA",
         "date": "26-Feb-26",
         "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
         "time": "4:00pm-6:00pm",
         "speaker": "Mathias Beiglboeck and David Itkin",
         "affiliation": "Vienna and Imperial",
-        "abstract": "Details here: https://engineering.nyu.edu/events/2026/02/26/columbia-nyu-financial-engineering-colloquium-mathias-beiglbock-david-itkin\nRegister here: https://docs.google.com/forms/d/e/1FAIpQLSciW0z0X9CJR5Yzy6JMySGt54ys4y4OX7e-unGSD0-Tfqj6vw/viewform",
+        "abstract": "NA",
         "bio": "N/A"
       },
       {
@@ -356,6 +356,16 @@
         "bio": "N/A"
       },
       {
+        "seminar_title": "NO SEMINAR",
+        "date": "Spring Break",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "NA",
+        "affiliation": "NA",
+        "abstract": "NA",
+        "bio": "N/A"
+      },
+      {
         "seminar_title": "Neural optimal stopping boundary",
         "date": "26-Mar-2026",
         "location": "Room 903, 1255 Amsterdam Ave.",
@@ -366,53 +376,53 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Speakers: Martin Larsson (CMU) and Gregoire Loeper (BNP Paribas and genOTC)",
+        "seminar_title": "NA",
         "date": "2-Apr-2026",
         "location": "NYU",
         "time": "4:00pm-6:00pm",
         "speaker": "Martin Larsson and Gregoire Loeper",
         "affiliation": "CMU and BNP Paribas and genOTC",
-        "abstract": "Details and registration here: https://engineering.nyu.edu/events/2026/04/02/columbia-nyu-financial-engineering-colloquium-martin-larsson-and-gregoire-loeper",
+        "abstract": "NA",
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "NA",
         "date": "9-Apr-2026",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Mihai Cucuringu",
         "affiliation": "UCLA",
-        "abstract": "N/A",
+        "abstract": "NA",
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "NA",
         "date": "16-Apr-2026",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Philippe Bergault",
         "affiliation": "Paris Dauphine",
-        "abstract": "N/A",
+        "abstract": "NA",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Speaker: Zhenyu Cui (Stevens)",
+        "seminar_title": "NA",
         "date": "23-Apr-26",
         "location": "MAFN seminar",
-        "time": "4:10 pm - 5:25 pm",
+        "time": "NA",
         "speaker": "Zhenyu Cui",
         "affiliation": "Stevens",
-        "abstract": "Joint with MAFN seminar, see here for location and time: https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/",
+        "abstract": "NA",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Speaker: Ioannis Kyriakou (Bayes Business School)",
+        "seminar_title": "NA",
         "date": "30-Apr-26",
         "location": "MAFN seminar",
-        "time": "4:10 pm - 5:25 pm",
+        "time": "NA",
         "speaker": "Ioannis Kyriakou",
         "affiliation": "Bayes Business School",
-        "abstract": "Joint with MAFN seminar, see here for location and time: https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/",
+        "abstract": "NA",
         "bio": "N/A"
       }
     ]
@@ -498,7 +508,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "American Religion is\n\n\nMemory",
+        "seminar_title": "American Religion is\n\n\n\nMemory",
         "date": "31-Mar-26",
         "location": "Location not specified",
         "time": "4:30 PM",
@@ -618,7 +628,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Andreas Friedolin Lingg - Architectures of Abundance: Venice\n\nIndustry and the History of Economic Growth",
+        "seminar_title": "Andreas Friedolin Lingg - Architectures of Abundance: Venice\n\ns Industry and the History of Economic Growth",
         "date": "08-Apr-26",
         "location": "Location not specified",
         "time": "3:00 PM",
@@ -665,73 +675,73 @@
     "entries": [
       {
         "seminar_title": "Optimal Search Design",
-        "date": "30-Mar-26",
+        "date": "30-MAR-26",
         "location": "1101 IAB",
         "time": "11:30a-12:10p",
         "speaker": "Antoine Chapel",
         "affiliation": "Columbia University",
-        "abstract": "This seminar presents a paper on Optimal Search Design.",
-        "bio": "PhD Student in Economics at Columbia University."
+        "abstract": "This is a placeholder abstract for Antoine Chapel's talk on Optimal Search Design.",
+        "bio": "Antoine Chapel is a PhD Student in Economics at Columbia University."
       },
       {
         "seminar_title": "Public-Sector Pay, Worker Selection, and Government Performance: Evidence from Locality Pay Areas in the U.S.",
-        "date": "30-Mar-26",
+        "date": "30-MAR-26",
         "location": "1101 IAB",
         "time": "12:10p-12:50p",
         "speaker": "Isabella Di Filippo",
         "affiliation": "Columbia University",
-        "abstract": "This seminar presents a paper on Public-Sector Pay, Worker Selection, and Government Performance.",
-        "bio": "PhD Student in Economics at Columbia University."
+        "abstract": "This is a placeholder abstract for Isabella Di Filippo's talk on Public-Sector Pay, Worker Selection, and Government Performance: Evidence from Locality Pay Areas in the U.S.",
+        "bio": "Isabella Di Filippo is a PhD Student in Economics at Columbia University."
       },
       {
         "seminar_title": "What Drives the Impact of Sustainable Finance? Exploring the Organizational Architecture of Investment Funds",
-        "date": "30-Mar-26",
+        "date": "30-MAR-26",
         "location": "N/A",
         "time": "1:00p-2:00p",
         "speaker": "L\u00e9o Denis",
         "affiliation": "\u00c9cole Polytechnique",
         "abstract": "Sustainable finance, understood as the integration of environmental and social criteria into investment decisions, is expected to generate system-level environmental and social impact, yet the evidence remains contested. Most research has focused on the direct levers used by investors to affect firms, such as capital allocation (toward green assets or away from brown assets) and governance engagement. In this talk, I argue that because the financial system is highly intermediated, an important part of the impact potential of sustainable finance is determined earlier, when mandates are negotiated between asset owners and asset managers and investment funds are designed as organizations. I develop this argument using two studies of private equity funds in France. The first is a qualitative case study of an impact fund, showing how asset owners and asset managers jointly define a fund\u2019s objectives, resources, incentives, and control mechanisms before investment activity begins. The second draws on a hand-collected dataset of 89 French private equity funds to examine how these organizational features vary across sustainable and impact-oriented vehicles. Using a clustering analysis, I show that funds with similar intentions often rely on very different organizational architectures. These differences matter because extra-financial ambitions are more likely to be sustained when they are embedded in a fund\u2019s structure rather than left as broad statements of intent. Taken together, the findings suggest that the impact of sustainable finance depends not only on what investors do in markets, but also on how they are organizationally designed to carry out these activities systematically. From a policy perspective, current regulatory frameworks such as the Sustainable Finance Disclosure Regulation (EU SFDR), as well as widely used labels such as \u201cimpact funds,\u201d only imperfectly capture the organizational heterogeneity observed across vehicles.",
-        "bio": "PhD Candidate in Management Science at \u00c9cole Polytechnique."
+        "bio": "L\u00e9o Denis is a PhD Candidate in Management Science at \u00c9cole Polytechnique."
       },
       {
         "seminar_title": "Firm Dynamics in the Data Economy",
-        "date": "30-Mar-26",
+        "date": "30-MAR-26",
         "location": "N/A",
         "time": "1:00p-1:30p",
         "speaker": "Haotian (Hao) Jiang",
         "affiliation": "Columbia University",
         "abstract": "This paper studies firm dynamics in a data economy where production generates both output and data that improves firm's decision-making. I develop a firm dynamics model in which firms differ in productivity, in the stock of predictive knowledge they have accumulated, and in their ability to convert production into useful information. Since current production affects future knowledge, firms face a dynamic trade-off between current profits and information accumulation. The model suggests that firm growth and survival depend also on the endogenous accumulation of predictive knowledge aside from their innate productivity, and that some firms may perform data barter: rationally tolerating low current profits while building future value. This framework can be applied to study new forces introduced by the data feedback loop in the cross-section of firms, and measurement questions of what we attribute firm-size dispersion to in the modern economy.",
-        "bio": "PhD Student in Economics at Columbia University."
+        "bio": "Haotian (Hao) Jiang is a PhD Student in Economics at Columbia University."
       },
       {
         "seminar_title": "Firm Design, Household Bargaining, and the Gender Wage Gap",
-        "date": "30-Mar-26",
+        "date": "30-MAR-26",
         "location": "N/A",
         "time": "1:30p-2:00p",
         "speaker": "Evgeniia Lambrinaki",
         "affiliation": "Columbia University",
-        "abstract": "This seminar presents a paper on Firm Design, Household Bargaining, and the Gender Wage Gap.",
-        "bio": "PhD Student in Economics at Columbia University."
+        "abstract": "This is a placeholder abstract for Evgeniia Lambrinaki's talk on Firm Design, Household Bargaining, and the Gender Wage Gap.",
+        "bio": "Evgeniia Lambrinaki is a PhD Student in Economics at Columbia University."
       },
       {
         "seminar_title": "Optimal Capital Regulation for Insurers Facing Interest Rate Risk",
-        "date": "31-Mar-26",
+        "date": "31-MAR-26",
         "location": "1101 IAB",
         "time": "12:00p-1:00p",
         "speaker": "Nolwenn Allaire",
         "affiliation": "Columbia: Business",
-        "abstract": "This seminar presents a paper on Optimal Capital Regulation for Insurers Facing Interest Rate Risk.",
-        "bio": "PhD Student in Finance at Columbia: Business."
+        "abstract": "This is a placeholder abstract for Nolwenn Allaire's talk on Optimal Capital Regulation for Insurers Facing Interest Rate Risk.",
+        "bio": "Nolwenn Allaire is a PhD Student in Finance at Columbia: Business."
       },
       {
         "seminar_title": "World War I and the Rise of the Ku Klux Klan",
-        "date": "31-Mar-26",
+        "date": "31-MAR-26",
         "location": "Room 707",
         "time": "12:15p-1:30p",
         "speaker": "Sahil Chinoy",
         "affiliation": "Yale University",
         "abstract": "The post-World War I era witnessed a dramatic resurgence of the Ku Klux Klan, with membership swelling to millions across the United States. Drawing on newly digitized military and KKK membership records, we examine the relationship between military service and subsequent Klan participation among white veterans. Reconstructing the WWI draft lottery, we find that white men who were randomly inducted into service were significantly more likely to join the KKK than comparable men from the same areas. This effect is more consistent with ideological change than increased fraternalism. Analyzing the camps and units in which soldiers trained and served, we find evidence that indoctrination, racial threat, and peer effects may have prompted this change. We also show that the effects of war spilled over onto veterans' networks and communities. Our findings help illuminate how American institutions shaped racial attitudes and activated white supremacy in the early 20th century.",
-        "bio": "Postdoctoral Researcher at Yale University."
+        "bio": "Sahil Chinoy is a Postdoctoral Researcher at Yale University."
       }
     ]
   }
