@@ -20,7 +20,7 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Weng Kee Wong",
         "affiliation": "UCLA",
-        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model. Keywords: Continuous Designs, Early Phase Trials, Equivalence Theorems, Optimal Experiment Designs, Particle Swarm Optimization.",
+        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model.",
         "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace. His main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications. His recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics. He has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator. He is fellow of the American Statistical Association, the Institute of Mathematical Statistics, the American Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
       },
       {
@@ -81,7 +81,7 @@
         "speaker": "Tony Cai",
         "affiliation": "University of Pennsylvania",
         "abstract": "Privacy-preserving data analysis has become a central challenge in modern statistics, and federated learning has increasingly attracted attention in both statistics and machine learning. In this talk, we study minimax and adaptive federated learning under differential privacy (FDP) in the context of density estimation, considering both global and pointwise estimation over Besov spaces. We first establish minimax rates of convergence under FDP and propose optimal distributed, privacy-preserving estimators. Our results uncover phase-transition phenomena that highlight the trade-offs between statistical accuracy and privacy, showing how privacy budgets, the number of servers, and sample size jointly determine achievable performance. We then turn to adaptive estimation when the smoothness parameters are unknown. We derive sharp characterizations of the cost of adaptation under FDP for both global and pointwise estimation and introduce an adaptive estimator based on a new noise mechanism that enables one-shot adaptation via post-processing. This method provides strict improvements over existing adaptive DP approaches. Our findings reveal a striking contrast between private and non-private settings. For global estimation, where adaptation can be achieved for free in the classical non-private setting, we prove that under FDP an intrinsic adaptation cost is unavoidable. For pointwise estimation, where a logarithmic penalty is already known to arise in the non-private setting, we show that FDP introduces an additional logarithmic factor, thereby compounding the cost of adaptation. Taken together, these results provide the first rigorous characterization of the adaptive privacy-accuracy trade-off. This is joint work with Abhinav Chakraborty and Lasse Vuursteen",
-        "bio": "Tony Cai is a professor of Statistics at the University of Pennsylvania. His research interests include high-dimensional statistics, statistical learning theory, and information theory. He received his Ph.D. in Statistics from Stanford University in 2004. He is a Fellow of the American Statistical Association and an elected member of the International Statistical Institute."
+        "bio": "N/A"
       },
       {
         "seminar_title": "When Both Layers Learn: Gradient Descent Dynamics for Learning Simple ReLU Networks",
@@ -114,17 +114,17 @@
         "bio": "Theodor Misiakiewicz is an Assistant Professor in the Department of Statistics and Data Science at Yale University. His research focuses on deep learning theory, high-dimensional statistics, and computational learning theory. Prior to Yale, he received his PhD from Stanford University in 2023 and was a Research Assistant Professor at the Toyota Technological Institute at Chicago (TTIC) in 2023-2024."
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Biased Treatment Allocation: An Empirical Bayes Perspective",
         "date": "20-Apr-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
+        "speaker": "Roger Koenker",
+        "affiliation": "University College London",
+        "abstract": "Classical empirical Bayes tends to emphasize compound decision problems involving many incidental (latent) parameters. However, empirical Bayes methods extend beyond such compound decision problems. Near the end of his career, Robbins published two short papers in the PNAS with Cun-Hui Zhang on what they called Biased Treatment Allocation. My objective in this talk will be to describe their approach briefly and explain how it connects with some recent developments in econometrics.",
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": " ",
         "date": "27-Apr-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
@@ -134,7 +134,7 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": " ",
         "date": "4-May-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
@@ -175,8 +175,8 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
-        "affiliation": "Columbia University",
-        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
+        "affiliation": "N/A",
+        "abstract": "How does probability theory apply to statistical practice? \u00a0Not just through the usual limit theorems of fixed-model asymptotics. \u00a0Probability theory also has interesting and important challenges related to models of growing complexity. \u00a0Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. \u00a0We motivate and explain several of these open problems: \u00a0piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.\n\nHere are some references that start to address these topics: https://sites.stat.columbia.edu/gelman/research/published/piranha_published.pdf\nhttps://sites.stat.columbia.edu/gelman/research/published/arnold2.pdf\nhttps://sites.stat.columbia.edu/gelman/research/published/mi_theory9.pdf\nhttps://statmodeling.stat.columbia.edu/2024/09/24/its-martingale-time-baby-how-to-evaluate-probabilistic-forecasts-before-the-event-happens-rajiv-sethi-has-an-idea-hint-it-involves-time-series/\nhttps://arxiv.org/abs/2507.11833\nhttps://statmodeling.stat.columbia.edu/2013/05/30/infill-asymptotics-and-sprawl-asymptotics/",
         "bio": "N/A"
       },
       {
@@ -186,7 +186,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Reihaneh Malekian",
         "affiliation": "Columbia",
-        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph H in a randomly colored large graph G. This framework generalizes the well-known Potts model, which corresponds to the special case H = K2, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.",
+        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph $H$ in a randomly colored large graph $G$. This framework generalizes the well-known Potts model, which corresponds to the special case $H = K_2$, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and \u00a0Sohom Bhattacharya.",
         "bio": "N/A"
       },
       {
@@ -205,8 +205,8 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "N/A",
-        "affiliation": "Two Sigma",
-        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\n\nRegister now to save your spot by RSVPing here.\n\nWe hope to see you there! Food and Two Sigma swag will be provided.",
+        "affiliation": "N/A",
+        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. \u00a0Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\n\nRegister now to save your spot by RSVPing here.\n\nWe hope to see you there! \u00a0Food \u00a0and Two Sigma swag \u00a0will be provided.",
         "bio": "N/A"
       },
       {
@@ -226,12 +226,12 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Aaradhya Pandey",
         "affiliation": "PhD Student at Princeton ORFE",
-        "abstract": "In this talk, I introduce a hypothesis-testing-based formulation of differential privacy in classical computation. The Gaussian Differential Privacy framework of Dong--Roth--Su (2022) established a central limit theorem for the composition of multiple private mechanisms. Building on this work, I present a Poisson extension of their result and show that both the Gaussian and Poisson limits are unified under a broader framework of infinitely divisible privacy. This perspective reveals structural connections between differential privacy, probability theory, statistics, and discrete mathematics. I conclude by discussing computational differential privacy and its connections to cryptographic constructions such as pseudorandom generators, as well as a step toward quantizing privacy in quantum computation, outlining a framework for both computational and quantum differential privacy.",
+        "abstract": "In this talk, I introduce a hypothesis-testing-based formulation of differential privacy in classical computation. \u00a0The Gaussian Differential Privacy framework of Dong--Roth--Su (2022) established a central limit theorem for the composition of multiple private mechanisms.\u00a0 Building on this work, I present a Poisson extension of their result and show that both the Gaussian and Poisson limits are unified under a broader framework of infinitely divisible privacy.\u00a0 This perspective reveals structural connections between differential privacy, probability theory, statistics, and discrete mathematics. I conclude by discussing computational differential privacy and its connections to cryptographic constructions such as pseudorandom generators, as well as a step toward quantizing privacy in quantum computation, outlining a framework for both computational and quantum differential privacy.",
         "bio": "N/A"
       },
       {
         "seminar_title": "SPRING BREAK",
-        "date": "16 to 20-March-2026",
+        "date": "16-March-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "N/A",
@@ -268,16 +268,6 @@
         "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "N/A",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
       }
     ]
   },
@@ -296,7 +286,7 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Jim Gatheral and Xin Zhang",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
@@ -326,7 +316,7 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Mathias Beiglboeck and David Itkin",
         "date": "26-Feb-26",
         "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
         "time": "4:00pm-6:00pm",
@@ -356,7 +346,7 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Neural optimal stopping boundary",
         "date": "26-Mar-2026",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
@@ -366,7 +356,7 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Martin Larsson and Gregoire Loeper",
         "date": "2-Apr-2026",
         "location": "NYU",
         "time": "4:00pm-6:00pm",
@@ -396,20 +386,20 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Zhenyu Cui",
         "date": "23-Apr-26",
-        "location": "See https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
-        "time": "N/A",
+        "location": "See https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/",
+        "time": "See https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/",
         "speaker": "Zhenyu Cui",
         "affiliation": "Stevens",
         "abstract": "Joint with MAFN seminar, see https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
         "bio": "N/A"
       },
       {
-        "seminar_title": "N/A",
+        "seminar_title": "Ioannis Kyriakou",
         "date": "30-Apr-26",
-        "location": "See https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
-        "time": "N/A",
+        "location": "See https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/",
+        "time": "See https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/",
         "speaker": "Ioannis Kyriakou",
         "affiliation": "Bayes Business School",
         "abstract": "Joint with MAFN seminar, see https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
@@ -447,26 +437,6 @@
     "department": "Center for Science and Society",
     "series": "CSS Seminar Series",
     "entries": [
-      {
-        "seminar_title": "Azurite Pigment Workshop",
-        "date": "17-Apr-26",
-        "location": "Location not specified",
-        "time": "12:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "A Return to Form? Materiality, Aesthetics, and Method Today",
-        "date": "17-Apr-26",
-        "location": "Location not specified",
-        "time": "9:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
       {
         "seminar_title": "Long Covid Science and Society Symposium",
         "date": "20-Apr-26",
@@ -656,6 +626,26 @@
         "affiliation": "Center for Science and Society",
         "abstract": "N/A",
         "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Yingyao Wang \u2013 The World in China and China in the World: A Preliminary Analysis of the Rise of Area Studies in China",
+        "date": "01-May-26",
+        "location": "Location not specified",
+        "time": "2:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "\"Forklift Disease\": The Making of an Occupational Illness in Postwar",
+        "date": "01-May-26",
+        "location": "Location not specified",
+        "time": "3:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
       }
     ]
   },
@@ -664,44 +654,14 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Learning and Information Sharing in Manufacturing",
-        "date": "17-Apr-26",
-        "location": "1101 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Patrick Farrell",
-        "affiliation": "Columbia University",
-        "abstract": "Learning and Information Sharing in Manufacturing",
-        "bio": "Patrick Farrell\nPhD Student in Economics\nColumbia University"
-      },
-      {
-        "seminar_title": "Local Human Capital Spillovers",
-        "date": "17-Apr-26",
-        "location": "IAB 1101",
-        "time": "1:30p-3:00p",
-        "speaker": "Nathaniel Baum-Snow",
-        "affiliation": "U. Toronto: Rotman Business",
-        "abstract": "Using 2001-2018 administrative tax records for nearly all adult residents in the Toronto metropolitan region, this paper estimates the profiles of earnings and labour market participation spillovers that operate between neighbours in their residential locations. Using a high dimensional fixed effects framework, estimates relate annual earnings or employment status to various aggregations of fixed components of these same outcomes for neighbours within 75 meters. We find evidence of small average spillovers with considerable heterogeneity across individual and neighbourhood attributes. While the average elasticity of earnings with respect to its average fixed component among peers is 0.025, spillovers can be more than three times larger when imparted on low human capital individuals. In contrast, while above median human capital individuals impart positive spillovers, they do not benefit from being surrounded by more highly skilled peers. A model of labour supply and human capital accumulation shows how larger estimated peer effects for employment outcomes can be interpreted as reservation wage spillovers. Both earnings and reservation wage spillovers exhibit very rapid spatial decay and the former exhibits rapid temporal decay.",
-        "bio": "Nathaniel Baum-Snow\n Professor of Economic Analysis and Policy\nU. Toronto: Rotman Business"
-      },
-      {
-        "seminar_title": "Did Foreigners Pay America's Tariffs? Quantity Discounts, Scale Economies and Incomplete Pass-Through",
-        "date": "17-Apr-26",
-        "location": "IAB 1101",
-        "time": "3:30p-5:00p",
-        "speaker": "Sharat Ganapati",
-        "affiliation": "Georgetown University",
-        "abstract": "Transaction-level quantity discounts are a pervasive feature of US trade, shaping both price variation and tariff incidence. Using administrative microdata, we show that transaction-level scale economies drive the majority of price dispersion within product categories. These discounts reflect supply-side scale economies rather than market power. Accounting for these micro-level economies resolves a key puzzle: while observed import prices rose one-for-one with 2018 US tariffs, we show this was driven largely by the loss of scale economies as transaction sizes collapsed. Controlling for this scale effect, the strategic pass-through of tariffs to prices falls to 60 percent, implying foreign exporters absorbed a significant share of the burden through reduced markups.",
-        "bio": "Sharat Ganapati\nAssociate Professor of International Economics\nGeorgetown University"
-      },
-      {
         "seminar_title": "Estimating the US Government\u2019s Willingness to Forgo Revenue for Conservation",
         "date": "20-Apr-26",
         "location": "1101 IAB",
         "time": "11:30a-12:10p",
         "speaker": "Maya Norman",
         "affiliation": "Columbia University",
-        "abstract": "Estimating the US Government\u2019s Willingness to Forgo Revenue for Conservation",
-        "bio": "Maya Norman\nPhD Student in Sustainable Development\nColumbia University"
+        "abstract": "This seminar features Maya Norman and Renee Garrow presenting their research.",
+        "bio": "Maya Norman is a PhD Student in Sustainable Development at Columbia University."
       },
       {
         "seminar_title": "Supply and Competitive Effects of Non-Physician Providers",
@@ -710,8 +670,8 @@
         "time": "12:10p-12:50p",
         "speaker": "Renee Garrow",
         "affiliation": "Columbia University",
-        "abstract": "Supply and Competitive Effects of Non-Physician Providers",
-        "bio": "Renee Garrow\nPhD Student in Economics\nColumbia University"
+        "abstract": "This seminar features Maya Norman and Renee Garrow presenting their research.",
+        "bio": "Renee Garrow is a PhD Student in Economics at Columbia University."
       },
       {
         "seminar_title": "Valuing the local disamenities of road traffic: Evidence from London",
@@ -721,7 +681,37 @@
         "speaker": "Stephan Thies",
         "affiliation": "Columbia: SIPA",
         "abstract": "This project uses a hedonic approach to estimate how households heterogeneously value changes in exposure to local road traffic. Understanding these valuations may be crucial as they form a lower bound for the social cost of local traffic, inform about the political economy of transportation policy, and let us learn about how changes in traffic might impact household sorting. To estimate households\u2019 revealed preferences, I combine data on the universe of property transactions in the Greater London area with detailed data on average hourly traffic volumes and speeds on all roads in London in 2019 and 2024. To address potential endogeneity of changes in local traffic, I develop a through-traffic instrument that isolates changes in street-level traffic volumes caused by rerouting due to infrastructure changes on distant streets. Initial results from a cross-sectional analysis that does not yet leverage the instrument indicate that exposure to traffic within 100m of a property has sizable impacts on its price: Doubling traffic from 5,000 to 10,000 cars per day reduces property prices by about 2%. For the median household, this translates into a marginal willingness to pay for a reduction of 100 cars per day of approximately \u00a390 in terms of property price.",
-        "bio": "Stephan Thies\nPhD Student in Sustainable Development\nColumbia: SIPA"
+        "bio": "Stephan Thies is a PhD Student in Sustainable Development at Columbia: SIPA."
+      },
+      {
+        "seminar_title": "The supernatural and the commons",
+        "date": "20-Apr-26",
+        "location": "801 IAB",
+        "time": "3:10p-4:40p",
+        "speaker": "Christopher Costello",
+        "affiliation": "UCSB: Bren Environmental",
+        "abstract": "We examine whether beliefs in supernatural punishment can coordinate resource extraction in the commons. Traditional small-scale religious belief systems around the world often include restrictions on the use of natural resources, such as fish, forests and specific species, that result in supernatural punishment if violated. Motivated by specific regularities documented in the anthropological literature, and by the Ra\tahui of Polynesian cultures in particular, we introduce beliefs about supernatural punishment into a standard commons model for which the tragedy of the commons is the no-regulation equilibrium. Here, players form beliefs about whether they will be punished, for example via sickness or misfortune, for violating extraction norms, even when their extraction is private information. We show that sufficiently strong beliefs can sustain fully cooperative behavior even in the complete absence of formal rules, monitoring, or punishment. We then introduce the possibility of learning about the supernatural, where agents can violate norms and learn (albeit noisily) about true supernatural punishment. Even in this setting, certain belief structures can sustain cooperation indefinitely. Comparative statics reveal the features of a belief system under which cooperation is sustained or unravels. We develop a new database of traditional belief systems around the world, providing empirical support for our theoretical predictions.",
+        "bio": "Christopher Costello is a Professor of Resource Economics\u200b at UCSB: Bren Environmental."
+      },
+      {
+        "seminar_title": "The Road to Building Abundance",
+        "date": "21-Apr-26",
+        "location": "1101 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Dongcheng Yang",
+        "affiliation": "Columbia University",
+        "abstract": "This seminar features Dongcheng Yang presenting their research.",
+        "bio": "Dongcheng Yang is a PhD Candidate in Economics at Columbia University."
+      },
+      {
+        "seminar_title": "Promises, Policies and Accountability: Evidence from Brazilian Mayors",
+        "date": "21-Apr-26",
+        "location": "Room 707",
+        "time": "12:15p-1:30p",
+        "speaker": "Caroline Le Pennec-\u00c7aldichoury",
+        "affiliation": "Montr\u00e9al: HEC",
+        "abstract": "Do elected politicians keep their campaign promises? We study the content of 45,000 candidate platforms in Brazilian municipal elections and compare their proposals to the policies implemented by 15,000 mayors after the election. We find evidence that campaign platforms reflect both candidate experience and voter preferences, and that they predict future policy-making. However, we cannot conclude that the link is causal, suggesting that campaign promises represent a useful signal of a politician's policy intentions, but not a binding commitment. While voters seem to value some proposals more than others, we find limited evidence that they punish incumbents who deviated from their past campaign platform.",
+        "bio": "Caroline Le Pennec-\u00c7aldichoury is an Assistant Professor of Economics at Montr\u00e9al: HEC."
       }
     ]
   }
