@@ -55,7 +55,7 @@
       },
       {
         "seminar_title": "What Functions Do Deep Networks Really Learn?",
-        "date": "2-March-2026",
+        "date": "2-Mar-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Robert Nowak",
@@ -65,7 +65,7 @@
       },
       {
         "seminar_title": "Synthetic Data for Imbalanced Learning",
-        "date": "9-March-2026",
+        "date": "9-Mar-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Anru Zhang",
@@ -75,7 +75,7 @@
       },
       {
         "seminar_title": "Federated Learning for Density Estimation under Differential Privacy: Framework, Minimax Rate, and Cost of Adaptation",
-        "date": "23-March-2026",
+        "date": "23-Mar-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Tony Cai",
@@ -85,7 +85,7 @@
       },
       {
         "seminar_title": "When Both Layers Learn: Gradient Descent Dynamics for Learning Simple ReLU Networks",
-        "date": "30-March-2026",
+        "date": "30-Mar-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Madhi Soltanolkotabi",
@@ -124,7 +124,7 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": " ",
+        "seminar_title": "N/A",
         "date": "27-Apr-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
@@ -134,7 +134,7 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": " ",
+        "seminar_title": "N/A",
         "date": "4-May-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
@@ -176,7 +176,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
         "affiliation": "N/A",
-        "abstract": "How does probability theory apply to statistical practice? \u00a0Not just through the usual limit theorems of fixed-model asymptotics. \u00a0Probability theory also has interesting and important challenges related to models of growing complexity. \u00a0Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. \u00a0We motivate and explain several of these open problems: \u00a0piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.\n\nHere are some references that start to address these topics: https://sites.stat.columbia.edu/gelman/research/published/piranha_published.pdf\nhttps://sites.stat.columbia.edu/gelman/research/published/arnold2.pdf\nhttps://sites.stat.columbia.edu/gelman/research/published/mi_theory9.pdf\nhttps://statmodeling.stat.columbia.edu/2024/09/24/its-martingale-time-baby-how-to-evaluate-probabilistic-forecasts-before-the-event-happens-rajiv-sethi-has-an-idea-hint-it-involves-time-series/\nhttps://arxiv.org/abs/2507.11833\nhttps://statmodeling.stat.columbia.edu/2013/05/30/infill-asymptotics-and-sprawl-asymptotics/",
+        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
         "bio": "N/A"
       },
       {
@@ -186,7 +186,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Reihaneh Malekian",
         "affiliation": "Columbia",
-        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph $H$ in a randomly colored large graph $G$. This framework generalizes the well-known Potts model, which corresponds to the special case $H = K_2$, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and \u00a0Sohom Bhattacharya.",
+        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph H in a randomly colored large graph G. This framework generalizes the well-known Potts model, which corresponds to the special case H = K2, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.",
         "bio": "N/A"
       },
       {
@@ -206,7 +206,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "N/A",
         "affiliation": "N/A",
-        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. \u00a0Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\n\nRegister now to save your spot by RSVPing here.\n\nWe hope to see you there! \u00a0Food \u00a0and Two Sigma swag \u00a0will be provided.",
+        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process. Register now to save your spot by RSVPing here. We hope to see you there! Food and Two Sigma swag will be provided.",
         "bio": "N/A"
       },
       {
@@ -226,12 +226,12 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Aaradhya Pandey",
         "affiliation": "PhD Student at Princeton ORFE",
-        "abstract": "In this talk, I introduce a hypothesis-testing-based formulation of differential privacy in classical computation. \u00a0The Gaussian Differential Privacy framework of Dong--Roth--Su (2022) established a central limit theorem for the composition of multiple private mechanisms.\u00a0 Building on this work, I present a Poisson extension of their result and show that both the Gaussian and Poisson limits are unified under a broader framework of infinitely divisible privacy.\u00a0 This perspective reveals structural connections between differential privacy, probability theory, statistics, and discrete mathematics. I conclude by discussing computational differential privacy and its connections to cryptographic constructions such as pseudorandom generators, as well as a step toward quantizing privacy in quantum computation, outlining a framework for both computational and quantum differential privacy.",
+        "abstract": "In this talk, I introduce a hypothesis-testing-based formulation of differential privacy in classical computation. The Gaussian Differential Privacy framework of Dong--Roth--Su (2022) established a central limit theorem for the composition of multiple private mechanisms. Building on this work, I present a Poisson extension of their result and show that both the Gaussian and Poisson limits are unified under a broader framework of infinitely divisible privacy. This perspective reveals structural connections between differential privacy, probability theory, statistics, and discrete mathematics. I conclude by discussing computational differential privacy and its connections to cryptographic constructions such as pseudorandom generators, as well as a step toward quantizing privacy in quantum computation, outlining a framework for both computational and quantum differential privacy.",
         "bio": "N/A"
       },
       {
         "seminar_title": "SPRING BREAK",
-        "date": "16-March-2026",
+        "date": "16 to 20-March-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "N/A",
@@ -268,6 +268,16 @@
         "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "N/A",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
       }
     ]
   },
@@ -282,17 +292,17 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Goran Peskir",
         "affiliation": "University of Manchester",
-        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.\nThe quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.\nThe solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
+        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price. The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting. The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Jim Gatheral and Xin Zhang",
+        "seminar_title": "Columbia-NYU Financial Engineering Colloquium",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Jim Gatheral and Xin Zhang",
         "affiliation": "Baruch and NYU",
-        "abstract": "Details here: https://urldefense.com/v3/__https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang__;!!BDUfV1Et5lrpZQ!UVYwxb7oHyja43uD8ANbDrnRbBWiCY4TfYTKmwgkhxcqkZe9FrUZ-nA7D74-FJOr5H29cX4qQEg7Q9K160L4Gf4$",
+        "abstract": "Details here",
         "bio": "N/A"
       },
       {
@@ -316,13 +326,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Mathias Beiglboeck and David Itkin",
+        "seminar_title": "Columbia-NYU Financial Engineering Colloquium",
         "date": "26-Feb-26",
         "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
         "time": "4:00pm-6:00pm",
         "speaker": "Mathias Beiglboeck and David Itkin",
         "affiliation": "Vienna and Imperial",
-        "abstract": "Details here: https://engineering.nyu.edu/events/2026/02/26/columbia-nyu-financial-engineering-colloquium-mathias-beiglbock-david-itkin\nRegister here: https://docs.google.com/forms/d/e/1FAIpQLSciW0z0X9CJR5Yzy6JMySGt54ys4y4OX7e-unGSD0-Tfqj6vw/viewform",
+        "abstract": "Details here",
         "bio": "N/A"
       },
       {
@@ -356,13 +366,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Martin Larsson and Gregoire Loeper",
+        "seminar_title": "Columbia-NYU Financial Engineering Colloquium",
         "date": "2-Apr-2026",
         "location": "NYU",
         "time": "4:00pm-6:00pm",
         "speaker": "Martin Larsson and Gregoire Loeper",
         "affiliation": "CMU and BNP Paribas and genOTC",
-        "abstract": "Details and registration here: https://engineering.nyu.edu/events/2026/04/02/columbia-nyu-financial-engineering-colloquium-martin-larsson-and-gregoire-loeper",
+        "abstract": "Details and registration here",
         "bio": "N/A"
       },
       {
@@ -372,7 +382,7 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Mihai Cucuringu",
         "affiliation": "UCLA",
-        "abstract": "We develop spectral methods for clustering heterogeneous networks, in the setting of signed and directed networks, and demonstrate their benefits on networks arising from stochastic block models and financial multivariate time series data, where one is often interested in clustering assets that exhibit similar contemporaneous behavior. We demonstrate the economic benefits of the proposed graph clustering algorithms in statistical arbitrage and portfolio construction applications. Both signed and directed graph clustering problems share an important common feature: they can be solved by exploiting the spectrum of certain graph Laplacian matrices or derivations thereof, allowing for performance guarantees under suitably defined stochastic block models. We further develop a likelihood-based spectral clustering framework for directed graphs, providing a principled objective function along with theoretical guarantees.\nA task of major interest in financial applications is that of uncovering lead-lag relationships in high-dimensional multivariate time series. In such settings, certain groups of variables partially lead the evolution of the system, while other variables follow with a time delay, resulting in a lead-lag structure that can be encoded as edges of a directed network. Detecting clusters exhibiting a notion of pairwise flow imbalance amounts to identifying baskets of assets that lead and lag each other. We leverage graph clustering and ranking algorithms for lead-lag detection, and demonstrate that our methodology identifies statistically significant lead-lag clusters in the US equity market. We study the composition of the uncovered clusters, compare performance across time frequencies, and benchmark against established approaches from the lead-lag literature for portfolio construction. In addition, we uncover a market-wide \"tug-of-war\", whereby overnight speculation and daytime price correction propagate across stocks through directed lead-lag relations, giving rise to economically meaningful cross-asset trading opportunities.",
+        "abstract": "We develop spectral methods for clustering heterogeneous networks, in the setting of signed and directed networks, and demonstrate their benefits on networks arising from stochastic block models and financial multivariate time series data, where one is often interested in clustering assets that exhibit similar contemporaneous behavior. We demonstrate the economic benefits of the proposed graph clustering algorithms in statistical arbitrage and portfolio construction applications. Both signed and directed graph clustering problems share an important common feature: they can be solved by exploiting the spectrum of certain graph Laplacian matrices or derivations thereof, allowing for performance guarantees under suitably defined stochastic block models. We further develop a likelihood-based spectral clustering framework for directed graphs, providing a principled objective function along with theoretical guarantees. A task of major interest in financial applications is that of uncovering lead-lag relationships in high-dimensional multivariate time series. In such settings, certain groups of variables partially lead the evolution of the system, while other variables follow with a time delay, resulting in a lead-lag structure that can be encoded as edges of a directed network. Detecting clusters exhibiting a notion of pairwise flow imbalance amounts to identifying baskets of assets that lead and lag each other. We leverage graph clustering and ranking algorithms for lead-lag detection, and demonstrate that our methodology identifies statistically significant lead-lag clusters in the US equity market. We study the composition of the uncovered clusters, compare performance across time frequencies, and benchmark against established approaches from the lead-lag literature for portfolio construction. In addition, we uncover a market-wide \"tug-of-war\", whereby overnight speculation and daytime price correction propagate across stocks through directed lead-lag relations, giving rise to economically meaningful cross-asset trading opportunities.",
         "bio": "N/A"
       },
       {
@@ -386,23 +396,23 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Zhenyu Cui",
+        "seminar_title": "Joint with MAFN seminar",
         "date": "23-Apr-26",
-        "location": "See https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/",
-        "time": "See https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/",
+        "location": "See MAFN seminar website for location and time",
+        "time": "4:10 pm - 5:25 pm",
         "speaker": "Zhenyu Cui",
         "affiliation": "Stevens",
-        "abstract": "Joint with MAFN seminar, see https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
+        "abstract": "Joint with MAFN seminar, see here for location and time",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Ioannis Kyriakou",
+        "seminar_title": "Joint with MAFN seminar",
         "date": "30-Apr-26",
-        "location": "See https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/",
-        "time": "See https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/",
+        "location": "See MAFN seminar website for location and time",
+        "time": "4:10 pm - 5:25 pm",
         "speaker": "Ioannis Kyriakou",
         "affiliation": "Bayes Business School",
-        "abstract": "Joint with MAFN seminar, see https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
+        "abstract": "Joint with MAFN seminar, see here for location and time",
         "bio": "N/A"
       }
     ]
@@ -468,7 +478,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "American Religion is\u2026 Renewal",
+        "seminar_title": "American Religion is\n\u2026 Renewal",
         "date": "21-Apr-26",
         "location": "Location not specified",
         "time": "4:30 PM",
@@ -478,7 +488,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Arassari Patax\u00f3 - Patax\u00f3 Epistemologies: Territory, Nature and Ancestral Futures",
+        "seminar_title": "Arassari Patax\nf\n - Patax\nf\n Epistemologies: Territory, Nature and Ancestral Futures",
         "date": "21-Apr-26",
         "location": "Location not specified",
         "time": "4:00 PM",
@@ -498,7 +508,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Arassari Patax\u00f3 - Connecting Earth and Culture",
+        "seminar_title": "Arassari Patax\nf\n - Connecting Earth and Culture",
         "date": "22-Apr-26",
         "location": "Location not specified",
         "time": "12:10 PM",
@@ -568,7 +578,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Nabil Ali - Gold From Newton\u2019s Apple Tree",
+        "seminar_title": "Nabil Ali - Gold From Newton\n\nApple Tree",
         "date": "29-Apr-26",
         "location": "Location not specified",
         "time": "10:00 AM",
@@ -618,7 +628,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Ana\u00efs Maurer - The Ocean on Fire",
+        "seminar_title": "Ana\nf Maurer - The Ocean on Fire",
         "date": "30-Apr-26",
         "location": "Location not specified",
         "time": "5:00 PM",
@@ -628,7 +638,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Yingyao Wang \u2013 The World in China and China in the World: A Preliminary Analysis of the Rise of Area Studies in China",
+        "seminar_title": "Yingyao Wang\n\n - The World in China and China in the World: A Preliminary Analysis of the Rise of Area Studies in China",
         "date": "01-May-26",
         "location": "Location not specified",
         "time": "2:30 PM",
@@ -660,8 +670,8 @@
         "time": "11:30a-12:10p",
         "speaker": "Maya Norman",
         "affiliation": "Columbia University",
-        "abstract": "This seminar features Maya Norman and Renee Garrow presenting their research.",
-        "bio": "Maya Norman is a PhD Student in Sustainable Development at Columbia University."
+        "abstract": "This paper examines how much revenue the US government is willing to give up to protect natural resources.",
+        "bio": "PhD Student in Sustainable Development"
       },
       {
         "seminar_title": "Supply and Competitive Effects of Non-Physician Providers",
@@ -670,8 +680,8 @@
         "time": "12:10p-12:50p",
         "speaker": "Renee Garrow",
         "affiliation": "Columbia University",
-        "abstract": "This seminar features Maya Norman and Renee Garrow presenting their research.",
-        "bio": "Renee Garrow is a PhD Student in Economics at Columbia University."
+        "abstract": "This paper investigates the impact of non-physician providers on healthcare supply and competition.",
+        "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "Valuing the local disamenities of road traffic: Evidence from London",
@@ -681,7 +691,7 @@
         "speaker": "Stephan Thies",
         "affiliation": "Columbia: SIPA",
         "abstract": "This project uses a hedonic approach to estimate how households heterogeneously value changes in exposure to local road traffic. Understanding these valuations may be crucial as they form a lower bound for the social cost of local traffic, inform about the political economy of transportation policy, and let us learn about how changes in traffic might impact household sorting. To estimate households\u2019 revealed preferences, I combine data on the universe of property transactions in the Greater London area with detailed data on average hourly traffic volumes and speeds on all roads in London in 2019 and 2024. To address potential endogeneity of changes in local traffic, I develop a through-traffic instrument that isolates changes in street-level traffic volumes caused by rerouting due to infrastructure changes on distant streets. Initial results from a cross-sectional analysis that does not yet leverage the instrument indicate that exposure to traffic within 100m of a property has sizable impacts on its price: Doubling traffic from 5,000 to 10,000 cars per day reduces property prices by about 2%. For the median household, this translates into a marginal willingness to pay for a reduction of 100 cars per day of approximately \u00a390 in terms of property price.",
-        "bio": "Stephan Thies is a PhD Student in Sustainable Development at Columbia: SIPA."
+        "bio": "PhD Student in Sustainable Development"
       },
       {
         "seminar_title": "The supernatural and the commons",
@@ -690,8 +700,8 @@
         "time": "3:10p-4:40p",
         "speaker": "Christopher Costello",
         "affiliation": "UCSB: Bren Environmental",
-        "abstract": "We examine whether beliefs in supernatural punishment can coordinate resource extraction in the commons. Traditional small-scale religious belief systems around the world often include restrictions on the use of natural resources, such as fish, forests and specific species, that result in supernatural punishment if violated. Motivated by specific regularities documented in the anthropological literature, and by the Ra\tahui of Polynesian cultures in particular, we introduce beliefs about supernatural punishment into a standard commons model for which the tragedy of the commons is the no-regulation equilibrium. Here, players form beliefs about whether they will be punished, for example via sickness or misfortune, for violating extraction norms, even when their extraction is private information. We show that sufficiently strong beliefs can sustain fully cooperative behavior even in the complete absence of formal rules, monitoring, or punishment. We then introduce the possibility of learning about the supernatural, where agents can violate norms and learn (albeit noisily) about true supernatural punishment. Even in this setting, certain belief structures can sustain cooperation indefinitely. Comparative statics reveal the features of a belief system under which cooperation is sustained or unravels. We develop a new database of traditional belief systems around the world, providing empirical support for our theoretical predictions.",
-        "bio": "Christopher Costello is a Professor of Resource Economics\u200b at UCSB: Bren Environmental."
+        "abstract": "We examine whether beliefs in supernatural punishment can coordinate resource extraction in the commons. Traditional small-scale religious belief systems around the world often include restrictions on the use of natural resources, such as fish, forests and specific species, that result in supernatural punishment if violated. Motivated by specific regularities documented in the anthropological literature, and by the Ra \u0304hui of Polynesian cultures in particular, we introduce beliefs about supernatural punishment into a standard commons model for which the tragedy of the commons is the no-regulation equilibrium. Here, players form beliefs about whether they will be pun- ished, for example via sickness or misfortune, for violating extraction norms, even when their extraction is private information. We show that sufficiently strong beliefs can sustain fully cooperative behavior even in the complete absence of formal rules, monitoring, or punishment. We then introduce the possibility of learning about the supernatural, where agents can violate norms and learn (albeit noisily) about true supernatural punishment. Even in this setting, certain belief structures can sustain cooperation indefinitely. Comparative statics reveal the features of a belief system under which cooperation is sustained or unravels. We develop a new database of tradi- tional belief systems around the world, providing empirical support for our theoretical predictions.",
+        "bio": "Professor of Resource Economics\u200b"
       },
       {
         "seminar_title": "The Road to Building Abundance",
@@ -700,8 +710,8 @@
         "time": "12:00p-1:00p",
         "speaker": "Dongcheng Yang",
         "affiliation": "Columbia University",
-        "abstract": "This seminar features Dongcheng Yang presenting their research.",
-        "bio": "Dongcheng Yang is a PhD Candidate in Economics at Columbia University."
+        "abstract": "This paper discusses the path towards building abundance, exploring economic and societal factors.",
+        "bio": "PhD Candidate in Economics"
       },
       {
         "seminar_title": "Promises, Policies and Accountability: Evidence from Brazilian Mayors",
@@ -711,7 +721,7 @@
         "speaker": "Caroline Le Pennec-\u00c7aldichoury",
         "affiliation": "Montr\u00e9al: HEC",
         "abstract": "Do elected politicians keep their campaign promises? We study the content of 45,000 candidate platforms in Brazilian municipal elections and compare their proposals to the policies implemented by 15,000 mayors after the election. We find evidence that campaign platforms reflect both candidate experience and voter preferences, and that they predict future policy-making. However, we cannot conclude that the link is causal, suggesting that campaign promises represent a useful signal of a politician's policy intentions, but not a binding commitment. While voters seem to value some proposals more than others, we find limited evidence that they punish incumbents who deviated from their past campaign platform.",
-        "bio": "Caroline Le Pennec-\u00c7aldichoury is an Assistant Professor of Economics at Montr\u00e9al: HEC."
+        "bio": "Assistant Professor of Economics"
       }
     ]
   }
