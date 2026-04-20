@@ -20,7 +20,7 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Weng Kee Wong",
         "affiliation": "UCLA",
-        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model.",
+        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model. Keywords: Continuous Designs, Early Phase Trials, Equivalence Theorems, Optimal Experiment Designs, Particle Swarm Optimization.",
         "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace. His main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications. His recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics. He has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator. He is fellow of the American Statistical Association, the Institute of Mathematical Statistics, the American Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
       },
       {
@@ -55,7 +55,7 @@
       },
       {
         "seminar_title": "What Functions Do Deep Networks Really Learn?",
-        "date": "2-Mar-2026",
+        "date": "2-March-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Robert Nowak",
@@ -65,7 +65,7 @@
       },
       {
         "seminar_title": "Synthetic Data for Imbalanced Learning",
-        "date": "9-Mar-2026",
+        "date": "9-March-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Anru Zhang",
@@ -75,7 +75,7 @@
       },
       {
         "seminar_title": "Federated Learning for Density Estimation under Differential Privacy: Framework, Minimax Rate, and Cost of Adaptation",
-        "date": "23-Mar-2026",
+        "date": "23-March-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Tony Cai",
@@ -85,7 +85,7 @@
       },
       {
         "seminar_title": "When Both Layers Learn: Gradient Descent Dynamics for Learning Simple ReLU Networks",
-        "date": "30-Mar-2026",
+        "date": "30-March-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Madhi Soltanolkotabi",
@@ -175,7 +175,7 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
-        "affiliation": "N/A",
+        "affiliation": "Columbia University",
         "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
         "bio": "N/A"
       },
@@ -204,8 +204,8 @@
         "date": "25-Feb-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
+        "speaker": "TWO SIGMA\u2019S QUANT RESEARCH PHD",
+        "affiliation": "Two Sigma",
         "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process. Register now to save your spot by RSVPing here. We hope to see you there! Food and Two Sigma swag will be provided.",
         "bio": "N/A"
       },
@@ -238,46 +238,6 @@
         "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "25-March-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "1-April-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "8-April-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "N/A",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
       }
     ]
   },
@@ -296,13 +256,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Columbia-NYU Financial Engineering Colloquium",
+        "seminar_title": "No seminar listed",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Jim Gatheral and Xin Zhang",
         "affiliation": "Baruch and NYU",
-        "abstract": "Details here",
+        "abstract": "Details here: https://urldefense.com/v3/__https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang__;!!BDUfV1Et5lrpZQ!UVYwxb7oHyja43uD8ANbDrnRbBWiCY4TfYTKmwgkhxcqkZe9FrUZ-nA7D74-FJOr5H29cX4qQEg7Q9K160L4Gf4$",
         "bio": "N/A"
       },
       {
@@ -326,13 +286,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Columbia-NYU Financial Engineering Colloquium",
+        "seminar_title": "No seminar listed",
         "date": "26-Feb-26",
         "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
         "time": "4:00pm-6:00pm",
         "speaker": "Mathias Beiglboeck and David Itkin",
         "affiliation": "Vienna and Imperial",
-        "abstract": "Details here",
+        "abstract": "Details here: https://engineering.nyu.edu/events/2026/02/26/columbia-nyu-financial-engineering-colloquium-mathias-beiglbock-david-itkin. Register here: https://docs.google.com/forms/d/e/1FAIpQLSciW0z0X9CJR5Yzy6JMySGt54ys4y4OX7e-unGSD0-Tfqj6vw/viewform",
         "bio": "N/A"
       },
       {
@@ -347,12 +307,22 @@
       },
       {
         "seminar_title": "Dynamic contracting with limited liability",
-        "date": "12-Mar-2026",
+        "date": "12-Mar-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Tiziano De Angelis",
         "affiliation": "Torino",
         "abstract": "We study a problem of dynamic contracting in continuous time between a risk-neutral Principal and an Agent with CARA utility. The production process (in the absence of agent's effort) is a Brownian motion and the time horizon of the contract is finite. In the classical Holmstrom-Milgrom model, with quadratic cost of effort for the agent and no limited liability, the optimal contract is linear in the Brownian production process. This implies that at the terminal time, the agent may incur arbitrarily large losses with positive probability, due to the Gaussian fluctuations. To avoid this unpleasant feature we tweak the model and introduce limited liability for the agent in the form of a non-negativity constraint for the contract. The resulting HJB for the Principal inherits an additional Dirichlet boundary condition that makes the analysis much more involved than in the classical case without constraints. Leveraging on probabilistic estimates we are able to prove that the agent's value function is an infinitely smooth solution of a fully non-linear parabolic PDE with Cauchy and Dirichlet boundary conditions. We find the agent's optimal effort in Markovian form and characterise the dynamics of the optimal contract as the unique strong solution of an SDE absorbed at zero. We also derive a PDE that fully characterises the agent's optimal effort from an analytic perspective. Finally, we perform a theoretical analysis of the sensitivity of the optimal effort with respect to time and to the promised utility arising from the contract. Joint work with Andrea Bovo (University of Brescia) and Stephane Villeneuve (Toulouse School of Economics).",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "NO SEMINAR",
+        "date": "Spring Break",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
         "bio": "N/A"
       },
       {
@@ -366,13 +336,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Columbia-NYU Financial Engineering Colloquium",
+        "seminar_title": "No seminar listed",
         "date": "2-Apr-2026",
         "location": "NYU",
         "time": "4:00pm-6:00pm",
         "speaker": "Martin Larsson and Gregoire Loeper",
         "affiliation": "CMU and BNP Paribas and genOTC",
-        "abstract": "Details and registration here",
+        "abstract": "Details and registration here: https://engineering.nyu.edu/events/2026/04/02/columbia-nyu-financial-engineering-colloquium-martin-larsson-and-gregoire-loeper",
         "bio": "N/A"
       },
       {
@@ -396,23 +366,23 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Joint with MAFN seminar",
+        "seminar_title": "No seminar listed",
         "date": "23-Apr-26",
-        "location": "See MAFN seminar website for location and time",
+        "location": "See https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Zhenyu Cui",
         "affiliation": "Stevens",
-        "abstract": "Joint with MAFN seminar, see here for location and time",
+        "abstract": "Joint with MAFN seminar.",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Joint with MAFN seminar",
+        "seminar_title": "No seminar listed",
         "date": "30-Apr-26",
-        "location": "See MAFN seminar website for location and time",
+        "location": "See https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Ioannis Kyriakou",
         "affiliation": "Bayes Business School",
-        "abstract": "Joint with MAFN seminar, see here for location and time",
+        "abstract": "Joint with MAFN seminar.",
         "bio": "N/A"
       }
     ]
@@ -478,7 +448,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "American Religion is\n\u2026 Renewal",
+        "seminar_title": "American Religion is\n\nRenewal",
         "date": "21-Apr-26",
         "location": "Location not specified",
         "time": "4:30 PM",
@@ -488,7 +458,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Arassari Patax\nf\n - Patax\nf\n Epistemologies: Territory, Nature and Ancestral Futures",
+        "seminar_title": "Arassari Patax\n\nPatax\n\nEpistemologies: Territory, Nature and Ancestral Futures",
         "date": "21-Apr-26",
         "location": "Location not specified",
         "time": "4:00 PM",
@@ -508,7 +478,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Arassari Patax\nf\n - Connecting Earth and Culture",
+        "seminar_title": "Arassari Patax\n\nConnecting Earth and Culture",
         "date": "22-Apr-26",
         "location": "Location not specified",
         "time": "12:10 PM",
@@ -628,7 +598,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Ana\nf Maurer - The Ocean on Fire",
+        "seminar_title": "Ana\n Maurer - The Ocean on Fire",
         "date": "30-Apr-26",
         "location": "Location not specified",
         "time": "5:00 PM",
@@ -638,7 +608,7 @@
         "bio": "Not detected in text"
       },
       {
-        "seminar_title": "Yingyao Wang\n\n - The World in China and China in the World: A Preliminary Analysis of the Rise of Area Studies in China",
+        "seminar_title": "Yingyao Wang\n - The World in China and China in the World: A Preliminary Analysis of the Rise of Area Studies in China",
         "date": "01-May-26",
         "location": "Location not specified",
         "time": "2:30 PM",
@@ -665,27 +635,27 @@
     "entries": [
       {
         "seminar_title": "Estimating the US Government\u2019s Willingness to Forgo Revenue for Conservation",
-        "date": "20-Apr-26",
+        "date": "20-APR-26",
         "location": "1101 IAB",
         "time": "11:30a-12:10p",
         "speaker": "Maya Norman",
         "affiliation": "Columbia University",
-        "abstract": "This paper examines how much revenue the US government is willing to give up to protect natural resources.",
+        "abstract": "Maya Norman and Renee Garrow event listing",
         "bio": "PhD Student in Sustainable Development"
       },
       {
         "seminar_title": "Supply and Competitive Effects of Non-Physician Providers",
-        "date": "20-Apr-26",
+        "date": "20-APR-26",
         "location": "1101 IAB",
         "time": "12:10p-12:50p",
         "speaker": "Renee Garrow",
         "affiliation": "Columbia University",
-        "abstract": "This paper investigates the impact of non-physician providers on healthcare supply and competition.",
+        "abstract": "Maya Norman and Renee Garrow event listing",
         "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "Valuing the local disamenities of road traffic: Evidence from London",
-        "date": "20-Apr-26",
+        "date": "20-APR-26",
         "location": "N/A",
         "time": "1:00p-2:00p",
         "speaker": "Stephan Thies",
@@ -695,27 +665,27 @@
       },
       {
         "seminar_title": "The supernatural and the commons",
-        "date": "20-Apr-26",
+        "date": "20-APR-26",
         "location": "801 IAB",
         "time": "3:10p-4:40p",
         "speaker": "Christopher Costello",
         "affiliation": "UCSB: Bren Environmental",
-        "abstract": "We examine whether beliefs in supernatural punishment can coordinate resource extraction in the commons. Traditional small-scale religious belief systems around the world often include restrictions on the use of natural resources, such as fish, forests and specific species, that result in supernatural punishment if violated. Motivated by specific regularities documented in the anthropological literature, and by the Ra \u0304hui of Polynesian cultures in particular, we introduce beliefs about supernatural punishment into a standard commons model for which the tragedy of the commons is the no-regulation equilibrium. Here, players form beliefs about whether they will be pun- ished, for example via sickness or misfortune, for violating extraction norms, even when their extraction is private information. We show that sufficiently strong beliefs can sustain fully cooperative behavior even in the complete absence of formal rules, monitoring, or punishment. We then introduce the possibility of learning about the supernatural, where agents can violate norms and learn (albeit noisily) about true supernatural punishment. Even in this setting, certain belief structures can sustain cooperation indefinitely. Comparative statics reveal the features of a belief system under which cooperation is sustained or unravels. We develop a new database of tradi- tional belief systems around the world, providing empirical support for our theoretical predictions.",
+        "abstract": "We examine whether beliefs in supernatural punishment can coordinate resource extraction in the commons. Traditional small-scale religious belief systems around the world often include restrictions on the use of natural resources, such as fish, forests and specific species, that result in supernatural punishment if violated. Motivated by specific regularities documented in the anthropological literature, and by the Ra\n            \n            hui of Polynesian cultures in particular, we introduce beliefs about supernatural punishment into a standard commons model for which the tragedy of the commons is the no-regulation equilibrium. Here, players form beliefs about whether they will be pun- ished, for example via sickness or misfortune, for violating extraction norms, even when their extraction is private information. We show that sufficiently strong beliefs can sustain fully cooperative behavior even in the complete absence of formal rules, monitoring, or punishment. We then introduce the possibility of learning about the supernatural, where agents can violate norms and learn (albeit noisily) about true supernatural punishment. Even in this setting, certain belief structures can sustain cooperation indefinitely. Comparative statics reveal the features of a belief system under which cooperation is sustained or unravels. We develop a new database of tradi- tional belief systems around the world, providing empirical support for our theoretical predictions.",
         "bio": "Professor of Resource Economics\u200b"
       },
       {
         "seminar_title": "The Road to Building Abundance",
-        "date": "21-Apr-26",
+        "date": "21-APR-26",
         "location": "1101 IAB",
         "time": "12:00p-1:00p",
         "speaker": "Dongcheng Yang",
         "affiliation": "Columbia University",
-        "abstract": "This paper discusses the path towards building abundance, exploring economic and societal factors.",
+        "abstract": "The Road to Building Abundance",
         "bio": "PhD Candidate in Economics"
       },
       {
         "seminar_title": "Promises, Policies and Accountability: Evidence from Brazilian Mayors",
-        "date": "21-Apr-26",
+        "date": "21-APR-26",
         "location": "Room 707",
         "time": "12:15p-1:30p",
         "speaker": "Caroline Le Pennec-\u00c7aldichoury",
