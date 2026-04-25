@@ -186,7 +186,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Reihaneh Malekian",
         "affiliation": "Columbia",
-        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph H in a randomly colored large graph G. This framework generalizes the well-known Potts model, which corresponds to the special case H = K2, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.",
+        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph $H$ in a randomly colored large graph $G$. This framework generalizes the well-known Potts model, which corresponds to the special case $H = K_2$, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.",
         "bio": "N/A"
       },
       {
@@ -205,7 +205,7 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "N/A",
-        "affiliation": "N/A",
+        "affiliation": "Two Sigma",
         "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process. Register now to save your spot by RSVPing here. We hope to see you there! Food and Two Sigma swag will be provided.",
         "bio": "N/A"
       },
@@ -231,7 +231,7 @@
       },
       {
         "seminar_title": "SPRING BREAK",
-        "date": "16 to 20-March-2026",
+        "date": "16-March-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "N/A",
@@ -296,7 +296,7 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Details",
+        "seminar_title": "Speakers: Jim Gatheral (Baruch) and Xin Zhang (NYU)",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
@@ -326,7 +326,7 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Details",
+        "seminar_title": "Speakers: Mathias Beiglboeck (Vienna) and David Itkin (Imperial)",
         "date": "26-Feb-26",
         "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
         "time": "4:00pm-6:00pm",
@@ -366,7 +366,7 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Details and registration",
+        "seminar_title": "Speakers: Martin Larsson (CMU) and Gregoire Loeper (BNP Paribas and genOTC)",
         "date": "2-Apr-2026",
         "location": "NYU",
         "time": "4:00pm-6:00pm",
@@ -396,9 +396,9 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Joint with Applied Probability seminar",
+        "seminar_title": "Speaker: Andreas Sojmark (LSE)",
         "date": "23-Apr-26",
-        "location": "See here for location and time",
+        "location": "see here for location and time",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Andreas Sojmark",
         "affiliation": "LSE",
@@ -406,9 +406,9 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Joint with MAFN seminar",
+        "seminar_title": "Speaker: Zhenyu Cui (Stevens)",
         "date": "23-Apr-26",
-        "location": "See here for location and time",
+        "location": "see here for location and time",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Zhenyu Cui",
         "affiliation": "Stevens",
@@ -416,9 +416,9 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Joint with MAFN seminar",
+        "seminar_title": "Speaker: Ioannis Kyriakou (Bayes Business School)",
         "date": "30-Apr-26",
-        "location": "See here for location and time",
+        "location": "see here for location and time",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Ioannis Kyriakou",
         "affiliation": "Bayes Business School",
@@ -458,33 +458,13 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Thinking versus Doing: Cognitive capacity, decision making and medical diagnosis",
-        "date": "24-Apr-26",
-        "location": "New York University",
-        "time": "11:00a-12:15p",
-        "speaker": "Jon Kolstad",
-        "affiliation": "UC Berkeley: Haas Business",
-        "abstract": "We study how situational fluctuations in cognitive capacity shape behavior in high-stakes, real-time decision-making. Drawing on recent advances in behavioral economics that revolve around inattention, cognition and complexity, we show that cognitive load influences how physicians in emergency departments allocate mental effort, attention, and make diagnostic and treatment decisions. We use quasi-random variation in patient-physician pairings, along with granular electronic medical record and audit-log data from many clinical interactions, to show that, under higher cognitive load, physicians substitute mental deliberation with more numerous but less precise diagnostic actions. Specifically, we document that higher load (i) increases the total number of orders of diagnostic tests (ii) reduces the use of more precise and less common tests (iii) increases the use of common tests and (iv) reduces the use of uncommon tests and (v) increases uncertainty in diagnostic beliefs. We show that cognitive load impacts downstream inpatient admission from the emergency department: a physician in the highest cognitive load decile increases admissions by 28% relative to the same physician in the lowest cognitive load decile, for the exact same kind of patient. We also explore implications for policy, including how patient-physician matching might be improved by accounting for cognitive load profiles. These results offer novel field-based evidence on the dynamics of attention and belief formation, and shed light on how cognitive constraints shape diagnostic behavior in complex, real-world environments.",
-        "bio": "Henry J. Kaiser Professor of Economics"
-      },
-      {
-        "seminar_title": "Prospectus Defense (closed)",
-        "date": "24-Apr-26",
-        "location": "1101 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Madhav Malhotra",
-        "affiliation": "Columbia: Business",
-        "abstract": "N/A",
-        "bio": "PhD Candidate"
-      },
-      {
         "seminar_title": "Medical Innovation in Hospitals: Adoption and Consequences",
         "date": "27-Apr-26",
         "location": "1101 IAB",
         "time": "11:30a-12:45p",
         "speaker": "Kate Kennedy-Moulton",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
+        "abstract": "Medical Innovation in Hospitals: Adoption and Consequences",
         "bio": "PhD Student in Economics"
       },
       {
@@ -516,6 +496,26 @@
         "affiliation": "Carnegie Mellon University",
         "abstract": "This paper examines the relative roles of initial siting decisions and post-siting demographic change in generating racial disparities in exposure to polluting fossil-fuel power plants in the United States. We combine newly digitized data on U.S. power plant siting and operations from 1900\u20132020 with spatially resolved population and demographic data from the U.S. Census spanning 1870\u20132020. We find little evidence that fossil-fuel plants were disproportionately sited in counties with higher Black population shares in most decades. In contrast, event-study estimates show that Black population share rises gradually after a county first receives a fossil-fuel plant, with average increases in Black population share of 4 percentage points in the 50-70 years after first siting. These long-run demographic shifts are driven primarily by counties that first hosted a fossil-fuel plant before 1950, consistent with the historical importance of post-siting sorting during the Great Migration and subsequent suburbanization. We further show that the Black-White gap in exposure to pollution from fossil-fuel power plants emerges only in the mid-20th century, peaks in the 1980s, and then narrows steadily thereafter. Overall, our findings highlight that the equity implications of siting long-lived infrastructure can differ dramatically depending on the time span considered.",
         "bio": "Associate Professor of Economics and Public Policy"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "28-Apr-26",
+        "location": "1101 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Vincent Chartray",
+        "affiliation": "Columbia University",
+        "abstract": "To be announced.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "\u201cMarkups and Cost Pass-through Along the Supply Chain\u201d",
+        "date": "28-Apr-26",
+        "location": "1101 IAB",
+        "time": "2:45p-4:00p",
+        "speaker": "Alexander MacKay",
+        "affiliation": "University of Virginia",
+        "abstract": "We use a novel dataset of production costs, wholesale prices, and retail prices from a large global manufacturer to study markups and pricing behavior along the supply chain. We document new facts about the distribution and dynamics of markups, and we propose a model of supply-chain pricing behavior that rationalizes key patterns in our data. We find substantial dispersion in markups across products and negative correlations between manufacturer and retail markups in the cross section and over time. Despite time-series variation in markups at each stage, total markups\u2014reflecting the relationship between retail prices and production costs\u2014are stable over time, even as prices rose during the 2022 inflationary episode in the United States. This evidence indicates frequent margin reallocation along the supply chain. We apply our model, which links margin shares to bargaining weights, to quantify predictors of relative bargaining power between the manufacturer and retailers. Finally, we characterize the dynamics of cost pass-through and the mediating role of manufacturer-retailer bargaining, with implications for policy debates on tariffs and trade.",
+        "bio": "James H. and Elizabeth W. Wright Jefferson Scholars Foundation Distinguished Associate Professor of Economics"
       }
     ]
   }
