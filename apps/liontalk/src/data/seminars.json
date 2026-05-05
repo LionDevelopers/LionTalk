@@ -20,7 +20,7 @@
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Weng Kee Wong",
         "affiliation": "UCLA",
-        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model.",
+        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage. Above all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs. If time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model. Keywords: Continuous Designs, Early Phase Trials, Equivalence Theorems, Optimal Experiment Designs, Particle Swarm Optimization.",
         "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace. His main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications. His recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics. He has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator. He is fellow of the American Statistical Association, the Institute of Mathematical Statistics, the American Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
       },
       {
@@ -55,7 +55,7 @@
       },
       {
         "seminar_title": "What Functions Do Deep Networks Really Learn?",
-        "date": "2-March-2026",
+        "date": "2-Mar-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Robert Nowak",
@@ -65,7 +65,7 @@
       },
       {
         "seminar_title": "Synthetic Data for Imbalanced Learning",
-        "date": "9-March-2026",
+        "date": "9-Mar-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Anru Zhang",
@@ -75,7 +75,7 @@
       },
       {
         "seminar_title": "Federated Learning for Density Estimation under Differential Privacy: Framework, Minimax Rate, and Cost of Adaptation",
-        "date": "23-March-2026",
+        "date": "23-Mar-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Tony Cai",
@@ -85,7 +85,7 @@
       },
       {
         "seminar_title": "When Both Layers Learn: Gradient Descent Dynamics for Learning Simple ReLU Networks",
-        "date": "30-March-2026",
+        "date": "30-Mar-2026",
         "location": "Room 903 SSW, 1255 Amsterdam Avenue",
         "time": "4:10 pm - 5:00 pm",
         "speaker": "Madhi Soltanolkotabi",
@@ -176,27 +176,17 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
         "affiliation": "N/A",
-        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
+        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.\nHere are some references that start to address these topics:\nhttps://sites.stat.columbia.edu/gelman/research/published/piranha_published.pdf\nhttps://sites.stat.columbia.edu/gelman/research/published/arnold2.pdf\nhttps://sites.stat.columbia.edu/gelman/research/published/mi_theory9.pdf\nhttps://statmodeling.stat.columbia.edu/2024/09/24/its-martingale-time-baby-how-to-evaluate-probabilistic-forecasts-before-the-event-happens-rajiv-sethi-has-an-idea-hint-it-involves-time-series/\nhttps://arxiv.org/abs/2507.11833\nhttps://statmodeling.stat.columbia.edu/2013/05/30/infill-asymptotics-and-sprawl-asymptotics/",
         "bio": "N/A"
       },
       {
-        "seminar_title": "A Generalized Potts Model",
+        "seminar_title": "A Generalized Potts Model & An uncertainty-aware framework for data-efficient multi-view animal pose estimation",
         "date": "18-Feb-2026",
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
-        "speaker": "Reihaneh Malekian",
+        "speaker": "Reihaneh Malekian & Lenny Aharon",
         "affiliation": "Columbia",
-        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph H in a randomly colored large graph G. This framework generalizes the well-known Potts model, which corresponds to the special case H = K2, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "An uncertainty-aware framework for data-efficient multi-view animal pose estimation",
-        "date": "18-Feb-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Lenny Aharon",
-        "affiliation": "Columbia",
-        "abstract": "Multi-view pose estimation is essential for quantifying animal behavior in scientific research, yet current methods struggle to achieve accurate tracking with limited labeled data and suffer from poor uncertainty estimates. We address these challenges with a comprehensive framework combining novel training and post-processing techniques, and a model distillation procedure that leverages the strengths of these techniques to produce a more efficient and effective pose estimator. Our multi-view transformer (MVT) utilizes pretrained backbones and enables simultaneous processing of information across all views, while a novel patch masking scheme learns robust cross-view correspondences without camera calibration. For calibrated setups, we incorporate geometric consistency through 3D augmentation and a triangulation loss. We extend the existing Ensemble Kalman Smoother (EKS) post-processor to the nonlinear case and enhance uncertainty quantification via a variance inflation technique. Finally, to leverage the scaling properties of the MVT, we design a distillation procedure that exploits improved EKS predictions and uncertainty estimates to generate high-quality pseudo-labels, thereby reducing dependence on manual labels. Our framework components consistently outperform existing methods across three diverse animal species (flies, mice, chickadees), with each component contributing complementary benefits. The result is a practical, uncertainty-aware system for reliable pose estimation that enables downstream behavioral analyses under real-world data constraints.",
+        "abstract": "Speaker 1: In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph H in a randomly colored large graph G. This framework generalizes the well-known Potts model, which corresponds to the special case H = K2, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.\nSpeaker 2: Multi-view pose estimation is essential for quantifying animal behavior in scientific research, yet current methods struggle to achieve accurate tracking with limited labeled data and suffer from poor uncertainty estimates. We address these challenges with a comprehensive framework combining novel training and post-processing techniques, and a model distillation procedure that leverages the strengths of these techniques to produce a more efficient and effective pose estimator. Our multi-view transformer (MVT) utilizes pretrained backbones and enables simultaneous processing of information across all views, while a novel patch masking scheme learns robust cross-view correspondences without camera calibration. For calibrated setups, we incorporate geometric consistency through 3D augmentation and a triangulation loss. We extend the existing Ensemble Kalman Smoother (EKS) post-processor to the nonlinear case and enhance uncertainty quantification via a variance inflation technique. Finally, to leverage the scaling properties of the MVT, we design a distillation procedure that exploits improved EKS predictions and uncertainty estimates to generate high-quality pseudo-labels, thereby reducing dependence on manual labels. Our framework components consistently outperform existing methods across three diverse animal species (flies, mice, chickadees), with each component contributing complementary benefits. The result is a practical, uncertainty-aware system for reliable pose estimation that enables downstream behavioral analyses under real-world data constraints.",
         "bio": "N/A"
       },
       {
@@ -205,8 +195,8 @@
         "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
         "time": "12:00 - 1:00 pm",
         "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\n\nRegister now to save your spot by RSVPing here.\n\nWe hope to see you there! Food and Two Sigma swag will be provided.",
+        "affiliation": "Two Sigma",
+        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\nRegister now to save your spot by RSVPing here.\nWe hope to see you there! Food and Two Sigma swag will be provided.",
         "bio": "N/A"
       },
       {
@@ -286,7 +276,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. David Blei",
         "affiliation": "Columbia University",
-        "abstract": "Empirical Bayes improves simultaneous inference by learning from related data. In this talk, I will present three recent directions in empirical Bayes. First, I will discuss a general method based on probabilistic symmetries, which extends empirical Bayes beyond exchangeable settings to structured problems such as arrays, graphs, conditional data, and spatial models. Second, I will discuss empirical Bayes for implicit likelihoods, where the model is available only through a simulator, and show how simulation-based inference can be used to produce empirical Bayes estimates without evaluating a density. Third, I will discuss an empirical Bayes approach to combining randomized experiments and observational studies, where calibration studies make it possible to learn the distribution of observational bias and use observational data in a principled way. These three ideas illustrate new roles for empirical Bayes in modern statistics and machine learning.\n\nThis is joint work with Sebastian Salazar, Diana Cai, Don Green, Xinwei Shen, Sebastian Wagner-Carena, Bohan Wu, and Cheng Zhang.",
+        "abstract": "Empirical Bayes improves simultaneous inference by learning from related data. In this talk, I will present three recent directions in empirical Bayes. First, I will discuss a general method based on probabilistic symmetries, which extends empirical Bayes beyond exchangeable settings to structured problems such as arrays, graphs, conditional data, and spatial models. Second, I will discuss empirical Bayes for implicit likelihoods, where the model is available only through a simulator, and show how simulation-based inference can be used to produce empirical Bayes estimates without evaluating a density. Third, I will discuss an empirical Bayes approach to combining randomized experiments and observational studies, where calibration studies make it possible to learn the distribution of observational bias and use observational data in a principled way. These three ideas illustrate new roles for empirical Bayes in modern statistics and machine learning.\nThis is joint work with Sebastian Salazar, Diana Cai, Don Green, Xinwei Shen, Sebastian Wagner-Carena, Bohan Wu, and Cheng Zhang.",
         "bio": "N/A"
       },
       {
@@ -322,17 +312,17 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Goran Peskir",
         "affiliation": "University of Manchester",
-        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.\nThe quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.\nThe solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
+        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Jim Gatheral and Xin Zhang",
+        "seminar_title": "Details",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Jim Gatheral and Xin Zhang",
         "affiliation": "Baruch and NYU",
-        "abstract": "Details here: https://urldefense.com/v3/__https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang__;!!BDUfV1Et5lrpZQ!UVYwxb7oHyja43uD8ANbDrnRbBWiCY4TfYTKmwgkhxcqkZe9FrUZ-nA7D74-FJOr5H29cX4qQEg7Q9K160L4Gf4$",
+        "abstract": "N/A",
         "bio": "N/A"
       },
       {
@@ -356,13 +346,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Mathias Beiglboeck and David Itkin",
+        "seminar_title": "Details",
         "date": "26-Feb-26",
         "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
         "time": "4:00pm-6:00pm",
         "speaker": "Mathias Beiglboeck and David Itkin",
         "affiliation": "Vienna and Imperial",
-        "abstract": "Details here: https://engineering.nyu.edu/events/2026/02/26/columbia-nyu-financial-engineering-colloquium-mathias-beiglbock-david-itkin\nRegister here: https://docs.google.com/forms/d/e/1FAIpQLSciW0z0X9CJR5Yzy6JMySGt54ys4y4OX7e-unGSD0-Tfqj6vw/viewform",
+        "abstract": "N/A",
         "bio": "N/A"
       },
       {
@@ -386,6 +376,16 @@
         "bio": "N/A"
       },
       {
+        "seminar_title": "NO SEMINAR",
+        "date": "Spring Break",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
         "seminar_title": "Neural optimal stopping boundary",
         "date": "26-Mar-2026",
         "location": "Room 903, 1255 Amsterdam Ave.",
@@ -396,13 +396,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Martin Larsson and Gregoire Loeper",
+        "seminar_title": "Details and registration",
         "date": "2-Apr-2026",
         "location": "NYU",
         "time": "4:00pm-6:00pm",
         "speaker": "Martin Larsson and Gregoire Loeper",
         "affiliation": "CMU and BNP Paribas and genOTC",
-        "abstract": "Details and registration here: https://engineering.nyu.edu/events/2026/04/02/columbia-nyu-financial-engineering-colloquium-martin-larsson-and-gregoire-loeper",
+        "abstract": "N/A",
         "bio": "N/A"
       },
       {
@@ -412,7 +412,7 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Mihai Cucuringu",
         "affiliation": "UCLA",
-        "abstract": "We develop spectral methods for clustering heterogeneous networks, in the setting of signed and directed networks, and demonstrate their benefits on networks arising from stochastic block models and financial multivariate time series data, where one is often interested in clustering assets that exhibit similar contemporaneous behavior. We demonstrate the economic benefits of the proposed graph clustering algorithms in statistical arbitrage and portfolio construction applications. Both signed and directed graph clustering problems share an important common feature: they can be solved by exploiting the spectrum of certain graph Laplacian matrices or derivations thereof, allowing for performance guarantees under suitably defined stochastic block models. We further develop a likelihood-based spectral clustering framework for directed graphs, providing a principled objective function along with theoretical guarantees.\nA task of major interest in financial applications is that of uncovering lead-lag relationships in high-dimensional multivariate time series. In such settings, certain groups of variables partially lead the evolution of the system, while other variables follow with a time delay, resulting in a lead-lag structure that can be encoded as edges of a directed network. Detecting clusters exhibiting a notion of pairwise flow imbalance amounts to identifying baskets of assets that lead and lag each other. We leverage graph clustering and ranking algorithms for lead-lag detection, and demonstrate that our methodology identifies statistically significant lead-lag clusters in the US equity market. We study the composition of the uncovered clusters, compare performance across time frequencies, and benchmark against established approaches from the lead-lag literature for portfolio construction. In addition, we uncover a market-wide \"tug-of-war\", whereby overnight speculation and daytime price correction propagate across stocks through directed lead-lag relations, giving rise to economically meaningful cross-asset trading opportunities.",
+        "abstract": "We develop spectral methods for clustering heterogeneous networks, in the setting of signed and directed networks, and demonstrate their benefits on networks arising from stochastic block models and financial multivariate time series data, where one is often interested in clustering assets that exhibit similar contemporaneous behavior. We demonstrate the economic benefits of the proposed graph clustering algorithms in statistical arbitrage and portfolio construction applications. Both signed and directed graph clustering problems share an important common feature: they can be solved by exploiting the spectrum of certain graph Laplacian matrices or derivations thereof, allowing for performance guarantees under suitably defined stochastic block models. We further develop a likelihood-based spectral clustering framework for directed graphs, providing a principled objective function along with theoretical guarantees. A task of major interest in financial applications is that of uncovering lead-lag relationships in high-dimensional multivariate time series. In such settings, certain groups of variables partially lead the evolution of the system, while other variables follow with a time delay, resulting in a lead-lag structure that can be encoded as edges of a directed network. Detecting clusters exhibiting a notion of pairwise flow imbalance amounts to identifying baskets of assets that lead and lag each other. We leverage graph clustering and ranking algorithms for lead-lag detection, and demonstrate that our methodology identifies statistically significant lead-lag clusters in the US equity market. We study the composition of the uncovered clusters, compare performance across time frequencies, and benchmark against established approaches from the lead-lag literature for portfolio construction. In addition, we uncover a market-wide \"tug-of-war\", whereby overnight speculation and daytime price correction propagate across stocks through directed lead-lag relations, giving rise to economically meaningful cross-asset trading opportunities.",
         "bio": "N/A"
       },
       {
@@ -426,23 +426,33 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Andreas Sojmark and Zhenyu Cui",
+        "seminar_title": "Joint with Applied Probability seminar",
         "date": "23-Apr-26",
-        "location": "See Applied Probability seminar series for location and time.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Andreas Sojmark and Zhenyu Cui",
-        "affiliation": "LSE and Stevens",
-        "abstract": "Joint with Applied Probability seminar, see https://stat.columbia.edu/applied-probability-seminar-series/ for location and time\nJoint with MAFN seminar, see https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
+        "location": "See applied probability seminar series",
+        "time": "N/A",
+        "speaker": "Andreas Sojmark",
+        "affiliation": "LSE",
+        "abstract": "N/A",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Ioannis Kyriakou",
+        "seminar_title": "Joint with MAFN seminar",
+        "date": "23-Apr-26",
+        "location": "See MAFN practitioners seminar",
+        "time": "N/A",
+        "speaker": "Zhenyu Cui",
+        "affiliation": "Stevens",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Joint with MAFN seminar",
         "date": "30-Apr-26",
-        "location": "See MAFN practitioners seminar spring 2026 for location and time.",
-        "time": "4:10 pm - 5:25 pm",
+        "location": "See MAFN practitioners seminar",
+        "time": "N/A",
         "speaker": "Ioannis Kyriakou",
         "affiliation": "Bayes Business School",
-        "abstract": "Joint with MAFN seminar, see https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
+        "abstract": "N/A",
         "bio": "N/A"
       }
     ]
@@ -462,6 +472,16 @@
         "bio": "Not detected in text"
       },
       {
+        "seminar_title": "IN-PERSON - HICCC Seminar Series: Liver Cancer Speaker",
+        "date": "06-May-26",
+        "location": "Location not specified",
+        "time": "3:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
         "seminar_title": "IICD Seminar Series: Mona Singh, Princeton University",
         "date": "13-May-26",
         "location": "Location not specified",
@@ -470,70 +490,14 @@
         "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
-      }
-    ]
-  },
-  {
-    "department": "Center for Science and Society",
-    "series": "CSS Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "JS Tan - Cloud Capitalism and the AI Transition",
-        "date": "04-May-26",
-        "location": "Location not specified",
-        "time": "12:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
       },
       {
-        "seminar_title": "The Plastic Detox",
-        "date": "04-May-26",
-        "location": "Location not specified",
-        "time": "4:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "The Jennifer B. Greenfield Annual Lecture",
-        "date": "07-May-26",
-        "location": "Location not specified",
-        "time": "4:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "\"?Wired for Connection?\" Screening",
-        "date": "07-May-26",
-        "location": "Location not specified",
-        "time": "4:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Cecilia Mart\f0xed7xz-Plaza - Lay Performance of Meta-Expertise: Using Informal Credentialing to Connect and Redistribute Technical Knowledge Across Siloed Professions",
-        "date": "11-May-26",
-        "location": "Location not specified",
-        "time": "12:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Maya Moore - Weather and Climate Services for Smallholder Farmers in Guatemala",
+        "seminar_title": "HICCC Distinguished Seminar- Elana Fertig, PhD",
         "date": "13-May-26",
         "location": "Location not specified",
-        "time": "10:00 AM",
+        "time": "3:00 PM",
         "speaker": "See Abstract",
-        "affiliation": "Center for Science and Society",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "Not detected in text"
       }
@@ -544,44 +508,24 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Barriers to Industrial Growth and Long-run Productive Efficiency: The Role of Policy Induced Misallocation.",
-        "date": "04-May-26",
-        "location": "1101 IAB",
-        "time": "11:30a-12:45p",
-        "speaker": "Tianyu Luo",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Candidate in Economics"
-      },
-      {
-        "seminar_title": "To be announced.",
-        "date": "04-May-26",
-        "location": "IAB 501",
-        "time": "1:00p-2:00p",
-        "speaker": "To be announced.",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
         "seminar_title": "To be announced.",
         "date": "05-May-26",
         "location": "1101 IAB",
         "time": "12:00p-1:00p",
         "speaker": "Steven Zheng",
         "affiliation": "Columbia: Business",
-        "abstract": "N/A",
-        "bio": "PhD Student in Finance"
+        "abstract": "To be announced.",
+        "bio": "Steven Zheng\nPhD Student in Finance\nColumbia: Business"
       },
       {
         "seminar_title": "\"Impressing the Algorithm: Search-Based Ranking, Learning and Off-platform Pricing\"",
         "date": "05-May-26",
-        "location": "1101 IAB",
+        "location": "409 IAB",
         "time": "2:45p-4:00p",
         "speaker": "Heski Bar-Isaac",
         "affiliation": "University of Toronto",
         "abstract": "We study how platform ranking design shapes sellers\u2019 off-platform pricing when the platform learns product appeal from on-platform sales. Because those sales depend on cross-channel pricing, ranking creates a career-concerns force: by restraining off-platform discounts, the seller shifts demand on-platform and improves future exposure. Thus, even without conditioning directly on off-platform prices, a sales-based algorithm can reproduce the incentive effects of explicit price-parity restrictions. But because the platform also relies on on-platform sales to infer seller appeal, a sales-based algorithm may distort promotion decisions and reduce welfare. We compare sales-based algorithms with rules that condition directly on off-platform prices and show that a price-parity clause algorithm can attain the first best.",
-        "bio": "University of Toronto Distinguished Professor of Economics & Finance"
+        "bio": "Heski Bar-Isaac\nUniversity of Toronto Distinguished Professor of Economics & Finance \nUniversity of Toronto"
       },
       {
         "seminar_title": "To be announced.",
@@ -590,8 +534,28 @@
         "time": "4:15p-5:30p",
         "speaker": "Maarten De Ridder",
         "affiliation": "London School of Economics",
-        "abstract": "N/A",
-        "bio": "Assistant Professor of Economics"
+        "abstract": "To be announced.",
+        "bio": "Maarten De Ridder\nAssistant Professor of Economics\nLondon School of Economics"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "06-May-26",
+        "location": "1120 IAB",
+        "time": "10:00a-10:30a",
+        "speaker": "Evgeniia Lambrinaki and Lorenzo Germinetti",
+        "affiliation": "Columbia University and Queen Mary, University of London",
+        "abstract": "To be announced.",
+        "bio": "Evgeniia Lambrinaki\nPhD Student in Economics\nColumbia University\nLorenzo Germinetti\nPhD Candidate in Economics\nQueen Mary, University of London"
+      },
+      {
+        "seminar_title": "The Road to Building Abundance",
+        "date": "06-May-26",
+        "location": "1101 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Dongcheng Yang",
+        "affiliation": "Columbia University",
+        "abstract": "Over the past two decades, Tokyo has redeveloped intensively and especially at the center. This paper studies Japan's Urban Renaissance reform of 2002, which designated Priority Development Areas near transit hubs with fast-track approval for large-scale redevelopment. Using building-level data on Tokyo's 23 wards from 1991 to 2021, I find that UR designation raised block-level floor space by 21% over 19 years and that approved redevelopment districts produced 163% more floor space within a decade. Unlike New York City, where floorspace growth comes from building on vacant land, Tokyo's growth is driven by combined and single-plot redevelopment.",
+        "bio": "Dongcheng Yang\nPhD Candidate in Economics\nColumbia University"
       }
     ]
   }
