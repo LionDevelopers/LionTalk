@@ -116,22 +116,58 @@
       {
         "seminar_title": "Andreas Sojmark (LSE) and Zhenyu Cui (Stevens)",
         "date": "23-Apr-26",
-        "location": "See https://stat.columbia.edu/applied-probability-seminar-series/ for location and time and https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
+        "location": "Applied Probability seminar",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Andreas Sojmark and Zhenyu Cui",
         "affiliation": "LSE and Stevens",
-        "abstract": "Joint with Applied Probability seminar, see https://stat.columbia.edu/applied-probability-seminar-series/ for location and time\nJoint with MAFN seminar, see https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
+        "abstract": "Joint with Applied Probability seminar, see here for location and time.\nJoint with MAFN seminar, see here for location and time.",
         "bio": "N/A"
       },
       {
         "seminar_title": "Ioannis Kyriakou (Bayes Business School)",
         "date": "30-Apr-26",
-        "location": "See https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
+        "location": "MAFN seminar",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Ioannis Kyriakou",
         "affiliation": "Bayes Business School",
-        "abstract": "Joint with MAFN seminar, see https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ for location and time",
+        "abstract": "Joint with MAFN seminar, see https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/ here for location and time",
         "bio": "N/A"
+      }
+    ]
+  },
+  {
+    "department": "Center for Science and Society",
+    "series": "CSS Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "The Endless Frontier Screening",
+        "date": "15-Jun-26",
+        "location": "Location not specified",
+        "time": "5:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Fenella Heckscher - Jane Colden's Botanic Manuscript: The Legacy of America's First Woman Botanist",
+        "date": "18-Jun-26",
+        "location": "Location not specified",
+        "time": "11:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Building the Future of Care: Strengthening the Nursing Workforce",
+        "date": "18-Jun-26",
+        "location": "Location not specified",
+        "time": "4:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
       }
     ]
   }
