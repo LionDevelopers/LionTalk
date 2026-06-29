@@ -20,7 +20,7 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Jim Gatheral and Xin Zhang",
         "affiliation": "Baruch and NYU",
-        "abstract": "Details here: https://urldefense.com/v3/__https://engineering.nyu.edu/events/2026/02/05/columbia-nyu-financial-engineering-colloquium-jim-gatheral-xin-zhang__;!!BDUfV1Et5lrpZQ!UVYwxb7oHyja43uD8ANbDrnRbBWiCY4TfYTKmwgkhxcqkZe9FrUZ-nA7D74-FJOr5H29cX4qQEg7Q9K160L4Gf4$",
+        "abstract": "Details here",
         "bio": "N/A"
       },
       {
@@ -50,7 +50,7 @@
         "time": "4:00pm-6:00pm",
         "speaker": "Mathias Beiglboeck and David Itkin",
         "affiliation": "Vienna and Imperial",
-        "abstract": "Details here: https://engineering.nyu.edu/events/2026/02/26/columbia-nyu-financial-engineering-colloquium-mathias-beiglbock-david-itkin\nRegister here: https://docs.google.com/forms/d/e/1FAIpQLSciW0z0X9CJR5Yzy6JMySGt54ys4y4OX7e-unGSD0-Tfqj6vw/viewform",
+        "abstract": "Details here",
         "bio": "N/A"
       },
       {
@@ -90,7 +90,7 @@
         "time": "4:00pm-6:00pm",
         "speaker": "Martin Larsson and Gregoire Loeper",
         "affiliation": "CMU and BNP Paribas and genOTC",
-        "abstract": "Details and registration here: https://engineering.nyu.edu/events/2026/04/02/columbia-nyu-financial-engineering-colloquium-martin-larsson-and-gregoire-loeper",
+        "abstract": "Details and registration here",
         "bio": "N/A"
       },
       {
@@ -100,7 +100,7 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Mihai Cucuringu",
         "affiliation": "UCLA",
-        "abstract": "We develop spectral methods for clustering heterogeneous networks, in the setting of signed and directed networks, and demonstrate their benefits on networks arising from stochastic block models and financial multivariate time series data, where one is often interested in clustering assets that exhibit similar contemporaneous behavior. We demonstrate the economic benefits of the proposed graph clustering algorithms in statistical arbitrage and portfolio construction applications. Both signed and directed graph clustering problems share an important common feature: they can be solved by exploiting the spectrum of certain graph Laplacian matrices or derivations thereof, allowing for performance guarantees under suitably defined stochastic block models. We further develop a likelihood-based spectral clustering framework for directed graphs, providing a principled objective function along with theoretical guarantees.\nA task of major interest in financial applications is that of uncovering lead-lag relationships in high-dimensional multivariate time series. In such settings, certain groups of variables partially lead the evolution of the system, while other variables follow with a time delay, resulting in a lead-lag structure that can be encoded as edges of a directed network. Detecting clusters exhibiting a notion of pairwise flow imbalance amounts to identifying baskets of assets that lead and lag each other. We leverage graph clustering and ranking algorithms for lead-lag detection, and demonstrate that our methodology identifies statistically significant lead-lag clusters in the US equity market. We study the composition of the uncovered clusters, compare performance across time frequencies, and benchmark against established approaches from the lead-lag literature for portfolio construction. In addition, we uncover a market-wide \"tug-of-war\", whereby overnight speculation and daytime price correction propagate across stocks through directed lead-lag relations, giving rise to economically meaningful cross-asset trading opportunities.",
+        "abstract": "We develop spectral methods for clustering heterogeneous networks, in the setting of signed and directed networks, and demonstrate their benefits on networks arising from stochastic block models and financial multivariate time series data, where one is often interested in clustering assets that exhibit similar contemporaneous behavior. We demonstrate the economic benefits of the proposed graph clustering algorithms in statistical arbitrage and portfolio construction applications. Both signed and directed graph clustering problems share an important common feature: they can be solved by exploiting the spectrum of certain graph Laplacian matrices or derivations thereof, allowing for performance guarantees under suitably defined stochastic block models. We further develop a likelihood-based spectral clustering framework for directed graphs, providing a principled objective function along with theoretical guarantees. A task of major interest in financial applications is that of uncovering lead-lag relationships in high-dimensional multivariate time series. In such settings, certain groups of variables partially lead the evolution of the system, while other variables follow with a time delay, resulting in a lead-lag structure that can be encoded as edges of a directed network. Detecting clusters exhibiting a notion of pairwise flow imbalance amounts to identifying baskets of assets that lead and lag each other. We leverage graph clustering and ranking algorithms for lead-lag detection, and demonstrate that our methodology identifies statistically significant lead-lag clusters in the US equity market. We study the composition of the uncovered clusters, compare performance across time frequencies, and benchmark against established approaches from the lead-lag literature for portfolio construction. In addition, we uncover a market-wide \"tug-of-war\", whereby overnight speculation and daytime price correction propagate across stocks through directed lead-lag relations, giving rise to economically meaningful cross-asset trading opportunities.",
         "bio": "N/A"
       },
       {
@@ -114,33 +114,33 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Speaker: Andreas Sojmark (LSE)",
+        "seminar_title": "Andreas Sojmark (LSE)",
         "date": "23-Apr-26",
-        "location": "Applied Probability seminar",
+        "location": "See Applied Probability seminar series for location and time",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Andreas Sojmark",
         "affiliation": "LSE",
-        "abstract": "Joint with Applied Probability seminar, see here for location and time: https://stat.columbia.edu/applied-probability-seminar-series/",
+        "abstract": "Joint with Applied Probability seminar, see here for location and time",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Speaker: Zhenyu Cui (Stevens)",
+        "seminar_title": "Zhenyu Cui (Stevens)",
         "date": "23-Apr-26",
-        "location": "MAFN seminar",
+        "location": "See MAFN practitioners seminar Spring 2026 for location and time",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Zhenyu Cui",
         "affiliation": "Stevens",
-        "abstract": "Joint with MAFN seminar, see here for location and time: https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/",
+        "abstract": "Joint with MAFN seminar, see here for location and time",
         "bio": "N/A"
       },
       {
         "seminar_title": "Ioannis Kyriakou (Bayes Business School)",
         "date": "30-Apr-26",
-        "location": "MAFN seminar",
+        "location": "See MAFN practitioners seminar Spring 2026 for location and time",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Ioannis Kyriakou",
         "affiliation": "Bayes Business School",
-        "abstract": "Joint with MAFN seminar, see here for location and time: https://www.math.columbia.edu/mafn/practitioners-seminar-spring-2026/",
+        "abstract": "Joint with MAFN seminar, see here for location and time",
         "bio": "N/A"
       }
     ]
