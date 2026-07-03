@@ -1,136 +1,312 @@
 [
   {
     "department": "Statistics",
-    "series": "Mathematical Finance Seminar Series",
+    "series": "Statistics Seminar Series",
     "entries": [
       {
-        "seminar_title": "The Optimal Mean-Variance Selling Problem with Finite Horizon",
-        "date": "29-Jan-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Goran Peskir",
-        "affiliation": "University of Manchester",
-        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price. The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting. The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
-        "bio": "N/A"
+        "seminar_title": "Algorithmic Stability in Statistical Inference",
+        "date": "26-Jan-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Yuetian Luo",
+        "affiliation": "Rutgers University",
+        "abstract": "Algorithmic stability is a central concept in statistics and learning theory that measures how sensitive an algorithm's output is to small changes in the training data. In this talk, we consider two different perspectives of algorithmic stability in statistical inference. In the first part, we investigate the problem of distribution-free algorithm risk evaluation, uncovering fundamental limitations for answering these questions with limited amounts of data. To navigate the challenge, we will discuss how incorporating an assumption about algorithmic stability might help. In this second part, we reveal that while stability entails desirable properties, it is typically not sufficient on its own for statistical learning. For example, an algorithm that always outputs a constant function is perfectly stable but statistically meaningless. Then we will discuss the trade-offs between stability and accuracy in statistical inference.",
+        "bio": "Yuetian Luo is an assistant professor in the Department of Statistics at Rutgers University. Before that, he was a postdoctoral scholar in the Data Science Institute at the University of Chicago, advised by Professor Rina Foygel Barber. He received his Ph.D. in Statistics from the University of Wisconsin-Madison in 2022 under the supervision of Professor Anru Zhang. His research interests lie broadly in distribution-free inference, computational complexity of statistical inference, tensor learning, robust statistics, and non-convex optimization."
       },
       {
-        "seminar_title": "Details",
-        "date": "5-Feb-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Jim Gatheral and Xin Zhang",
-        "affiliation": "Baruch and NYU",
-        "abstract": "Details for the seminar can be found at the provided link.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Particle Systems with Local Interactions via Hitting Times and Cascades on Graphs",
-        "date": "12-Feb-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Yucheng Guo",
-        "affiliation": "Princeton",
-        "abstract": "We study particle systems interacting via hitting times on sparsely connected graphs, following the framework of Lacker, Ramanan and Wu (2023). We provide general robustness conditions that guarantee the well-posedness of physical solutions to the dynamics, and demonstrate their connections to the dynamic percolation theory. We then study the limiting behavior of the particle systems, establishing the continuous dependence of the joint law of the physical solution on the underlying graph structure with respect to local convergence and showing the convergence of the global empirical measure, which extends the general results by Lacker et al. to systems with singular interaction. The model proposed provides a general framework for analyzing systemic risks in large sparsely connected financial networks with a focus on local interactions, featuring instantaneous default cascades. Joint work with Qinxin Yan (Princeton PACM).",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Robust hedging of American options via aggregated Snell envelopes",
-        "date": "19-Feb-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Marco Rodrigues",
-        "affiliation": "Weierstrass Institute and TU Berlin",
-        "abstract": "We study the robust hedging of American options under model uncertainty in a nondominated setting. Our approach is based on the construction of a Snell envelope under a sublinear expectation. We prove a duality formula for the robust superhedging price and establish the existence of a minimal superhedging strategy. Our results encompass continuous processes or processes with jumps and non-vanishing diffusion. A key application is to financial market models, where uncertainty is quantified through the semi-martingale characteristics.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Details",
-        "date": "26-Feb-26",
-        "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
-        "time": "4:00pm-6:00pm",
-        "speaker": "Mathias Beiglboeck and David Itkin",
-        "affiliation": "Vienna and Imperial",
-        "abstract": "Details for the seminar can be found at the provided link. Registration is also available.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Auction Market Design: Trading, Contract, and Learning",
-        "date": "5-Mar-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Thibault Mastrolia",
-        "affiliation": "Berkeley",
-        "abstract": "This presentation explores the optimization of trading strategy and regulatory policies in financial auctions market. First, we address systemic vulnerabilities in auctions, demonstrating how randomizing closing times and optimizing transaction fees can successfully mitigate the market-distorting price impact of strategic late arrivals (snipping). Shifting to the exchange's perspective, we then frame optimal rebate and fee policies as a continuous-time principal-multi-agent problem, utilizing the Deep BSDE method to design incentive structures that enhance market efficiency and narrow clearing price spreads. Finally, we adopt the market maker's perspective by introducing a Deep Q-Learning framework. Rather than relying on traditional terminal inventory penalties, this adaptive model explicitly anticipates the closing auction's liquidity, dynamically refining execution strategies to outperform classical benchmarks on both stochastic and historical data. Together, these frameworks offer a holistic approach to building and navigating more resilient financial markets. Based on joint works with Tianrui Xu and Julius Graf.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Dynamic contracting with limited liability",
-        "date": "12-Mar-2026",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Tiziano De Angelis",
-        "affiliation": "Torino",
-        "abstract": "We study a problem of dynamic contracting in continuous time between a risk-neutral Principal and an Agent with CARA utility. The production process (in the absence of agent's effort) is a Brownian motion and the time horizon of the contract is finite. In the classical Holmstrom-Milgrom model, with quadratic cost of effort for the agent and no limited liability, the optimal contract is linear in the Brownian production process. This implies that at the terminal time, the agent may incur arbitrarily large losses with positive probability, due to the Gaussian fluctuations. To avoid this unpleasant feature we tweak the model and introduce limited liability for the agent in the form of a non-negativity constraint for the contract. The resulting HJB for the Principal inherits an additional Dirichlet boundary condition that makes the analysis much more involved than in the classical case without constraints. Leveraging on probabilistic estimates we are able to prove that the agent's value function is an infinitely smooth solution of a fully non-linear parabolic PDE with Cauchy and Dirichlet boundary conditions. We find the agent's optimal effort in Markovian form and characterise the dynamics of the optimal contract as the unique strong solution of an SDE absorbed at zero. We also derive a PDE that fully characterises the agent's optimal effort from an analytic perspective. Finally, we perform a theoretical analysis of the sensitivity of the optimal effort with respect to time and to the promised utility arising from the contract. Joint work with Andrea Bovo (University of Brescia) and Stephane Villeneuve (Toulouse School of Economics).",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Neural optimal stopping boundary",
-        "date": "26-Mar-2026",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Max Reppen",
-        "affiliation": "BU",
-        "abstract": "A method based on deep artificial neural networks and empirical risk minimization is developed to calculate the boundary separating the stopping and continuation regions in optimal stopping. The algorithm parameterizes the stopping boundary as the graph of a function and introduces relaxed stopping rules based on fuzzy boundaries to facilitate efficient optimization. Several financial instruments, some in high dimensions, are analyzed through this method, demonstrating its effectiveness. The existence of the stopping boundary is also proved under natural structural assumptions.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Details and registration",
-        "date": "2-Apr-2026",
-        "location": "NYU",
-        "time": "4:00pm-6:00pm",
-        "speaker": "Martin Larsson and Gregoire Loeper",
-        "affiliation": "CMU and BNP Paribas and genOTC",
-        "abstract": "Details and registration for the seminar can be found at the provided link.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Signed and Directed Graph Clustering in Financial Time Series: Statistical Arbitrage, Lead-Lag Structure, and the Market Tug-of-War",
-        "date": "9-Apr-2026",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Mihai Cucuringu",
+        "seminar_title": "Nature-Inspired Metaheuristics as a General-Purpose Optimization Tool in Statistical Research",
+        "date": "2-Feb-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Weng Kee Wong",
         "affiliation": "UCLA",
-        "abstract": "We develop spectral methods for clustering heterogeneous networks, in the setting of signed and directed networks, and demonstrate their benefits on networks arising from stochastic block models and financial multivariate time series data, where one is often interested in clustering assets that exhibit similar contemporaneous behavior. We demonstrate the economic benefits of the proposed graph clustering algorithms in statistical arbitrage and portfolio construction applications. Both signed and directed graph clustering problems share an important common feature: they can be solved by exploiting the spectrum of certain graph Laplacian matrices or derivations thereof, allowing for performance guarantees under suitably defined stochastic block models. We further develop a likelihood-based spectral clustering framework for directed graphs, providing a principled objective function along with theoretical guarantees. A task of major interest in financial applications is that of uncovering lead-lag relationships in high-dimensional multivariate time series. In such settings, certain groups of variables partially lead the evolution of the system, while other variables follow with a time delay, resulting in a lead-lag structure that can be encoded as edges of a directed network. Detecting clusters exhibiting a notion of pairwise flow imbalance amounts to identifying baskets of assets that lead and lag each other. We leverage graph clustering and ranking algorithms for lead-lag detection, and demonstrate that our methodology identifies statistically significant lead-lag clusters in the US equity market. We study the composition of the uncovered clusters, compare performance across time frequencies, and benchmark against established approaches from the lead-lag literature for portfolio construction. In addition, we uncover a market-wide \"tug-of-war\", whereby overnight speculation and daytime price correction propagate across stocks through directed lead-lag relations, giving rise to economically meaningful cross-asset trading opportunities.",
+        "abstract": "Nature-metaheuristics have been widely used in engineering, computer science and artificial intelligence to tackle various types of challenging optimization problems for decades and are increasingly used across disciplines. Interestingly, metaheuristics seem to be still relatively underused in the statistical research community. I present an overview of nature-inspired metaheuristics and describe their main appealing features, which are their speed, flexibility, availability of codes in different platforms, and ease of implementation and usage.\nAbove all, they are virtually assumption-free, enabling us to apply these general-purpose algorithms to tackle all kinds of high-dimensional optimization tasks. I will highlight recent applications of these algorithms to find theory-based early-phase clinical trials, that are more realistic and flexible than current designs.\nIf time permits, I will use an exemplary nature-inspired algorithm, called Particle Swarm Optimization and demonstrate how it quickly finds an optimal design for estimating a dose that optimizes a clinical utility index under a Bivariate Emax Model.\nKeywords: Continuous Designs, Early Phase Trials, Equivalence Theorems,\nOptimal Experiment Designs, Particle Swarm Optimization.",
+        "bio": "Professor Wong is a Professor at UCLA since 1990 and over the years, he has done collaborative work in dentistry, environment health science, rheumatology, and various domains in oncology, including in the design and analysis of cancer control and prevention trials for controlling Hepatitis B among Asians, colorectal cancer for Hispanics, fighting obesity and promoting health of minorities at workplace.\nHis main methodology research is in the construction of model- based optimal experimental designs for various biostatistical applications.\nHis recent interests are in the applications of nature-inspired metaheuristics to tackle challenging estimation and design problems in toxicology, clinical trials and other areas of statistics.\nHe has delivered more than 250 presentations globally, including recent short courses in design at Seoul National University and at the Toxicology Center in TU Dortmund University in Germany. Professor Wong has received grant awards from NSF and private foundations, along with several R01 grant awards from NIH as a principal investigator.\nHe is fellow of the American Statistical Association, the Institute of Mathematical Statistics,\nthe\nAmerican Association for the Advancement of Science, an elected member of the International Statistical Institute and a full member of the Sigma Xi \u2013 The Scientific Research Honor Society. He has also just completed a 3-year Yushan Scholarship Award from the Ministry of Education in Taiwan."
+      },
+      {
+        "seminar_title": "Learning Pseudo-Differential Operators",
+        "date": "9-Feb-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Daniel Sanz-Alonso",
+        "affiliation": "University of Chicago",
+        "abstract": "Pseudo-differential operators (PDOs) are a broad and fundamental class of operators in analysis and partial differential equations, with wide-ranging applications in mathematical and computational sciences. In this talk I will present recent work with Jiaheng Chen on learning elliptic PDOs from noisy data. Within a wavelet--Galerkin framework, we formulate this task as a structured infinite-dimensional regression problem with multiscale sparsity. Building on this structure, we propose a sparse, data- and computation-efficient estimator, which leverages a novel matrix compression scheme tailored to the learning task and a nested-support strategy to balance approximation and estimation errors. In addition to establishing convergence rates for the estimator, we show that the learned operator induces an efficient and stable Galerkin solver whose numerical error matches its statistical accuracy. Our results therefore contribute to bringing together operator learning, data-driven solvers, and wavelet methods in scientific computing.",
+        "bio": "Daniel Sanz-Alonso is an Associate Professor in the Department of Statistics at the University of Chicago, where he is a member of the Committee on Computational and Applied Mathematics. Previously, he was a postdoctoral researcher in the Division of Applied Mathematics and a member of the Data Science Initiative at Brown University. He received his PhD in Mathematics and Statistics from the University of Warwick (UK) in 2016, under the supervision of Andrew Stuart and Gareth Roberts.\nHis research interests include inverse problems, data assimilation, and scientific machine learning. A central theme of his work is the integration of complex predictive models with large data sets, addressing theoretical and computational challenges motivated by data-centric applications.\nHe was awarded the Jos\u00e9 Luis Rubio de Francia Prize by the Spanish Royal Society of Mathematics, recognizing the best Spanish mathematician under the age of 32, and received an NSF CAREER Award in 2023. Since 2025, he has served as an Associate Editor of the SIAM/ASA Journal on Uncertainty Quantification and Stochastics and Partial Differential Equations: Analysis and Computations. His research has been supported by the National Science Foundation, the National Geospatial-Intelligence Agency, the Department of Energy, and the BBVA Foundation."
+      },
+      {
+        "seminar_title": "Topics on Multivariate Integer-Valued Time Series",
+        "date": "16-Feb-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Konstantinos Fokianos",
+        "affiliation": "University of Cyprus",
+        "abstract": "We study inference and modelling techniques for multivariate count time series. In particular, we focus on autoregressive, network, and space\u2013time models. The development of both the underlying theory and its applications depends critically on the choice of an appropriate response distribution for multivariate count data, as well as on the framework of observation\u2011driven models. Our aim is to highlight recent methodological advances in this area and to outline several directions for future research.",
+        "bio": "Kostas Fokianos is a Professor of Statistics at the University of Cyprus, where he has served since 1999 and acted as a Head of Department between 2020-2024. He has also taught at The Ohio State University and Lancaster University. He has been a visiting scholar at Ludwig Maximilian University of Munich, the National Institutes of Health, EPFL, CY Cergy Paris University, the University of Bergen, TU Dortmund University, and the University of Rome Tor Vergata.\nHe is a Fellow of the American Statistical Association, an elected member of the International Statistical Institute, and has held multiple editorial positions in leading statistical journals. His primary methodological contributions lie in time series analysis, with a particular focus on univariate and multivariate models for count time series."
+      },
+      {
+        "seminar_title": "Deep learning theory: Statistics, optimization and the space in between",
+        "date": "23-Feb-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Sophie Langer",
+        "affiliation": "Ruhr University Bochum",
+        "abstract": "Statistical learning theory for deep learning has primarily focused on analyzing neural networks as estimators in nonparametric regression and classification problems. A central question is under which assumptions neural networks can circumvent the well-known curse of dimensionality. Existing literature typically addresses this question by either imposing structural assumptions on the target function or by assuming that the covariates possess a low-dimensional structure.\nIn this talk, we present a unified framework that incorporates both types of assumptions within a single model. We show that neural networks can adapt to this framework and establish approximation and excess risk bounds that are independent of the ambient input dimension. Our results apply to simple fully connected neural networks with flexible width and depth.\nIn the second part of the talk, we address the persistent gap between the statistical and optimization perspectives in deep learning. We present first results that jointly account for both aspects by deriving statistical risk bounds for estimators obtained via gradient descent.\nThis talk is based on joint work with Alina Braun, Michael Kohler, Adam Krzyzak, and Thomas Nagler.",
+        "bio": "Sophie Langer studied Mathematics with Economics at the Technical University of Darmstadt, and received a PhD in Statistics in 2020 under the supervision of Michael Kohler. After graduating, she worked as a postdoctoral student with Johannes Schmidt-Hieber at the University of Twente, the Netherlands, and with Lorenzo Rosasco at the University of Genoa, Italy.\nIn October 2022, she was appointed an Assistant Professor at the University of Twente. Since April 2025, she has been a professor at Ruhr University Bochum, Germany. Her research focuses on the statistical foundations and theory of deep learning."
+      },
+      {
+        "seminar_title": "What Functions Do Deep Networks Really Learn?",
+        "date": "2-March-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Robert Nowak",
+        "affiliation": "University of Wisconsin",
+        "abstract": "This talk reviews a theory of the functions learned by ReLU neural networks. At its core is the observation that deep ReLU networks can be characterized as solutions to data-fitting problems in certain infinite dimensional function spaces. The solutions are compositions of functions from Banach spaces of second-order bounded variation, defined in the Radon transform domain. Functions in these spaces exhibit strong smoothness in most directions, making it a natural setting for adapting to intrinsic low-dimensional structure in data. Moreover, the norms in these spaces are closely tied to the size of neural network weights, providing a direct connection between function complexity and network parametrization. In particular, the total variation norm provides an analytic tool for identifying functions that cannot be realized by shallow networks, thereby yielding a precise characterization of depth separation. Representer theorems reveal the solutions are sparse in the number of active neurons per layer. Sparsity provides a principled path to network compression, yet some sparse solutions can suffer from poor generalization. The theory suggests new training strategies to promote solutions that generalize more robustly. Beyond these theoretical contributions, the framework also informs the design of implicit neural representations, where multi-layer networks represent continuous signals, images, and 3D scenes. In this setting, the theory points to improved strategies for training, hyperparameter selection, and architecture design.\nParhi, R., & Nowak, R. D. (2026). Compositional Function Spaces for Deep Learning. SIAM Review, 68(1), 127-149.",
+        "bio": "Robert Nowak is the Grace Wahba Professor of Data Science and Keith and Jane Nosbusch Professor in Electrical and Computer Engineering at the University of Wisconsin-Madison. His research focuses on machine learning, optimization, and signal processing. He serves on the editorial boards of the SIAM Journal on the Mathematics of Data Science and the IEEE Journal on Selected Areas in Information Theory."
+      },
+      {
+        "seminar_title": "Synthetic Data for Imbalanced Learning",
+        "date": "9-March-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Anru Zhang",
+        "affiliation": "Duke University",
+        "abstract": "Imbalanced data arise widely in modern applications, where one class is rarer than the other and standard learning methods tend to favor the majority class at the expense of rare but important outcomes. A classic strategy is to generate synthetic data for the minority class and train prediction models on the augmented sample. While this approach is widely used in practice, its statistical benefits are not yet fully understood: synthetic data may help reduce imbalance, but may also introduce bias when the generated samples fail to accurately represent the target distribution.\nIn this talk, I will present a statistical perspective on synthetic data for imbalanced learning, focusing on two fundamental questions: when synthetic augmentation helps, and how it should be used effectively. First, I will discuss a bias-correction framework that accounts for the distributional mismatch between synthetic and observed data, leading to improved prediction accuracy and reduced overfitting. This idea extends beyond binary classification to broader settings such as multi-task learning and causal inference under imbalance. Second, I will present a unified theory for synthetic augmentation that clarifies when adding synthetic minority samples improves performance, when it can hurt, and how many synthetic samples should be generated. Our results show that the value of augmentation depends critically on generator accuracy, the structure of class asymmetry, and the alignment of synthetic bias with the underlying learning problem. These insights also motivate a practical data-driven procedure for tuning the synthetic sample size. Finally, some open problems will also be discussed.",
+        "bio": "Anru Zhang is a primary faculty member jointly appointed in the Department of Biostatistics & Bioinformatics and the Department of Computer Science at Duke University. He is also the Eugene Anson Stead, Jr. M.D. Associate Professor and serves as Associate Chair for Research in the Department of Biostatistics & Bioinformatics. His current research interests include generative models, biomedical data science, tensor learning, and high-dimensional statistics. He received a Leo Breiman Junior Award, COPSS Emerging Leader Award, IMS Tweedie Award, ASA Gottfried E. Noether Junior Award, AMIA Data Science Outstanding Paper Award, and an NSF CAREER Award. Two of his PhD students have received the IMS Lawrence D. Brown Award. He currently serves as an associate editor for the Annals of Statistics, the Journal of the American Statistical Association (Theory & Methods and Applications & Case Studies), Statistica Sinica, ASA Discoveries, and Statistics and Its Interface. His research is currently supported by two NIH R01 grants (one as sole PI and one as MPI with clinical investigators)."
+      },
+      {
+        "seminar_title": "Federated Learning for Density Estimation under Differential Privacy: Framework, Minimax Rate, and Cost of Adaptation",
+        "date": "23-March-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Tony Cai",
+        "affiliation": "University of Pennsylvania",
+        "abstract": "Privacy-preserving data analysis has become a central challenge in modern statistics, and federated learning has increasingly attracted attention in both statistics and machine learning. In this talk, we study minimax and adaptive federated learning under differential privacy (FDP) in the context of density estimation, considering both global and pointwise estimation over Besov spaces.\nWe first establish minimax rates of convergence under FDP and propose optimal distributed, privacy-preserving estimators. Our results uncover phase-transition phenomena that highlight the trade-offs between statistical accuracy and privacy, showing how privacy budgets, the number of servers, and sample size jointly determine achievable performance.\nWe then turn to adaptive estimation when the smoothness parameters are unknown. We derive sharp characterizations of the cost of adaptation under FDP for both global and pointwise estimation and introduce an adaptive estimator based on a new noise mechanism that enables one-shot adaptation via post-processing. This method provides strict improvements over existing adaptive DP approaches.\nOur findings reveal a striking contrast between private and non-private settings. For global estimation, where adaptation can be achieved for free in the classical non-private setting, we prove that under FDP an intrinsic adaptation cost is unavoidable. For pointwise estimation, where a logarithmic penalty is already known to arise in the non-private setting, we show that FDP introduces an additional logarithmic factor, thereby compounding the cost of adaptation. Taken together, these results provide the first rigorous characterization of the adaptive privacy-accuracy trade-off.\nThis is joint work with Abhinav Chakraborty and Lasse Vuursteen",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Optimal Exit Time for Liquidity Providers in Automated Market Makers",
-        "date": "16-Apr-2026",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Philippe Bergault",
-        "affiliation": "Paris Dauphine",
-        "abstract": "We study the problem of optimal liquidity withdrawal for a representative liquidity provider (LP) in an automated market maker (AMM). LPs earn fees from trading activity but are exposed to impermanent loss (IL) due to price fluctuations. While existing work has focused on static provision and exogenous exit strategies, we characterise the optimal exit time as the solution to a stochastic control problem with an endogenous stopping time. Mathematically, the LP's value function is shown to satisfy a Hamilton\u2013Jacobi\u2013Bellman quasi-variational inequality, for which we establish uniqueness in the viscosity sense. To solve the problem numerically, we develop two complementary approaches: a Euler scheme based on operator splitting and a Longstaff\u2013Schwartz regression method. Calibrated simulations highlight how the LP's optimal exit strategy depends on the oracle price volatility, fee levels, and the behaviour of arbitrageurs and noise traders. Our results show that while arbitrage generates both fees and IL, the LP's optimal decision balances these opposing effects based on the pool state variables and price misalignments. Lastly, we find the optimal fee level for the representative LP when they play the exit strategy we derived.",
+        "seminar_title": "When Both Layers Learn: Gradient Descent Dynamics for Learning Simple ReLU Networks",
+        "date": "30-March-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Madhi Soltanolkotabi",
+        "affiliation": "University of Southern California",
+        "abstract": "We study gradient descent dynamics for jointly training both layers of a one-hidden-layer ReLU network to fit simple planted models under Gaussian covariates. This problem provides a simple but nontrivial setting for understanding end-to-end feature learning beyond lazy-training or fixed-feature regimes. Despite the simplicity of the target, the optimization landscape is highly degenerate and contains a continuum of non-strict saddle points, making it far from obvious why gradient descent from random initialization should recover the underlying planted model. We show that, from a moderately small random initialization and with a sample size scaling linearly with parameters, full-batch gradient descent provably converges to a global minimizer at a linear rate. A central technical ingredient is a set of trajectory-uniform concentration bounds that control empirical-population deviations simultaneously along the entire gradient descent path, enabling order-optimal sample complexity with data reuse across iterations. These results provide a sharp theoretical characterization of end-to-end representation learning in a minimal nonlinear model.",
+        "bio": "Mahdi Soltanolkotabi is the director of the center on AI Foundations for the Sciences (AIF4S) at the University of Southern California. He is also a professor in the Departments of Electrical and Computer Engineering, Computer Science, and Industrial and Systems engineering and part time research scientist at google. Prior to joining USC, he completed his PhD in electrical engineering at Stanford in 2014. He was a postdoctoral researcher in the EECS department at UC Berkeley during the 2014-2015 academic year.\nMahdi is the recipient of the Information Theory Society Best Paper Award, Packard Fellowship in Science and Engineering, an NIH Director\u2019s new innovator award, a Sloan Research Fellowship, an NSF Career award, an Airforce Office of Research Young Investigator award (AFOSR-YIP), the Viterbi school of engineering junior faculty research award, and faculty awards from Google and Amazon. His research focuses on developing the mathematical foundations of modern data science via characterizing the behavior and pitfalls of contemporary nonconvex learning and optimization algorithms with applications in AI, deep learning, large scale distributed training, federated learning, computational imaging, and AI for scientific and medical applications. Most recently his applied research is focused on developing and deploying reliable and trustworthy AI in healthcare."
+      },
+      {
+        "seminar_title": "Machine learning and symmetries",
+        "date": "6-Apr-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Soledad Villar",
+        "affiliation": "Johns Hopkins University",
+        "abstract": "Symmetries play a significant role in machine learning. In scientific applications, they often arise as constraints imposed by physical laws. More broadly, symmetries emerge whenever objects admit multiple ways to express them (for example, in graph machine learning). In addition, modern machine learning models are heavily overparameterized, so many distinct sets of parameters can represent the same function, revealing further underlying symmetries.\nIn this talk, we describe methods for incorporating symmetries into machine learning models using classical tools from algebra, including invariant theory and Galois theory. A particularly interesting feature of symmetry-preserving models is that they can be defined independently of the size or dimension of the input. The formalization of this setting, known as any-dimensional machine learning, is inspired by ideas from representation stability. In this talk we present a theoretical framework for understanding the assumptions imposed by such models, which allows us to align learning models with data of varying sizes and learning tasks in a principled way.\nAny-dimensional models use a fixed set of parameters and can be evaluated on data of varying sizes. Hyperparameter transfer considers the complementary setting, in which the data are fixed while the model size varies, and studies how optimal hyperparameters (such as the learning rate) can be transferred from smaller models to larger ones. If time permits, we will also discuss recent connections between any-dimensional machine learning and hyperparameter transfer.",
+        "bio": "Soledad Villar is an Assistant Professor of Applied Mathematics and Statistics at Johns Hopkins. Her research is in the mathematical foundations of deep learning, including geometric deep learning. She received an NSF CAREER award, a Sloan Fellowship in Mathematics, and her research has been supported by ONR, Apple, Amazon, and the Simons Foundation. She is originally from Uruguay."
+      },
+      {
+        "seminar_title": "Learning Multi-Index Models via Harmonic Analysis",
+        "date": "13-Apr-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Theodor Misiakiewicz",
+        "affiliation": "Yale University",
+        "abstract": "Modern machine learning heavily relies on the success of large-scale models trained via gradient-type algorithms. A major effort in recent years has been to understand the fundamental limits of these learning algorithms: What governs the complexity of gradient-based training? Which distributions can these methods learn efficiently? What are the underlying computational-statistical trade-offs? \nIn this talk, we focus on a key property of generic gradient-based methods: their equivariance with respect to a large symmetry group. We develop a group-theoretic framework to analyze the complexity of learning a fixed distribution with an equivariant algorithm. This framework reveals a natural factorization of the group-distribution pair and suggests an optimal sequential, adaptive learning process. We illustrate this framework in the classical problem of learning multi-index models and characterize the computational-statistical trade-offs in this setting. We conclude by revisiting several existing algorithms through this lens.\nThis is based on joint work with Hugo Latourelle-Vigeant, Hugo Koubbi, Nirmit Joshi, and Nati Srebro.",
+        "bio": "Theodor Misiakiewicz is an Assistant Professor in the Department of Statistics and Data Science at Yale University. His research focuses on deep learning theory, high-dimensional statistics, and computational learning theory. Prior to Yale, he received his PhD from Stanford University in 2023 and was a Research Assistant Professor at the Toyota Technological Institute at Chicago (TTIC) in 2023-2024."
+      },
+      {
+        "seminar_title": "Biased Treatment Allocation: An Empirical Bayes Perspective",
+        "date": "20-Apr-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Roger Koenker",
+        "affiliation": "University College London",
+        "abstract": "Classical empirical Bayes tends to emphasize compound decision problems involving many incidental (latent) parameters.\nHowever, empirical Bayes methods extend beyond such compound decision problems. Near the end of his career, Robbins published two short papers in the PNAS with Cun-Hui Zhang on what they called Biased Treatment Allocation.\nMy objective in this talk will be to describe their approach briefly and explain how it connects with some recent developments in econometrics.",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Speaker: Zhenyu Cui (Stevens)",
-        "date": "23-Apr-26",
-        "location": "See link for location and time",
-        "time": "See link for location and time",
-        "speaker": "Andreas Sojmark and Zhenyu Cui",
-        "affiliation": "LSE and Stevens",
-        "abstract": "Joint with Applied Probability seminar, details available at the provided link. Also joint with MAFN seminar, details available at the provided link.",
+        "seminar_title": "Data Integration Via Analysis of Subspaces (DIVAS)",
+        "date": "27-Apr-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Steve Marron",
+        "affiliation": "UNC",
+        "abstract": "A major challenge in the age of Big Data is the integration of disparate data types into a single data analysis. That is tackled here in the context of data blocks measured on a common set of experimental cases. Joint variation is defined in terms of modes of variation having identical scores across data blocks. That allows mathematically rigorous formulation of individual variation within each data block in terms of individual modes. These are mathematically defined through modes of variation with common scores. DIVAS improves earlier methods using a novel random direction approach to statistical inference, and by treating partially shared blocks. Usefulness is illustrated using mortality, cancer and neuroimaging data sets.",
+        "bio": "J.S. Marron is the Amos Hawley Distinguished Professor of Statistics and Operations Research, Professor of Data Science and Society, Professor of Biostatistics and Adjunct Professor of Computer Science at the University of North Carolina, Chapel Hill. His research lies in many areas of statistics, data science and machine learning, with a special emphasis on gaining simultaneous insights from very diverse data types, including genomics, genetics, imaging and demographics. He enjoys using deep concepts from diverse mathematical areas including geometry and topology in novel data analyses.\nMarron\u2019s PhD was earned at UCLA in 1982, under the supervision of Charles J. Stone. Early in his career he worked on the asymptotics of nonparametric curve estimation, with an emphasis on smoothing parameter selection, jointly with many research leaders including Peter Hall and Wolfgang Haerdle. He moved into interdisciplinary research with some foundational work on \u201ccode decay\u201d in software engineering, and the invention of fundamental machine learning methods for analyzing gene expression in cancer research.\nMarron coined the term \u201cObject Oriented Data Analysis\u201d, which is a framework for addressing the coming trend for data to not only get big, but also to get complex. OODA draws deeply from diverse areas of mathematics including geometry (critical for e.g. shapes as data points) and topology (shown useful for tree / graph data). These ideas have motivated current research on data integration, that has been feeding into continuing cancer collaborations, as well as research on osteo-arthritis, including analysis of human movement data using amplitude-phase decomposition ideas.\nIn addition to a large amount of reviewing and associate editing, and many NSF Grants, Marron was a founding Associate Director of SAMSI. He also has an unusually strong mentoring record with 60 graduated PhD students."
+      },
+      {
+        "seminar_title": "Metric Statistics: Basic Tools and Distribution-valued Processes",
+        "date": "4-May-2026",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Hans Muller",
+        "affiliation": "UC Davis",
+        "abstract": "Statistical methods for data situated in general metric spaces are not yet well developed. Such data have been referred to as Random Objects and the field dealing with them as Metric Statistics. Relevant basic tools include measures of location and spread as well as regression models. After reviewing some of these basic tools and the challenges arising due to the absence of algebraic operations, the focus moves to a scenario where one aims to analyze samples of realizations of a distribution-valued stochastic processes. Specific examples of longitudinally observed one-dimensional distributions include age-at-death distributions in demography. We consider an intrinsic optimal transport model. In an initial centering step the observed distributions are converted to optimal transports from the barycenter at each sampling time t. Utilizing a transport algebra, each realization of the process is decomposed into a time-independent transport and a real-valued random trajectory. A connection with real-valued Gaussian processes and functional principal component analysis makes it possible to consider not only continuously sampled distributions but also distributions obtained under sparse/longitudinal sampling designs, where due to the sparse and irregular sampling the underlying distributional process is latent and cannot be directly observed.\nThis talk is based on joint work with Hang Zhou (University of North Carolina).",
+        "bio": "N/A"
+      }
+    ]
+  },
+  {
+    "department": "Statistics",
+    "series": "Student Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Robust Point Matching with Distance Profiles",
+        "date": "28-Jan-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Yoonhaeng Hur",
+        "affiliation": "N/A",
+        "abstract": "Computational difficulty of quadratic matching and the Gromov-Wasserstein distance has led to various approximation and relaxation schemes. One of such methods, relying on the notion of distance profiles, has been widely used in practice, but its theoretical understanding is limited. By delving into the statistical complexity of the previously proposed method based on distance profiles, we show that it suffers from the curse of dimensionality unless we make certain assumptions on the underlying metric measure spaces. Building on this insight, we propose and analyze a modified matching procedure that can be used to robustly match points under a certain probabilistic setting. We demonstrate the performance of the proposed methods using simulations and real data applications to complement the theoretical findings. As a result, we contribute to the literature by providing theoretical underpinnings of the matching procedures based on distance invariants like distance profiles, which have been widely used in practice but rarely analyzed theoretically.",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Speaker: Ioannis Kyriakou (Bayes Business School)",
-        "date": "30-Apr-26",
-        "location": "See link for location and time",
-        "time": "See link for location and time",
-        "speaker": "Ioannis Kyriakou",
-        "affiliation": "Bayes Business School",
-        "abstract": "Joint with MAFN seminar, details available at the provided link.",
+        "seminar_title": "Regularized f-Divergence Kernel Tests",
+        "date": "4-Feb-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Monica Ribero",
+        "affiliation": "Research Scientist at Google NYC",
+        "abstract": "We propose a framework to construct practical kernel-based two-sample tests from the family of f-divergences. The test statistic is computed from the witness function of a regularized variational representation of the divergence, which we estimate using kernel methods. The proposed test is adaptive over hyperparameters such as the kernel bandwidth and the regularization parameter. We provide theoretical guarantees for statistical test power across our family of f-divergence estimates. While our test covers a variety of f-divergences, we bring particular focus to the Hockey-Stick divergence, motivated by its applications to differential privacy auditing and machine unlearning evaluation. For two-sample testing, experiments demonstrate that different f-divergences are sensitive to different localized differences, illustrating the importance of leveraging diverse statistics. For machine unlearning, we propose a relative test that distinguishes true unlearning failures from safe distributional variations.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Some Open Problems in Probability that are Relevant to Applied Statistics",
+        "date": "11-Feb-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Prof. Andrew Gelman",
+        "affiliation": "N/A",
+        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics. Here are some references that start to address these topics: https://sites.stat.columbia.edu/gelman/research/published/piranha_published.pdf https://sites.stat.columbia.edu/gelman/research/published/arnold2.pdf https://sites.stat.columbia.edu/gelman/research/published/mi_theory9.pdf https://statmodeling.stat.columbia.edu/2024/09/24/its-martingale-time-baby-how-to-evaluate-probabilistic-forecasts-before-the-event-happens-rajiv-sethi-has-an-idea-hint-it-involves-time-series/ https://arxiv.org/abs/2507.11833 https://statmodeling.stat.columbia.edu/2013/05/30/infill-asymptotics-and-sprawl-asymptotics/",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "A Generalized Potts Model",
+        "date": "18-Feb-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Reihaneh Malekian",
+        "affiliation": "Columbia",
+        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph H in a randomly colored large graph G. This framework generalizes the well-known Potts model, which corresponds to the special case H = K2, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "An uncertainty-aware framework for data-efficient multi-view animal pose estimation",
+        "date": "18-Feb-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Lenny Aharon",
+        "affiliation": "Columbia",
+        "abstract": "Multi-view pose estimation is essential for quantifying animal behavior in scientific research, yet current methods struggle to achieve accurate tracking with limited labeled data and suffer from poor uncertainty estimates. We address these challenges with a comprehensive framework combining novel training and post-processing techniques, and a model distillation procedure that leverages the strengths of these techniques to produce a more efficient and effective pose estimator. Our multi-view transformer (MVT) utilizes pretrained backbones and enables simultaneous processing of information across all views, while a novel patch masking scheme learns robust cross-view correspondences without camera calibration. For calibrated setups, we incorporate geometric consistency through 3D augmentation and a triangulation loss. We extend the existing Ensemble Kalman Smoother (EKS) post-processor to the nonlinear case and enhance uncertainty quantification via a variance inflation technique. Finally, to leverage the scaling properties of the MVT, we design a distillation procedure that exploits improved EKS predictions and uncertainty estimates to generate high-quality pseudo-labels, thereby reducing dependence on manual labels. Our framework components consistently outperform existing methods across three diverse animal species (flies, mice, chickadees), with each component contributing complementary benefits. The result is a practical, uncertainty-aware system for reliable pose estimation that enables downstream behavioral analyses under real-world data constraints.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "TWO SIGMA\u2019S QUANT RESEARCH PHD SEMINAR @COLUMBIA",
+        "date": "25-Feb-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "N/A",
+        "affiliation": "Two Sigma",
+        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process. Register now to save your spot by RSVPing here. We hope to see you there! Food and Two Sigma swag will be provided.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Inference in discrete tensor exponential families",
+        "date": "4-March-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Prof. Sumit Mukherjee",
+        "affiliation": "Columbia University",
+        "abstract": "In this talk we will focus on a discrete exponential family, where the sufficient statistics is given in terms of a tensor form. In the simplest case when the tensor is a quadratic, the exponential family reduces to the celebrated Ising model of statistical physics, which has since found applications in several disciplines including statistics and machine learning. Another special case is the exponential random graph models (ERGMs) of social networks, originating in the social sciences. We will discuss what is known about parameter estimation in such exponential families, and possible directions for future research.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Information, Computation, & Quantization: Infinitely divisible privacy and beyond",
+        "date": "11-March-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Aaradhya Pandey",
+        "affiliation": "PhD Student at Princeton ORFE",
+        "abstract": "In this talk, I introduce a hypothesis-testing-based formulation of differential privacy in classical computation. The Gaussian Differential Privacy framework of Dong--Roth--Su (2022) established a central limit theorem for the composition of multiple private mechanisms. Building on this work, I present a Poisson extension of their result and show that both the Gaussian and Poisson limits are unified under a broader framework of infinitely divisible privacy. This perspective reveals structural connections between differential privacy, probability theory, statistics, and discrete mathematics. I conclude by discussing computational differential privacy and its connections to cryptographic constructions such as pseudorandom generators, as well as a step toward quantizing privacy in quantum computation, outlining a framework for both computational and quantum differential privacy.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "SPRING BREAK",
+        "date": "16 to 20-March-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "25-March-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Reconciling Least Squares and Robustness in the Two-Way Layout Fixed Effects Experimental Design with an Example from R. A. Fisher's book The Design of Experiments",
+        "date": "1-April-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Prof. Brenton Clarke",
+        "affiliation": "Murdoch University",
+        "abstract": "In the last 18 years, the speaker has authored two international books in the Wiley Series in Probability and Statistics in essentially diametrically opposing areas of statistical practice. The first book was published in 2008 and is titled Linear Models the Theory and Application of Analysis of Variance. That book begins with a historical development of least squares analysis and normal likelihood theory analysis of the linear model through the auspices of experimental design and analysis of variance, basically as was developed by the giant R.A. Fisher and his contemporaries. The second book, published 10 years later, describes the functional approach to robustness, particularly through the story of M-estimation. The title of the book is Robustness Theory and Application. This details a modern theory of statistical inference developed since the 1960\u2019s. So, what is the \u201cright\u201d way to approach statistics when analyzing data? Some insight is offered by appealing to a classical analysis of a linear model representing the data used to form a two-way layout that is proffered in the book \u201cThe Design of Experiment\u201d by R.A. Fisher for the purposes of illustrating the analysis of variance for a Randomized Complete Block Design. It is a summarized data set of Immer et al. of yields of five barley varieties for 12 different years, by location combinations. The data reveal outliers and heteroscedasticity. For these data, we review the appropriate least squares and robust approaches to the analysis. The history of the robust approach is explained by recounting the development of Huber's M- estimators, the influence function of Hampel that is driveable for any estimator, and why the Fr\u00e9chet differentiability of M-estimators as described by the speaker in the 1980\u2019s established under certain conditions for M-estimators guaranties the robustness of an M- estimator. The early example of a Fr\u00e9chet differentiable M-estimators afforded by the Tukey Bi-square Functional M-estimator are supported in robust computer packages and are applicable to the linear model representing the two-way layout. Different choices of constraints under parameter redundancies used in different models require one to first represent the analyzes using the same model, before making comparisons. The approach is similar to that of H. Scheff\u00e9. Digressions are made to discuss non-smooth vs smooth M-estimation and to emphasize that the least squares diagnostic approach of transformation is also fraught with danger. Otherwise, we show that both least squares, properly done, and robust inferences essentially agree for these data.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Discrete Causal Representation Learning",
+        "date": "8-April-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Prof. Yuqi Gu",
+        "affiliation": "Columbia University",
+        "abstract": "Causal representation learning seeks to uncover causal relationships among high-level latent variables from low-level, entangled, and noisy observations. Existing approaches often either rely on deep neural networks, which lack interpretability and formal guarantees, or impose restrictive assumptions like linearity, continuous-only observations, and strong structural priors. These limitations particularly challenge applications with a large number of discrete latent variables and mixed-type observations. To address these challenges, we propose discrete causal representation learning (DCRL), a generative framework that models a directed acyclic graph among discrete latent variables, along with a sparse bipartite graph linking latent and observed layers. This design accommodates continuous, count, and binary responses through flexible measurement models while maintaining interpretability. Under mild conditions, we prove that both the bipartite measurement graph and the latent causal graph are identifiable from the observed data distribution alone. We further propose a three-stage estimate-resample-discovery pipeline: penalized estimation of the generative model parameters, resampling of latent configurations from the fitted model, and score-based causal discovery on the resampled latents. We establish the consistency of this procedure, ensuring reliable recovery of the latent causal structure. Empirical studies on educational assessment and synthetic image data demonstrate that DCRL recovers sparse and interpretable latent causal structures.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "15-April-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "A Fresh Look at Empirical Bayes",
+        "date": "22-April-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Prof.David Blei",
+        "affiliation": "Columbia University",
+        "abstract": "Empirical Bayes improves simultaneous inference by learning from related data. In this talk, I will present three recent directions in empirical Bayes. First, I will discuss a general method based on probabilistic symmetries, which extends empirical Bayes beyond exchangeable settings to structured problems such as arrays, graphs, conditional data, and spatial models. Second, I will discuss empirical Bayes for implicit likelihoods, where the model is available only through a simulator, and show how simulation-based inference can be used to produce empirical Bayes estimates without evaluating a density. Third, I will discuss an empirical Bayes approach to combining randomized experiments and observational studies, where calibration studies make it possible to learn the distribution of observational bias and use observational data in a principled way. These three ideas illustrate new roles for empirical Bayes in modern statistics and machine learning. This is joint work with Sebastian Salazar, Diana Cai, Don Green, Xinwei Shen, Sebastian Wagner-Carena, Bohan Wu, and Cheng Zhang.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Accurate and efficient data point removal for high-dimensional settings",
+        "date": "29-April-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "Prof.Arian Maleki",
+        "affiliation": "N/A",
+        "abstract": "Consider a model trained with parameters from independent and identically distributed observations. To assess a data point\u2019s impact on the model, we remove it from the dataset and aim to understand the model\u2019s behavior when trained on the remaining data. This scenario is relevant in various classical and modern applications, including risk estimation, outlier detection, machine unlearning, and data valuation. Conventional approaches involve training the model on the remaining data, but these can be computationally demanding. Consequently, researchers often resort to approximate methods. This talk highlights that in high-dimensional settings, where is either larger than or at the same order, many approximation methods may prove ineffective. We will present and analyze an accurate approximation method tailored for high-dimensional regimes, elucidating the conditions for its accuracy. In the concluding part of the presentation, time permitting, we will briefly discuss some of the unresolved issues in this domain.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Student body elections",
+        "date": "6-May-2026",
+        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
+        "time": "12:00 - 1:00 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "We will elect our next student representative, student seminar organizers, and ASGC representative.",
         "bio": "N/A"
       }
     ]
