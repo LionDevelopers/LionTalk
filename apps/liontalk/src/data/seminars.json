@@ -131,7 +131,7 @@
         "speaker": "Steve Marron",
         "affiliation": "UNC",
         "abstract": "A major challenge in the age of Big Data is the integration of disparate data types into a single data analysis. That is tackled here in the context of data blocks measured on a common set of experimental cases. Joint variation is defined in terms of modes of variation having identical scores across data blocks. That allows mathematically rigorous formulation of individual variation within each data block in terms of individual modes. These are mathematically defined through modes of variation with common scores. DIVAS improves earlier methods using a novel random direction approach to statistical inference, and by treating partially shared blocks. Usefulness is illustrated using mortality, cancer and neuroimaging data sets.",
-        "bio": "J.S. Marron is the Amos Hawley Distinguished Professor of Statistics and Operations Research, Professor of Data Science and Society, Professor of Biostatistics and Adjunct Professor of Computer Science at the University of North Carolina, Chapel Hill. His research lies in many areas of statistics, data science and machine learning, with a special emphasis on gaining simultaneous insights from very diverse data types, including genomics, genetics, imaging and demographics. He enjoys using deep concepts from diverse mathematical areas including geometry and topology in novel data analyses.\nMarron\u2019s PhD was earned at UCLA in 1982, under the supervision of Charles J. Stone. Early in his career he worked on the asymptotics of nonparametric curve estimation, with an emphasis on smoothing parameter selection, jointly with many research leaders including Peter Hall and Wolfgang Haerdle. He moved into interdisciplinary research with some foundational work on \u201ccode decay\u201d in software engineering, and the invention of fundamental machine learning methods for analyzing gene expression in cancer research. \nMarron coined the term \u201cObject Oriented Data Analysis\u201d, which is a framework for addressing the coming trend for data to not only get big, but also to get complex. OODA draws deeply from diverse areas of mathematics including geometry (critical for e.g. shapes as data points) and topology (shown useful for tree / graph data). These ideas have motivated current research on data integration, that has been feeding into continuing cancer collaborations, as well as research on osteo-arthritis, including analysis of human movement data using amplitude-phase decomposition ideas.\nIn addition to a large amount of reviewing and associate editing, and many NSF Grants, Marron was a founding Associate Director of SAMSI. He also has an unusually strong mentoring record with 60 graduated PhD students."
+        "bio": "J.S. Marron is the Amos Hawley Distinguished Professor of Statistics and Operations Research, Professor of Data Science and Society, Professor of Biostatistics and Adjunct Professor of Computer Science at the University of North Carolina, Chapel Hill. His research lies in many areas of statistics, data science and machine learning, with a special emphasis on gaining simultaneous insights from very diverse data types, including genomics, genetics, imaging and demographics. He enjoys using deep concepts from diverse mathematical areas including geometry and topology in novel data analyses.\nMarron\u2019s PhD was earned at UCLA in 1982, under the supervision of Charles J. Stone. Early in his career he worked on the asymptotics of nonparametric curve estimation, with an emphasis on smoothing parameter selection, jointly with many research leaders including Peter Hall and Wolfgang Haerdle. He moved into interdisciplinary research with some foundational work on \u201ccode decay\u201d in software engineering, and the invention of fundamental machine learning methods for analyzing gene expression in cancer research. \nMarron coined the term \u201cObject Oriented Data Analysis\u201d, which is a framework for addressing the coming trend for data to not only get *big*, but also to get *complex*. OODA draws deeply from diverse areas of mathematics including geometry (critical for e.g. shapes as data points) and topology (shown useful for tree / graph data). These ideas have motivated current research on data integration, that has been feeding into continuing cancer collaborations, as well as research on osteo-arthritis, including analysis of human movement data using amplitude-phase decomposition ideas.\nIn addition to a large amount of reviewing and associate editing, and many NSF Grants, Marron was a founding Associate Director of SAMSI. He also has an unusually strong mentoring record with 60 graduated PhD students."
       },
       {
         "seminar_title": "Metric Statistics: Basic Tools and Distribution-valued Processes",
@@ -176,7 +176,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
         "affiliation": "N/A",
-        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.\nHere are some references that start to address these topics:",
+        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
         "bio": "N/A"
       },
       {
@@ -206,7 +206,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "N/A",
         "affiliation": "Two Sigma",
-        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\nRegister now to save your spot by RSVPing here.\nWe hope to see you there! Food and Two Sigma swag will be provided.",
+        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process. Register now to save your spot by RSVPing here. We hope to see you there! Food and Two Sigma swag will be provided.",
         "bio": "N/A"
       },
       {
@@ -286,7 +286,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof.David Blei",
         "affiliation": "Columbia University",
-        "abstract": "Empirical Bayes improves simultaneous inference by learning from related data. In this talk, I will present three recent directions in empirical Bayes. First, I will discuss a general method based on probabilistic symmetries, which extends empirical Bayes beyond exchangeable settings to structured problems such as arrays, graphs, conditional data, and spatial models. Second, I will discuss empirical Bayes for implicit likelihoods, where the model is available only through a simulator, and show how simulation-based inference can be used to produce empirical Bayes estimates without evaluating a density. Third, I will discuss an empirical Bayes approach to combining randomized experiments and observational studies, where calibration studies make it possible to learn the distribution of observational bias and use observational data in a principled way. These three ideas illustrate new roles for empirical Bayes in modern statistics and machine learning.\nThis is joint work with Sebastian Salazar, Diana Cai, Don Green, Xinwei Shen, Sebastian Wagner-Carena, Bohan Wu, and Cheng Zhang.",
+        "abstract": "Empirical Bayes improves simultaneous inference by learning from related data. In this talk, I will present three recent directions in empirical Bayes. First, I will discuss a general method based on probabilistic symmetries, which extends empirical Bayes beyond exchangeable settings to structured problems such as arrays, graphs, conditional data, and spatial models. Second, I will discuss empirical Bayes for implicit likelihoods, where the model is available only through a simulator, and show how simulation-based inference can be used to produce empirical Bayes estimates without evaluating a density. Third, I will discuss an empirical Bayes approach to combining randomized experiments and observational studies, where calibration studies make it possible to learn the distribution of observational bias and use observational data in a principled way. These three ideas illustrate new roles for empirical Bayes in modern statistics and machine learning.",
         "bio": "N/A"
       },
       {
@@ -308,6 +308,142 @@
         "affiliation": "N/A",
         "abstract": "We will elect our next student representative, student seminar organizers, and ASGC representative.",
         "bio": "N/A"
+      }
+    ]
+  },
+  {
+    "department": "Statistics",
+    "series": "Mathematical Finance Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "The Optimal Mean-Variance Selling Problem with Finite Horizon",
+        "date": "29-Jan-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Goran Peskir",
+        "affiliation": "University of Manchester",
+        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.\nThe quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.\nThe solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
+        "bio": "Not specified"
+      },
+      {
+        "seminar_title": "Jim Gatheral (Baruch) and Xin Zhang (NYU)",
+        "date": "5-Feb-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Jim Gatheral and Xin Zhang",
+        "affiliation": "Baruch and NYU",
+        "abstract": "Details available at the provided link.",
+        "bio": "Not specified"
+      },
+      {
+        "seminar_title": "Particle Systems with Local Interactions via Hitting Times and Cascades on Graphs",
+        "date": "12-Feb-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Yucheng Guo",
+        "affiliation": "Princeton",
+        "abstract": "We study particle systems interacting via hitting times on sparsely connected graphs, following the framework of Lacker, Ramanan and Wu (2023). We provide general robustness conditions that guarantee the well-posedness of physical solutions to the dynamics, and demonstrate their connections to the dynamic percolation theory. We then study the limiting behavior of the particle systems, establishing the continuous dependence of the joint law of the physical solution on the underlying graph structure with respect to local convergence and showing the convergence of the global empirical measure, which extends the general results by Lacker et al. to systems with singular interaction. The model proposed provides a general framework for analyzing systemic risks in large sparsely connected financial networks with a focus on local interactions, featuring instantaneous default cascades. Joint work with Qinxin Yan (Princeton PACM).",
+        "bio": "Not specified"
+      },
+      {
+        "seminar_title": "Robust hedging of American options via aggregated Snell envelopes",
+        "date": "19-Feb-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Marco Rodrigues",
+        "affiliation": "Weierstrass Institute and TU Berlin",
+        "abstract": "We study the robust hedging of American options under model uncertainty in a nondominated setting. Our approach is based on the construction of a Snell envelope under a sublinear expectation. We prove a duality formula for the robust superhedging price and establish the existence of a minimal superhedging strategy. Our results encompass continuous processes or processes with jumps and non-vanishing diffusion. A key application is to financial market models, where uncertainty is quantified through the semi-martingale characteristics.",
+        "bio": "Not specified"
+      },
+      {
+        "seminar_title": "Mathias Beiglboeck (Vienna) and David Itkin (Imperial)",
+        "date": "26-Feb-26",
+        "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
+        "time": "4:00pm-6:00pm",
+        "speaker": "Mathias Beiglboeck and David Itkin",
+        "affiliation": "Vienna and Imperial",
+        "abstract": "Details available at the provided link.",
+        "bio": "Not specified"
+      },
+      {
+        "seminar_title": "Auction Market Design: Trading, Contract, and Learning",
+        "date": "5-Mar-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Thibault Mastrolia",
+        "affiliation": "Berkeley",
+        "abstract": "This presentation explores the optimization of trading strategy and regulatory policies in financial auctions market. First, we address systemic vulnerabilities in auctions, demonstrating how randomizing closing times and optimizing transaction fees can successfully mitigate the market-distorting price impact of strategic late arrivals (snipping). Shifting to the exchange's perspective, we then frame optimal rebate and fee policies as a continuous-time principal-multi-agent problem, utilizing the Deep BSDE method to design incentive structures that enhance market efficiency and narrow clearing price spreads. Finally, we adopt the market maker's perspective by introducing a Deep Q-Learning framework. Rather than relying on traditional terminal inventory penalties, this adaptive model explicitly anticipates the closing auction's liquidity, dynamically refining execution strategies to outperform classical benchmarks on both stochastic and historical data. Together, these frameworks offer a holistic approach to building and navigating more resilient financial markets. Based on joint works with Tianrui Xu and Julius Graf.",
+        "bio": "Not specified"
+      },
+      {
+        "seminar_title": "Dynamic contracting with limited liability",
+        "date": "12-Mar-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Tiziano De Angelis",
+        "affiliation": "Torino",
+        "abstract": "We study a problem of dynamic contracting in continuous time between a risk-neutral Principal and an Agent with CARA utility. The production process (in the absence of agent's effort) is a Brownian motion and the time horizon of the contract is finite. In the classical Holmstrom-Milgrom model, with quadratic cost of effort for the agent and no limited liability, the optimal contract is linear in the Brownian production process. This implies that at the terminal time, the agent may incur arbitrarily large losses with positive probability, due to the Gaussian fluctuations. To avoid this unpleasant feature we tweak the model and introduce limited liability for the agent in the form of a non-negativity constraint for the contract. The resulting HJB for the Principal inherits an additional Dirichlet boundary condition that makes the analysis much more involved than in the classical case without constraints. Leveraging on probabilistic estimates we are able to prove that the agent's value function is an infinitely smooth solution of a fully non-linear parabolic PDE with Cauchy and Dirichlet boundary conditions. We find the agent's optimal effort in Markovian form and characterise the dynamics of the optimal contract as the unique strong solution of an SDE absorbed at zero. We also derive a PDE that fully characterises the agent's optimal effort from an analytic perspective. Finally, we perform a theoretical analysis of the sensitivity of the optimal effort with respect to time and to the promised utility arising from the contract. Joint work with Andrea Bovo (University of Brescia) and Stephane Villeneuve (Toulouse School of Economics).",
+        "bio": "Not specified"
+      },
+      {
+        "seminar_title": "Neural optimal stopping boundary",
+        "date": "26-Mar-2026",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Max Reppen",
+        "affiliation": "BU",
+        "abstract": "A method based on deep artificial neural networks and empirical risk minimization is developed to calculate the boundary separating the stopping and continuation regions in optimal stopping. The algorithm parameterizes the stopping boundary as the graph of a function and introduces relaxed stopping rules based on fuzzy boundaries to facilitate efficient optimization. Several financial instruments, some in high dimensions, are analyzed through this method, demonstrating its effectiveness. The existence of the stopping boundary is also proved under natural structural assumptions.",
+        "bio": "Not specified"
+      },
+      {
+        "seminar_title": "Martin Larsson (CMU) and Gregoire Loeper (BNP Paribas and genOTC)",
+        "date": "2-Apr-2026",
+        "location": "NYU",
+        "time": "4:00pm-6:00pm",
+        "speaker": "Martin Larsson and Gregoire Loeper",
+        "affiliation": "CMU and BNP Paribas and genOTC",
+        "abstract": "Details and registration available at the provided link.",
+        "bio": "Not specified"
+      },
+      {
+        "seminar_title": "Signed and Directed Graph Clustering in Financial Time Series: Statistical Arbitrage, Lead-Lag Structure, and the Market Tug-of-War",
+        "date": "9-Apr-2026",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Mihai Cucuringu",
+        "affiliation": "UCLA",
+        "abstract": "We develop spectral methods for clustering heterogeneous networks, in the setting of signed and directed networks, and demonstrate their benefits on networks arising from stochastic block models and financial multivariate time series data, where one is often interested in clustering assets that exhibit similar contemporaneous behavior. We demonstrate the economic benefits of the proposed graph clustering algorithms in statistical arbitrage and portfolio construction applications. Both signed and directed graph clustering problems share an important common feature: they can be solved by exploiting the spectrum of certain graph Laplacian matrices or derivations thereof, allowing for performance guarantees under suitably defined stochastic block models. We further develop a likelihood-based spectral clustering framework for directed graphs, providing a principled objective function along with theoretical guarantees. A task of major interest in financial applications is that of uncovering lead-lag relationships in high-dimensional multivariate time series. In such settings, certain groups of variables partially lead the evolution of the system, while other variables follow with a time delay, resulting in a lead-lag structure that can be encoded as edges of a directed network. Detecting clusters exhibiting a notion of pairwise flow imbalance amounts to identifying baskets of assets that lead and lag each other. We leverage graph clustering and ranking algorithms for lead-lag detection, and demonstrate that our methodology identifies statistically significant lead-lag clusters in the US equity market. We study the composition of the uncovered clusters, compare performance across time frequencies, and benchmark against established approaches from the lead-lag literature for portfolio construction. In addition, we uncover a market-wide \"tug-of-war\", whereby overnight speculation and daytime price correction propagate across stocks through directed lead-lag relations, giving rise to economically meaningful cross-asset trading opportunities.",
+        "bio": "Not specified"
+      },
+      {
+        "seminar_title": "Optimal Exit Time for Liquidity Providers in Automated Market Makers",
+        "date": "16-Apr-2026",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Philippe Bergault",
+        "affiliation": "Paris Dauphine",
+        "abstract": "We study the problem of optimal liquidity withdrawal for a representative liquidity provider (LP) in an automated market maker (AMM). LPs earn fees from trading activity but are exposed to impermanent loss (IL) due to price fluctuations. While existing work has focused on static provision and exogenous exit strategies, we characterise the optimal exit time as the solution to a stochastic control problem with an endogenous stopping time. Mathematically, the LP's value function is shown to satisfy a Hamilton\u2013Jacobi\u2013Bellman quasi-variational inequality, for which we establish uniqueness in the viscosity sense. To solve the problem numerically, we develop two complementary approaches: a Euler scheme based on operator splitting and a Longstaff\u2013Schwartz regression method. Calibrated simulations highlight how the LP's optimal exit strategy depends on the oracle price volatility, fee levels, and the behaviour of arbitrageurs and noise traders. Our results show that while arbitrage generates both fees and IL, the LP's optimal decision balances these opposing effects based on the pool state variables and price misalignments. Lastly, we find the optimal fee level for the representative LP when they play the exit strategy we derived.",
+        "bio": "Not specified"
+      },
+      {
+        "seminar_title": "Andreas Sojmark (LSE) and Zhenyu Cui (Stevens)",
+        "date": "23-Apr-26",
+        "location": "See provided links for location and time",
+        "time": "See provided links for location and time",
+        "speaker": "Andreas Sojmark and Zhenyu Cui",
+        "affiliation": "LSE and Stevens",
+        "abstract": "Joint with Applied Probability seminar and MAFN seminar.",
+        "bio": "Not specified"
+      },
+      {
+        "seminar_title": "Ioannis Kyriakou (Bayes Business School)",
+        "date": "30-Apr-26",
+        "location": "See provided link for location and time",
+        "time": "See provided link for location and time",
+        "speaker": "Ioannis Kyriakou",
+        "affiliation": "Bayes Business School",
+        "abstract": "Joint with MAFN seminar.",
+        "bio": "Not specified"
       }
     ]
   },
