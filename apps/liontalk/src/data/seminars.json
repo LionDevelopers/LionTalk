@@ -1,172 +1,6 @@
 [
   {
     "department": "Statistics",
-    "series": "Student Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "Robust Point Matching with Distance Profiles",
-        "date": "28-Jan-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Yoonhaeng Hur",
-        "affiliation": "N/A",
-        "abstract": "Computational difficulty of quadratic matching and the Gromov-Wasserstein distance has led to various approximation and relaxation schemes. One of such methods, relying on the notion of distance profiles, has been widely used in practice, but its theoretical understanding is limited. By delving into the statistical complexity of the previously proposed method based on distance profiles, we show that it suffers from the curse of dimensionality unless we make certain assumptions on the underlying metric measure spaces. Building on this insight, we propose and analyze a modified matching procedure that can be used to robustly match points under a certain probabilistic setting. We demonstrate the performance of the proposed methods using simulations and real data applications to complement the theoretical findings. As a result, we contribute to the literature by providing theoretical underpinnings of the matching procedures based on distance invariants like distance profiles, which have been widely used in practice but rarely analyzed theoretically.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Regularized f-Divergence Kernel Tests",
-        "date": "4-Feb-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Monica Ribero",
-        "affiliation": "Research Scientist at Google NYC",
-        "abstract": "We propose a framework to construct practical kernel-based two-sample tests from the family of f-divergences. The test statistic is computed from the witness function of a regularized variational representation of the divergence, which we estimate using kernel methods. The proposed test is adaptive over hyperparameters such as the kernel bandwidth and the regularization parameter. We provide theoretical guarantees for statistical test power across our family of f-divergence estimates. While our test covers a variety of f-divergences, we bring particular focus to the Hockey-Stick divergence, motivated by its applications to differential privacy auditing and machine unlearning evaluation. For two-sample testing, experiments demonstrate that different f-divergences are sensitive to different localized differences, illustrating the importance of leveraging diverse statistics. For machine unlearning, we propose a relative test that distinguishes true unlearning failures from safe distributional variations.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Some Open Problems in Probability that are Relevant to Applied Statistics",
-        "date": "11-Feb-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Prof. Andrew Gelman",
-        "affiliation": "N/A",
-        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "A Generalized Potts Model",
-        "date": "18-Feb-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Reihaneh Malekian",
-        "affiliation": "Columbia",
-        "abstract": "In this talk, we introduce a class of Gibbs measures where the Hamiltonian is the (scaled) number of monochromatic copies of a small subgraph H in a randomly colored large graph G. This framework generalizes the well-known Potts model, which corresponds to the special case H = K2, where the Hamiltonian simply counts the number of monochromatic edges. As time permits, we briefly mention our results. This is an ongoing joint work with Sumit Mukherjee, Nabarun Deb and Sohom Bhattacharya.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "An uncertainty-aware framework for data-efficient multi-view animal pose estimation",
-        "date": "18-Feb-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Lenny Aharon",
-        "affiliation": "Columbia",
-        "abstract": "Multi-view pose estimation is essential for quantifying animal behavior in scientific research, yet current methods struggle to achieve accurate tracking with limited labeled data and suffer from poor uncertainty estimates. We address these challenges with a comprehensive framework combining novel training and post-processing techniques, and a model distillation procedure that leverages the strengths of these techniques to produce a more efficient and effective pose estimator. Our multi-view transformer (MVT) utilizes pretrained backbones and enables simultaneous processing of information across all views, while a novel patch masking scheme learns robust cross-view correspondences without camera calibration. For calibrated setups, we incorporate geometric consistency through 3D augmentation and a triangulation loss. We extend the existing Ensemble Kalman Smoother (EKS) post-processor to the nonlinear case and enhance uncertainty quantification via a variance inflation technique. Finally, to leverage the scaling properties of the MVT, we design a distillation procedure that exploits improved EKS predictions and uncertainty estimates to generate high-quality pseudo-labels, thereby reducing dependence on manual labels. Our framework components consistently outperform existing methods across three diverse animal species (flies, mice, chickadees), with each component contributing complementary benefits. The result is a practical, uncertainty-aware system for reliable pose estimation that enables downstream behavioral analyses under real-world data constraints.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "TWO SIGMA\u2019S QUANT RESEARCH PHD SEMINAR @COLUMBIA",
-        "date": "25-Feb-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process. Register now to save your spot by RSVPing here. We hope to see you there! Food and Two Sigma swag will be provided.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Inference in discrete tensor exponential families",
-        "date": "4-March-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Prof. Sumit Mukherjee",
-        "affiliation": "Columbia University",
-        "abstract": "In this talk we will focus on a discrete exponential family, where the sufficient statistics is given in terms of a tensor form. In the simplest case when the tensor is a quadratic, the exponential family reduces to the celebrated Ising model of statistical physics, which has since found applications in several disciplines including statistics and machine learning. Another special case is the exponential random graph models (ERGMs) of social networks, originating in the social sciences. We will discuss what is known about parameter estimation in such exponential families, and possible directions for future research.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Information, Computation, & Quantization: Infinitely divisible privacy and beyond",
-        "date": "11-March-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Aaradhya Pandey",
-        "affiliation": "PhD Student at Princeton ORFE",
-        "abstract": "In this talk, I introduce a hypothesis-testing-based formulation of differential privacy in classical computation. The Gaussian Differential Privacy framework of Dong--Roth--Su (2022) established a central limit theorem for the composition of multiple private mechanisms. Building on this work, I present a Poisson extension of their result and show that both the Gaussian and Poisson limits are unified under a broader framework of infinitely divisible privacy. This perspective reveals structural connections between differential privacy, probability theory, statistics, and discrete mathematics. I conclude by discussing computational differential privacy and its connections to cryptographic constructions such as pseudorandom generators, as well as a step toward quantizing privacy in quantum computation, outlining a framework for both computational and quantum differential privacy.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "SPRING BREAK",
-        "date": "16 to 20-March-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "25-March-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Reconciling Least Squares and Robustness in the Two-Way Layout Fixed Effects Experimental Design with an Example from R. A. Fisher's book The Design of Experiments",
-        "date": "1-April-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Prof. Brenton Clarke",
-        "affiliation": "Murdoch University",
-        "abstract": "In the last 18 years, the speaker has authored two international books in the Wiley Series in Probability and Statistics in essentially diametrically opposing areas of statistical practice. The first book was published in 2008 and is titled Linear Models the Theory and Application of Analysis of Variance. That book begins with a historical development of least squares analysis and normal likelihood theory analysis of the linear model through the auspices of experimental design and analysis of variance, basically as was developed by the giant R.A. Fisher and his contemporaries. The second book, published 10 years later, describes the functional approach to robustness, particularly through the story of M-estimation. The title of the book is Robustness Theory and Application. This details a modern theory of statistical inference developed since the 1960\u2019s. So, what is the \u201cright\u201d way to approach statistics when analyzing data? Some insight is offered by appealing to a classical analysis of a linear model representing the data used to form a two-way layout that is proffered in the book \u201cThe Design of Experiment\u201d by R.A. Fisher for the purposes of illustrating the analysis of variance for a Randomized Complete Block Design. It is a summarized data set of Immer et al. of yields of five barley varieties for 12 different years, by location combinations. The data reveal outliers and heteroscedasticity. For these data, we review the appropriate least squares and robust approaches to the analysis. The history of the robust approach is explained by recounting the development of Huber's M- estimators, the influence function of Hampel that is driveable for any estimator, and why the Fr\u00e9chet differentiability of M-estimators as described by the speaker in the 1980\u2019s established under certain conditions for M-estimators guaranties the robustness of an M- estimator. The early example of a Fr\u00e9chet differentiable M-estimators afforded by the Tukey Bi-square Functional M-estimator are supported in robust computer packages and are applicable to the linear model representing the two-way layout. Different choices of constraints under parameter redundancies used in different models require one to first represent the analyzes using the same model, before making comparisons. The approach is similar to that of H. Scheff\u00e9. Digressions are made to discuss non-smooth vs smooth M-estimation and to emphasize that the least squares diagnostic approach of transformation is also fraught with danger. Otherwise, we show that both least squares, properly done, and robust inferences essentially agree for these data.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Discrete Causal Representation Learning",
-        "date": "8-April-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Prof. Yuqi Gu",
-        "affiliation": "Columbia University",
-        "abstract": "Causal representation learning seeks to uncover causal relationships among high-level latent variables from low-level, entangled, and noisy observations. Existing approaches often either rely on deep neural networks, which lack interpretability and formal guarantees, or impose restrictive assumptions like linearity, continuous-only observations, and strong structural priors. These limitations particularly challenge applications with a large number of discrete latent variables and mixed-type observations. To address these challenges, we propose discrete causal representation learning (DCRL), a generative framework that models a directed acyclic graph among discrete latent variables, along with a sparse bipartite graph linking latent and observed layers. This design accommodates continuous, count, and binary responses through flexible measurement models while maintaining interpretability. Under mild conditions, we prove that both the bipartite measurement graph and the latent causal graph are identifiable from the observed data distribution alone. We further propose a three-stage estimate-resample-discovery pipeline: penalized estimation of the generative model parameters, resampling of latent configurations from the fitted model, and score-based causal discovery on the resampled latents. We establish the consistency of this procedure, ensuring reliable recovery of the latent causal structure. Empirical studies on educational assessment and synthetic image data demonstrate that DCRL recovers sparse and interpretable latent causal structures.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "15-April-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "A Fresh Look at Empirical Bayes",
-        "date": "22-April-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Prof. David Blei",
-        "affiliation": "Columbia University",
-        "abstract": "Empirical Bayes improves simultaneous inference by learning from related data. In this talk, I will present three recent directions in empirical Bayes. First, I will discuss a general method based on probabilistic symmetries, which extends empirical Bayes beyond exchangeable settings to structured problems such as arrays, graphs, conditional data, and spatial models. Second, I will discuss empirical Bayes for implicit likelihoods, where the model is available only through a simulator, and show how simulation-based inference can be used to produce empirical Bayes estimates without evaluating a density. Third, I will discuss an empirical Bayes approach to combining randomized experiments and observational studies, where calibration studies make it possible to learn the distribution of observational bias and use observational data in a principled way. These three ideas illustrate new roles for empirical Bayes in modern statistics and machine learning.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Accurate and efficient data point removal for high-dimensional settings",
-        "date": "29-April-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Prof. Arian Maleki",
-        "affiliation": "N/A",
-        "abstract": "Consider a model trained with parameters from independent and identically distributed observations. To assess a data point\u2019s impact on the model, we remove it from the dataset and aim to understand the model\u2019s behavior when trained on the remaining data. This scenario is relevant in various classical and modern applications, including risk estimation, outlier detection, machine unlearning, and data valuation. Conventional approaches involve training the model on the remaining data, but these can be computationally demanding. Consequently, researchers often resort to approximate methods. This talk highlights that in high-dimensional settings, where p is either larger than n or at the same order, many approximation methods may prove ineffective. We will present and analyze an accurate approximation method tailored for high-dimensional regimes, elucidating the conditions for its accuracy. In the concluding part of the presentation, time permitting, we will briefly discuss some of the unresolved issues in this domain.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Student body elections",
-        "date": "6-May-2026",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "We will elect our next student representative, student seminar organizers, and ASGC representative.",
-        "bio": "N/A"
-      }
-    ]
-  },
-  {
-    "department": "Statistics",
     "series": "Mathematical Finance Seminar Series",
     "entries": [
       {
@@ -176,17 +10,17 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Goran Peskir",
         "affiliation": "University of Manchester",
-        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price. The quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting. The solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
+        "abstract": "Imagine an investor who owns a stock that he wishes to sell so as to maximize his return and minimize his risk upon selling. In line with the classic mean-variance analysis, we identify the return with the expectation of the stock price and the risk with the variance of the stock price.\nThe quadratic nonlinearity of the variance then moves the resulting optimal stopping problem outside the scope of the standard/linear optimal stopping theory. Consequently, the results and methods of the standard/linear optimal stopping theory are no longer applicable in this new/nonlinear setting.\nThe solution to the nonlinear problem when the horizon is infinite has been known for some time, however, the method of proof used to solve the nonlinear problem in that case is not applicable in the case when the horizon is finite. The purpose of the talk is to present a new method of proof which solves the nonlinear problem when the horizon is finite. [This is joint work with P. Johnson and J.L. Pedersen]",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Details",
+        "seminar_title": "Speakers: Jim Gatheral (Baruch) and Xin Zhang (NYU)",
         "date": "5-Feb-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Jim Gatheral and Xin Zhang",
         "affiliation": "Baruch and NYU",
-        "abstract": "Details for the seminar can be found at the provided link.",
+        "abstract": "Details here",
         "bio": "N/A"
       },
       {
@@ -210,13 +44,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Details",
+        "seminar_title": "Speakers: Mathias Beiglboeck (Vienna) and David Itkin (Imperial)",
         "date": "26-Feb-26",
         "location": "Columbia Innovation Hub, 2nd Floor (2276 12th Ave)",
         "time": "4:00pm-6:00pm",
         "speaker": "Mathias Beiglboeck and David Itkin",
         "affiliation": "Vienna and Imperial",
-        "abstract": "Details for the seminar can be found at the provided link. Registration is also available.",
+        "abstract": "Details here",
         "bio": "N/A"
       },
       {
@@ -231,12 +65,22 @@
       },
       {
         "seminar_title": "Dynamic contracting with limited liability",
-        "date": "12-Mar-2026",
+        "date": "12-Mar-26",
         "location": "Room 903, 1255 Amsterdam Ave.",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Tiziano De Angelis",
         "affiliation": "Torino",
         "abstract": "We study a problem of dynamic contracting in continuous time between a risk-neutral Principal and an Agent with CARA utility. The production process (in the absence of agent's effort) is a Brownian motion and the time horizon of the contract is finite. In the classical Holmstrom-Milgrom model, with quadratic cost of effort for the agent and no limited liability, the optimal contract is linear in the Brownian production process. This implies that at the terminal time, the agent may incur arbitrarily large losses with positive probability, due to the Gaussian fluctuations. To avoid this unpleasant feature we tweak the model and introduce limited liability for the agent in the form of a non-negativity constraint for the contract. The resulting HJB for the Principal inherits an additional Dirichlet boundary condition that makes the analysis much more involved than in the classical case without constraints. Leveraging on probabilistic estimates we are able to prove that the agent's value function is an infinitely smooth solution of a fully non-linear parabolic PDE with Cauchy and Dirichlet boundary conditions. We find the agent's optimal effort in Markovian form and characterise the dynamics of the optimal contract as the unique strong solution of an SDE absorbed at zero. We also derive a PDE that fully characterises the agent's optimal effort from an analytic perspective. Finally, we perform a theoretical analysis of the sensitivity of the optimal effort with respect to time and to the promised utility arising from the contract. Joint work with Andrea Bovo (University of Brescia) and Stephane Villeneuve (Toulouse School of Economics).",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "NO SEMINAR",
+        "date": "Spring Break",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
         "bio": "N/A"
       },
       {
@@ -250,13 +94,13 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Details and registration",
+        "seminar_title": "Speakers: Martin Larsson (CMU) and Gregoire Loeper (BNP Paribas and genOTC)",
         "date": "2-Apr-2026",
         "location": "NYU",
         "time": "4:00pm-6:00pm",
         "speaker": "Martin Larsson and Gregoire Loeper",
         "affiliation": "CMU and BNP Paribas and genOTC",
-        "abstract": "Details and registration for the seminar can be found at the provided link.",
+        "abstract": "Details and registration here",
         "bio": "N/A"
       },
       {
@@ -266,7 +110,7 @@
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Mihai Cucuringu",
         "affiliation": "UCLA",
-        "abstract": "We develop spectral methods for clustering heterogeneous networks, in the setting of signed and directed networks, and demonstrate their benefits on networks arising from stochastic block models and financial multivariate time series data, where one is often interested in clustering assets that exhibit similar contemporaneous behavior. We demonstrate the economic benefits of the proposed graph clustering algorithms in statistical arbitrage and portfolio construction applications. Both signed and directed graph clustering problems share an important common feature: they can be solved by exploiting the spectrum of certain graph Laplacian matrices or derivations thereof, allowing for performance guarantees under suitably defined stochastic block models. We further develop a likelihood-based spectral clustering framework for directed graphs, providing a principled objective function along with theoretical guarantees. A task of major interest in financial applications is that of uncovering lead-lag relationships in high-dimensional multivariate time series. In such settings, certain groups of variables partially lead the evolution of the system, while other variables follow with a time delay, resulting in a lead-lag structure that can be encoded as edges of a directed network. Detecting clusters exhibiting a notion of pairwise flow imbalance amounts to identifying baskets of assets that lead and lag each other. We leverage graph clustering and ranking algorithms for lead-lag detection, and demonstrate that our methodology identifies statistically significant lead-lag clusters in the US equity market. We study the composition of the uncovered clusters, compare performance across time frequencies, and benchmark against established approaches from the lead-lag literature for portfolio construction. In addition, we uncover a market-wide \"tug-of-war\", whereby overnight speculation and daytime price correction propagate across stocks through directed lead-lag relations, giving rise to economically meaningful cross-asset trading opportunities.",
+        "abstract": "We develop spectral methods for clustering heterogeneous networks, in the setting of signed and directed networks, and demonstrate their benefits on networks arising from stochastic block models and financial multivariate time series data, where one is often interested in clustering assets that exhibit similar contemporaneous behavior. We demonstrate the economic benefits of the proposed graph clustering algorithms in statistical arbitrage and portfolio construction applications. Both signed and directed graph clustering problems share an important common feature: they can be solved by exploiting the spectrum of certain graph Laplacian matrices or derivations thereof, allowing for performance guarantees under suitably defined stochastic block models. We further develop a likelihood-based spectral clustering framework for directed graphs, providing a principled objective function along with theoretical guarantees.\nA task of major interest in financial applications is that of uncovering lead-lag relationships in high-dimensional multivariate time series. In such settings, certain groups of variables partially lead the evolution of the system, while other variables follow with a time delay, resulting in a lead-lag structure that can be encoded as edges of a directed network. Detecting clusters exhibiting a notion of pairwise flow imbalance amounts to identifying baskets of assets that lead and lag each other. We leverage graph clustering and ranking algorithms for lead-lag detection, and demonstrate that our methodology identifies statistically significant lead-lag clusters in the US equity market. We study the composition of the uncovered clusters, compare performance across time frequencies, and benchmark against established approaches from the lead-lag literature for portfolio construction. In addition, we uncover a market-wide \"tug-of-war\", whereby overnight speculation and daytime price correction propagate across stocks through directed lead-lag relations, giving rise to economically meaningful cross-asset trading opportunities.",
         "bio": "N/A"
       },
       {
@@ -280,34 +124,60 @@
         "bio": "N/A"
       },
       {
-        "seminar_title": "Joint with Applied Probability seminar",
+        "seminar_title": "Speaker: Andreas Sojmark (LSE)",
         "date": "23-Apr-26",
-        "location": "See Applied Probability seminar series website for location and time.",
+        "location": "see Applied Probability seminar series here for location and time",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Andreas Sojmark",
         "affiliation": "LSE",
-        "abstract": "This seminar is joint with the Applied Probability seminar. Please refer to the Applied Probability seminar series website for location and time details.",
+        "abstract": "Joint with Applied Probability seminar, see here for location and time",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Joint with MAFN seminar",
+        "seminar_title": "Speaker: Zhenyu Cui (Stevens)",
         "date": "23-Apr-26",
-        "location": "See MAFN Practitioners Seminar Spring 2026 website for location and time.",
+        "location": "see MAFN Practitioners Seminar Spring 2026 here for location and time",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Zhenyu Cui",
         "affiliation": "Stevens",
-        "abstract": "This seminar is joint with the MAFN seminar. Please refer to the MAFN Practitioners Seminar Spring 2026 website for location and time details.",
+        "abstract": "Joint with MAFN seminar, see here for location and time",
         "bio": "N/A"
       },
       {
-        "seminar_title": "Joint with MAFN seminar",
+        "seminar_title": "Speaker: Ioannis Kyriakou (Bayes Business School)",
         "date": "30-Apr-26",
-        "location": "See MAFN Practitioners Seminar Spring 2026 website for location and time.",
+        "location": "see MAFN Practitioners Seminar Spring 2026 here for location and time",
         "time": "4:10 pm - 5:25 pm",
         "speaker": "Ioannis Kyriakou",
         "affiliation": "Bayes Business School",
-        "abstract": "This seminar is joint with the MAFN seminar. Please refer to the MAFN Practitioners Seminar Spring 2026 website for location and time details.",
+        "abstract": "Joint with MAFN seminar, see here for location and time",
         "bio": "N/A"
+      }
+    ]
+  },
+  {
+    "department": "Center for Science and Society",
+    "series": "CSS Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Nobody Knows: How AI is Changing the Workplace and What to Do About",
+        "date": "15-Jul-26",
+        "location": "Location not specified",
+        "time": "11:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Health and the Environment in the Preindustrial World: Multidisciplinary Approaches",
+        "date": "23-Jul-26",
+        "location": "Location not specified",
+        "time": "6:15 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
       }
     ]
   },
@@ -323,7 +193,7 @@
         "speaker": "Christopher Meissner",
         "affiliation": "University of California, Davis",
         "abstract": "The \u201cPeace Dividend\u201d of International Trade: A New Empirical Approach",
-        "bio": "Christopher Meissner"
+        "bio": "Professor of Economics\n                            \n                                University of California, Davis"
       },
       {
         "seminar_title": "Comparing interpersonal and collective violence",
@@ -333,37 +203,37 @@
         "speaker": "James Fearon",
         "affiliation": "Stanford University",
         "abstract": "Comparing interpersonal and collective violence",
-        "bio": "James Fearon"
+        "bio": "Professor of Political Science\n                            \n                                Stanford University"
       },
       {
-        "seminar_title": "Risk and Return in Government Bonds\u201d",
+        "seminar_title": "\"Risk and Return in Government Bonds\u201d",
         "date": "01-Oct-26",
         "location": "N/A",
         "time": "4:30p-6:00p",
         "speaker": "Carolin Pflueger",
         "affiliation": "UChicago: Harris Public Policy",
-        "abstract": "Risk and Return in Government Bonds",
-        "bio": "Carolin Pflueger"
+        "abstract": "\"Risk and Return in Government Bonds\u201d",
+        "bio": "Associate Professor of Economics\n                            \n                                \n                                    UChicago: Harris Public Policy"
       },
       {
-        "seminar_title": "Multinational Corporations in the Context of the Russo-Ukrainian War",
+        "seminar_title": "\u201cMultinational Corporations in the Context of the Russo-Ukrainian War\u201d",
         "date": "08-Oct-26",
         "location": "N/A",
         "time": "4:30p-6:00p",
         "speaker": "Rachel Wellhausen",
-        "affiliation": "University of Texas",
-        "abstract": "Multinational Corporations in the Context of the Russo-Ukrainian War",
-        "bio": "Rachel Wellhausen"
+        "affiliation": "University of Texas at Austin",
+        "abstract": "\u201cMultinational Corporations in the Context of the Russo-Ukrainian War\u201d",
+        "bio": "Professor of Government\n                            \n                                University of Texas at Austin"
       },
       {
-        "seminar_title": "Tit-for-Tat or Tipping Point? Action-Reaction Dynamics in U.S.-China Relations",
+        "seminar_title": "\u201cTit-for-Tat or Tipping Point? Action-Reaction Dynamics in U.S.-China Relations\u201d",
         "date": "05-Nov-26",
         "location": "N/A",
         "time": "4:30p-6:00p",
         "speaker": "Carlos Ramirez",
         "affiliation": "George Mason University",
-        "abstract": "Tit-for-Tat or Tipping Point? Action-Reaction Dynamics in U.S.-China Relations",
-        "bio": "Carlos Ramirez"
+        "abstract": "\u201cTit-for-Tat or Tipping Point? Action-Reaction Dynamics in U.S.-China Relations\u201d",
+        "bio": "Professor of Economics\n                            \n                                George Mason University"
       }
     ]
   }
