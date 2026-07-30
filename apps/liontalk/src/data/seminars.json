@@ -30,7 +30,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. Andrew Gelman",
         "affiliation": "N/A",
-        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.",
+        "abstract": "How does probability theory apply to statistical practice? Not just through the usual limit theorems of fixed-model asymptotics. Probability theory also has interesting and important challenges related to models of growing complexity. Solving some of these probability problems should allow us to fit more accurate models and make better predictions and inferences in the real world. We motivate and explain several of these open problems: piranha theorems, incoherent Gibbs sampling, the martingale property of probability forecasts, predictively consistent priors, and infill or sprawl asymptotics.\nHere are some references that start to address these topics: https://sites.stat.columbia.edu/gelman/research/published/piranha_published.pdf https://sites.stat.columbia.edu/gelman/research/published/arnold2.pdf https://sites.stat.columbia.edu/gelman/research/published/mi_theory9.pdf https://statmodeling.stat.columbia.edu/2024/09/24/its-martingale-time-baby-how-to-evaluate-probabilistic-forecasts-before-the-event-happens-rajiv-sethi-has-an-idea-hint-it-involves-time-series/ https://arxiv.org/abs/2507.11833 https://statmodeling.stat.columbia.edu/2013/05/30/infill-asymptotics-and-sprawl-asymptotics/",
         "bio": "N/A"
       },
       {
@@ -60,7 +60,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "TWO SIGMA\u2019S QUANT RESEARCH PHD SEMINAR @COLUMBIA",
         "affiliation": "N/A",
-        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process. Register now to save your spot by RSVPing here. We hope to see you there! Food and Two Sigma swag will be provided.",
+        "abstract": "Curious about using data to forecast the future? Join Two Sigma\u2019s talk to learn about how we create systematic tools and technologies to forecast the future of global markets. Our Quant Researchers will be there to discuss their transition from Columbia into financial sciences. This is also an opportunity to learn about our Early Careers programs for Internship and Full-Time opportunities in Quant Research and what to expect during the application and interview process.\nRegister now to save your spot by RSVPing here.\nWe hope to see you there! Food and Two Sigma swag will be provided.",
         "bio": "N/A"
       },
       {
@@ -140,7 +140,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof. David Blei",
         "affiliation": "Columbia University",
-        "abstract": "Empirical Bayes improves simultaneous inference by learning from related data. In this talk, I will present three recent directions in empirical Bayes. First, I will discuss a general method based on probabilistic symmetries, which extends empirical Bayes beyond exchangeable settings to structured problems such as arrays, graphs, conditional data, and spatial models. Second, I will discuss empirical Bayes for implicit likelihoods, where the model is available only through a simulator, and show how simulation-based inference can be used to produce empirical Bayes estimates without evaluating a density. Third, I will discuss an empirical Bayes approach to combining randomized experiments and observational studies, where calibration studies make it possible to learn the distribution of observational bias and use observational data in a principled way. These three ideas illustrate new roles for empirical Bayes in modern statistics and machine learning. This is joint work with Sebastian Salazar, Diana Cai, Don Green, Xinwei Shen, Sebastian Wagner-Carena, Bohan Wu, and Cheng Zhang.",
+        "abstract": "Empirical Bayes improves simultaneous inference by learning from related data. In this talk, I will present three recent directions in empirical Bayes. First, I will discuss a general method based on probabilistic symmetries, which extends empirical Bayes beyond exchangeable settings to structured problems such as arrays, graphs, conditional data, and spatial models. Second, I will discuss empirical Bayes for implicit likelihoods, where the model is available only through a simulator, and show how simulation-based inference can be used to produce empirical Bayes estimates without evaluating a density. Third, I will discuss an empirical Bayes approach to combining randomized experiments and observational studies, where calibration studies make it possible to learn the distribution of observational bias and use observational data in a principled way. These three ideas illustrate new roles for empirical Bayes in modern statistics and machine learning.\nThis is joint work with Sebastian Salazar, Diana Cai, Don Green, Xinwei Shen, Sebastian Wagner-Carena, Bohan Wu, and Cheng Zhang.",
         "bio": "N/A"
       },
       {
@@ -150,7 +150,7 @@
         "time": "12:00 - 1:00 pm",
         "speaker": "Prof.Arian Maleki",
         "affiliation": "N/A",
-        "abstract": "Consider a model trained with parameters from independent and identically distributed observations. To assess a data point\u2019s impact on the model, we remove it from the dataset and aim to understand the model\u2019s behavior when trained on the remaining data. This scenario is relevant in various classical and modern applications, including risk estimation, outlier detection, machine unlearning, and data valuation. Conventional approaches involve training the model on the remaining data, but these can be computationally demanding. Consequently, researchers often resort to approximate methods. This talk highlights that in high-dimensional settings, where is either larger than or at the same order, many approximation methods may prove ineffective. We will present and analyze an accurate approximation method tailored for high-dimensional regimes, elucidating the conditions for its accuracy. In the concluding part of the presentation, time permitting, we will briefly discuss some of the unresolved issues in this domain.",
+        "abstract": "Consider a model trained with parameters from independent and identically distributed observations. To assess a data point\u2019s impact on the model, we remove it from the dataset and aim to understand the model\u2019s behavior when trained on the remaining data. This scenario is relevant in various classical and modern applications, including risk estimation, outlier detection, machine unlearning, and data valuation. Conventional approaches involve training the model on the remaining data, but these can be computationally demanding. Consequently, researchers often resort to approximate methods. This talk highlights that in high-dimensional settings, where p is either larger than n or at the same order, many approximation methods may prove ineffective. We will present and analyze an accurate approximation method tailored for high-dimensional regimes, elucidating the conditions for its accuracy. In the concluding part of the presentation, time permitting, we will briefly discuss some of the unresolved issues in this domain.",
         "bio": "N/A"
       },
       {
@@ -166,54 +166,38 @@
     ]
   },
   {
-    "department": "Cancer Dynamics",
-    "series": "IICD Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "IICD SRP Final Research Presentations",
-        "date": "30-Jul-26",
-        "location": "Location not specified",
-        "time": "12:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      }
-    ]
-  },
-  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "The \u201cPeace Dividend\u201d of International Trade: A New Empirical Approach",
+        "seminar_title": "The \"Peace Dividend\" of International Trade: A New Empirical Approach",
         "date": "10-Sep-26",
-        "location": "N/A",
+        "location": "IAB 1512",
         "time": "4:30p-6:00p",
         "speaker": "Christopher Meissner",
         "affiliation": "University of California, Davis",
-        "abstract": "The \u201cPeace Dividend\u201d of International Trade: A New Empirical Approach",
-        "bio": "Professor of Economics\n                            \n                                University of California, Davis"
+        "abstract": "This paper investigates the causal impact of international trade on interstate military conflicts using global bilateral data from 1962 to 2014. To address endogeneity concerns, we exploit exogenous spatial-temporal variation in international trade stemming from technological advances in air relative to maritime transport. Empirical results demonstrate a strong \"peace dividend\" of international trade: that is, increased trade significantly reduces the probability and intensity of conflicts between nations. This effect remains robust across specifications and withstands a wide range of potential confounders. Such findings highlight how economic interdependence shapes international conflict, a relationship that is especially relevant amid escalating geopolitical tensions and the global shift toward \"decoupling\", \"de-risking\", and greater trade protectionism.",
+        "bio": "Professor of Economics"
       },
       {
         "seminar_title": "Comparing interpersonal and collective violence",
         "date": "17-Sep-26",
-        "location": "N/A",
+        "location": "IAB 1512",
         "time": "4:30p-6:00p",
         "speaker": "James Fearon",
         "affiliation": "Stanford University",
-        "abstract": "Comparing interpersonal and collective violence",
-        "bio": "Professor of Political Science\n                            \n                                Stanford University"
+        "abstract": "N/A",
+        "bio": "Professor of Political Science"
       },
       {
-        "seminar_title": "\"Risk and Return in Government Bonds\u201d",
+        "seminar_title": "Risk and Return in Government Bonds",
         "date": "01-Oct-26",
-        "location": "N/A",
+        "location": "IAB 1512",
         "time": "4:30p-6:00p",
         "speaker": "Carolin Pflueger",
         "affiliation": "UChicago: Harris Public Policy",
-        "abstract": "\"Risk and Return in Government Bonds\u201d",
-        "bio": "Associate Professor of Economics\n                            \n                                \n                                    UChicago: Harris Public Policy"
+        "abstract": "As the risks of government bonds change over time, does this change the compensation that investors require for holding them? While realized excess returns show little relation to bond risk, we find that subjective expected excess returns constructed from professional forecasts of future long-term yields are tightly linked to bonds\u2019 stock market betas, consistent with a CAPM-style relation. In a U.S. month-by-maturity panel from 1988\u20132024, the correlation of subjective excess returns with rolling bond\u2013stock betas is 66%. The estimated market price of risk is comparable to the equity premium and stable when controlling for time and maturity fixed effects. Realized excess returns are predicted by subjective excess returns, but this predictability is driven by higher-frequency variation and not by betas. Similar results hold in an international panel of developed countries from 1989\u20132024. The change in betas from positive to negative accounts for half of the decline in long-term U.S. Treasury yields from the 1980s to the 2010s and implies a negative term premium as early as 2001. During quantitative easing episodes, the price of bond risk declines, suggesting an increased investor willingness to bear risk.",
+        "bio": "Associate Professor of Economics"
       },
       {
         "seminar_title": "To be announced.",
@@ -221,19 +205,19 @@
         "location": "IAB 1512",
         "time": "4:30p-6:00p",
         "speaker": "To be announced.",
-        "affiliation": "N/A",
-        "abstract": "To be announced.",
-        "bio": "To be announced."
+        "affiliation": "Economics",
+        "abstract": "N/A",
+        "bio": "N/A"
       },
       {
-        "seminar_title": "\u201cTit-for-Tat or Tipping Point? Action-Reaction Dynamics in U.S.-China Relations\u201d",
+        "seminar_title": "Tit-for-Tat or Tipping Point? Action-Reaction Dynamics in U.S.-China Relations",
         "date": "05-Nov-26",
         "location": "IAB 1512",
         "time": "4:30p-6:00p",
         "speaker": "Carlos Ramirez",
         "affiliation": "George Mason University",
-        "abstract": "\u201cTit-for-Tat or Tipping Point? Action-Reaction Dynamics in U.S.-China Relations\u201d",
-        "bio": "Professor of Economics\n                            \n                                George Mason University"
+        "abstract": "This paper analyzes the evolving strategic relationship between the United States and China using a novel empirical framework. Drawing on monthly data from 1990 to 2024, I use two complementary indices that reflect each country's posture toward the other. The first captures U.S. hostility toward China, derived from the full population of U.S. newspaper articles. The second is the China\u2013U.S. Relations Index developed by Yan et al. (2010), which quantifies China's diplomatic stance toward the U.S. These indices are embedded within an action-reaction framework estimated via a Structural Vector Autoregression (SVAR), identified using an external instrument based on COVID-related U.S. media coverage. The results reveal an asymmetric dynamic: China reacts to U.S. hostility in a tit-for-tat fashion, while the U.S. meets conciliatory gestures from China with temporary increases in hostility\u2014suggesting deep-seated mistrust. Although the system is dynamically stable, the slow adjustment and fragile equilibrium underscore how vulnerable the relationship remains to shocks and miscalculation\u2014such as the unprecedented escalation in tariffs that now threatens to push both countries toward a costly economic decoupling.",
+        "bio": "Professor of Economics"
       }
     ]
   }
