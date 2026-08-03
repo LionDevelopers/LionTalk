@@ -1,28 +1,12 @@
 [
   {
-    "department": "Center for Science and Society",
-    "series": "CSS Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "2026 Climate Change Conference",
-        "date": "05-Aug-26",
-        "location": "Location not specified",
-        "time": "4:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      }
-    ]
-  },
-  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
         "seminar_title": "The \"Peace Dividend\" of International Trade: A New Empirical Approach",
-        "date": "10-SEP-26",
-        "location": "Unknown",
+        "date": "10-Sep-26",
+        "location": "N/A",
         "time": "4:30p-6:00p",
         "speaker": "Christopher Meissner",
         "affiliation": "University of California, Davis",
@@ -31,8 +15,8 @@
       },
       {
         "seminar_title": "Comparing interpersonal and collective violence",
-        "date": "17-SEP-26",
-        "location": "Unknown",
+        "date": "17-Sep-26",
+        "location": "N/A",
         "time": "4:30p-6:00p",
         "speaker": "James Fearon",
         "affiliation": "Stanford University",
@@ -41,8 +25,8 @@
       },
       {
         "seminar_title": "Risk and Return in Government Bonds",
-        "date": "01-OCT-26",
-        "location": "Unknown",
+        "date": "01-Oct-26",
+        "location": "N/A",
         "time": "4:30p-6:00p",
         "speaker": "Carolin Pflueger",
         "affiliation": "UChicago: Harris Public Policy",
@@ -50,18 +34,18 @@
         "bio": "Associate Professor of Economics"
       },
       {
-        "seminar_title": "Unknown",
-        "date": "08-OCT-26",
+        "seminar_title": "To be announced.",
+        "date": "08-Oct-26",
         "location": "IAB 1512",
         "time": "4:30p-6:00p",
         "speaker": "To be announced.",
-        "affiliation": "Unknown",
+        "affiliation": "N/A",
         "abstract": "N/A",
         "bio": "N/A"
       },
       {
         "seminar_title": "Tit-for-Tat or Tipping Point? Action-Reaction Dynamics in U.S.-China Relations",
-        "date": "05-NOV-26",
+        "date": "05-Nov-26",
         "location": "IAB 1512",
         "time": "4:30p-6:00p",
         "speaker": "Carlos Ramirez",
