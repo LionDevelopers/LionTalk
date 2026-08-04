@@ -5,6 +5,7 @@ import React, { useState, useMemo } from 'react';
 import rawData from '../data/seminars.json'; 
 import { Seminar, SeminarSeriesData } from '../types';
 import { SeminarCard } from '../components/SeminarCard';
+import { parseSeminarDate } from '../utils/dates';
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -46,8 +47,13 @@ export default function Home() {
     const upcomingList: Seminar[] = [];
     const pastList: Seminar[] = [];
 
+    const startTime = (s: Seminar) => parseSeminarDate(s.date, s.time).startDate?.getTime() ?? 0;
+
     filtered.forEach((seminar) => {
-      const seminarDate = new Date(seminar.date);
+      const startDate = parseSeminarDate(seminar.date, seminar.time).startDate;
+      if (!startDate) return;
+
+      const seminarDate = new Date(startDate);
       seminarDate.setHours(0, 0, 0, 0);
 
       if (seminarDate.getTime() === today.getTime()) {
@@ -61,16 +67,10 @@ export default function Home() {
       }
     });
 
-    // --- SORTING LOGIC ADDED HERE ---
-
-    // 1. Sort Today's seminars (Earliest time first)
-    todayList.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
-
-    // 2. Sort Upcoming seminars (Soonest date first)
-    upcomingList.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
-
-    // 3. Sort Past Seminars (Newest/Most recent first) - Existing logic
-    pastList.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    // Today: earliest start time first; Upcoming: soonest first; Past: most recent first
+    todayList.sort((a, b) => startTime(a) - startTime(b));
+    upcomingList.sort((a, b) => startTime(a) - startTime(b));
+    pastList.sort((a, b) => startTime(b) - startTime(a));
 
     return { todaySeminars: todayList, upcomingSeminars: upcomingList, pastSeminars: pastList };
   }, [seminars, searchQuery]);

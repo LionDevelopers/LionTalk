@@ -9,6 +9,7 @@ dependencies = [
     "google-genai>=1.47.0",
     "pandas>=2.3.3",
     "playwright>=1.57.0",
+    "python-dateutil>=2.9.0",
     "python-dotenv>=1.2.1",
     "requests>=2.32.5",
 ]

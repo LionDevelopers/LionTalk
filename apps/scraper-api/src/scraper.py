@@ -7,6 +7,7 @@ from typing import List, Optional, Union
 from pathlib import Path
 from urllib.parse import urlparse, urljoin
 from datetime import datetime, timedelta, timezone
+from dateutil import parser as date_parser
 import os, csv, pandas as pd, json, re, time, random
 
 class Entry(BaseModel):
@@ -34,6 +35,16 @@ class SeminarFullyBaked(BaseModel):
     department: str
     series: str
     entries: List[Entry]
+
+def normalize_date(raw: str):
+    """Return the date in canonical dd-MMM-yy format, or None if unparseable."""
+    if not raw or not raw.strip():
+        return None
+    try:
+        dt = date_parser.parse(raw.strip(), fuzzy=False, dayfirst=True)
+        return dt.strftime("%d-%b-%y")
+    except (ValueError, OverflowError):
+        return None
 
 def parse_html(source: Union[str, list], department: str, series: str):
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -244,6 +255,9 @@ def scrape_2(link, department, series):
                     loc_div = sub_soup.find('div', class_=lambda c: c and 'field--name-field-event-location' in c)
                     if not loc_div:
                         loc_div = sub_soup.find('div', class_=lambda c: c and 'location' in c.lower())
+                        if loc_div:
+                            print(f"WARNING: location matched via generic class fallback "
+                                  f"({loc_div.get('class')}) on {event['url']}")
                     event['location'] = loc_div.get_text(strip=True) if loc_div else "Location not specified"
 
                     # 2. Speaker Name
@@ -251,6 +265,9 @@ def scrape_2(link, department, series):
                     speaker_div = sub_soup.find('div', class_=lambda c: c and 'field--name-field-speaker' in c)
                     if not speaker_div:
                         speaker_div = sub_soup.find('div', class_=lambda c: c and 'speaker' in c.lower())
+                        if speaker_div:
+                            print(f"WARNING: speaker matched via generic class fallback "
+                                  f"({speaker_div.get('class')}) on {event['url']}")
                     event['speaker'] = speaker_div.get_text(strip=True) if speaker_div else "See Abstract"
 
                     # 3. Body Text (Abstract + Bio + Affiliation)
@@ -314,7 +331,11 @@ def scrape_2(link, department, series):
 
     if not events_data:
         return None
-    return parse_html(events_data, department, series)
+    result = parse_html(events_data, department, series)
+    if result and len(result.entries) != len(events_data):
+        print(f"WARNING: scrape_2 found {len(events_data)} events but Gemini "
+              f"returned {len(result.entries)} entries for series '{series}'.")
+    return result
         
 def scrape_3(link, department, series):
     """
@@ -378,11 +399,164 @@ def scrape_3(link, department, series):
         return parse_html("./source.html", department, series)
 
 
+def scrape_4(link, department, series):
+    """
+    Scrape method for stat.columbia.edu's "old framework" seminar pages that
+    don't use the #seminar-content id (e.g. Applied Probability Seminar Series).
+    Targets .post_body, which wraps the #upcomingevents/#pastevents tables.
+    The tables are populated client-side via an async Google Calendar API call,
+    so we wait for #pastevents to actually contain rows before reading it.
+    """
+    with sync_playwright() as p:
+
+        is_headless = os.getenv("HEADLESS", "true").lower() == "true"
+        browser = p.chromium.launch(headless=is_headless, slow_mo=50)
+
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
+        page = context.new_page()
+
+        try:
+            print("Navigating to URL...")
+            page.goto(link, wait_until="domcontentloaded")
+
+            print("Waiting for content...")
+            # Tables load async via the Google Calendar API; wait for rows to appear
+            page.wait_for_selector('#pastevents tr', state="attached", timeout=30000)
+
+            html = page.locator('.post_body').inner_html()
+            soup = BeautifulSoup(html, 'html.parser')
+
+            # Sanitize HTML before sending to Gemini
+            for strong_tag in soup.find_all('strong'):
+                strong_tag.unwrap()
+
+            # #pastevents holds talks going back to 2013 in descending order;
+            # sending all of it overflows Gemini's response. Keep only the
+            # most recent rows (same idea as scrape_3's top-5 truncation).
+            past_table = soup.find(id='pastevents')
+            if past_table:
+                for row in past_table.find_all('tr')[10:]:
+                    row.decompose()
+
+            with open('source.html', 'wb') as f:
+                f.write(soup.encode('utf-8'))
+
+            print(f"HTML written to source.html...")
+
+        except Exception as e:
+            print(f"Scraping failed: {e}")
+            page.screenshot(path="debug_error.png")
+            print("Screenshot saved to debug_error.png")
+            browser.close()
+            return None
+
+        browser.close()
+        return parse_html("./source.html", department, series)
+
+
+def scrape_5(link, department, series):
+    """
+    Scrape method for apam.columbia.edu's Drupal 7 colloquium pages.
+    Each academic year's talks live in an .accordion-body, sibling of an
+    .accordion-header labeled with the year; years are listed newest-first,
+    and the panel content is present in the DOM without needing to click/expand.
+    """
+    with sync_playwright() as p:
+
+        is_headless = os.getenv("HEADLESS", "true").lower() == "true"
+        browser = p.chromium.launch(headless=is_headless, slow_mo=50)
+
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
+        page = context.new_page()
+
+        try:
+            print("Navigating to URL...")
+            page.goto(link, wait_until="domcontentloaded")
+
+            print("Waiting for content...")
+
+            html = page.locator('.accordion-body').first.inner_html()
+            soup = BeautifulSoup(html, 'html.parser')
+
+            # Sanitize HTML before sending to Gemini
+            for strong_tag in soup.find_all('strong'):
+                strong_tag.unwrap()
+
+            with open('source.html', 'wb') as f:
+                f.write(soup.encode('utf-8'))
+
+            print(f"HTML written to source.html...")
+
+        except Exception as e:
+            print(f"Scraping failed: {e}")
+            page.screenshot(path="debug_error.png")
+            print("Screenshot saved to debug_error.png")
+            browser.close()
+            return None
+
+        browser.close()
+        return parse_html("./source.html", department, series)
+
+
+def scrape_6(link, department, series):
+    """
+    Scrape method for math.columbia.edu's colloquium category archive
+    (same underlying department-site framework as stat.columbia.edu).
+    The theme's markup nests each post's .post_body inside the previous
+    one's .post_content, so the *first* .post_body already contains all
+    the others - grab that one rather than every match (which would hit
+    Playwright's strict-mode multi-match error).
+    """
+    with sync_playwright() as p:
+
+        is_headless = os.getenv("HEADLESS", "true").lower() == "true"
+        browser = p.chromium.launch(headless=is_headless, slow_mo=50)
+
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
+        page = context.new_page()
+
+        try:
+            print("Navigating to URL...")
+            page.goto(link, wait_until="domcontentloaded")
+
+            print("Waiting for content...")
+
+            html = page.locator('.post_body').first.inner_html()
+            soup = BeautifulSoup(html, 'html.parser')
+
+            # Sanitize HTML before sending to Gemini
+            for strong_tag in soup.find_all('strong'):
+                strong_tag.unwrap()
+
+            with open('source.html', 'wb') as f:
+                f.write(soup.encode('utf-8'))
+
+            print(f"HTML written to source.html...")
+
+        except Exception as e:
+            print(f"Scraping failed: {e}")
+            page.screenshot(path="debug_error.png")
+            print("Screenshot saved to debug_error.png")
+            browser.close()
+            return None
+
+        browser.close()
+        return parse_html("./source.html", department, series)
+
+
 def main():
 
     script_dir = os.path.dirname(__file__) # Get current filepath
     input_path = os.path.join(script_dir, 'input.csv') # Append input.csv
     df = pd.read_csv(input_path) # Read into pandas DataFrame
+    for col in ('department', 'series', 'website'):
+        df[col] = df[col].str.strip()
 
     output_path = Path("/app/out/apps/liontalk/src/data/seminars.json")
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -411,6 +585,18 @@ def main():
                 seminar_data = scrape_3(link, department, series)
                 if seminar_data:
                     all_seminars.append(seminar_data)
+            elif scrape_method == 4:
+                seminar_data = scrape_4(link, department, series)
+                if seminar_data:
+                    all_seminars.append(seminar_data)
+            elif scrape_method == 5:
+                seminar_data = scrape_5(link, department, series)
+                if seminar_data:
+                    all_seminars.append(seminar_data)
+            elif scrape_method == 6:
+                seminar_data = scrape_6(link, department, series)
+                if seminar_data:
+                    all_seminars.append(seminar_data)
             else:
                 print(f"Unknown scrape method: {scrape_method}")
         except Exception as e:
@@ -419,6 +605,21 @@ def main():
 
     # Convert Pydantic objects to standard dictionaries
     seminars_dict = [seminar.model_dump() for seminar in all_seminars]
+
+    # --- NORMALIZE DATES & DROP INVALID ENTRIES ---
+    print("Post-processing: Normalizing dates...")
+    for group in seminars_dict:
+        kept_entries = []
+        for entry in group.get("entries", []):
+            normalized = normalize_date(entry.get("date", ""))
+            if normalized is None:
+                print(f"Dropping entry with unparseable date {entry.get('date')!r} "
+                      f"(title={entry.get('seminar_title')!r}, series={group.get('series')!r})")
+                continue
+            entry["date"] = normalized
+            kept_entries.append(entry)
+        group["entries"] = kept_entries
+    # ----------------------------------------------
 
     # --- FILL EMPTY FIELDS WITH "N/A" ---
     print("Post-processing: Filling empty fields with 'N/A'...")
