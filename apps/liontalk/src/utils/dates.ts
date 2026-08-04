@@ -1,61 +1,65 @@
 import { Seminar } from '../types';
 
 const MONTH_MAP: { [key: string]: number } = {
-  Jan: 0, JAN: 0, 
-  Feb: 1, FEB: 1,
-  Mar: 2, MAR: 2, 
-  Apr: 3, APR: 3,
-  May: 4, MAY: 4,
-  Jun: 5, JUN: 5,
-  Jul: 6, JUL: 6, 
-  Aug: 7, AUG: 7, 
-  Sep: 8, SEP: 8, SEPT: 8, 
-  Oct: 9, OCT: 9,
-  Nov: 10, NOV: 10, 
-  Dec: 11, DEC: 11
+  jan: 0, january: 0,
+  feb: 1, february: 1,
+  mar: 2, march: 2,
+  apr: 3, april: 3,
+  may: 4,
+  jun: 5, june: 5,
+  jul: 6, july: 6,
+  aug: 7, august: 7,
+  sep: 8, sept: 8, september: 8,
+  oct: 9, october: 9,
+  nov: 10, november: 10,
+  dec: 11, december: 11
 };
 
 export const parseSeminarDate = (dateStr: string, timeStr: string) => {
   try {
-    // Parse Date: "8-Sept-25" -> [8, 8, 2025]
+    // Parse Date: "8-Sept-25" or "8-September-2025" -> [8, 8, 2025]
     const [dayStr, monthStr, yearStr] = dateStr.split('-');
     const day = parseInt(dayStr, 10);
-    const month = MONTH_MAP[monthStr] ?? 0;
-    const year = 2000 + parseInt(yearStr, 10);
+    const month = MONTH_MAP[monthStr?.toLowerCase()];
+    const yearNum = parseInt(yearStr, 10);
 
-    // Parse Time: "4:10 pm - 5:00 pm" or "12:00 - 1:00 pm"
+    if (isNaN(day) || month === undefined || isNaN(yearNum)) {
+      return { startDate: null, endDate: null, monthAbbr: monthStr ?? '', dayDisplay: dayStr ?? '' };
+    }
+
+    const year = yearNum >= 1000 ? yearNum : 2000 + yearNum;
+
+    // Parse Time: "4:10 pm - 5:00 pm", "12:00 - 1:00 pm", or "4:30p-6:00p"
     const [startTimeStr, endTimeStr] = timeStr.split('-').map(s => s.trim());
-    
-    const parseTime = (tStr: string, isEnd: boolean = false) => {
-      if (!tStr) return { hours: 0, minutes: 0 };
-      
-      const match = tStr.match(/(\d+):(\d+)\s*(am|pm)?/i);
-      if (!match) return { hours: 0, minutes: 0 };
 
-      let [_, h, m, meridiem] = match;
+    const parseTime = (tStr: string, isEnd: boolean = false) => {
+      if (!tStr) return { hours: 0, minutes: 0, meridiem: undefined as string | undefined };
+
+      // Meridiem may be spelled out ("am"/"pm") or abbreviated to a single letter ("a"/"p")
+      const match = tStr.match(/(\d+):(\d+)\s*(am|pm|a|p)?/i);
+      if (!match) return { hours: 0, minutes: 0, meridiem: undefined };
+
+      const [, h, m, rawMeridiem] = match;
       let hours = parseInt(h, 10);
       const minutes = parseInt(m, 10);
+      let meridiem = rawMeridiem?.toLowerCase();
 
       // Handle missing meridiem (e.g. "12:00 - 1:00 pm", assume first is same as second if missing)
       if (!meridiem && isEnd) meridiem = 'pm'; // Fallback
-      
+
       // Convert to 24h
-      const isPm = meridiem?.toLowerCase() === 'pm';
-      const isAm = meridiem?.toLowerCase() === 'am';
-      
-      if (isPm && hours < 12) hours += 12;
-      if (isAm && hours === 12) hours = 0;
-      
-      return { hours, minutes };
+      if (meridiem?.startsWith('p') && hours < 12) hours += 12;
+      if (meridiem?.startsWith('a') && hours === 12) hours = 0;
+
+      return { hours, minutes, meridiem };
     };
 
     const start = parseTime(startTimeStr);
-    // If start has no meridiem, inherit from end (logic omitted for brevity, usually safe to assume PM for seminars)
-    if (startTimeStr.indexOf('m') === -1 && timeStr.includes('pm') && start.hours < 12) {
+    const end = parseTime(endTimeStr, true);
+    // If start has no explicit meridiem, inherit the end's (usually PM for seminars)
+    if (!start.meridiem && end.meridiem?.startsWith('p') && start.hours < 12) {
         start.hours += 12;
     }
-
-    const end = parseTime(endTimeStr, true);
 
     const startDate = new Date(year, month, day, start.hours, start.minutes);
     let endDate = new Date(year, month, day, end.hours, end.minutes);
@@ -65,15 +69,16 @@ export const parseSeminarDate = (dateStr: string, timeStr: string) => {
       endDate = new Date(startDate.getTime() + 60 * 60 * 1000); 
     }
 
-    return { startDate, endDate, monthAbbr: monthStr, dayDisplay: dayStr };
+    return { startDate: startDate as Date | null, endDate: endDate as Date | null, monthAbbr: monthStr.slice(0, 3), dayDisplay: dayStr };
   } catch (e) {
     console.error("Date parse error", e);
-    return { startDate: new Date(), endDate: new Date(), monthAbbr: 'ERR', dayDisplay: '00' };
+    return { startDate: null, endDate: null, monthAbbr: 'ERR', dayDisplay: '00' };
   }
 };
 
 export const getGoogleCalendarLink = (seminar: Seminar) => {
   const { startDate, endDate } = parseSeminarDate(seminar.date, seminar.time);
+  if (!startDate || !endDate) return null;
   const fmt = (d: Date) => d.toISOString().replace(/-|:|\.\d\d\d/g, "");
 
   const params = new URLSearchParams({

@@ -18,6 +18,7 @@ const ChevronDownIcon = ({ open }: { open?: boolean }) => (
 export const SeminarCard = ({ seminar }: { seminar: Seminar }) => {
   const isHoliday = seminar.speaker === "N/A";
   const { monthAbbr, dayDisplay } = parseSeminarDate(seminar.date, seminar.time);
+  const calendarLink = getGoogleCalendarLink(seminar);
 
   if (isHoliday) {
     return (
@@ -121,17 +122,19 @@ export const SeminarCard = ({ seminar }: { seminar: Seminar }) => {
         </div>
 
         {/* Footer: Calendar Button */}
-        <div className="mt-6 flex justify-end">
-          <a 
-            href={getGoogleCalendarLink(seminar)} //
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center px-4 py-2 text-sm font-medium text-columbia-blue bg-white border border-columbia-blue/30 rounded-lg hover:bg-columbia-blue hover:text-white transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-columbia-blue"
-          >
-            <CalendarIcon />
-            Add to Calendar
-          </a>
-        </div>
+        {calendarLink && (
+          <div className="mt-6 flex justify-end">
+            <a
+              href={calendarLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 text-sm font-medium text-columbia-blue bg-white border border-columbia-blue/30 rounded-lg hover:bg-columbia-blue hover:text-white transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-columbia-blue"
+            >
+              <CalendarIcon />
+              Add to Calendar
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );

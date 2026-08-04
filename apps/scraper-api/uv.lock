@@ -447,6 +447,7 @@ dependencies = [
     { name = "google-genai", version = "1.56.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
     { name = "pandas" },
     { name = "playwright" },
+    { name = "python-dateutil" },
     { name = "python-dotenv" },
     { name = "requests" },
 ]
@@ -457,6 +458,7 @@ requires-dist = [
     { name = "google-genai", specifier = ">=1.47.0" },
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "playwright", specifier = ">=1.57.0" },
+    { name = "python-dateutil", specifier = ">=2.9.0" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "requests", specifier = ">=2.32.5" },
 ]
