@@ -1,12 +1,44 @@
 [
   {
+    "department": "Cancer Dynamics",
+    "series": "IICD Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "HICCC Guest Seminar: Kurt A. Schalper, MD, PhD",
+        "date": "05-Aug-26",
+        "location": "Location not specified",
+        "time": "3:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      }
+    ]
+  },
+  {
+    "department": "Center for Science and Society",
+    "series": "CSS Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "2026 Climate Change Conference",
+        "date": "05-Aug-26",
+        "location": "Location not specified",
+        "time": "4:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      }
+    ]
+  },
+  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
         "seminar_title": "The \"Peace Dividend\" of International Trade: A New Empirical Approach",
         "date": "10-Sep-26",
-        "location": "N/A",
+        "location": "IAB 1512",
         "time": "4:30p-6:00p",
         "speaker": "Christopher Meissner",
         "affiliation": "University of California, Davis",
@@ -16,17 +48,17 @@
       {
         "seminar_title": "Comparing interpersonal and collective violence",
         "date": "17-Sep-26",
-        "location": "N/A",
+        "location": "IAB 1512",
         "time": "4:30p-6:00p",
         "speaker": "James Fearon",
         "affiliation": "Stanford University",
-        "abstract": "N/A",
+        "abstract": "Comparing interpersonal and collective violence",
         "bio": "Professor of Political Science"
       },
       {
         "seminar_title": "Risk and Return in Government Bonds",
         "date": "01-Oct-26",
-        "location": "N/A",
+        "location": "IAB 1512",
         "time": "4:30p-6:00p",
         "speaker": "Carolin Pflueger",
         "affiliation": "UChicago: Harris Public Policy",
@@ -40,8 +72,8 @@
         "time": "4:30p-6:00p",
         "speaker": "To be announced.",
         "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "abstract": "To be announced.",
+        "bio": "To be announced."
       },
       {
         "seminar_title": "Tit-for-Tat or Tipping Point? Action-Reaction Dynamics in U.S.-China Relations",
