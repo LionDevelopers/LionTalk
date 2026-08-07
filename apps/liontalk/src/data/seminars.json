@@ -6,7 +6,7 @@
       {
         "seminar_title": "The \"Peace Dividend\" of International Trade: A New Empirical Approach",
         "date": "10-Sep-26",
-        "location": "N/A",
+        "location": "IAB 1512",
         "time": "4:30p-6:00p",
         "speaker": "Christopher Meissner",
         "affiliation": "University of California, Davis",
@@ -16,17 +16,17 @@
       {
         "seminar_title": "Comparing interpersonal and collective violence",
         "date": "17-Sep-26",
-        "location": "N/A",
+        "location": "IAB 1512",
         "time": "4:30p-6:00p",
         "speaker": "James Fearon",
         "affiliation": "Stanford University",
-        "abstract": "No abstract available for this entry.",
+        "abstract": "No abstract available.",
         "bio": "Professor of Political Science"
       },
       {
         "seminar_title": "Risk and Return in Government Bonds",
         "date": "01-Oct-26",
-        "location": "N/A",
+        "location": "IAB 1512",
         "time": "4:30p-6:00p",
         "speaker": "Carolin Pflueger",
         "affiliation": "UChicago: Harris Public Policy",
@@ -39,9 +39,9 @@
         "location": "IAB 1512",
         "time": "4:30p-6:00p",
         "speaker": "To be announced.",
-        "affiliation": "N/A",
-        "abstract": "No abstract available for this entry.",
-        "bio": "No bio available for this entry."
+        "affiliation": "Unknown",
+        "abstract": "No abstract available.",
+        "bio": "No bio available."
       },
       {
         "seminar_title": "Tit-for-Tat or Tipping Point? Action-Reaction Dynamics in U.S.-China Relations",
@@ -62,7 +62,7 @@
       {
         "seminar_title": "Satisficing Regret Minimization in Bandits: Constant Bound and Light-Tailed Distribution",
         "date": "30-Apr-26",
-        "location": "Room: TBA",
+        "location": "TBA",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Prof. Ruihao Zhu",
         "affiliation": "Cornell SC Johnson College of Business",
@@ -72,17 +72,17 @@
       {
         "seminar_title": "Volterra clocks and their singular limits: hitting times of curved boundaries",
         "date": "23-Apr-26",
-        "location": "Room: Mudd 303",
+        "location": "Mudd 303",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Prof. Andreas Sojmark",
         "affiliation": "Columbia University",
-        "abstract": "In this talk, I will introduce Volterra clocks, a new class of continuous non-decreasing processes whose affine case recovers the integrated Volterra square-root process. Via a time-changed Brownian representation, we develop a simple framework for functional convergence which allows us to study their singular limits as the memory kernels collapse to a Dirac mass. Specifically, the clocks degenerate into pure-jump processes given by first-passage times of Brownian motion to curved boundaries. Moreover, the rate bursts producing each jump are resolved through a `decorated' notion of convergence which goes beyond any of the Skorokhod topologies.",
-        "bio": "Andreas Sojmark is an Assistant Professor at Columbia University."
+        "abstract": "In this talk, I will introduce Volterra clocks, a new class of continuous non-decreasing processes whose affine case recovers the integrated Volterra square-root process. Via a time-changed Brownian representation, we develop a simple framework for functional convergence which allows us to study their singular limits as the memory kernels collapse to a Dirac mass. Specifically, the clocks degenerate into pure-jump processes given by first-passage times of Brownian motion to curved boundaries. Moreover, the rate bursts producing each jump are resolved through a 'decorated' notion of convergence which goes beyond any of the Skorokhod topologies.",
+        "bio": "N/A"
       },
       {
         "seminar_title": "A complete generalization of Kelly betting",
         "date": "02-Apr-26",
-        "location": "Room: Mudd 303",
+        "location": "Mudd 303",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Prof. Aaditya Ramdas",
         "affiliation": "Carnegie Mellon University",
@@ -92,72 +92,248 @@
       {
         "seminar_title": "Efficient sampling with diffusion models: Sharp and adaptive guarantees",
         "date": "26-Mar-26",
-        "location": "Room: Mudd 303",
+        "location": "Mudd 303",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Prof. Yuting Wei",
         "affiliation": "University of Pennsylvania",
-        "abstract": "The score-based diffusion models have become a cornerstone of modern generative AI. While recent works aim to develop sharp convergence guarantees, the iteration complexity of existing analyses typically scales with the ambient data dimension d of the target distribution, leading to overly conservative theory that fails to explain its practical efficiency. This motivates us to understand how diffusion models can achieve sampling speed-ups through automatic exploitation of intrinsic low dimensionality of data for both continuous and discrete distributions.\nThis talk explores two key scenarios: (1) For a broad class of continuous distributions with intrinsic dimension k, we show that the iteration complexity of the denoising diffusion probabilistic model (DDPM) scales nearly linearly with k, which is optimal under the KL divergence metric; (2) For masking discrete diffusions, under a continuous-time Markov chain (CTMC) formulation, we introduce a modified \u03c4-leaping sampler whose convergence rate is governed by an intrinsic information-theoretic quantity, termed the effective total correlation, which is upper bounded by d log S (with S the vocabulary size) but can be sublinear or even constant for structured discrete distributions.",
+        "abstract": "The score-based diffusion models have become a cornerstone of modern generative AI. While recent works aim to develop sharp convergence guarantees, the iteration complexity of existing analyses typically scales with the ambient data dimension d of the target distribution, leading to overly conservative theory that fails to explain its practical efficiency. This motivates us to understand how diffusion models can achieve sampling speed-ups through automatic exploitation of intrinsic low dimensionality of data for both continuous and discrete distributions.\nThis talk explores two key scenarios: (1) For a broad class of continuous distributions with intrinsic dimension k, we show that the iteration complexity of the denoising diffusion probabilistic model (DDPM) scales nearly linearly with k, which is optimal under the KL divergence metric; (2) For masking discrete diffusions, under a continuous-time Markov chain (CTMC) formulation, we introduce a modified \u03c4-leaping sampler whose convergence rate is governed by an intrinsic information-theoretic quantity, termed the effective total correlation, which is upper bounded by d log S (with S the vocabulary size) but can be sublinear or even constant for structured discrete distributions.\n",
         "bio": "Dr. Yuting Wei is an Associate Professor in the Statistics and Data Science Department at the Wharton School, University of Pennsylvania. Prior to that, Dr. Wei spent two years at Carnegie Mellon University as an assistant professor and one year at Stanford University as a Stein's Fellow. She received her Ph.D. in statistics at the University of California, Berkeley. She was the recipient of the 2025 Gottfried E. Noether Early Career Scholar Award, Google Research Scholar Award, NSF Career award, and the Erich L. Lehmann Citation from the Berkeley statistics department. Her research interests include high-dimensional and non-parametric statistics, reinforcement learning, and diffusion models."
       },
       {
-        "seminar_title": "TBA",
+        "seminar_title": "SPRING BREAK",
         "date": "19-Mar-26",
-        "location": "Room: TBA",
+        "location": "TBA",
         "time": "N/A",
         "speaker": "SPRING BREAK",
         "affiliation": "N/A",
-        "abstract": "N/A",
+        "abstract": "TBA",
         "bio": "N/A"
       },
       {
         "seminar_title": "Fluctuations Around the Mean-Field Limit for Attractive Riesz Interaction Kernels in the Moderate Regime",
         "date": "05-Mar-26",
-        "location": "Room: Mudd 303",
+        "location": "Mudd 303",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Prof. Alexandra Holzinger",
         "affiliation": "University of Vienna",
         "abstract": "In this talk we will give a short introduction to moderately interacting particle systems and the general notion of fluctuations around the mean-field limit.\nWe will see how a central limit theorem can be shown for moderately interacting particles on the whole space for certain types of interaction potentials. The interaction potential approximates singular attractive potentials of sub-Coulomb type and we can show that the fluctuations become asymptotically Gaussians. The methodology is inspired by the classical work of Oelschl\u00e4ger in the 1980s on fluctuations for the porous-medium equation. To allow for attractive potentials we use a new approach of quantitative mean-field convergence in probability in order to include aggregation effects.\nThis is joint work with Li Chen and Ansgar J\u00fcngel.",
-        "bio": "Alexandra Holzinger is a researcher at the University of Vienna."
+        "bio": "N/A"
       },
       {
         "seminar_title": "Mean field control with absorption or stopping.",
         "date": "26-Feb-26",
-        "location": "Room: 303 Mudd",
+        "location": "303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Joe Jackson",
-        "affiliation": "Georgia Tech",
+        "affiliation": "Rutgers University",
         "abstract": "Mean field control (MFC) theory deals with stochastic control problems in which a large number of agents work together to minimize a symmetric cost functional. In ongoing joint work with Cardaliaguet and Souganidis, we consider two variants of MFC in which the total number of agents in the system can change over time. In the first case, each agents' state process evolves in a bounded domain, and an agent is removed from the system if its state process reaches the boundary. In the second case, the agents can choose to exit the system voluntarily at any moment by paying a fee. For both problems, we obtain convergence of the value functions as N \\to \\infty by proving a comparison principle for the infinite-dimensional partial differential equation which describes the value of the limiting optimization problem.",
-        "bio": "Joe Jackson is a PhD student at Georgia Tech."
+        "bio": "N/A"
       },
       {
         "seminar_title": "The Geometry of Adapted Optimal Transport",
         "date": "04-Dec-25",
-        "location": "Room: Mudd 303",
+        "location": "Mudd 303",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Prof. Beatrice Acciaio",
         "affiliation": "ETH Zurich",
         "abstract": "The adapted Wasserstein distance has been proven to be a suitable metric for comparing stochastic processes while accounting for their temporal structure, especially in a context of model uncertainty in finance. In this talk I will present our study of the geometry of the adapted Wasserstein space of stochastic processes. We provide a probabilistic representation of absolutely continuous curves of processes, as well as an Eulerian representation via an adapted continuity equation, extending classical results of Wasserstein spaces to the adapted setting. Moreover, we characterize geodesics in this space, and from this derive an adapted Benamou-Brenier-type formula. I will then restrict the attention to Gaussian processes, where we can explicitly describe the solutions to the adapted Wasserstein transport, as well as the geodesics and the tangent space. Based on joint works with D. Bartl, A. Grass, S. Hou, D. Krsek, G. Pammer, M. Rodrigues, S. Schrott.",
-        "bio": "Beatrice Acciaio is a Professor at ETH Zurich."
+        "bio": "N/A"
       },
       {
-        "seminar_title": "TBA",
+        "seminar_title": "NO SEMINAR",
         "date": "27-Nov-25",
-        "location": "Room: TBA",
+        "location": "TBA",
         "time": "N/A",
         "speaker": "NO SEMINAR",
         "affiliation": "N/A",
-        "abstract": "N/A",
+        "abstract": "TBA",
         "bio": "N/A"
       },
       {
         "seminar_title": "Coupled Semilinear Stochastic Evolution Equations and LQ Mean Field Games in Hilbert Spaces: Cases with and without Common Noise",
         "date": "20-Nov-25",
-        "location": "Room: Mudd 303",
+        "location": "Mudd 303",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Prof. Dena Firoozi",
-        "affiliation": "University of Maryland",
+        "affiliation": "University of California, Berkeley",
         "abstract": "We first establish the well-posedness of a system of N coupled semilinear stochastic evolution equations, laying the foundation for mean-field games (MFGs) in Hilbert spaces. We then specialize to N-player linear\u2013quadratic (LQ) games and study the asymptotic behavior as the number of agents N tends to infinity. An infinite-dimensional variant of the Nash Certainty Equivalence (NCE) principle is developed and a unique Nash equilibrium for the limiting MFG is characterized. We show that the corresponding limiting best-response strategies constitute an \u03f5-Nash equilibrium for the N-player game in Hilbert spaces. Finally, we extend these results to include an infinite-dimensional common noise. In this setting, the mean-field consistency condition is represented by a system of forward\u2013backward stochastic evolution equations, while in the absence of common noise, it reduces to forward\u2013backward deterministic evolution equations in Hilbert spaces. We establish the solvability of these equations and prove the \u03f5-Nash property of the equilibrium strategy in this extended framework.",
-        "bio": "Dena Firoozi is an Assistant Professor at the University of Maryland."
+        "bio": "N/A"
+      }
+    ]
+  },
+  {
+    "department": "Applied Physics and Applied Mathematics",
+    "series": "Applied Mathematics Colloquium",
+    "entries": [
+      {
+        "seminar_title": "Multiscale Modeling, Simulation, and Analysis of Microstructure Evolution in Polycrystalline Materials",
+        "date": "09-Sep-25",
+        "location": "214 Mudd",
+        "time": "2:45-3:45 PM",
+        "speaker": "Yekaterina Epshteyn",
+        "affiliation": "Univ of Utah",
+        "abstract": "Multiscale Modeling, Simulation, and Analysis of Microstructure Evolution in Polycrystalline Materials",
+        "bio": "Yekaterina Epshteyn"
+      },
+      {
+        "seminar_title": "Sparse Radial Basis Function Networks for Solving Nonlinear PDEs",
+        "date": "09-Sep-25",
+        "location": "214 Mudd",
+        "time": "2:45-3:45 PM",
+        "speaker": "Xiaochuan Tian",
+        "affiliation": "UCSD",
+        "abstract": "Sparse Radial Basis Function Networks for Solving Nonlinear PDEs",
+        "bio": "Xiaochuan Tian"
+      },
+      {
+        "seminar_title": "Entropic Selection in Optimal Transport",
+        "date": "09-Sep-25",
+        "location": "214 Mudd",
+        "time": "2:45-3:45 PM",
+        "speaker": "Chenyang Zhong",
+        "affiliation": "Columbia University, Statistics",
+        "abstract": "Entropic Selection in Optimal Transport",
+        "bio": "Chenyang Zhong"
+      },
+      {
+        "seminar_title": "From Schr\u00f6dinger to diffusion- speckle formation of light in random media and the Gaussian conjecture",
+        "date": "09-Sep-25",
+        "location": "214 Mudd",
+        "time": "1:00-2:00 PM",
+        "speaker": "Anjali Nair",
+        "affiliation": "University of Chicago",
+        "abstract": "From Schr\u00f6dinger to diffusion- speckle formation of light in random media and the Gaussian conjecture",
+        "bio": "Anjali Nair"
+      },
+      {
+        "seminar_title": "Mathematical theory of structured deep neural networks",
+        "date": "09-Sep-25",
+        "location": "627 Mudd",
+        "time": "2:45-3:45 PM",
+        "speaker": "Dingxuan Zhou",
+        "affiliation": "The University of Sydney",
+        "abstract": "Mathematical theory of structured deep neural networks",
+        "bio": "Dingxuan Zhou"
+      },
+      {
+        "seminar_title": "Efficient and accurate structure preserving schemes for complex nonlinear systems",
+        "date": "10-Oct-25",
+        "location": "214 Mudd",
+        "time": "10:00-11:00 AM",
+        "speaker": "Jie Shen",
+        "affiliation": "Eastern Institute of Technology",
+        "abstract": "Efficient and accurate structure preserving schemes for complex nonlinear systems",
+        "bio": "Jie Shen"
+      },
+      {
+        "seminar_title": "Extension Methods to Mitigate Cycle Skipping in Seismic Full Waveform Inversion",
+        "date": "21-Oct-25",
+        "location": "627 Mudd",
+        "time": "2:45-3:45 PM",
+        "speaker": "Susan Minkoff",
+        "affiliation": "Brookhaven National Lab",
+        "abstract": "Extension Methods to Mitigate Cycle Skipping in Seismic Full Waveform Inversion",
+        "bio": "Susan Minkoff"
+      },
+      {
+        "seminar_title": "Where do all the scores come from? - an end-to-end accuracy analysis of diffusion model, and multimodal sampling via diffusion annealing",
+        "date": "10-Oct-25",
+        "location": "627 Mudd",
+        "time": "2:45-3:45 PM",
+        "speaker": "Molei Tao",
+        "affiliation": "Georgia Institute of Technology",
+        "abstract": "Where do all the scores come from? - an end-to-end accuracy analysis of diffusion model, and multimodal sampling via diffusion annealing",
+        "bio": "Molei Tao"
+      },
+      {
+        "seminar_title": "Mathematical and Computational Understanding of Neural Networks: From Representation to Learning and From Shallow to Deep Abstract",
+        "date": "11-Nov-25",
+        "location": "627 Mudd",
+        "time": "2:45-3:45 PM",
+        "speaker": "Hongkai Zhao",
+        "affiliation": "Duke",
+        "abstract": "Mathematical and Computational Understanding of Neural Networks: From Representation to Learning and From Shallow to Deep Abstract",
+        "bio": "Hongkai Zhao"
+      },
+      {
+        "seminar_title": "Structure-preserving parametric finite element methods for geometric PDEs and applications",
+        "date": "24-Feb-26",
+        "location": "233 Mudd",
+        "time": "2:45-3:45 PM",
+        "speaker": "Weizhu Bao",
+        "affiliation": "National University of Singapore",
+        "abstract": "Structure-preserving parametric finite element methods for geometric PDEs and applications",
+        "bio": "Weizhu Bao"
+      },
+      {
+        "seminar_title": "Highly irregular microstructures and TN configurations",
+        "date": "03-Mar-26",
+        "location": "233 Mudd",
+        "time": "2:45-3:45 PM",
+        "speaker": "John Ball",
+        "affiliation": "Heriot-Watt University, Edinburgh",
+        "abstract": "Highly irregular microstructures and TN configurations",
+        "bio": "John Ball"
+      },
+      {
+        "seminar_title": "Resonances through Subwavelength Holes: Theory, Computation and Applications",
+        "date": "03-Mar-26",
+        "location": "233 Mudd",
+        "time": "2:45-3:45 PM",
+        "speaker": "Junshan Lin",
+        "affiliation": "Auburn University",
+        "abstract": "Resonances through Subwavelength Holes: Theory, Computation and Applications",
+        "bio": "Junshan Lin"
+      },
+      {
+        "seminar_title": "AI-Driven Mathematical Discovery: Singularities, Algorithms, and Beyond",
+        "date": "25-Mar-26",
+        "location": "Room 520, Mathematics Hall, 2990 Broadway",
+        "time": "4:30-5:30 PM",
+        "speaker": "Javier Gomez-Serrano",
+        "affiliation": "Brown University",
+        "abstract": "AI-Driven Mathematical Discovery: Singularities, Algorithms, and Beyond",
+        "bio": "Javier Gomez-Serrano"
+      },
+      {
+        "seminar_title": "Hyperspectral Unmixing via Graph Regularizations, Active Learning, and Spectral Bundles",
+        "date": "03-Mar-26",
+        "location": "233 Mudd",
+        "time": "2:45-3:45 PM",
+        "speaker": "Yifei Lou",
+        "affiliation": "University of North Carolina at Chapel Hill",
+        "abstract": "Hyperspectral Unmixing via Graph Regularizations, Active Learning, and Spectral Bundles",
+        "bio": "Yifei Lou"
+      },
+      {
+        "seminar_title": "Joint DSI-Applied Mathematics Colloquium",
+        "date": "04-Apr-26",
+        "location": "Room 412 CEPSR (DAVIS AUDITORIUM)",
+        "time": "2:45-3:45 PM",
+        "speaker": "George Karniadakis",
+        "affiliation": "Brown University",
+        "abstract": "Joint DSI-Applied Mathematics Colloquium",
+        "bio": "George Karniadakis"
+      },
+      {
+        "seminar_title": "Hydrodynamic Manifolds for Kinetic Equations",
+        "date": "04-Apr-26",
+        "location": "233 Mudd",
+        "time": "2:45-3:45 PM",
+        "speaker": "Florian Kogelbauer",
+        "affiliation": "ETH Z\u00fcrich",
+        "abstract": "Hydrodynamic Manifolds for Kinetic Equations",
+        "bio": "Florian Kogelbauer"
+      },
+      {
+        "seminar_title": "High-Order Methods on Unstructured Meshes and AI-Driven Mesh Generation",
+        "date": "04-Apr-26",
+        "location": "233 Mudd",
+        "time": "2:45-3:45 PM",
+        "speaker": "Per-Olof Persson",
+        "affiliation": "UC Berkeley",
+        "abstract": "High-Order Methods on Unstructured Meshes and AI-Driven Mesh Generation",
+        "bio": "Per-Olof Persson"
       }
     ]
   },
