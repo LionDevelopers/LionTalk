@@ -1,17 +1,12 @@
 [
   {
-    "department": "Statistics",
-    "series": "Mathematical Finance Seminar Series",
-    "entries": []
-  },
-  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
         "seminar_title": "The \"Peace Dividend\" of International Trade: A New Empirical Approach",
         "date": "10-Sep-26",
-        "location": "IAB 1512",
+        "location": "N/A",
         "time": "4:30p-6:00p",
         "speaker": "Christopher Meissner",
         "affiliation": "University of California, Davis",
@@ -19,44 +14,64 @@
         "bio": "Professor of Economics"
       },
       {
+        "seminar_title": "To be announced.",
+        "date": "14-Sep-26",
+        "location": "1101 IAB",
+        "time": "11:30a-12:45p",
+        "speaker": "Maya Norman",
+        "affiliation": "Columbia University",
+        "abstract": "To be announced.",
+        "bio": "PhD Student in Economics"
+      },
+      {
         "seminar_title": "Comparing interpersonal and collective violence",
         "date": "17-Sep-26",
-        "location": "IAB 1512",
+        "location": "N/A",
         "time": "4:30p-6:00p",
         "speaker": "James Fearon",
         "affiliation": "Stanford University",
-        "abstract": "N/A",
+        "abstract": "Comparing interpersonal and collective violence",
         "bio": "Professor of Political Science"
       },
       {
-        "seminar_title": "Risk and Return in Government Bonds",
-        "date": "01-Oct-26",
-        "location": "IAB 1512",
-        "time": "4:30p-6:00p",
-        "speaker": "Carolin Pflueger",
-        "affiliation": "UChicago: Harris Public Policy",
-        "abstract": "As the risks of government bonds change over time, does this change the compensation that investors require for holding them? While realized excess returns show little relation to bond risk, we find that subjective expected excess returns constructed from professional forecasts of future long-term yields are tightly linked to bonds\u2019 stock market betas, consistent with a CAPM-style relation. In a U.S. month-by-maturity panel from 1988\u20132024, the correlation of subjective excess returns with rolling bond\u2013stock betas is 66%. The estimated market price of risk is comparable to the equity premium and stable when controlling for time and maturity fixed effects. Realized excess returns are predicted by subjective excess returns, but this predictability is driven by higher-frequency variation and not by betas. Similar results hold in an international panel of developed countries from 1989\u20132024. The change in betas from positive to negative accounts for half of the decline in long-term U.S. Treasury yields from the 1980s to the 2010s and implies a negative term premium as early as 2001. During quantitative easing episodes, the price of bond risk declines, suggesting an increased investor willingness to bear risk.",
-        "bio": "Associate Professor of Economics"
+        "seminar_title": "To be announced.",
+        "date": "21-Sep-26",
+        "location": "1101 IAB",
+        "time": "11:30a-12:10p",
+        "speaker": "Renee Garrow",
+        "affiliation": "Columbia University",
+        "abstract": "To be announced.",
+        "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "To be announced.",
-        "date": "08-Oct-26",
-        "location": "IAB 1512",
-        "time": "4:30p-6:00p",
-        "speaker": "To be announced.",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
+        "date": "21-Sep-26",
+        "location": "1101 IAB",
+        "time": "12:10p-12:50p",
+        "speaker": "Giacomo Massimiliano Anastasia",
+        "affiliation": "Columbia University",
+        "abstract": "To be announced.",
+        "bio": "PhD Student in Economics"
       },
       {
-        "seminar_title": "Tit-for-Tat or Tipping Point? Action-Reaction Dynamics in U.S.-China Relations",
-        "date": "05-Nov-26",
-        "location": "IAB 1512",
-        "time": "4:30p-6:00p",
-        "speaker": "Carlos Ramirez",
-        "affiliation": "George Mason University",
-        "abstract": "This paper analyzes the evolving strategic relationship between the United States and China using a novel empirical framework. Drawing on monthly data from 1990 to 2024, I use two complementary indices that reflect each country's posture toward the other. The first captures U.S. hostility toward China, derived from the full population of U.S. newspaper articles. The second is the China\u2013U.S. Relations Index developed by Yan et al. (2010), which quantifies China's diplomatic stance toward the U.S. These indices are embedded within an action-reaction framework estimated via a Structural Vector Autoregression (SVAR), identified using an external instrument based on COVID-related U.S. media coverage. The results reveal an asymmetric dynamic: China reacts to U.S. hostility in a tit-for-tat fashion, while the U.S. meets conciliatory gestures from China with temporary increases in hostility\u2014suggesting deep-seated mistrust. Although the system is dynamically stable, the slow adjustment and fragile equilibrium underscore how vulnerable the relationship remains to shocks and miscalculation\u2014such as the unprecedented escalation in tariffs that now threatens to push both countries toward a costly economic decoupling.",
-        "bio": "Professor of Economics"
+        "seminar_title": "To be announced.",
+        "date": "28-Sep-26",
+        "location": "1101 IAB",
+        "time": "11:30a-12:10p",
+        "speaker": "Oksana Kuznetsova",
+        "affiliation": "Columbia University",
+        "abstract": "To be announced.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "28-Sep-26",
+        "location": "1101 IAB",
+        "time": "12:10p-12:50p",
+        "speaker": "Diogo Wolff Surdi",
+        "affiliation": "Columbia University",
+        "abstract": "To be announced.",
+        "bio": "PhD Student in Economics"
       }
     ]
   },
@@ -72,7 +87,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "Javier G\u00f3mez-Serrano is a professor at Brown University. His research interests include machine learning, mathematical discovery, singularites, and algorithms."
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -82,7 +97,7 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "Mohammed Abouzaid is a professor at Stanford University. His research interests include AI systems and their ability to produce mathematical proofs."
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
@@ -92,7 +107,7 @@
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
         "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "Aaron Landesman is a professor at Harvard University. His research interests include the inverse Galois problem and Malle's conjecture over function fields."
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
@@ -102,7 +117,7 @@
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "Denis Nesterov is a professor at ETH Zurich. His research interests include compactifications, degenerations, and their applications in geometry."
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
@@ -112,7 +127,7 @@
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "Lucas Mason-Brown is a professor at the University of Texas. His research interests include unitary representations of semisimple Lie groups and conical symplectic singularities."
+        "bio": "N/A"
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -122,7 +137,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "Sky Cao is a professor at MIT. His research interests include Yang-Mills theory, probability, and stochastic partial differential equations."
+        "bio": "N/A"
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -132,7 +147,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "Sheldon Katz is a professor at the University of Illinois at Urbana-Champaign. His research interests include the effectiveness of physics in mathematics and the role of symmetries in mathematical development."
+        "bio": "N/A"
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -142,7 +157,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "Eric Zaslow is a professor at Northwestern University. His research interests include combinatorial perspectives in stringy geometry and the emergence of discrete mathematical objects in mathematical physics."
+        "bio": "N/A"
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -152,7 +167,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "Artur Avila is a professor at IMPA (Instituto de Matem\u00e1tica Pura e Aplicada). His research interests include renormalization, fractal geometry, and the Newhouse phenomenon in dynamical systems."
+        "bio": "N/A"
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -162,7 +177,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "Ishan Levy is a professor at the University of Copenhagen. His research interests include homotopy groups of spheres and algebraic K-theory."
+        "bio": "N/A"
       }
     ]
   }
