@@ -1,12 +1,17 @@
 [
   {
+    "department": "Statistics",
+    "series": "Mathematical Finance Seminar Series",
+    "entries": []
+  },
+  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
         "seminar_title": "The \"Peace Dividend\" of International Trade: A New Empirical Approach",
         "date": "10-Sep-26",
-        "location": "N/A",
+        "location": "Not Specified",
         "time": "4:30p-6:00p",
         "speaker": "Christopher Meissner",
         "affiliation": "University of California, Davis",
@@ -26,7 +31,7 @@
       {
         "seminar_title": "Comparing interpersonal and collective violence",
         "date": "17-Sep-26",
-        "location": "N/A",
+        "location": "Not Specified",
         "time": "4:30p-6:00p",
         "speaker": "James Fearon",
         "affiliation": "Stanford University",
@@ -37,18 +42,8 @@
         "seminar_title": "To be announced.",
         "date": "21-Sep-26",
         "location": "1101 IAB",
-        "time": "11:30a-12:10p",
-        "speaker": "Renee Garrow",
-        "affiliation": "Columbia University",
-        "abstract": "To be announced.",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "To be announced.",
-        "date": "21-Sep-26",
-        "location": "1101 IAB",
-        "time": "12:10p-12:50p",
-        "speaker": "Giacomo Massimiliano Anastasia",
+        "time": "11:30a-12:10p, 12:10p-12:50p",
+        "speaker": "Renee Garrow and Giacomo Massimiliano Anastasia",
         "affiliation": "Columbia University",
         "abstract": "To be announced.",
         "bio": "PhD Student in Economics"
@@ -57,18 +52,8 @@
         "seminar_title": "To be announced.",
         "date": "28-Sep-26",
         "location": "1101 IAB",
-        "time": "11:30a-12:10p",
-        "speaker": "Oksana Kuznetsova",
-        "affiliation": "Columbia University",
-        "abstract": "To be announced.",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "To be announced.",
-        "date": "28-Sep-26",
-        "location": "1101 IAB",
-        "time": "12:10p-12:50p",
-        "speaker": "Diogo Wolff Surdi",
+        "time": "11:30a-12:10p, 12:10p-12:50p",
+        "speaker": "Oksana Kuznetsova and Diogo Wolff Surdi",
         "affiliation": "Columbia University",
         "abstract": "To be announced.",
         "bio": "PhD Student in Economics"
@@ -87,7 +72,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -97,17 +82,17 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
         "date": "09-Feb-26",
         "location": "Math Hall 520",
-        "time": "4:30 \u2013 5:30PM",
+        "time": "4:30 PM \u2013 5:30 PM",
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
         "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
@@ -117,17 +102,17 @@
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
         "date": "02-Feb-26",
         "location": "Math Hall 520",
-        "time": "4:30 \u2013 5:30PM",
+        "time": "4:30 PM \u2013 5:30 PM",
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -137,7 +122,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -147,7 +132,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -157,7 +142,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -167,7 +152,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -177,7 +162,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       }
     ]
   }
