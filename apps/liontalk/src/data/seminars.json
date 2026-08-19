@@ -1,8 +1,44 @@
 [
   {
+    "department": "Statistics",
+    "series": "Mathematical Finance Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Robert Boyce (Imperial)",
+        "date": "17-Sep-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Robert Boyce",
+        "affiliation": "Imperial",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Luhao Zhang (Johns Hopkins)",
+        "date": "24-Sep-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Luhao Zhang",
+        "affiliation": "Johns Hopkins",
+        "abstract": "N/A",
+        "bio": "N/A"
+      }
+    ]
+  },
+  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
+      {
+        "seminar_title": "To be announced.",
+        "date": "09-Sep-26",
+        "location": "N/A",
+        "time": "12:30p-1:45p",
+        "speaker": "Arjun Srinivasan and Diego Tocre",
+        "affiliation": "Columbia University",
+        "abstract": "This paper investigates the causal impact of international trade on interstate military conflicts using global bilateral data from 1962 to 2014. To address endogeneity concerns, we exploit exogenous spatial-temporal variation in international trade stemming from technological advances in air relative to maritime transport. Empirical results demonstrate a strong \"peace dividend\" of international trade: that is, increased trade significantly reduces the probability and intensity of conflicts between nations. This effect remains robust across specifications and withstands a wide range of potential confounders. Such findings highlight how economic interdependence shapes international conflict, a relationship that is especially relevant amid escalating geopolitical tensions and the global shift toward \"decoupling\", \"de-risking\", and greater trade protectionism.",
+        "bio": "Arjun Srinivasan is a PhD Student in Economics at Columbia University. Diego Tocre is a PhD Student in Economics at Columbia University."
+      },
       {
         "seminar_title": "To be announced.",
         "date": "10-Sep-26",
@@ -10,8 +46,8 @@
         "time": "2:10p-4:00p",
         "speaker": "J\u00f6rg Stoye",
         "affiliation": "Cornell University",
-        "abstract": "To be announced.",
-        "bio": "Professor of Economics"
+        "abstract": "This paper investigates the causal impact of international trade on interstate military conflicts using global bilateral data from 1962 to 2014. To address endogeneity concerns, we exploit exogenous spatial-temporal variation in international trade stemming from technological advances in air relative to maritime transport. Empirical results demonstrate a strong \"peace dividend\" of international trade: that is, increased trade significantly reduces the probability and intensity of conflicts between nations. This effect remains robust across specifications and withstands a wide range of potential confounders. Such findings highlight how economic interdependence shapes international conflict, a relationship that is especially relevant amid escalating geopolitical tensions and the global shift toward \"decoupling\", \"de-risking\", and greater trade protectionism.",
+        "bio": "J\u00f6rg Stoye is a Professor of Economics at Cornell University."
       },
       {
         "seminar_title": "To be announced.",
@@ -20,8 +56,8 @@
         "time": "4:10p-5:25p",
         "speaker": "Sarita Or\u00e9-Quispe",
         "affiliation": "Columbia University",
-        "abstract": "To be announced.",
-        "bio": "PhD Student in Economics and Education"
+        "abstract": "This paper investigates the causal impact of international trade on interstate military conflicts using global bilateral data from 1962 to 2014. To address endogeneity concerns, we exploit exogenous spatial-temporal variation in international trade stemming from technological advances in air relative to maritime transport. Empirical results demonstrate a strong \"peace dividend\" of international trade: that is, increased trade significantly reduces the probability and intensity of conflicts between nations. This effect remains robust across specifications and withstands a wide range of potential confounders. Such findings highlight how economic interdependence shapes international conflict, a relationship that is especially relevant amid escalating geopolitical tensions and the global shift toward \"decoupling\", \"de-risking\", and greater trade protectionism.",
+        "bio": "Sarita Or\u00e9-Quispe is a PhD Student in Economics and Education at Columbia University."
       },
       {
         "seminar_title": "The \"Peace Dividend\" of International Trade: A New Empirical Approach",
@@ -31,7 +67,7 @@
         "speaker": "Christopher Meissner",
         "affiliation": "University of California, Davis",
         "abstract": "This paper investigates the causal impact of international trade on interstate military conflicts using global bilateral data from 1962 to 2014. To address endogeneity concerns, we exploit exogenous spatial-temporal variation in international trade stemming from technological advances in air relative to maritime transport. Empirical results demonstrate a strong \"peace dividend\" of international trade: that is, increased trade significantly reduces the probability and intensity of conflicts between nations. This effect remains robust across specifications and withstands a wide range of potential confounders. Such findings highlight how economic interdependence shapes international conflict, a relationship that is especially relevant amid escalating geopolitical tensions and the global shift toward \"decoupling\", \"de-risking\", and greater trade protectionism.",
-        "bio": "Professor of Economics"
+        "bio": "Christopher Meissner is a Professor of Economics at University of California, Davis."
       },
       {
         "seminar_title": "To be announced.",
@@ -40,18 +76,8 @@
         "time": "11:30a-12:45p",
         "speaker": "Zhi Hao Lim",
         "affiliation": "Columbia University",
-        "abstract": "To be announced.",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "To be announced.",
-        "date": "15-Sep-26",
-        "location": "1101 IAB",
-        "time": "2:45p-4:00p",
-        "speaker": "Felix Tintelnot",
-        "affiliation": "Duke University",
-        "abstract": "To be announced.",
-        "bio": "Associate Professor of Economics"
+        "abstract": "This paper investigates the causal impact of international trade on interstate military conflicts using global bilateral data from 1962 to 2014. To address endogeneity concerns, we exploit exogenous spatial-temporal variation in international trade stemming from technological advances in air relative to maritime transport. Empirical results demonstrate a strong \"peace dividend\" of international trade: that is, increased trade significantly reduces the probability and intensity of conflicts between nations. This effect remains robust across specifications and withstands a wide range of potential confounders. Such findings highlight how economic interdependence shapes international conflict, a relationship that is especially relevant amid escalating geopolitical tensions and the global shift toward \"decoupling\", \"de-risking\", and greater trade protectionism.",
+        "bio": "Zhi Hao Lim is a PhD Student in Economics at Columbia University."
       }
     ]
   },
