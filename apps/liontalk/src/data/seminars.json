@@ -1,101 +1,5 @@
 [
   {
-    "department": "Statistics",
-    "series": "Mathematical Finance Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "Traveling Waves in Equity Markets with Rank-Based Entry and Exit",
-        "date": "10-Sep-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Graeme Baker",
-        "affiliation": "Columbia University",
-        "abstract": "We model equity markets using geometric Brownian particles entering and exiting at rank-dependent intensities. In the many-firm limit, the capital distribution converges uniformly to the solution of a reaction-diffusion equation with reaction term built from the intensities. Calibrated on CRSP data, the reaction term is bistable, and the long-run capital distribution is a traveling wave: we prove existence, uniqueness, and, for constant coefficients, exponential relaxation. Turnover, not drift, stabilizes the calibrated market. With volatility measured rank by rank, the wave tracks the empirical capital distribution in every decade, determines the capitalization growth of diversity-weighted portfolios, and places the market of the past 50 years just inside the boundary of the diverse phase. Turnover reclaims most of what rebalancing gains. Joint work with Caroline Smyth (Columbia College Class of 2026). Preprint: https://arxiv.org/abs/2608.27156",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Passive impact and internalisation in market making",
-        "date": "17-Sep-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Robert Boyce",
-        "affiliation": "Imperial",
-        "abstract": "Modern algorithmic market making faces an inherent trade-off between risk management and various forms of market impact. We first derive a model of passive market impact from microscopic principles that can be solved in closed form. Moreover, dealers in the FX market increasingly offer access to internal liquidity pools, which, in addition to providing clients with an alternative means of execution, can create further opportunities for risk management. We proceed to model and investigate these opportunities and observe that passive impact arises endogenously in such a model. These models are calibrated with FX and equities market data.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Schr\u00f6dinger bridge with transport relaxation",
-        "date": "24-Sep-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Luhao Zhang",
-        "affiliation": "Johns Hopkins",
-        "abstract": "Motivated by modern machine learning applications where we only have access to empirical measures constructed from finite samples, we relax the marginal constraints of the classical Schr\u00f6dinger bridge problem by penalizing the transport cost between the bridge's marginals and the prescribed marginals. We derive a duality formula for this transport-relaxed bridge and demonstrate that it reduces to a finite-dimensional concave optimization problem when the prescribed marginals are discrete and the reference distribution is absolutely continuous. We establish the existence and uniqueness of solutions for both the primal and dual problems. Moreover, as the penalty blows up, we characterize the limiting bridge as the solution to a discrete Schr\u00f6dinger bridge problem and identify a leading-order logarithmic divergence. Finally, we propose gradient ascent and Sinkhorn-type algorithms to numerically solve the transport-relaxed Schr\u00f6dinger bridge, establishing a linear convergence rate for both algorithms.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "01-Oct-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Neil Chriss",
-        "affiliation": "Fixed Point Advisors",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "08-Oct-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "15-Oct-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Soumil Pal",
-        "affiliation": "University of Washington",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "22-Oct-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "29-Oct-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Marko Weber",
-        "affiliation": "NUS",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "05-Nov-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Xuedong He",
-        "affiliation": "CUHK",
-        "abstract": "N/A",
-        "bio": "N/A"
-      }
-    ]
-  },
-  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
@@ -158,7 +62,7 @@
       {
         "seminar_title": "TBA",
         "date": "17-Sep-26",
-        "location": "303 Mudd",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "TBA",
         "affiliation": "N/A",
@@ -168,7 +72,7 @@
       {
         "seminar_title": "TBA",
         "date": "24-Sep-26",
-        "location": "303 Mudd",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Guodong Pang",
         "affiliation": "N/A",
@@ -177,8 +81,8 @@
       },
       {
         "seminar_title": "TBA",
-        "date": "01-Oct-26",
-        "location": "303 Mudd",
+        "date": "10-Jan-26",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Debashis Mondal",
         "affiliation": "N/A",
@@ -187,8 +91,8 @@
       },
       {
         "seminar_title": "TBA",
-        "date": "08-Oct-26",
-        "location": "303 Mudd",
+        "date": "10-Aug-26",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "TBA",
         "affiliation": "N/A",
@@ -198,7 +102,7 @@
       {
         "seminar_title": "TBA",
         "date": "15-Oct-26",
-        "location": "903 SSW",
+        "location": "Room: 903 SSW",
         "time": "04:10 PM - 05:25 PM",
         "speaker": "Soumik Pal",
         "affiliation": "N/A",
@@ -208,7 +112,7 @@
       {
         "seminar_title": "TBA",
         "date": "22-Oct-26",
-        "location": "303 Mudd",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Christian Kuehn",
         "affiliation": "N/A",
@@ -218,7 +122,7 @@
       {
         "seminar_title": "TBA",
         "date": "29-Oct-26",
-        "location": "303 Mudd",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "David Dunson",
         "affiliation": "N/A",
@@ -227,8 +131,8 @@
       },
       {
         "seminar_title": "TBA",
-        "date": "05-Nov-26",
-        "location": "303 Mudd",
+        "date": "11-May-26",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Dylan Altschuler",
         "affiliation": "N/A",
@@ -237,8 +141,8 @@
       },
       {
         "seminar_title": "TBA",
-        "date": "12-Nov-26",
-        "location": "303 Mudd",
+        "date": "11-Dec-26",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "TBA",
         "affiliation": "N/A",
@@ -248,7 +152,7 @@
       {
         "seminar_title": "TBA",
         "date": "19-Nov-26",
-        "location": "303 Mudd",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "TBA",
         "affiliation": "N/A",
@@ -258,7 +162,7 @@
       {
         "seminar_title": "TBA",
         "date": "26-Nov-26",
-        "location": "303 Mudd",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "TBA",
         "affiliation": "N/A",
@@ -267,8 +171,8 @@
       },
       {
         "seminar_title": "TBA",
-        "date": "03-Dec-26",
-        "location": "303 Mudd",
+        "date": "12-Mar-26",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "TBA",
         "affiliation": "N/A",
@@ -277,8 +181,8 @@
       },
       {
         "seminar_title": "TBA",
-        "date": "10-Dec-26",
-        "location": "303 Mudd",
+        "date": "12-Oct-26",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "TBA",
         "affiliation": "N/A",
@@ -288,7 +192,7 @@
       {
         "seminar_title": "TBA",
         "date": "17-Dec-26",
-        "location": "303 Mudd",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "TBA",
         "affiliation": "N/A",
@@ -297,8 +201,8 @@
       },
       {
         "seminar_title": "Cooperation and Common-Pool Resources in Mean Field Games and Extensions to Inverse Learning",
-        "date": "10-Sep-26",
-        "location": "303 Mudd",
+        "date": "09-Oct-26",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "G\u00f6k\u00e7e Dayan\u0131kl\u0131",
         "affiliation": "N/A",
@@ -308,7 +212,7 @@
       {
         "seminar_title": "Satisficing Regret Minimization in Bandits: Constant Boundand Light-Tailed Distribution",
         "date": "30-Apr-26",
-        "location": "TBA",
+        "location": "Room: TBA",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Prof. Ruihao Zhu",
         "affiliation": "N/A",
@@ -318,7 +222,7 @@
       {
         "seminar_title": "Volterra clocks and their singular limits: hitting times of curved boundaries",
         "date": "23-Apr-26",
-        "location": "Mudd 303",
+        "location": "Room: Mudd 303",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Prof. Andreas Sojmark",
         "affiliation": "N/A",
@@ -327,8 +231,8 @@
       },
       {
         "seminar_title": "A complete generalization of Kelly betting",
-        "date": "02-Apr-26",
-        "location": "Mudd 303",
+        "date": "04-Feb-26",
+        "location": "Room: Mudd 303",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Prof. Aaditya Ramdas",
         "affiliation": "N/A",
@@ -338,17 +242,17 @@
       {
         "seminar_title": "Efficient sampling with diffusion models: Sharp and adaptive guarantees",
         "date": "26-Mar-26",
-        "location": "Mudd 303",
+        "location": "Room: Mudd 303",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Prof. Yuting Wei",
         "affiliation": "N/A",
-        "abstract": "The score-based diffusion models have become a cornerstone of modern generative AI. While recent works aim to develop sharp convergence guarantees, the iteration complexity of existing analyses typically scales with the ambient data dimension d of the target distribution, leading to overly conservative theory that fails to explain its practical efficiency. This motivates us to understand how diffusion models can achieve sampling speed-ups through automatic exploitation of intrinsic low dimensionality of data for both continuous and discrete distributions.\u00a0\u00a0\nThis talk explores two key scenarios: (1) For a broad class of continuous distributions with intrinsic dimension k, we show that the iteration complexity of the denoising diffusion probabilistic model (DDPM) scales nearly linearly with k, which is optimal under the KL divergence metric; (2) For masking discrete diffusions, under a continuous-time Markov chain (CTMC) formulation, we introduce a modified \u03c4-leaping sampler whose convergence rate is governed by an intrinsic information-theoretic quantity, termed the effective total correlation, which is upper bounded by d log S (with S the vocabulary size) but can be sublinear or even constant for structured discrete distributions.\u00a0\u00a0",
+        "abstract": "The score-based diffusion models have become a cornerstone of modern generative AI. While recent works aim to develop sharp convergence guarantees, the iteration complexity of existing analyses typically scales with the ambient data dimension d\nd\nof the target distribution, leading to overly conservative theory that fails to explain its practical efficiency. This motivates us to understand how diffusion models can achieve sampling speed-ups through automatic exploitation of intrinsic low dimensionality of data for both continuous and discrete distributions.\u00a0\u00a0\nThis talk explores two key scenarios: (1) For a broad class of continuous distributions with intrinsic dimension k\nk\n, we show that the iteration complexity of the denoising diffusion probabilistic model (DDPM) scales nearly linearly with k\nk\n, which is optimal under the KL divergence metric; (2) For masking discrete diffusions, under a continuous-time Markov chain (CTMC) formulation, we introduce a modified \u03c4\n\u03c4\n-leaping sampler whose convergence rate is governed by an intrinsic information-theoretic quantity, termed the effective total correlation, which is upper bounded by d \n log S\nd log S\n (with S\nS\nthe vocabulary size) but can be sublinear or even constant for structured discrete distributions.\u00a0",
         "bio": "Dr. Yuting Wei is an Associate Professor in the Statistics and Data Science Department at the Wharton School, University of Pennsylvania. Prior to that, Dr. Wei spent two years at Carnegie Mellon University as an assistant professor and one year at Stanford University as a Stein's Fellow. She received her Ph.D. in statistics at the University of California, Berkeley. She was the recipient of the 2025 Gottfried E. Noether Early Career Scholar Award, Google Research Scholar Award, NSF Career award, and the Erich L. Lehmann Citation from the Berkeley statistics department. Her research interests include high-dimensional and non-parametric statistics, reinforcement learning, and diffusion models."
       },
       {
         "seminar_title": "SPRING BREAK",
         "date": "19-Mar-26",
-        "location": "TBA",
+        "location": "Room: TBA",
         "time": "N/A",
         "speaker": "SPRING BREAK",
         "affiliation": "N/A",
@@ -357,8 +261,8 @@
       },
       {
         "seminar_title": "Fluctuations\u00a0Around the Mean-Field Limit for Attractive Riesz Interaction Kernels in the Moderate Regime",
-        "date": "05-Mar-26",
-        "location": "Mudd 303",
+        "date": "03-May-26",
+        "location": "Room: Mudd 303",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Prof. Alexandra Holzinger",
         "affiliation": "N/A",
@@ -368,27 +272,27 @@
       {
         "seminar_title": "Mean field control with absorption or stopping.",
         "date": "26-Feb-26",
-        "location": "303 Mudd",
+        "location": "Room: 303 Mudd",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Joe Jackson",
         "affiliation": "N/A",
-        "abstract": "Mean field control (MFC) theory deals with stochastic control problems in which a large number of agents work together to minimize a symmetric cost functional. In ongoing joint work with Cardaliaguet and Souganidis, we consider two variants of MFC in which the total number of agents in the system can change over time. In the first case, each agents' state process evolves in a bounded domain, and an agent is removed from the system if its state process reaches the boundary. In the second case, the agents can choose to exit the system voluntarily at any moment by paying a fee. For both problems, we obtain convergence of the value functions as N \to \tinfinity by proving a comparison principle for the infinite-dimensional partial differential equation which describes the value of the limiting optimization problem.",
+        "abstract": "Mean field control (MFC) theory deals with stochastic control problems in which a large number of agents work together to minimize a symmetric cost functional. In ongoing joint work with Cardaliaguet and Souganidis, we consider two variants of MFC in which the total number of agents in the system can change over time. In the first case, each agents' state process evolves in a bounded domain, and an agent is removed from the system if its state process reaches the boundary. In the second case, the agents can choose to exit the system voluntarily at any moment by paying a fee. For both problems, we obtain convergence of the value functions as N \\to \\infty by proving a comparison principle for the infinite-dimensional partial differential equation which describes the value of the limiting optimization problem.",
         "bio": "N/A"
       },
       {
         "seminar_title": "The Geometry of Adapted Optimal Transport",
-        "date": "04-Dec-25",
-        "location": "Mudd 303",
+        "date": "12-Apr-25",
+        "location": "Room: Mudd 303",
         "time": "01:10 PM - 02:10 PM",
         "speaker": "Prof. Beatrice Acciaio",
         "affiliation": "N/A",
-        "abstract": "The adapted Wasserstein distance has been proven to be a suitable metric for comparing stochastic processes while accounting for their temporal structure, especially in a context of model uncertainty in finance. In this talk I will present our study of the geometry of the adapted Wasserstein space of stochastic processes. We provide a probabilistic representation of absolutely continuous curves of processes, as well as an Eulerian representation via an adapted continuity equation, extending classical results of Wasserstein spaces to the adapted setting. Moreover, we characterize geodesics in this space, and from this derive an adapted Benamou-Brenier-type formula. I will then restrict the attention to Gaussian processes, where we can explicitly describe the solutions to the adapted Wasserstein transport, as well as the geodesics and the tangent space. Based on joint works with D. Bartl, A. Grass, S. Hou, D. Krsek, G. Pammer, M. Rodrigues, S. Schrott.\u00a0\u00a0",
+        "abstract": "The adapted Wasserstein distance has been proven to be a suitable metric for comparing stochastic processes while accounting for their temporal structure, especially in a context of model uncertainty in finance. In this talk I will present our study of the geometry of the adapted Wasserstein space of stochastic processes. We provide a probabilistic representation of absolutely continuous curves of processes, as well as an Eulerian representation via an adapted continuity equation, extending classical results of Wasserstein spaces to the adapted setting. Moreover, we characterize geodesics in this space, and from this derive an adapted Benamou-Brenier-type formula. I will then restrict the attention to Gaussian processes, where we can explicitly describe the solutions to the adapted Wasserstein transport, as well as the geodesics and the tangent space. Based on joint works with D. Bartl, A. Grass, S. Hou, D. Krsek, G. Pammer, M. Rodrigues, S. Schrott.",
         "bio": "N/A"
       },
       {
         "seminar_title": "NO SEMINAR",
         "date": "27-Nov-25",
-        "location": "TBA",
+        "location": "Room: TBA",
         "time": "N/A",
         "speaker": "NO SEMINAR",
         "affiliation": "N/A",
