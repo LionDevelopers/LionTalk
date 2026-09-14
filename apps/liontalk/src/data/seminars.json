@@ -1,5 +1,101 @@
 [
   {
+    "department": "Statistics",
+    "series": "Mathematical Finance Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Traveling Waves in Equity Markets with Rank-Based Entry and Exit",
+        "date": "10-Sep-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Graeme Baker",
+        "affiliation": "Columbia University",
+        "abstract": "We model equity markets using geometric Brownian particles entering and exiting at rank-dependent intensities. In the many-firm limit, the capital distribution converges uniformly to the solution of a reaction-diffusion equation with reaction term built from the intensities. Calibrated on CRSP data, the reaction term is bistable, and the long-run capital distribution is a traveling wave: we prove existence, uniqueness, and, for constant coefficients, exponential relaxation. Turnover, not drift, stabilizes the calibrated market. With volatility measured rank by rank, the wave tracks the empirical capital distribution in every decade, determines the capitalization growth of diversity-weighted portfolios, and places the market of the past 50 years just inside the boundary of the diverse phase. Turnover reclaims most of what rebalancing gains. Joint work with Caroline Smyth (Columbia College Class of 2026). Preprint: https://arxiv.org/abs/2608.27156",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Passive impact and internalisation in market making",
+        "date": "17-Sep-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Robert Boyce",
+        "affiliation": "Imperial",
+        "abstract": "Modern algorithmic market making faces an inherent trade-off between risk management and various forms of market impact. We first derive a model of passive market impact from microscopic principles that can be solved in closed form. Moreover, dealers in the FX market increasingly offer access to internal liquidity pools, which, in addition to providing clients with an alternative means of execution, can create further opportunities for risk management. We proceed to model and investigate these opportunities and observe that passive impact arises endogenously in such a model. These models are calibrated with FX and equities market data.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "Schr\u00f6dinger bridge with transport relaxation",
+        "date": "24-Sep-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Luhao Zhang",
+        "affiliation": "Johns Hopkins",
+        "abstract": "Motivated by modern machine learning applications where we only have access to empirical measures constructed from finite samples, we relax the marginal constraints of the classical Schr\u00f6dinger bridge problem by penalizing the transport cost between the bridge's marginals and the prescribed marginals. We derive a duality formula for this transport-relaxed bridge and demonstrate that it reduces to a finite-dimensional concave optimization problem when the prescribed marginals are discrete and the reference distribution is absolutely continuous. We establish the existence and uniqueness of solutions for both the primal and dual problems. Moreover, as the penalty blows up, we characterize the limiting bridge as the solution to a discrete Schr\u00f6dinger bridge problem and identify a leading-order logarithmic divergence. Finally, we propose gradient ascent and Sinkhorn-type algorithms to numerically solve the transport-relaxed Schr\u00f6dinger bridge, establishing a linear convergence rate for both algorithms.",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "01-Oct-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Neil Chriss",
+        "affiliation": "Fixed Point Advisors",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "08-Oct-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "15-Oct-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Soumik Pal",
+        "affiliation": "University of Washington",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "22-Oct-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "29-Oct-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Marko Weber",
+        "affiliation": "NUS",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "05-Nov-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Xuedong He",
+        "affiliation": "CUHK",
+        "abstract": "N/A",
+        "bio": "N/A"
+      }
+    ]
+  },
+  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
@@ -10,8 +106,8 @@
         "time": "11:30a-12:45p",
         "speaker": "Zhi Hao Lim",
         "affiliation": "Columbia University",
-        "abstract": "To be announced.",
-        "bio": "PhD Student in Economics"
+        "abstract": "This seminar will cover research by Zhi Hao Lim. The specific topic is currently to be announced.",
+        "bio": "Zhi Hao Lim is a PhD Student in Economics at Columbia University."
       },
       {
         "seminar_title": "Climate, Biodiversity, and Environmental Damage: Evidence from Oceans and Railroads",
@@ -20,8 +116,8 @@
         "time": "1:00p-2:00p",
         "speaker": "Seung Min Kim",
         "affiliation": "Columbia University",
-        "abstract": "Climate change and biodiversity loss are the \"twin crises\" of the Anthropocene, yet little causal evidence exists on how they interact. We ask whether biodiversity loss amplifies the effect of climate on wildfire risk in western U.S. forests. We exploit nineteenth-century railroad land grants, whose zones were fixed by statute before systematic vegetation surveys and whose checkerboarded parcels were largely clear-cut. Comparing firesheds almost fully covered by grant zones with their neighbors, we find that railroad exposure reduced old-growth forest (a proxy for tree diversity) and increased checkerboarding by 35% and 38% of a standard deviation, respectively. To address endogenous local climate, we instrument seasonal vapor pressure deficit with shift-share instruments built from Pacific Decadal Variability, using fireshed-specific teleconnection weights estimated on 1895\u20131980 data. In a 1985\u20132024 fireshed-year panel, large-fire occurrence in high-exposure firesheds is roughly four times as sensitive to drought as in low-exposure firesheds. The gap stems mainly from cool-season dryness, which ordinarily curbs fire by limiting fuel growth but offers less protection in railroad-exposed landscapes. The gap is starkest for high-severity fires. The results reveal an unintended, long-lived cost of infrastructure development, operating through the destruction of nonrenewable natural capital. They also suggest that climate damages depend on the state of ecosystems.",
-        "bio": "PhD Student in SIPA"
+        "abstract": "This seminar explores the interaction between climate change and biodiversity loss, specifically examining their combined effect on wildfire risk. The research uses historical railroad land grants in the western U.S. to analyze how infrastructure development, which led to reduced forest diversity, influenced the sensitivity of large-fire occurrence to drought over the period 1985-2024. The findings suggest that climate damages are dependent on the state of ecosystems and that historical infrastructure projects can have long-lasting environmental consequences.",
+        "bio": "Seung Min Kim is a PhD Student in SIPA at Columbia University."
       },
       {
         "seminar_title": "To be announced.",
@@ -30,8 +126,8 @@
         "time": "1:00p-2:15p",
         "speaker": "Steve Yeh",
         "affiliation": "Columbia University",
-        "abstract": "To be announced.",
-        "bio": "PhD Student in Economics"
+        "abstract": "This seminar will cover research by Steve Yeh. The specific topic is currently to be announced.",
+        "bio": "Steve Yeh is a PhD Student in Economics at Columbia University."
       },
       {
         "seminar_title": "Housing Market Segmentation and Monetary Policy",
@@ -40,8 +136,8 @@
         "time": "1:00p-2:30p",
         "speaker": "Pablo de Llanos",
         "affiliation": "Columbia University",
-        "abstract": "Housing Market Segmentation and Monetary Policy",
-        "bio": "PhD Candidate in Economics"
+        "abstract": "This seminar will discuss the research paper 'Housing Market Segmentation and Monetary Policy' by Pablo de Llanos.",
+        "bio": "Pablo de Llanos is a PhD Candidate in Economics at Columbia University."
       },
       {
         "seminar_title": "To be announced.",
@@ -50,8 +146,8 @@
         "time": "3:10p-4:40p",
         "speaker": "[Internal organizational meeting]",
         "affiliation": "Columbia University",
-        "abstract": "To be announced.",
-        "bio": "N/A"
+        "abstract": "This is an internal organizational meeting. The topic is currently to be announced.",
+        "bio": "[Internal organizational meeting] is part of Columbia University."
       }
     ]
   },
