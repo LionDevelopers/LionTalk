@@ -1,259 +1,57 @@
 [
   {
-    "department": "Statistics",
-    "series": "Mathematical Finance Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "Traveling Waves in Equity Markets with Rank-Based Entry and Exit",
-        "date": "10-Sep-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Graeme Baker",
-        "affiliation": "Columbia University",
-        "abstract": "We model equity markets using geometric Brownian particles entering and exiting at rank-dependent intensities. In the many-firm limit, the capital distribution converges uniformly to the solution of a reaction-diffusion equation with reaction term built from the intensities. Calibrated on CRSP data, the reaction term is bistable, and the long-run capital distribution is a traveling wave: we prove existence, uniqueness, and, for constant coefficients, exponential relaxation. Turnover, not drift, stabilizes the calibrated market. With volatility measured rank by rank, the wave tracks the empirical capital distribution in every decade, determines the capitalization growth of diversity-weighted portfolios, and places the market of the past 50 years just inside the boundary of the diverse phase. Turnover reclaims most of what rebalancing gains. Joint work with Caroline Smyth (Columbia College Class of 2026). Preprint: https://arxiv.org/abs/2608.27156",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Passive impact and internalisation in market making",
-        "date": "17-Sep-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Robert Boyce",
-        "affiliation": "Imperial",
-        "abstract": "Modern algorithmic market making faces an inherent trade-off between risk management and various forms of market impact. We first derive a model of passive market impact from microscopic principles that can be solved in closed form. Moreover, dealers in the FX market increasingly offer access to internal liquidity pools, which, in addition to providing clients with an alternative means of execution, can create further opportunities for risk management. We proceed to model and investigate these opportunities and observe that passive impact arises endogenously in such a model. These models are calibrated with FX and equities market data.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Schr\u00f6dinger bridge with transport relaxation",
-        "date": "24-Sep-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Luhao Zhang",
-        "affiliation": "Johns Hopkins",
-        "abstract": "Motivated by modern machine learning applications where we only have access to empirical measures constructed from finite samples, we relax the marginal constraints of the classical Schr\u00f6dinger bridge problem by penalizing the transport cost between the bridge's marginals and the prescribed marginals. We derive a duality formula for this transport-relaxed bridge and demonstrate that it reduces to a finite-dimensional concave optimization problem when the prescribed marginals are discrete and the reference distribution is absolutely continuous. We establish the existence and uniqueness of solutions for both the primal and dual problems. Moreover, as the penalty blows up, we characterize the limiting bridge as the solution to a discrete Schr\u00f6dinger bridge problem and identify a leading-order logarithmic divergence. Finally, we propose gradient ascent and Sinkhorn-type algorithms to numerically solve the transport-relaxed Schr\u00f6dinger bridge, establishing a linear convergence rate for both algorithms.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "01-Oct-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Neil Chriss",
-        "affiliation": "Fixed Point Advisors",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "08-Oct-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "15-Oct-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Soumik Pal",
-        "affiliation": "University of Washington",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "22-Oct-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "29-Oct-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Marko Weber",
-        "affiliation": "NUS",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "05-Nov-26",
-        "location": "Room 903, 1255 Amsterdam Ave.",
-        "time": "4:10 pm - 5:25 pm",
-        "speaker": "Xuedong He",
-        "affiliation": "CUHK",
-        "abstract": "N/A",
-        "bio": "N/A"
-      }
-    ]
-  },
-  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "To be announced.",
-        "date": "14-Sep-26",
+        "seminar_title": "Export Bans for Industrial Development: Evidence from Indonesian Nickel",
+        "date": "15-Sep-26",
+        "location": "1102 IAB",
+        "time": "11:00a-12:00p",
+        "speaker": "Patrick Farrell",
+        "affiliation": "Columbia University",
+        "abstract": "I study the consequences of Indonesia's nickel ore export ban. Manufacturing increased sharply following the ban, largely attributable to the entry of smelters. However, villages near new smelters saw declining public-goods provision, worsening infrastructure, and rising pollution, consistent with strain on local governments. While manufacturing output grew, this growth was entirely attributable to processed nickel products as other manufacturing output fell. I use export transaction records and firm ore purchase declarations to estimate a model of two-sided market power to decompose smelter margins into output markups and input markdowns. The ban's mixed record offers lessons for countries considering similar policies.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Demobilization Through Inaction: Bureaucratic Delay, Ambiguity, and Collective Action",
+        "date": "15-Sep-26",
+        "location": "Room 707",
+        "time": "12:15p-1:30p",
+        "speaker": "Emily Sellars",
+        "affiliation": "Yale University",
+        "abstract": "I present a theory of how bureaucratic inaction can defuse contentious political mobilization. By holding open the possibility that citizens can obtain demanded concessions through institutional channels eventually, authorities can create uncertainty about whether more radical actions are needed. This can reduce the incentives for mobilized backlash, but only when citizens retain sufficient optimism about the benefits of remaining patient. I assess the predictions of the model using data on Mexico's twentieth-century agrarian reform. Though this reform eventually resulted in the expropriation and redistribution of much of the country\u2019s land area, it was carried out gradually and very unevenly over more than 80 years. Drawing on administrative data on land redistribution and original archival data on how petitions for land were processed, I present evidence that authorities often chose to keep pending cases open rather than granting any official response, positive or negative, and that ambiguity over the course of the reform indeed succeeded in defusing conflict. However, this strategy became less effective when and where the prospects for reform seemed either unusually promising or unusually discouraging and was less used where citizens' patience for waiting was plausibly lower. I conclude by considering the applicability of the theory to other settings and other types of reforms.",
+        "bio": "Assistant Professor of Political Science"
+      },
+      {
+        "seminar_title": "Who Pays for Tariffs Along the Supply Chain? Evidence from European Wine Tariffs",
+        "date": "15-Sep-26",
         "location": "1101 IAB",
-        "time": "11:30a-12:45p",
-        "speaker": "Zhi Hao Lim",
+        "time": "2:45p-4:00p",
+        "speaker": "Felix Tintelnot",
+        "affiliation": "Duke University",
+        "abstract": "We study how tariffs affect prices along the supply chain using product-level data from a large U.S. wine importer during the 2019-2021 U.S. tariffs on European wines. Combining confidential transaction prices with foreign suppliers, U.S. distributors, and retail prices, we trace tariff passthrough from producers to consumers. Pass-through at the border is incomplete, yet consumers paid more than the tariff revenue collected. The dollar markups per bottle for the importer contracted, but expanded for the combined distributor-retailer segment. Price changes along the chain reached consumers after one year. We also document tariff engineering that biases unit values in trade statistics.",
+        "bio": "Associate Professor of Economics"
+      },
+      {
+        "seminar_title": "Probability Pricing",
+        "date": "15-Sep-26",
+        "location": "1101 IAB",
+        "time": "4:15p-5:30p",
+        "speaker": "Eduardo D\u00e1vila",
+        "affiliation": "Yale University",
+        "abstract": "This paper develops probability pricing, extending cash flow pricing to quantify the willingness-to-pay for changes in probabilities. We show that the value of any marginal change in probabilities can be expressed as a standard asset-pricing formula with hypothetical cash flows derived from changes in the survival function. This equivalence between probability and cash flow valuation allows us to construct hedging strategies and systematically decompose individual and aggregate willingness-to-pay. Four applications examine the valuation of changes in the distribution of aggregate consumption, the efficiency effects of varying performance precision in principal-agent problems, and the welfare implications of public and private information.",
+        "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "Judge IV Designs with Multiple Treatments and Instruments",
+        "date": "16-Sep-26",
+        "location": "1102 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Myunghyun Song",
         "affiliation": "Columbia University",
-        "abstract": "This seminar will cover research by Zhi Hao Lim. The specific topic is currently to be announced.",
-        "bio": "Zhi Hao Lim is a PhD Student in Economics at Columbia University."
-      },
-      {
-        "seminar_title": "Climate, Biodiversity, and Environmental Damage: Evidence from Oceans and Railroads",
-        "date": "14-Sep-26",
-        "location": "IAB 405A",
-        "time": "1:00p-2:00p",
-        "speaker": "Seung Min Kim",
-        "affiliation": "Columbia University",
-        "abstract": "This seminar explores the interaction between climate change and biodiversity loss, specifically examining their combined effect on wildfire risk. The research uses historical railroad land grants in the western U.S. to analyze how infrastructure development, which led to reduced forest diversity, influenced the sensitivity of large-fire occurrence to drought over the period 1985-2024. The findings suggest that climate damages are dependent on the state of ecosystems and that historical infrastructure projects can have long-lasting environmental consequences.",
-        "bio": "Seung Min Kim is a PhD Student in SIPA at Columbia University."
-      },
-      {
-        "seminar_title": "To be announced.",
-        "date": "14-Sep-26",
-        "location": "IAB 1102",
-        "time": "1:00p-2:15p",
-        "speaker": "Steve Yeh",
-        "affiliation": "Columbia University",
-        "abstract": "This seminar will cover research by Steve Yeh. The specific topic is currently to be announced.",
-        "bio": "Steve Yeh is a PhD Student in Economics at Columbia University."
-      },
-      {
-        "seminar_title": "Housing Market Segmentation and Monetary Policy",
-        "date": "14-Sep-26",
-        "location": "IAB 1101",
-        "time": "1:00p-2:30p",
-        "speaker": "Pablo de Llanos",
-        "affiliation": "Columbia University",
-        "abstract": "This seminar will discuss the research paper 'Housing Market Segmentation and Monetary Policy' by Pablo de Llanos.",
-        "bio": "Pablo de Llanos is a PhD Candidate in Economics at Columbia University."
-      },
-      {
-        "seminar_title": "To be announced.",
-        "date": "14-Sep-26",
-        "location": "801 IAB",
-        "time": "3:10p-4:40p",
-        "speaker": "[Internal organizational meeting]",
-        "affiliation": "Columbia University",
-        "abstract": "This is an internal organizational meeting. The topic is currently to be announced.",
-        "bio": "[Internal organizational meeting] is part of Columbia University."
-      }
-    ]
-  },
-  {
-    "department": "Mathematics",
-    "series": "Department Colloquium",
-    "entries": [
-      {
-        "seminar_title": "March 25th COLLOQUIUM: Javier G\u00f3mez-Serrano (Brown University)",
-        "date": "25-Mar-26",
-        "location": "Math Hall 520",
-        "time": "4:30 PM \u2013 5:30 PM",
-        "speaker": "Javier G\u00f3mez-Serrano",
-        "affiliation": "Brown University",
-        "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
-        "date": "26-Feb-26",
-        "location": "Math Hall 520",
-        "time": "4:30 PM \u2013 5:30 PM",
-        "speaker": "Mohammed Abouzaid",
-        "affiliation": "Stanford",
-        "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
-        "date": "09-Feb-26",
-        "location": "Math Hall 520",
-        "time": "4:30 \u2013 5:30PM",
-        "speaker": "Aaron Landesman",
-        "affiliation": "Harvard",
-        "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
-        "date": "06-Feb-26",
-        "location": "Math Hall 520",
-        "time": "3 \u2013 4PM",
-        "speaker": "Denis Nesterov",
-        "affiliation": "ETH Zurich",
-        "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
-        "date": "02-Feb-26",
-        "location": "Math Hall 520",
-        "time": "4:30 \u2013 5:30PM",
-        "speaker": "Lucas Mason-Brown",
-        "affiliation": "Texas",
-        "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
-        "date": "30-Jan-26",
-        "location": "Math Hall 520",
-        "time": "3 \u2013 4PM",
-        "speaker": "Sky Cao",
-        "affiliation": "MIT",
-        "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
-        "date": "13-Nov-25",
-        "location": "Math Hall 520",
-        "time": "3PM \u2013 4PM",
-        "speaker": "Sheldon Katz",
-        "affiliation": "University of Illinois at Urbana-Champaign",
-        "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
-        "date": "03-Sep-25",
-        "location": "Math Hall 520",
-        "time": "4:30PM \u2013 5:30PM",
-        "speaker": "Eric Zaslow",
-        "affiliation": "Northwestern University",
-        "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
-        "date": "23-Apr-25",
-        "location": "Math Hall 520",
-        "time": "4:30PM \u2013 5:30PM",
-        "speaker": "Artur Avila",
-        "affiliation": "IMPA",
-        "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
-        "date": "12-Mar-25",
-        "location": "Math Hall 520",
-        "time": "4:30PM \u2013 5:30PM",
-        "speaker": "Ishan Levy",
-        "affiliation": "Copenhagen",
-        "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "N/A"
+        "abstract": "Judge IV designs supply the randomly assigned judge as one discrete instrument, while with three dispositions the effect of a reform combines the effects at the margins it moves. Two-stage least squares with judge propensities generally involves all three margins at once and carries a bias from the margins it does not target. This paper constructs an instrument per treatment from the assigned judge and the case characteristics, letting each judge weigh the characteristics in their own way, with the distribution of the unobserved components unrestricted. Each margin effect is then reached from an outcome regression among the cases receiving a treatment and its derivative in the propensity. Revisiting recidivism in the Virginia Circuit Courts, a noncarceral conviction raises reoffending by less than reported, and incarceration raises it by at least as much, almost entirely in carceral form.",
+        "bio": "PhD Student in Economics"
       }
     ]
   }
