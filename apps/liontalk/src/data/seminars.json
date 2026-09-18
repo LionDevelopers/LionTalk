@@ -1,214 +1,8 @@
 [
   {
-    "department": "Center for Science and Society",
-    "series": "CSS Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "Machine Learning for Everyone",
-        "date": "17-Sep-26",
-        "location": "Location not specified",
-        "time": "2:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Science and Society Graduate Student Mixer",
-        "date": "17-Sep-26",
-        "location": "Location not specified",
-        "time": "2:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "The Garden as Common Ground: Food Justice, Climate, and Peacebuilding",
-        "date": "18-Sep-26",
-        "location": "Location not specified",
-        "time": "11:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Columbia Fashion, Energy, and Climate Summit",
-        "date": "21-Sep-26",
-        "location": "Location not specified",
-        "time": "8:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Governing AI: Managing Risks and Unlocking Opportunities",
-        "date": "22-Sep-26",
-        "location": "Location not specified",
-        "time": "8:30 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Sustainable Energy, Resources, and Environmental Solutions",
-        "date": "22-Sep-26",
-        "location": "Location not specified",
-        "time": "9:30 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Innovation for Climate and Clean Air Progress in the Global South",
-        "date": "22-Sep-26",
-        "location": "Location not specified",
-        "time": "1:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Gotham Foundry Symposium: Regenerative Materials Across Industries",
-        "date": "23-Sep-26",
-        "location": "Location not specified",
-        "time": "7:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "What is Left of the Paris Climate Agreement?",
-        "date": "23-Sep-26",
-        "location": "Location not specified",
-        "time": "11:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Daniela Russ - Working Nature: A History of the Energy Economy",
-        "date": "23-Sep-26",
-        "location": "Location not specified",
-        "time": "5:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Anastasia Kostina - Neurons to Narratives: Cognitive Labor and Documentary Storytelling",
-        "date": "24-Sep-26",
-        "location": "Location not specified",
-        "time": "11:15 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "The Rise of Agentic AI: What It Means for Climate Innovation",
-        "date": "24-Sep-26",
-        "location": "Location not specified",
-        "time": "9:30 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Beyond the Forecast: El Ni\f1o, Society, and Climate Action",
-        "date": "24-Sep-26",
-        "location": "Location not specified",
-        "time": "1:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Healthy Bodies",
-        "date": "26-Sep-26",
-        "location": "Location not specified",
-        "time": "11:30 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Elaine Van Dalen - Common Airs, Individual Remedies: Environment and Health in Tenth-Century West Asia",
-        "date": "29-Sep-26",
-        "location": "Location not specified",
-        "time": "11:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Yaatsil Guevara Gonz\f0lez  - Care, Guilt, and Surveillance Across Borders",
-        "date": "29-Sep-26",
-        "location": "Location not specified",
-        "time": "11:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Ernst Logar - Petroleum in (and out of) the Visual Arts",
-        "date": "29-Sep-26",
-        "location": "Location not specified",
-        "time": "11:15 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Seeds of Diaspora",
-        "date": "29-Sep-26",
-        "location": "Location not specified",
-        "time": "5:15 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Scott Knowles - The United States of Disaster: Disaster Science in America Since 2001",
-        "date": "30-Sep-26",
-        "location": "Location not specified",
-        "time": "5:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      }
-    ]
-  },
-  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
-      {
-        "seminar_title": "Comparing interpersonal and collective violence",
-        "date": "17-Sep-26",
-        "location": "IAB 707",
-        "time": "4:30p-6:00p",
-        "speaker": "James Fearon",
-        "affiliation": "Stanford University",
-        "abstract": "N/A",
-        "bio": "Professor of Political Science"
-      },
       {
         "seminar_title": "Export Bans for Industrial Development: Evidence from Indonesian Nickel",
         "date": "18-Sep-26",
@@ -258,6 +52,16 @@
         "affiliation": "Columbia University",
         "abstract": "N/A",
         "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Do Climate Shocks Redirect Science? Evidence from Coral Bleaching",
+        "date": "21-Sep-26",
+        "location": "IAB 405A",
+        "time": "1:00p-2:00p",
+        "speaker": "Sahila Kudalkar",
+        "affiliation": "Columbia University",
+        "abstract": "What shifts the direction of scientific research? Reallocating scientific effort is costly and slow, yet researchers must adapt to persistent climate shocks to keep pace with a changing natural world. This study examines how global coral bleaching events reallocate scientific effort, comparing publication volume and composition for bleached versus unbleached coral species. I then test whether this shift in academic attention translates into economically valuable outputs: new compounds and fluorescent protein patents. Bleached species see a rise in publications, driven not only by bleaching research itself but also by increased attention to their biochemical properties and fluorescent proteins. This attention shift is matched by a rise in fluorescent-protein patent applications and grants, but not by any change in compound discovery. The publication response is significant after the first global bleaching event but fades in subsequent ones \u2014 consistent with a shifting baseline, as bleaching becomes routine post-2010. Together, the results offer preliminary evidence that basic science and firm innovation both respond to the initial shock of a climate event, but that the response weakens as the shock becomes recurrent.",
+        "bio": "PhD Student in Sustainable Development"
       }
     ]
   },
