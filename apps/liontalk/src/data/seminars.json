@@ -1,40 +1,216 @@
 [
   {
+    "department": "Center for Science and Society",
+    "series": "CSS Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Columbia Fashion, Energy, and Climate Summit",
+        "date": "21-Sep-26",
+        "location": "Location not specified",
+        "time": "8:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Governing AI: Managing Risks and Unlocking Opportunities",
+        "date": "22-Sep-26",
+        "location": "Location not specified",
+        "time": "8:30 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Sustainable Energy, Resources, and Environmental Solutions",
+        "date": "22-Sep-26",
+        "location": "Location not specified",
+        "time": "9:30 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Innovation for Climate and Clean Air Progress in the Global South",
+        "date": "22-Sep-26",
+        "location": "Location not specified",
+        "time": "1:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Gotham Foundry Symposium: Regenerative Materials Across Industries",
+        "date": "23-Sep-26",
+        "location": "Location not specified",
+        "time": "7:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "What is Left of the Paris Climate Agreement?",
+        "date": "23-Sep-26",
+        "location": "Location not specified",
+        "time": "11:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Daniela Russ - Working Nature: A History of the Energy Economy",
+        "date": "23-Sep-26",
+        "location": "Location not specified",
+        "time": "5:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Anastasia Kostina - Neurons to Narratives: Cognitive Labor and Documentary Storytelling",
+        "date": "24-Sep-26",
+        "location": "Location not specified",
+        "time": "11:15 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "The Rise of Agentic AI: What It Means for Climate Innovation",
+        "date": "24-Sep-26",
+        "location": "Location not specified",
+        "time": "9:30 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Beyond the Forecast: El Ni\u00f1o, Society, and Climate Action",
+        "date": "24-Sep-26",
+        "location": "Location not specified",
+        "time": "1:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Healthy Bodies",
+        "date": "26-Sep-26",
+        "location": "Location not specified",
+        "time": "11:30 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Elaine Van Dalen - Common Airs, Individual Remedies: Environment and Health in Tenth-Century West Asia",
+        "date": "29-Sep-26",
+        "location": "Location not specified",
+        "time": "11:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Yaatsil Guevara Gonz\u00e1lez  - Care, Guilt, and Surveillance Across Borders",
+        "date": "29-Sep-26",
+        "location": "Location not specified",
+        "time": "11:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Ernst Logar - Petroleum in (and out of) the Visual Arts",
+        "date": "29-Sep-26",
+        "location": "Location not specified",
+        "time": "11:15 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Seeds of Diaspora",
+        "date": "29-Sep-26",
+        "location": "Location not specified",
+        "time": "5:15 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Scott Knowles - The United States of Disaster: Disaster Science in America Since 2001",
+        "date": "30-Sep-26",
+        "location": "Location not specified",
+        "time": "5:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Weirong Guo\u00a0- Echoes of Silence: How Student Migrants Navigate Political Taboos Across Borders",
+        "date": "02-Oct-26",
+        "location": "Location not specified",
+        "time": "9:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "The Death of Jesse Gelsinger: A Complicated Ethical Legacy",
+        "date": "02-Oct-26",
+        "location": "Location not specified",
+        "time": "11:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "Center for Science and Society",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      }
+    ]
+  },
+  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Export Bans for Industrial Development: Evidence from Indonesian Nickel",
-        "date": "18-Sep-26",
+        "seminar_title": "Bargaining Disputes in Health Care Markets",
+        "date": "21-Sep-26",
         "location": "1101 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Patrick Farrell",
+        "time": "11:30a-12:10p",
+        "speaker": "Renee Garrow",
         "affiliation": "Columbia University",
-        "abstract": "I study the consequences of Indonesia's nickel ore export ban. Manufacturing increased sharply following the ban, largely attributable to the entry of smelters. However, villages near new smelters saw declining public-goods provision, worsening infrastructure, and rising pollution, consistent with strain on local governments. While manufacturing output grew, this growth was entirely attributable to processed nickel products as other manufacturing output fell. I use export transaction records and firm ore purchase declarations to estimate a model of two-sided market power to decompose smelter margins into output markups and input markdowns. The ban's mixed record offers lessons for countries considering similar policies.",
+        "abstract": "N/A",
         "bio": "PhD Student in Economics"
       },
       {
-        "seminar_title": "The eye of the beholder: Neighbourhood embeddings and housing prices",
-        "date": "18-Sep-26",
-        "location": "1101 IAB",
-        "time": "1:30p-3:00p",
-        "speaker": "Stephan Heblich",
-        "affiliation": "University of Toronto",
-        "abstract": "Urban neighborhoods differ along dozens of dimensions simultaneously, from building stock and greenery to walkability and transport access, yet these amenities are difficult to measure systematically at a spatial scale relevant for residential choice. This paper develops a framework for measuring neighborhood amenities from street-level and aerial imagery and embedding them into a quantitative spatial model. Using Google Street View panoramas and aerial images linked to more than one million housing transactions in the Paris metropolitan area, we construct visual embeddings summarizing the urban environment at a 50-meter resolution. In hedonic regressions, these embeddings explain a substantial share of housing price variation beyond standard housing attributes and neighborhood fixed effects. We decompose the embeddings into 62 interpretable urban concepts using a vision-language model and sparse coding, and document that their effects extend beyond the immediate location but decay rapidly with distance. We then embed these visual amenities into a quantitative spatial model of residential and workplace choice. The model recovers residential attractiveness at a granular spatial scale and decomposes it into observed visual amenities and unobserved location fundamentals. This structure allows us to quantify how counterfactual changes in the urban environment affect residential sorting and equilibrium housing prices. An extension allows households to allocate limited attention across amenity dimensions, determining which characteristics of the urban environment influence their location choices.",
-        "bio": "Professor of Economics"
-      },
-      {
-        "seminar_title": "Welfare with Discrete Choice in General Equilibrium",
-        "date": "18-Sep-26",
-        "location": "1101 IAB",
-        "time": "3:30p-5:00p",
-        "speaker": "Ariel Burstein",
-        "affiliation": "University of California, Los Angeles",
-        "abstract": "Discrete-choice general-equilibrium models are widely used to study how people sort across places, sectors, and jobs, but they lack a canonical aggregate welfare statistic. This paper characterizes a general equilibrium counterpart to cost-benefit analysis. We measure aggregate welfare by the largest uniform reduction in factor productivity such that everyone can be at least as well off as in the status quo. This quantifies total surplus left once winners compensate losers, allowing prices, wages, and choices to adjust in general equilibrium. We characterize this measure using compensated supply and demand functions. A main result is a version of Hulten's theorem for discrete-choice economies: under perfect competition, the first-order welfare effect of a productivity shock to producer i is given by its sales relative to GDP, regardless of the distribution of preferences and technologies. Beyond first order, we provide approximations in terms of observable income and expenditure shares and uncompensated supply and demand elasticities. We compare this measure with common alternatives: real GDP ignores amenity value; average utility depends on arbitrary assumptions about how ordinal preferences are mapped into cardinal utils. In an application to the U.S. Interstate Highway System, we show that average-utility estimates and the optimal place-based policies they imply vary erratically across observationally equivalent representations of the same preferences, while our welfare measure is invariant to these arbitrary assumptions.",
-        "bio": "Professor of Economics"
-      },
-      {
         "seminar_title": "Bargaining Disputes in Health Care Markets",
+        "date": "21-Sep-26",
+        "location": "1101 IAB",
+        "time": "12:10p-12:50p",
+        "speaker": "Giacomo Massimiliano Anastasia",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "The Effects of Technology Adoption Mandates",
         "date": "21-Sep-26",
         "location": "1101 IAB",
         "time": "11:30a-12:10p",
@@ -62,6 +238,36 @@
         "affiliation": "Columbia University",
         "abstract": "What shifts the direction of scientific research? Reallocating scientific effort is costly and slow, yet researchers must adapt to persistent climate shocks to keep pace with a changing natural world. This study examines how global coral bleaching events reallocate scientific effort, comparing publication volume and composition for bleached versus unbleached coral species. I then test whether this shift in academic attention translates into economically valuable outputs: new compounds and fluorescent protein patents. Bleached species see a rise in publications, driven not only by bleaching research itself but also by increased attention to their biochemical properties and fluorescent proteins. This attention shift is matched by a rise in fluorescent-protein patent applications and grants, but not by any change in compound discovery. The publication response is significant after the first global bleaching event but fades in subsequent ones \u2014 consistent with a shifting baseline, as bleaching becomes routine post-2010. Together, the results offer preliminary evidence that basic science and firm innovation both respond to the initial shock of a climate event, but that the response weakens as the shock becomes recurrent.",
         "bio": "PhD Student in Sustainable Development"
+      },
+      {
+        "seminar_title": "Who pays attention?Allocation of Information frictions and Monetary Non-neutrality",
+        "date": "21-Sep-26",
+        "location": "IAB 1101",
+        "time": "1:00p-2:30p",
+        "speaker": "Sanhitha Jugulum",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "What would it cost to end extreme poverty?",
+        "date": "21-Sep-26",
+        "location": "801 IAB",
+        "time": "3:10p-4:40p",
+        "speaker": "Roshni Sahoo",
+        "affiliation": "Columbia: Business",
+        "abstract": "We study poverty minimization via direct transfers, framing this as a statistical learning problem while retaining the information constraints faced by real-world programs. Using nationally representative household consumption surveys from 34 countries that together account for 76% of the world\u2019s poor, we estimate that reducing the poverty rate to 1% (from a baseline of 13%) would cost $211B nominal per year. This is 4.0 times the corresponding reduction in the aggregate poverty gap, but only 19% of the cost of universal basic income. Extrapolated globally, the results imply a cost of 0.28% of global GDP to (approximately) end extreme poverty.",
+        "bio": "Assistant Professor in Decision, Risk, and Operations"
+      },
+      {
+        "seminar_title": "Public-Sector Pay, Worker Selection, and Government Performance: Evidence from Locality Pay Areas in the U.S.",
+        "date": "22-Sep-26",
+        "location": "1102 IAB",
+        "time": "11:00a-12:00p",
+        "speaker": "Diego Tocre",
+        "affiliation": "Columbia University",
+        "abstract": "How does geographically differentiated public-sector pay affect the composition and performance of the federal workforce? We study the creation and expansion of Locality Pay Areas (LPAs), geographic zones where federal salaries are raised to keep pace with local private-sector wages across U.S. labor markets. Leveraging staggered county-level variation in LPA adoption and administrative payroll data, we find that federal employment in the average treated county rises 14% within seven years, an implied labor-supply elasticity near two. Growth is concentrated in occupations with strong private-sector outside options, and comes from relocating incumbent federal workers out of the urban core rather than new hires. We find no effect on service contracting.",
+        "bio": "PhD Student in Economics"
       }
     ]
   },
