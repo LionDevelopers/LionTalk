@@ -4,56 +4,6 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Bargaining Disputes in Health Care Markets",
-        "date": "21-Sep-26",
-        "location": "1101 IAB",
-        "time": "11:30a-12:10p",
-        "speaker": "Renee Garrow",
-        "affiliation": "Columbia University",
-        "abstract": "Bargaining Disputes in Health Care Markets",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "The Effects of Technology Adoption Mandates",
-        "date": "21-Sep-26",
-        "location": "1101 IAB",
-        "time": "12:10p-12:50p",
-        "speaker": "Giacomo Massimiliano Anastasia",
-        "affiliation": "Columbia University",
-        "abstract": "The Effects of Technology Adoption Mandates",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Do Climate Shocks Redirect Science? Evidence from Coral Bleaching",
-        "date": "21-Sep-26",
-        "location": "IAB 405A",
-        "time": "1:00p-2:00p",
-        "speaker": "Sahila Kudalkar",
-        "affiliation": "Columbia University",
-        "abstract": "What shifts the direction of scientific research? Reallocating scientific effort is costly and slow, yet researchers must adapt to persistent climate shocks to keep pace with a changing natural world. This study examines how global coral bleaching events reallocate scientific effort, comparing publication volume and composition for bleached versus unbleached coral species. I then test whether this shift in academic attention translates into economically valuable outputs: new compounds and fluorescent protein patents. Bleached species see a rise in publications, driven not only by bleaching research itself but also by increased attention to their biochemical properties and fluorescent proteins. This attention shift is matched by a rise in fluorescent-protein patent applications and grants, but not by any change in compound discovery. The publication response is significant after the first global bleaching event but fades in subsequent ones \u2014 consistent with a shifting baseline, as bleaching becomes routine post-2010. Together, the results offer preliminary evidence that basic science and firm innovation both respond to the initial shock of a climate event, but that the response weakens as the shock becomes recurrent.",
-        "bio": "PhD Student in Sustainable Development"
-      },
-      {
-        "seminar_title": "Who pays attention?Allocation of Information frictions and Monetary Non-neutrality",
-        "date": "21-Sep-26",
-        "location": "IAB 1101",
-        "time": "1:00p-2:30p",
-        "speaker": "Sanhitha Jugulum",
-        "affiliation": "Columbia University",
-        "abstract": "Who pays attention?Allocation of Information frictions and Monetary Non-neutrality",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "What would it cost to end extreme poverty?",
-        "date": "21-Sep-26",
-        "location": "801 IAB",
-        "time": "3:10p-4:40p",
-        "speaker": "Roshni Sahoo",
-        "affiliation": "Columbia: Business",
-        "abstract": "We study poverty minimization via direct transfers, framing this as a statistical learning problem while retaining the information constraints faced by real-world programs. Using nationally representative household consumption surveys from 34 countries that together account for 76% of the world\u2019s poor, we estimate that reducing the poverty rate to 1% (from a baseline of 13%) would cost $211B nominal per year. This is 4.0 times the corresponding reduction in the aggregate poverty gap, but only 19% of the cost of universal basic income. Extrapolated globally, the results imply a cost of 0.28% of global GDP to (approximately) end extreme poverty.",
-        "bio": "Assistant Professor in Decision, Risk, and Operations"
-      },
-      {
         "seminar_title": "Public-Sector Pay, Worker Selection, and Government Performance: Evidence from Locality Pay Areas in the U.S.",
         "date": "22-Sep-26",
         "location": "1102 IAB",
@@ -62,6 +12,56 @@
         "affiliation": "Columbia University",
         "abstract": "How does geographically differentiated public-sector pay affect the composition and performance of the federal workforce? We study the creation and expansion of Locality Pay Areas (LPAs), geographic zones where federal salaries are raised to keep pace with local private-sector wages across U.S. labor markets. Leveraging staggered county-level variation in LPA adoption and administrative payroll data, we find that federal employment in the average treated county rises 14% within seven years, an implied labor-supply elasticity near two. Growth is concentrated in occupations with strong private-sector outside options, and comes from relocating incumbent federal workers out of the urban core rather than new hires. We find no effect on service contracting.",
         "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "The Price of Trade Policy Uncertainty in the Options Market",
+        "date": "22-Sep-26",
+        "location": "1101 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Vincent Chartray",
+        "affiliation": "Columbia University",
+        "abstract": "The Price of Trade Policy Uncertainty in the Options Market",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "The international RBC model finally works!",
+        "date": "22-Sep-26",
+        "location": "1101 IAB",
+        "time": "4:15p-5:30p",
+        "speaker": "Louphou Coulibaly",
+        "affiliation": "Federal Reserve: New York",
+        "abstract": "We show that incorporating uninsurable countercyclical income risk into a standard international RBC model can qualitatively and quantitatively account for the quantity puzzles in openeconomy macro, namely (i) the Backus-Smith puzzle, (ii) the Backus-Kehoe-Kydland puzzle and (iii) the weak correlation between the trade balance and the exchange rate. We also show that our model can simultaneously account for the Fama puzzle and the evidence that high interest rate countries have stronger currencies\u2014which representative-agents models that rely only on financial or demand shocks cannot jointly account for. Crucially, our model resolves all these puzzles while relying solely on productivity shocks, and thus generates the observed domestic and cross-country macroeconomic comovement.",
+        "bio": "Research Economist"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "23-Sep-26",
+        "location": "1101 IAB",
+        "time": "1:00p-1:30p",
+        "speaker": "Bowen You",
+        "affiliation": "Columbia University",
+        "abstract": "To be announced.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Mediated Price Discrimination",
+        "date": "23-Sep-26",
+        "location": "N/A",
+        "time": "1:30p-2:00p",
+        "speaker": "Renjie Zhong",
+        "affiliation": "Columbia University",
+        "abstract": "Mediated Price Discrimination",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Rationing by Waiting, Information Frictions and Patient Behavior",
+        "date": "23-Sep-26",
+        "location": "N/A",
+        "time": "1:00p-2:00p",
+        "speaker": "Catalina G\u00f3mez Colomer",
+        "affiliation": "Columbia University",
+        "abstract": "Rationing by Waiting, Information Frictions and Patient Behavior",
+        "bio": "PhD Candidate in Economics"
       }
     ]
   },
