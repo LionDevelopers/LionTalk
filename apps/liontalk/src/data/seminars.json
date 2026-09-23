@@ -4,36 +4,6 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Public-Sector Pay, Worker Selection, and Government Performance: Evidence from Locality Pay Areas in the U.S.",
-        "date": "22-Sep-26",
-        "location": "1102 IAB",
-        "time": "11:00a-12:00p",
-        "speaker": "Diego Tocre",
-        "affiliation": "Columbia University",
-        "abstract": "How does geographically differentiated public-sector pay affect the composition and performance of the federal workforce? We study the creation and expansion of Locality Pay Areas (LPAs), geographic zones where federal salaries are raised to keep pace with local private-sector wages across U.S. labor markets. Leveraging staggered county-level variation in LPA adoption and administrative payroll data, we find that federal employment in the average treated county rises 14% within seven years, an implied labor-supply elasticity near two. Growth is concentrated in occupations with strong private-sector outside options, and comes from relocating incumbent federal workers out of the urban core rather than new hires. We find no effect on service contracting.",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "The Price of Trade Policy Uncertainty in the Options Market",
-        "date": "22-Sep-26",
-        "location": "1101 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Vincent Chartray",
-        "affiliation": "Columbia University",
-        "abstract": "The Price of Trade Policy Uncertainty in the Options Market",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "The international RBC model finally works!",
-        "date": "22-Sep-26",
-        "location": "1101 IAB",
-        "time": "4:15p-5:30p",
-        "speaker": "Louphou Coulibaly",
-        "affiliation": "Federal Reserve: New York",
-        "abstract": "We show that incorporating uninsurable countercyclical income risk into a standard international RBC model can qualitatively and quantitatively account for the quantity puzzles in openeconomy macro, namely (i) the Backus-Smith puzzle, (ii) the Backus-Kehoe-Kydland puzzle and (iii) the weak correlation between the trade balance and the exchange rate. We also show that our model can simultaneously account for the Fama puzzle and the evidence that high interest rate countries have stronger currencies\u2014which representative-agents models that rely only on financial or demand shocks cannot jointly account for. Crucially, our model resolves all these puzzles while relying solely on productivity shocks, and thus generates the observed domestic and cross-country macroeconomic comovement.",
-        "bio": "Research Economist"
-      },
-      {
         "seminar_title": "To be announced.",
         "date": "23-Sep-26",
         "location": "1101 IAB",
@@ -46,7 +16,7 @@
       {
         "seminar_title": "Mediated Price Discrimination",
         "date": "23-Sep-26",
-        "location": "N/A",
+        "location": "1101 IAB",
         "time": "1:30p-2:00p",
         "speaker": "Renjie Zhong",
         "affiliation": "Columbia University",
@@ -62,6 +32,36 @@
         "affiliation": "Columbia University",
         "abstract": "Rationing by Waiting, Information Frictions and Patient Behavior",
         "bio": "PhD Candidate in Economics"
+      },
+      {
+        "seminar_title": "Piece by Piece, Hour by Hour: Wage-Setting, Productivity, and Turnover",
+        "date": "23-Sep-26",
+        "location": "1101 IAB",
+        "time": "4:10p-5:30p",
+        "speaker": "Jared Grogan",
+        "affiliation": "Columbia University",
+        "abstract": "Piece by Piece, Hour by Hour: Wage-Setting, Productivity, and Turnover",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "The Supply of Expertise: New Technologies, New Skills, and Worker Impacts",
+        "date": "24-Sep-26",
+        "location": "Teachers College, Thompson Hall 229",
+        "time": "12:00p-1:30p",
+        "speaker": "C\u00e4cilia Vom Baur",
+        "affiliation": "Goethe Universit\u00e4t Frankfurt am Main",
+        "abstract": "Does educational content respond to technological advances, and do such changes enable workers to acquire new valuable expertise? We construct a novel database of legally binding training curricula spanning the near universe of vocational training in Germany over five decades, and link curriculum updates to breakthrough technologies using Natural Language Processing. We trace a causal chain from technological change to curriculum content to worker outcomes. Technological change spurs curriculum updates, and training content shifts toward less routine-intensive tasks. This shift occurs predominantly through the emergence of new skills related to social, digital, and problem-solving competencies, rather than the removal of old ones. This within-occupation margin is quantitatively important: curriculum updates account for two-thirds of the overall deroutinization in vocational skill supply over this period. Using administrative employer-employee data and a stacked difference-in-differences design, we show that new-skilled workers earn higher wages, especially in technology-exposed occupations, and are more likely to remain employed in their trained occupation. In contrast, older occupational incumbents experience wage declines, indicating skill obsolescence.",
+        "bio": "Professor for Organizational Economics"
+      },
+      {
+        "seminar_title": "Simple Standard Errors for Complicated (Quasi-)Experimental Designs",
+        "date": "24-Sep-26",
+        "location": "1102 IAB",
+        "time": "2:30p-4:00p",
+        "speaker": "Jonathan Roth",
+        "affiliation": "Brown University",
+        "abstract": "We develop standard errors for estimates of causal effects in settings where the distribution of treatment exposures is known but potentially exhibits complicated dependence patterns across units. Such dependence arises, for example, in settings with spillovers/interference across units or when the treatment assignment is spatially correlated. Our variance estimator generalizes several properties of the Neyman variance estimator for completely randomized experiments to general designs: it is unbiased for an upper bound on the variance from the design-based perspective; the conservativeness of this upper bound depends on the heterogeneity of treatment effects; and it is also valid under certain forms of super-population sampling of the potential outcomes. Our estimator reduces to standard approaches in simple designs, such as the Neyman variance estimator in completely randomized experiments and the cluster-robust variance estimator in cluster-randomized experiments. We show that the proposed estimator is admissible among the class of quadratic-form variance estimators, and derive asymptotic conditions under which it is consistent for an upper bound on the asymptotic variance of the treatment effect estimator. In simulations and applications based on two empirical studies, one with peer effects and another with a spatially correlated treatment, we find that the proposed variance estimator performs well, and in some cases yields standard errors that are 2-3 times shorter than those of existing alternatives.",
+        "bio": "Professor of Economics"
       }
     ]
   },
@@ -77,7 +77,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "N/A"
+        "bio": "Javier G\u00f3mez-Serrano"
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -87,7 +87,7 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "N/A"
+        "bio": "Mohammed Abouzaid"
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
@@ -97,7 +97,7 @@
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
         "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "N/A"
+        "bio": "Aaron Landesman"
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
@@ -107,7 +107,7 @@
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "N/A"
+        "bio": "Denis Nesterov"
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
@@ -117,7 +117,7 @@
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "N/A"
+        "bio": "Lucas Mason-Brown"
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -127,7 +127,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "N/A"
+        "bio": "Sky Cao"
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -137,7 +137,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "N/A"
+        "bio": "Sheldon Katz"
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -147,7 +147,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "N/A"
+        "bio": "Eric Zaslow"
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -157,7 +157,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "N/A"
+        "bio": "Artur Avila"
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -167,7 +167,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "N/A"
+        "bio": "Ishan Levy"
       }
     ]
   }
