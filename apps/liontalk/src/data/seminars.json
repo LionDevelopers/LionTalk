@@ -4,46 +4,6 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "To be announced.",
-        "date": "23-Sep-26",
-        "location": "1101 IAB",
-        "time": "1:00p-1:30p",
-        "speaker": "Bowen You",
-        "affiliation": "Columbia University",
-        "abstract": "To be announced.",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Mediated Price Discrimination",
-        "date": "23-Sep-26",
-        "location": "1101 IAB",
-        "time": "1:30p-2:00p",
-        "speaker": "Renjie Zhong",
-        "affiliation": "Columbia University",
-        "abstract": "Mediated Price Discrimination",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Rationing by Waiting, Information Frictions and Patient Behavior",
-        "date": "23-Sep-26",
-        "location": "N/A",
-        "time": "1:00p-2:00p",
-        "speaker": "Catalina G\u00f3mez Colomer",
-        "affiliation": "Columbia University",
-        "abstract": "Rationing by Waiting, Information Frictions and Patient Behavior",
-        "bio": "PhD Candidate in Economics"
-      },
-      {
-        "seminar_title": "Piece by Piece, Hour by Hour: Wage-Setting, Productivity, and Turnover",
-        "date": "23-Sep-26",
-        "location": "1101 IAB",
-        "time": "4:10p-5:30p",
-        "speaker": "Jared Grogan",
-        "affiliation": "Columbia University",
-        "abstract": "Piece by Piece, Hour by Hour: Wage-Setting, Productivity, and Turnover",
-        "bio": "PhD Student in Economics"
-      },
-      {
         "seminar_title": "The Supply of Expertise: New Technologies, New Skills, and Worker Impacts",
         "date": "24-Sep-26",
         "location": "Teachers College, Thompson Hall 229",
@@ -62,6 +22,46 @@
         "affiliation": "Brown University",
         "abstract": "We develop standard errors for estimates of causal effects in settings where the distribution of treatment exposures is known but potentially exhibits complicated dependence patterns across units. Such dependence arises, for example, in settings with spillovers/interference across units or when the treatment assignment is spatially correlated. Our variance estimator generalizes several properties of the Neyman variance estimator for completely randomized experiments to general designs: it is unbiased for an upper bound on the variance from the design-based perspective; the conservativeness of this upper bound depends on the heterogeneity of treatment effects; and it is also valid under certain forms of super-population sampling of the potential outcomes. Our estimator reduces to standard approaches in simple designs, such as the Neyman variance estimator in completely randomized experiments and the cluster-robust variance estimator in cluster-randomized experiments. We show that the proposed estimator is admissible among the class of quadratic-form variance estimators, and derive asymptotic conditions under which it is consistent for an upper bound on the asymptotic variance of the treatment effect estimator. In simulations and applications based on two empirical studies, one with peer effects and another with a spatially correlated treatment, we find that the proposed variance estimator performs well, and in some cases yields standard errors that are 2-3 times shorter than those of existing alternatives.",
         "bio": "Professor of Economics"
+      },
+      {
+        "seminar_title": "Quality Upgrading in Global Supply Chains: Evidence from Colombian Coffee",
+        "date": "24-Sep-26",
+        "location": "1101 IAB",
+        "time": "4:10p-5:25p",
+        "speaker": "Rocco Macchiavello",
+        "affiliation": "London School of Economics and Political Science",
+        "abstract": "Do the returns to quality upgrading pass through supply chains to primary producers? We explore this question in the context of Colombia\u2019s coffee sector, in which market outcomes depend on interactions between farmers, exporters (which operate mills), and international buyers, and contracts are for the most part not legally enforceable. We formalize the hypothesis that quality upgrading is subject to a key hold-up problem: producing high-quality beans requires long-term investments by farmers, but there is no guarantee that an exporter will pay a quality premium when the beans arrive at its mills. An international buyer with sufficient demand for high- quality coffee can solve this problem by imposing a vertical restraint on the exporter, requiring the exporter to pay a quality premium to farmers. Combining internal records from two exporters, comprehensive administrative data, and the staggered rollout of a buyer-driven quality-upgrading program, we find empirical support for the key theoretical predictions, both the lack of pass-through of quality premia un- der normal circumstances and the possibility of a buyer-driven solution through a vertical restraint. Calibration of the model suggests that one-third to two-thirds of the (substantial) gains from the program accrue to farmers, with the vertical restraint playing a critical role. The results are consistent with the hypotheses that quality up- grading can provide a path to higher incomes for farmers, but also that it is unlikely to be viable under standard market conditions in the sector.",
+        "bio": "Professor of Management"
+      },
+      {
+        "seminar_title": "Political turnover and lasting pregnancy effects",
+        "date": "25-Sep-26",
+        "location": "1101 IAB",
+        "time": "10:00a-10:30a",
+        "speaker": "Helena Arruda",
+        "affiliation": "Columbia University",
+        "abstract": "Can political turnover and government transitions, though transitory, have lasting impacts on development outcomes? We hypothesize that such effects may arise when transitions coincide with critical periods for human development. Using monthly administrative data from Brazilian municipalities, and adopting both an event study around close elections and a standard regression discontinuity design for identification, we find that turnover leads to sharp but temporary declines in primary healthcare provision. Prenatal consultations fall by 8.5% relative to baseline, with disruptions concentrated just around the transition months. We then estimate a model that links birth outcomes and infant mortality rates to gestational timing of exposure. We find that exposure during the second trimester of gestation is associated with lower birth weight, reduced total number of prenatal consultations during gestation. We document an increase of 1.1 total deaths and 1.3 preventable deaths per 1,000 live births. These effects manifest after the new administration takes office but reflect exposure to institutional instability during gestation. We further show that municipal personnel dismissals, especially among high-level healthcare workers, increase significantly during the transition window and precede the collapse in service delivery. Together, the results highlight how even short-lived political transitions can generate meaningful and unequal consequences when they intersect with sensitive periods of human development.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Political turnover and lasting pregnancy effects",
+        "date": "25-Sep-26",
+        "location": "N/A",
+        "time": "10:30a-11:00a",
+        "speaker": "Helena Arruda",
+        "affiliation": "Columbia University",
+        "abstract": "Can political turnover and government transitions, though transitory, have lasting impacts on development outcomes? We hypothesize that such effects may arise when transitions coincide with critical periods for human development. Using monthly administrative data from Brazilian municipalities, and adopting both an event study around close elections and a standard regression discontinuity design for identification, we find that turnover leads to sharp but temporary declines in primary healthcare provision. Prenatal consultations fall by 8.5% relative to baseline, with disruptions concentrated just around the transition months. We then estimate a model that links birth outcomes and infant mortality rates to gestational timing of exposure. We find that exposure during the second trimester of gestation is associated with lower birth weight, reduced total number of prenatal consultations during gestation. We document an increase of 1.1 total deaths and 1.3 preventable deaths per 1,000 live births. These effects manifest after the new administration takes office but reflect exposure to institutional instability during gestation. We further show that municipal personnel dismissals, especially among high-level healthcare workers, increase significantly during the transition window and precede the collapse in service delivery. Together, the results highlight how even short-lived political transitions can generate meaningful and unequal consequences when they intersect with sensitive periods of human development.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Firm Transparency and the Direction of Entrepreneurial Growth",
+        "date": "25-Sep-26",
+        "location": "1101 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Madhav Malhotra",
+        "affiliation": "Columbia: Business",
+        "abstract": "N/A",
+        "bio": "PhD Candidate"
       }
     ]
   },
@@ -77,7 +77,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "Javier G\u00f3mez-Serrano"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -87,7 +87,7 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "Mohammed Abouzaid"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
@@ -97,7 +97,7 @@
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
         "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "Aaron Landesman"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
@@ -107,7 +107,7 @@
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "Denis Nesterov"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
@@ -117,7 +117,7 @@
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "Lucas Mason-Brown"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -127,7 +127,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "Sky Cao"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -137,7 +137,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "Sheldon Katz"
+        "bio": "N/A"
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -147,7 +147,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "Eric Zaslow"
+        "bio": "N/A"
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -157,7 +157,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "Artur Avila"
+        "bio": "N/A"
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -167,7 +167,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "Ishan Levy"
+        "bio": "N/A"
       }
     ]
   }
