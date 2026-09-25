@@ -4,16 +4,6 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "The Supply of Expertise: New Technologies, New Skills, and Worker Impacts",
-        "date": "24-Sep-26",
-        "location": "Teachers College, Thompson Hall 229",
-        "time": "12:00p-1:30p",
-        "speaker": "C\u00e4cilia Vom Baur",
-        "affiliation": "Goethe Universit\u00e4t Frankfurt am Main",
-        "abstract": "Does educational content respond to technological advances, and do such changes enable workers to acquire new valuable expertise? We construct a novel database of legally binding training curricula spanning the near universe of vocational training in Germany over five decades, and link curriculum updates to breakthrough technologies using Natural Language Processing. We trace a causal chain from technological change to curriculum content to worker outcomes. Technological change spurs curriculum updates, and training content shifts toward less routine-intensive tasks. This shift occurs predominantly through the emergence of new skills related to social, digital, and problem-solving competencies, rather than the removal of old ones. This within-occupation margin is quantitatively important: curriculum updates account for two-thirds of the overall deroutinization in vocational skill supply over this period. Using administrative employer-employee data and a stacked difference-in-differences design, we show that new-skilled workers earn higher wages, especially in technology-exposed occupations, and are more likely to remain employed in their trained occupation. In contrast, older occupational incumbents experience wage declines, indicating skill obsolescence.",
-        "bio": "Professor for Organizational Economics"
-      },
-      {
         "seminar_title": "Simple Standard Errors for Complicated (Quasi-)Experimental Designs",
         "date": "24-Sep-26",
         "location": "1102 IAB",
@@ -22,16 +12,6 @@
         "affiliation": "Brown University",
         "abstract": "We develop standard errors for estimates of causal effects in settings where the distribution of treatment exposures is known but potentially exhibits complicated dependence patterns across units. Such dependence arises, for example, in settings with spillovers/interference across units or when the treatment assignment is spatially correlated. Our variance estimator generalizes several properties of the Neyman variance estimator for completely randomized experiments to general designs: it is unbiased for an upper bound on the variance from the design-based perspective; the conservativeness of this upper bound depends on the heterogeneity of treatment effects; and it is also valid under certain forms of super-population sampling of the potential outcomes. Our estimator reduces to standard approaches in simple designs, such as the Neyman variance estimator in completely randomized experiments and the cluster-robust variance estimator in cluster-randomized experiments. We show that the proposed estimator is admissible among the class of quadratic-form variance estimators, and derive asymptotic conditions under which it is consistent for an upper bound on the asymptotic variance of the treatment effect estimator. In simulations and applications based on two empirical studies, one with peer effects and another with a spatially correlated treatment, we find that the proposed variance estimator performs well, and in some cases yields standard errors that are 2-3 times shorter than those of existing alternatives.",
         "bio": "Professor of Economics"
-      },
-      {
-        "seminar_title": "Quality Upgrading in Global Supply Chains: Evidence from Colombian Coffee",
-        "date": "24-Sep-26",
-        "location": "1101 IAB",
-        "time": "4:10p-5:25p",
-        "speaker": "Rocco Macchiavello",
-        "affiliation": "London School of Economics and Political Science",
-        "abstract": "Do the returns to quality upgrading pass through supply chains to primary producers? We explore this question in the context of Colombia\u2019s coffee sector, in which market outcomes depend on interactions between farmers, exporters (which operate mills), and international buyers, and contracts are for the most part not legally enforceable. We formalize the hypothesis that quality upgrading is subject to a key hold-up problem: producing high-quality beans requires long-term investments by farmers, but there is no guarantee that an exporter will pay a quality premium when the beans arrive at its mills. An international buyer with sufficient demand for high- quality coffee can solve this problem by imposing a vertical restraint on the exporter, requiring the exporter to pay a quality premium to farmers. Combining internal records from two exporters, comprehensive administrative data, and the staggered rollout of a buyer-driven quality-upgrading program, we find empirical support for the key theoretical predictions, both the lack of pass-through of quality premia un- der normal circumstances and the possibility of a buyer-driven solution through a vertical restraint. Calibration of the model suggests that one-third to two-thirds of the (substantial) gains from the program accrue to farmers, with the vertical restraint playing a critical role. The results are consistent with the hypotheses that quality up- grading can provide a path to higher incomes for farmers, but also that it is unlikely to be viable under standard market conditions in the sector.",
-        "bio": "Professor of Management"
       },
       {
         "seminar_title": "Political turnover and lasting pregnancy effects",
@@ -46,7 +26,7 @@
       {
         "seminar_title": "Political turnover and lasting pregnancy effects",
         "date": "25-Sep-26",
-        "location": "N/A",
+        "location": "1101 IAB",
         "time": "10:30a-11:00a",
         "speaker": "Helena Arruda",
         "affiliation": "Columbia University",
@@ -60,8 +40,38 @@
         "time": "12:00p-1:00p",
         "speaker": "Madhav Malhotra",
         "affiliation": "Columbia: Business",
-        "abstract": "N/A",
+        "abstract": "Not available.",
         "bio": "PhD Candidate"
+      },
+      {
+        "seminar_title": "Certifying Family-Friendly Employers: Evidence from Japan",
+        "date": "28-Sep-26",
+        "location": "1101 IAB",
+        "time": "11:30a-12:10p",
+        "speaker": "Oksana Kuznetsova",
+        "affiliation": "Columbia University",
+        "abstract": "Not available.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Benchmark Distortions in Commodity Markets",
+        "date": "28-Sep-26",
+        "location": "1101 IAB",
+        "time": "12:10p-12:50p",
+        "speaker": "Diogo Wolff Surdi",
+        "affiliation": "Columbia University",
+        "abstract": "Not available.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Priced Out: Financing Frictions and Startup Mortality",
+        "date": "28-Sep-26",
+        "location": "IAB 1101",
+        "time": "1:00p-2:30p",
+        "speaker": "Rodrigo Pacheco",
+        "affiliation": "Columbia University",
+        "abstract": "Not available.",
+        "bio": "PhD Candidate in Economics"
       }
     ]
   },
