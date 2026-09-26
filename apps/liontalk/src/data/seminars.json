@@ -4,54 +4,34 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Simple Standard Errors for Complicated (Quasi-)Experimental Designs",
-        "date": "24-Sep-26",
-        "location": "1102 IAB",
-        "time": "2:30p-4:00p",
-        "speaker": "Jonathan Roth",
-        "affiliation": "Brown University",
-        "abstract": "We develop standard errors for estimates of causal effects in settings where the distribution of treatment exposures is known but potentially exhibits complicated dependence patterns across units. Such dependence arises, for example, in settings with spillovers/interference across units or when the treatment assignment is spatially correlated. Our variance estimator generalizes several properties of the Neyman variance estimator for completely randomized experiments to general designs: it is unbiased for an upper bound on the variance from the design-based perspective; the conservativeness of this upper bound depends on the heterogeneity of treatment effects; and it is also valid under certain forms of super-population sampling of the potential outcomes. Our estimator reduces to standard approaches in simple designs, such as the Neyman variance estimator in completely randomized experiments and the cluster-robust variance estimator in cluster-randomized experiments. We show that the proposed estimator is admissible among the class of quadratic-form variance estimators, and derive asymptotic conditions under which it is consistent for an upper bound on the asymptotic variance of the treatment effect estimator. In simulations and applications based on two empirical studies, one with peer effects and another with a spatially correlated treatment, we find that the proposed variance estimator performs well, and in some cases yields standard errors that are 2-3 times shorter than those of existing alternatives.",
-        "bio": "Professor of Economics"
-      },
-      {
-        "seminar_title": "Political turnover and lasting pregnancy effects",
-        "date": "25-Sep-26",
-        "location": "1101 IAB",
-        "time": "10:00a-10:30a",
-        "speaker": "Helena Arruda",
-        "affiliation": "Columbia University",
-        "abstract": "Can political turnover and government transitions, though transitory, have lasting impacts on development outcomes? We hypothesize that such effects may arise when transitions coincide with critical periods for human development. Using monthly administrative data from Brazilian municipalities, and adopting both an event study around close elections and a standard regression discontinuity design for identification, we find that turnover leads to sharp but temporary declines in primary healthcare provision. Prenatal consultations fall by 8.5% relative to baseline, with disruptions concentrated just around the transition months. We then estimate a model that links birth outcomes and infant mortality rates to gestational timing of exposure. We find that exposure during the second trimester of gestation is associated with lower birth weight, reduced total number of prenatal consultations during gestation. We document an increase of 1.1 total deaths and 1.3 preventable deaths per 1,000 live births. These effects manifest after the new administration takes office but reflect exposure to institutional instability during gestation. We further show that municipal personnel dismissals, especially among high-level healthcare workers, increase significantly during the transition window and precede the collapse in service delivery. Together, the results highlight how even short-lived political transitions can generate meaningful and unequal consequences when they intersect with sensitive periods of human development.",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Political turnover and lasting pregnancy effects",
-        "date": "25-Sep-26",
-        "location": "1101 IAB",
-        "time": "10:30a-11:00a",
-        "speaker": "Helena Arruda",
-        "affiliation": "Columbia University",
-        "abstract": "Can political turnover and government transitions, though transitory, have lasting impacts on development outcomes? We hypothesize that such effects may arise when transitions coincide with critical periods for human development. Using monthly administrative data from Brazilian municipalities, and adopting both an event study around close elections and a standard regression discontinuity design for identification, we find that turnover leads to sharp but temporary declines in primary healthcare provision. Prenatal consultations fall by 8.5% relative to baseline, with disruptions concentrated just around the transition months. We then estimate a model that links birth outcomes and infant mortality rates to gestational timing of exposure. We find that exposure during the second trimester of gestation is associated with lower birth weight, reduced total number of prenatal consultations during gestation. We document an increase of 1.1 total deaths and 1.3 preventable deaths per 1,000 live births. These effects manifest after the new administration takes office but reflect exposure to institutional instability during gestation. We further show that municipal personnel dismissals, especially among high-level healthcare workers, increase significantly during the transition window and precede the collapse in service delivery. Together, the results highlight how even short-lived political transitions can generate meaningful and unequal consequences when they intersect with sensitive periods of human development.",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Firm Transparency and the Direction of Entrepreneurial Growth",
-        "date": "25-Sep-26",
-        "location": "1101 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Madhav Malhotra",
-        "affiliation": "Columbia: Business",
-        "abstract": "Not available.",
-        "bio": "PhD Candidate"
-      },
-      {
         "seminar_title": "Certifying Family-Friendly Employers: Evidence from Japan",
         "date": "28-Sep-26",
         "location": "1101 IAB",
         "time": "11:30a-12:10p",
         "speaker": "Oksana Kuznetsova",
         "affiliation": "Columbia University",
-        "abstract": "Not available.",
-        "bio": "PhD Student in Economics"
+        "abstract": "Certifying Family-Friendly Employers: Evidence from Japan",
+        "bio": "Oksana Kuznetsova\nPhD Student in Economics\nColumbia University"
+      },
+      {
+        "seminar_title": "Certifying Family-Friendly Employers: Evidence from Japan",
+        "date": "28-Sep-26",
+        "location": "1101 IAB",
+        "time": "12:10p-12:50p",
+        "speaker": "Diogo Wolff Surdi",
+        "affiliation": "Columbia University",
+        "abstract": "Certifying Family-Friendly Employers: Evidence from Japan",
+        "bio": "Diogo Wolff Surdi\nPhD Student in Economics\nColumbia University"
+      },
+      {
+        "seminar_title": "Benchmark Distortions in Commodity Markets",
+        "date": "28-Sep-26",
+        "location": "1101 IAB",
+        "time": "11:30a-12:10p",
+        "speaker": "Oksana Kuznetsova",
+        "affiliation": "Columbia University",
+        "abstract": "Benchmark Distortions in Commodity Markets",
+        "bio": "Oksana Kuznetsova\nPhD Student in Economics\nColumbia University"
       },
       {
         "seminar_title": "Benchmark Distortions in Commodity Markets",
@@ -60,8 +40,8 @@
         "time": "12:10p-12:50p",
         "speaker": "Diogo Wolff Surdi",
         "affiliation": "Columbia University",
-        "abstract": "Not available.",
-        "bio": "PhD Student in Economics"
+        "abstract": "Benchmark Distortions in Commodity Markets",
+        "bio": "Diogo Wolff Surdi\nPhD Student in Economics\nColumbia University"
       },
       {
         "seminar_title": "Priced Out: Financing Frictions and Startup Mortality",
@@ -70,8 +50,38 @@
         "time": "1:00p-2:30p",
         "speaker": "Rodrigo Pacheco",
         "affiliation": "Columbia University",
-        "abstract": "Not available.",
-        "bio": "PhD Candidate in Economics"
+        "abstract": "Priced Out: Financing Frictions and Startup Mortality",
+        "bio": "Rodrigo Pacheco\nPhD Candidate in Economics\nColumbia University"
+      },
+      {
+        "seminar_title": "The Volatility of Marginal Information Rents in Dynamic Mechanism Design",
+        "date": "28-Sep-26",
+        "location": "IAB 1102",
+        "time": "1:00p-2:15p",
+        "speaker": "Daniel Chen",
+        "affiliation": "Princeton University",
+        "abstract": "This paper brings martingale methods of continuous-time contracting to Myersonian dynamic mechanism design. In a benchmark setting, I show that implementability is characterized by the volatility of the agent's marginal information rent\u2014how the marginal rent responds to innovations in his type. Once transfers satisfy the usual envelope conditions, truthful reporting after the initial report is locally incentive compatible if and only if the discounted volatility is a nonnegative supermartingale. When the volatility has finite variation, the same condition is necessary and sufficient for global incentive compatibility after the initial report. Using this characterization, I cast the design problem as optimal control, which applies even when the first-order approach fails: one program solves for the optimal mechanism in a regular finite-variation class, and another for the optimal locally incentive-compatible mechanism. The two bracket the designer's true payoff. I apply the results to financial market design (a monopolistic dealer, then an exchange).",
+        "bio": "Daniel Chen\nAssistant Professor of Economics\nPrinceton University"
+      },
+      {
+        "seminar_title": "Biodiversity Offsets",
+        "date": "28-Sep-26",
+        "location": "IAB 405A",
+        "time": "1:00p-2:00p",
+        "speaker": "Sean Reese",
+        "affiliation": "Columbia University",
+        "abstract": "Accelerating biodiversity loss has intensified the pressure on firms to offset their ecological impacts. We present the first comprehensive evaluation of one of the world's oldest biodiversity offset policies: compensatory mitigation under the U.S. Endangered Species Act. By combining four decades of satellite land-use imagery with ecological survey and citizen science data, we find that highly regulated offset projects (\u201cconservation banks\u201d) yield positive ecological spillovers and curb internal land-use pressure, but less supervised offsetting projects (\"permittee-responsible mitigation\") do not. Despite these localized gains, conservation banks are poorly sited across space. Using a stylized model of optimal bank placement, we demonstrate that conservation banks are systematically located in areas with minimal threats of development, calling into question their additionality. This inefficiency stems from a core policy design flaw: offset creation operates strictly on the extensive margin, generating offsets based on land area while failing to discriminate based on threat level or habitat quality. As voluntary and regulatory biodiversity markets expand worldwide, these results emphasize that offset frameworks must incorporate conversion risk to ensure additionality.",
+        "bio": "Sean Reese\nPhD Student in Sustainable Development\nColumbia University"
+      },
+      {
+        "seminar_title": "Pricing wildfire smoke avoidance: activity reallocation from mobility data",
+        "date": "28-Sep-26",
+        "location": "801 IAB",
+        "time": "3:10p-4:40p",
+        "speaker": "Clara Berestycki",
+        "affiliation": "Columbia University",
+        "abstract": "This paper estimates the welfare cost of avoiding wildfire smoke during the 2018 Northern California fire season. Using individual smartphone location data, I construct daily ZIP-to-ZIP trip flows across activity types, including outdoor recreation, work, and other trips. I embed these flows in a nested logit model of activity participation and destination choice, with destination choice estimated as a gravity equation over a comprehensive choice set. Smoke deters both leaving home and visiting polluted locations. I find that people substitute away from smoky outdoor destinations, and that wildfire smoke shifts the composition of daily activities: the share of outdoor activities falls, but so do the shares of work and other trips. The welfare cost of this avoidance behavior is around $500M, adding 14% to the mortality burden of the same smoke. Air quality alerts increase avoidance, and under alert-level awareness of moderate smoke, welfare costs would be 20% higher.",
+        "bio": "Clara Berestycki\nPhD Student in Sustainable Development\nColumbia University"
       }
     ]
   },
