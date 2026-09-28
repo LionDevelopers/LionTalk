@@ -1,5 +1,151 @@
 [
   {
+    "department": "Center for Science and Society",
+    "series": "CSS Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Elaine Van Dalen - Common Airs, Individual Remedies: Environment and Health in Tenth-Century West Asia",
+        "date": "29-Sep-26",
+        "location": "Location not specified",
+        "time": "11:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Yaatsil Guevara Gonz\neighborhoodlez  - Care, Guilt, and Surveillance Across Borders",
+        "date": "29-Sep-26",
+        "location": "Location not specified",
+        "time": "11:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Ernst Logar - Petroleum in (and out of) the Visual Arts",
+        "date": "29-Sep-26",
+        "location": "Location not specified",
+        "time": "11:15 AM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Seeds of Diaspora",
+        "date": "29-Sep-26",
+        "location": "Location not specified",
+        "time": "5:15 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Greg Woolf - Scaling Seasonality. The Rhythms of Life across Ancient Empires",
+        "date": "30-Sep-26",
+        "location": "Location not specified",
+        "time": "1:10 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Canceled: Scott Knowles - The United States of Disaster: Disaster Science in America Since 2001",
+        "date": "30-Sep-26",
+        "location": "Location not specified",
+        "time": "5:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Weirong Guo\neighborhood - Echoes of Silence: How Student Migrants Navigate Political Taboos Across Borders",
+        "date": "02-Oct-26",
+        "location": "Location not specified",
+        "time": "9:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "The Death of Jesse Gelsinger: A Complicated Ethical Legacy",
+        "date": "02-Oct-26",
+        "location": "Location not specified",
+        "time": "11:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Sarah Ruhl - Embodied Memory",
+        "date": "05-Oct-26",
+        "location": "Location not specified",
+        "time": "3:00 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Dan Wang - Breakneck: China's Quest to Engineer the Future",
+        "date": "06-Oct-26",
+        "location": "Location not specified",
+        "time": "11:30 AM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Surveillance Tech and the Fight for Immigrant Justice",
+        "date": "06-Oct-26",
+        "location": "Location not specified",
+        "time": "5:30 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "The Supreme Court vs Bioethics?",
+        "date": "07-Oct-26",
+        "location": "Location not specified",
+        "time": "5:15 PM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "What Do China\neighborhoods Recent Gene Editing Deaths Mean for CRISPR Research?",
+        "date": "09-Oct-26",
+        "location": "Location not specified",
+        "time": "11:00 AM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      },
+      {
+        "seminar_title": "Governing AI in Health",
+        "date": "09-Oct-26",
+        "location": "Location not specified",
+        "time": "7:30 AM",
+        "speaker": "See Abstract",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Not detected in text"
+      }
+    ]
+  },
+  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
@@ -10,7 +156,7 @@
         "time": "11:30a-12:10p",
         "speaker": "Oksana Kuznetsova",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
+        "abstract": "This paper discusses the evidence from Japan on certifying family-friendly employers.",
         "bio": "PhD Student in Economics"
       },
       {
@@ -20,7 +166,7 @@
         "time": "12:10p-12:50p",
         "speaker": "Diogo Wolff Surdi",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
+        "abstract": "This paper examines benchmark distortions in commodity markets.",
         "bio": "PhD Student in Economics"
       },
       {
@@ -30,7 +176,7 @@
         "time": "1:00p-2:30p",
         "speaker": "Rodrigo Pacheco",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
+        "abstract": "This paper investigates how financing frictions impact startup mortality.",
         "bio": "PhD Candidate in Economics"
       },
       {
