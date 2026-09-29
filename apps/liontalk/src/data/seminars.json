@@ -1,213 +1,57 @@
 [
   {
-    "department": "Center for Science and Society",
-    "series": "CSS Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "Elaine Van Dalen - Common Airs, Individual Remedies: Environment and Health in Tenth-Century West Asia",
-        "date": "29-Sep-26",
-        "location": "Location not specified",
-        "time": "11:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Yaatsil Guevara Gonz\neighborhoodlez  - Care, Guilt, and Surveillance Across Borders",
-        "date": "29-Sep-26",
-        "location": "Location not specified",
-        "time": "11:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Ernst Logar - Petroleum in (and out of) the Visual Arts",
-        "date": "29-Sep-26",
-        "location": "Location not specified",
-        "time": "11:15 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Seeds of Diaspora",
-        "date": "29-Sep-26",
-        "location": "Location not specified",
-        "time": "5:15 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Greg Woolf - Scaling Seasonality. The Rhythms of Life across Ancient Empires",
-        "date": "30-Sep-26",
-        "location": "Location not specified",
-        "time": "1:10 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Canceled: Scott Knowles - The United States of Disaster: Disaster Science in America Since 2001",
-        "date": "30-Sep-26",
-        "location": "Location not specified",
-        "time": "5:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Weirong Guo\neighborhood - Echoes of Silence: How Student Migrants Navigate Political Taboos Across Borders",
-        "date": "02-Oct-26",
-        "location": "Location not specified",
-        "time": "9:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "The Death of Jesse Gelsinger: A Complicated Ethical Legacy",
-        "date": "02-Oct-26",
-        "location": "Location not specified",
-        "time": "11:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Sarah Ruhl - Embodied Memory",
-        "date": "05-Oct-26",
-        "location": "Location not specified",
-        "time": "3:00 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Dan Wang - Breakneck: China's Quest to Engineer the Future",
-        "date": "06-Oct-26",
-        "location": "Location not specified",
-        "time": "11:30 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Surveillance Tech and the Fight for Immigrant Justice",
-        "date": "06-Oct-26",
-        "location": "Location not specified",
-        "time": "5:30 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "The Supreme Court vs Bioethics?",
-        "date": "07-Oct-26",
-        "location": "Location not specified",
-        "time": "5:15 PM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "What Do China\neighborhoods Recent Gene Editing Deaths Mean for CRISPR Research?",
-        "date": "09-Oct-26",
-        "location": "Location not specified",
-        "time": "11:00 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      },
-      {
-        "seminar_title": "Governing AI in Health",
-        "date": "09-Oct-26",
-        "location": "Location not specified",
-        "time": "7:30 AM",
-        "speaker": "See Abstract",
-        "affiliation": "N/A",
-        "abstract": "N/A",
-        "bio": "Not detected in text"
-      }
-    ]
-  },
-  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Certifying Family-Friendly Employers: Evidence from Japan\n                                    \n                                ",
-        "date": "28-Sep-26",
-        "location": "1101 IAB",
-        "time": "11:30a-12:10p",
-        "speaker": "Oksana Kuznetsova",
+        "seminar_title": "Managerial Experience, Firm Size, and Economic Development: Evidence from Japan\u2019s Decolonization",
+        "date": "29-Sep-26",
+        "location": "1102 IAB",
+        "time": "11:00a-12:00p",
+        "speaker": "Shizuka Inoue",
         "affiliation": "Columbia University",
-        "abstract": "This paper discusses the evidence from Japan on certifying family-friendly employers.",
+        "abstract": "I study how the scarcity of workers with managerial experience limits firm size and economic development, combining evidence from a natural experiment with a quantitative model. After World War II, three million Japanese civilians, many of them with managerial experience, were forced to return to Japan. I use repatriates' historical family ties to Japanese districts to isolate exogenous variation in local inflows of workers with managerial experience. The inflow shifted employment from self-employment toward wage work and from agriculture toward manufacturing and services. Firms grew larger, expanded beyond their headquarters cities, and participated more in overseas programs teaching modern U.S. management practices. I develop a spatial model in which managerial experience expands the pool of workers qualified for management. Managers supervise production within establishments and implement practices that raise productivity across the firm's establishment network. Removing the managerial experience of these repatriates lowers aggregate output per worker by 4 percent. Firms' geographic expansion accounts for about a quarter of this effect, amplifying the aggregate impact from managerial experience.",
         "bio": "PhD Student in Economics"
       },
       {
-        "seminar_title": "Benchmark Distortions in Commodity Markets\n                                    \n                                ",
-        "date": "28-Sep-26",
+        "seminar_title": "Does Broadband Reduce or Reallocate Pollution? Evidence from a $20 Billion Auction",
+        "date": "29-Sep-26",
         "location": "1101 IAB",
-        "time": "12:10p-12:50p",
-        "speaker": "Diogo Wolff Surdi",
+        "time": "12:00p-1:00p",
+        "speaker": "Junho Choi",
         "affiliation": "Columbia University",
-        "abstract": "This paper examines benchmark distortions in commodity markets.",
-        "bio": "PhD Student in Economics"
+        "abstract": "This is an abstract for the paper 'Does Broadband Reduce or Reallocate Pollution? Evidence from a $20 Billion Auction'.",
+        "bio": "PhD Student in SIPA"
       },
       {
-        "seminar_title": "Priced Out: Financing Frictions and Startup Mortality\n                                    \n                                ",
-        "date": "28-Sep-26",
-        "location": "IAB 1101",
-        "time": "1:00p-2:30p",
-        "speaker": "Rodrigo Pacheco",
-        "affiliation": "Columbia University",
-        "abstract": "This paper investigates how financing frictions impact startup mortality.",
-        "bio": "PhD Candidate in Economics"
+        "seminar_title": "Ecological Imperialism: Climate and the Demographic Success of European Settlement",
+        "date": "29-Sep-26",
+        "location": "Room 707",
+        "time": "12:15p-1:30p",
+        "speaker": "Marco Tabellini",
+        "affiliation": "Harvard: Business",
+        "abstract": "Since 1500, millions of Europeans settled overseas, and by 2000 nearly half of all people of European descent lived outside Europe. Yet, the scale and persistence of European settlement varied dramatically across destinations. What explains where Europeans settled overseas and why some settler populations expanded while others did not? We test Alfred Crosby's Ecological Imperialism hypothesis that ecological compatibility between Europe and overseas territories shaped the demographic success of European settlement. We combine genealogical microdata on more than 290,000 Europeans born between 1500 and 1850 who died outside Europe with high-resolution climate and agronomic data to measure ecological similarity between settlers' origins and destinations. We first show that both temperature and agronomic distance reduced permanent European settlement. We then document that temperature, but not agronomic, distance also reduced settlers' longevity and fertility. Finally, we show that locations where European settlers faced greater temperature and agronomic distance have lower agricultural output today, even within countries. Temperature distance further predicts lower nighttime luminosity, suggesting that its relationship with long-run development extended beyond agriculture, whereas agronomic distance was related only to agricultural output.",
+        "bio": "Assistant Professor of Business Administration"
       },
       {
-        "seminar_title": "The Volatility of Marginal Information Rents in Dynamic Mechanism Design\n                                    \n                                    ",
-        "date": "28-Sep-26",
-        "location": "IAB 1102",
-        "time": "1:00p-2:15p",
-        "speaker": "Daniel Chen",
+        "seminar_title": "To be announced.",
+        "date": "29-Sep-26",
+        "location": "1101 IAB",
+        "time": "2:45p-4:00p",
+        "speaker": "Maya Norman",
+        "affiliation": "Columbia University",
+        "abstract": "To be announced.",
+        "bio": "PhD Student in Sustainable Development"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "29-Sep-26",
+        "location": "1101 IAB",
+        "time": "4:15p-5:30p",
+        "speaker": "Moritz Lenel",
         "affiliation": "Princeton University",
-        "abstract": "This paper brings martingale methods of continuous-time contracting to Myersonian dynamic mechanism design. In a benchmark setting, I show that implementability is characterized by the volatility of the agent's marginal information rent\u2014how the marginal rent responds to innovations in his type. Once transfers satisfy the usual envelope conditions, truthful reporting after the initial report is locally incentive compatible if and only if the discounted volatility is a nonnegative supermartingale. When the volatility has finite variation, the same condition is necessary and sufficient for global incentive compatibility after the initial report. Using this characterization, I cast the design problem as optimal control, which applies even when the first-order approach fails: one program solves for the optimal mechanism in a regular finite-variation class, and another for the optimal locally incentive-compatible mechanism. The two bracket the designer's true payoff. I apply the results to financial market design (a monopolistic dealer, then an exchange).",
+        "abstract": "To be announced.",
         "bio": "Assistant Professor of Economics"
-      },
-      {
-        "seminar_title": "Biodiversity Offsets\n                                    \n                                ",
-        "date": "28-Sep-26",
-        "location": "IAB 405A",
-        "time": "1:00p-2:00p",
-        "speaker": "Sean Reese",
-        "affiliation": "Columbia University",
-        "abstract": "Accelerating biodiversity loss has intensified the pressure on firms to offset their ecological impacts. We present the first comprehensive evaluation of one of the world's oldest biodiversity offset policies: compensatory mitigation under the U.S. Endangered Species Act. By combining four decades of satellite land-use imagery with ecological survey and citizen science data, we find that highly regulated offset projects (\u201cconservation banks\u201d) yield positive ecological spillovers and curb internal land-use pressure, but less supervised offsetting projects (\"permittee-responsible mitigation\") do not. Despite these localized gains, conservation banks are poorly sited across space. Using a stylized model of optimal bank placement, we demonstrate that conservation banks are systematically located in areas with minimal threats of development, calling into question their additionality. This inefficiency stems from a core policy design flaw: offset creation operates strictly on the extensive margin, generating offsets based on land area while failing to discriminate based on threat level or habitat quality. As voluntary and regulatory biodiversity markets expand worldwide, these results emphasize that offset frameworks must incorporate conversion risk to ensure additionality.",
-        "bio": "PhD Student in Sustainable Development"
-      },
-      {
-        "seminar_title": "Pricing wildfire smoke avoidance: activity reallocation from mobility data\n                                    \n                                ",
-        "date": "28-Sep-26",
-        "location": "801 IAB",
-        "time": "3:10p-4:40p",
-        "speaker": "Clara Berestycki",
-        "affiliation": "Columbia University",
-        "abstract": "This paper estimates the welfare cost of avoiding wildfire smoke during the 2018 Northern California fire season. Using individual smartphone location data, I construct daily ZIP-to-ZIP trip flows across activity types, including outdoor recreation, work, and other trips. I embed these flows in a nested logit model of activity participation and destination choice, with destination choice estimated as a gravity equation over a comprehensive choice set. Smoke deters both leaving home and visiting polluted locations. I find that people substitute away from smoky outdoor destinations, and that wildfire smoke shifts the composition of daily activities: the share of outdoor activities falls, but so do the shares of work and other trips. The welfare cost of this avoidance behavior is around $500M, adding 14% to the mortality burden of the same smoke. Air quality alerts increase avoidance, and under alert-level awareness of moderate smoke, welfare costs would be 20% higher.",
-        "bio": "PhD Student in Sustainable Development"
       }
     ]
   },
