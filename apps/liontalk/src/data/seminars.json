@@ -11,7 +11,7 @@
         "speaker": "Akseli Palom\u00e4ki",
         "affiliation": "Columbia University",
         "abstract": "Learning About School Effectiveness: Imperfect Information and Strategy in High School Choice",
-        "bio": "Akseli Palom\u00e4ki, PhD Student in Economics, Columbia University"
+        "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "Cartel Discrimination: Occupational Segregation and Labor Market Inequality",
@@ -21,7 +21,7 @@
         "speaker": "Arjun Srinivasan",
         "affiliation": "Columbia University",
         "abstract": "Cartel Discrimination: Occupational Segregation and Labor Market Inequality",
-        "bio": "Arjun Srinivasan, PhD Student in Economics, Columbia University"
+        "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "Learning from an Unknown DGP: Experimental Evidence on Belief Updating with AI Recommendations",
@@ -31,7 +31,7 @@
         "speaker": "Daniel Martin",
         "affiliation": "University of California, Santa Barbara",
         "abstract": "We use a controlled experiment to study how beliefs are updated after receiving qualitative information (AI recommendations) from an unknown data-generating process (DGP). Across 60,252 pairs of prior and posterior beliefs, we document three behavioral patterns: average updating close to zero when recommendations confirm extreme priors, larger average updating when recommendations contradict extreme priors, and smaller average updating for intermediate priors. These three behavioral patterns suggest four testable properties of belief updating, which we assess at the aggregate and individual levels. Finally, we examine how well updates are captured by three models of belief updating.",
-        "bio": "Daniel Martin, Wilcox Family Chair in Entrepreneurial Economics & Associate Professor, University of California, Santa Barbara"
+        "bio": "Wilcox Family Chair in Entrepreneurial Economics & Associate Professor"
       },
       {
         "seminar_title": "Size Matters: Fishery-Induced Evolution in Alaska Pollock",
@@ -41,7 +41,7 @@
         "speaker": "Sean Reese",
         "affiliation": "Columbia University",
         "abstract": "Fishing is a dominant source of mortality for many commercially harvested fish populations, raising the possibility that sustained, size selective harvest generates evolutionary responses. I study whether such fishery induced evolution has occurred in Alaska pollock, the largest commercial fishery by landings volume in the United States. Using individual-level data on fish size, age, location, fishing mortality, and environmental conditions, I find that greater levels of pre-birth cumulative fishing mortality are associated with systematically smaller fish. A one unit increase in pre-birth cumulative fishing mortality is associated with a .8% decline in length and a 2.1% decline in weight. A back of the envelope calculation implies that accumulated fishing pressure since 1980 accounts for fish being 16% shorter and 37% lighter today than comparable fish in 1980, raising concerns that management focused primarily on stock abundance may overlook changes in the biological quality of the stock. The results provide observational evidence consistent with experimental and theoretical predictions that persistent fishing can alter economically important life history traits.",
-        "bio": "Sean Reese, PhD Student in Sustainable Development, Columbia University"
+        "bio": "PhD Student in Sustainable Development"
       },
       {
         "seminar_title": "Distributional Welfare Effects of Labour Market Power",
@@ -50,8 +50,8 @@
         "time": "1:00p-2:30p",
         "speaker": "Madeline Hanson",
         "affiliation": "Columbia University",
-        "abstract": "Labour market power\u2013 firms marking down wages below workers' marginal product of labour\u2013 has aggregate welfare costs. But, how are these costs distributed across members of a society? Labour market power generates winners and losers, as wage markdowns shift revenue toward firm owners at workers' expense. Yet gains and losses across these groups are not clear cut. Markdowns are heterogeneous across firms, households earn both capital income, and efficiency losses may be large enough to make everyone worse off. I measure the distributional welfare effects of labour market power using a second-order approximation of households' equivalent variation. I combine this approximation with a structural model of labour market power, and take it to administrative Canadian data. I find that the incidence of labour market power falls mainly on those in the top income quartile, with the upper-middle class facing the greatest net cost and the top percentile of income earners gaining the greatest net benefit.",
-        "bio": "Madeline Hanson, Ph.D. Candidate in Economics, Columbia University"
+        "abstract": "Labour market power\u2013 firms marking down wages below workers' marginal product of labour\u2013 has aggregate welfare costs. But, how are these costs distributed across members of a society? Labour market power generates winners and losers, as wage markdowns shift revenue toward firm owners at workers' expense. Yet gains and losses across these groups are not clear cut. Markdowns are heterogeneous across firms, households earn both labour and capital income, and efficiency losses may be large enough to make everyone worse off. I measure the distributional welfare effects of labour market power using a second-order approximation of households' equivalent variation. I combine this approximation with a structural model of labour market power, and take it to administrative Canadian data. I find that the incidence of labour market power falls mainly on those in the top income quartile, with the upper-middle class facing the greatest net cost and the top percentile of income earners gaining the greatest net benefit.",
+        "bio": "Ph.D. Candidate in Economics"
       },
       {
         "seminar_title": "The financing limits of local adaptation",
@@ -61,7 +61,7 @@
         "speaker": "Meha Sadasivam",
         "affiliation": "Columbia: Business",
         "abstract": "What are the returns to investment in flood protection, and how does the financing structure shape its provision? Studying Louisiana's levee districts, I use a boundary discontinuity difference-in-differences specification around the passage of levee taxes to estimate these returns. Property values inside the district rise about 32% on average, and increase by 3% per additional foot below the levee crest. The gains are consistent with demand for protection: occupancy increases more in high exposure areas. The tax burden is very small relative to these gains, yet referenda often fail, pointing to a potential financing friction in the provision of this local public good: under uniform taxation, the median voter is often not the average beneficiary, so positive-NPV levee investments can be systematically rejected. I develop a spatial model with heterogeneous flood risk and risk-reduction investments to quantify the welfare implications of this friction and evaluate the limits of local adaptation.",
-        "bio": "Meha Sadasivam, PhD Candidate in Finance, Columbia: Business"
+        "bio": "PhD Candidate in Finance"
       }
     ]
   },
