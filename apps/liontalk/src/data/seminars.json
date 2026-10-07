@@ -4,53 +4,53 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "The financing limits of local adaptation",
-        "date": "06-Oct-26",
-        "location": "1102 IAB",
-        "time": "11:00a-12:00p",
-        "speaker": "Meha Sadasivam",
-        "affiliation": "Columbia: Business",
-        "abstract": "What are the returns to investment in flood protection, and how does the financing structure shape its provision? Studying Louisiana's levee districts, I use a boundary discontinuity difference-in-differences specification around the passage of levee taxes to estimate these returns. Property values inside the district rise about 32% on average, and increase by 3% per additional foot below the levee crest. The gains are consistent with demand for protection: occupancy increases more in high exposure areas. The tax burden is very small relative to these gains, yet referenda often fail, pointing to a potential financing friction in the provision of this local public good: under uniform taxation, the median voter is often not the average beneficiary, so positive-NPV levee investments can be systematically rejected. I develop a spatial model with heterogeneous flood risk and risk-reduction investments to quantify the welfare implications of this friction and evaluate the limits of local adaptation.",
-        "bio": "PhD Candidate in Finance"
-      },
-      {
-        "seminar_title": "Trade Credit and Supply Chain Fragility",
-        "date": "06-Oct-26",
-        "location": "1101 IAB",
+        "seminar_title": "Econometrics in practice at tech firms like Amazon",
+        "date": "07-Oct-26",
+        "location": "IAB 1102",
         "time": "12:00p-1:00p",
-        "speaker": "Ankit Bhutani",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Candidate in Economics"
+        "speaker": "Rishab Guha",
+        "affiliation": "Amazon Science",
+        "abstract": "Econometrics in practice at tech firms like Amazon",
+        "bio": "Principal Economist, Forecasting / Causal ML"
       },
       {
-        "seminar_title": "Barriers to Industrial Growth and Long-run Productive Efficiency: The Role of Policy Induced Misallocation",
-        "date": "06-Oct-26",
+        "seminar_title": "Perceived Mechanisms",
+        "date": "07-Oct-26",
         "location": "1101 IAB",
-        "time": "2:30p-3:45p",
-        "speaker": "Tianyu Luo",
+        "time": "1:00p-2:00p",
+        "speaker": "Zhiming Feng",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Candidate in Economics"
+        "abstract": "Perceived Mechanisms",
+        "bio": "PhD Student in Economics"
       },
       {
-        "seminar_title": "Job Market Talk",
-        "date": "06-Oct-26",
-        "location": "IAB 1120",
-        "time": "2:45p-3:45p",
-        "speaker": "Pablo de Llanos",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Candidate in Economics"
-      },
-      {
-        "seminar_title": "Redistributing Peer Effects",
-        "date": "06-Oct-26",
+        "seminar_title": "Antidepressant Treatment in Childhood",
+        "date": "07-Oct-26",
         "location": "1101 IAB",
-        "time": "4:15p-5:30p",
-        "speaker": "Paolo Martellini",
-        "affiliation": "NYU: Stern Business",
-        "abstract": "N/A",
+        "time": "4:10p-5:40p",
+        "speaker": "Sonia Bhalotra",
+        "affiliation": "University of Warwick",
+        "abstract": "Mental health disorders tend to emerge in childhood, with half starting by age 14. This makes early intervention important, but treatment rates are low, and antidepressant treatment for children remains controversial since an FDA warning in 2004 that highlighted adverse effects. Linking individuals across Danish administrative registers, we provide some of the first evidence of impacts of antidepressant treatment in childhood on objectively measured mental health indicators and economic outcomes over time, and the first attempt to investigate under- vs overtreatment. Leveraging conditional random assignment of patients to psychiatrists with different prescribing tendencies, we find that treatment during ages 8\u201315 improves test scores at age 16, particularly in Math, increases enrolment in post-compulsory education at age 18, and that it leads to higher employment and earnings and lower welfare dependence at ages 25\u201330. We demonstrate, on average, a reduction in suicide attempts, self-harm, and hospital visits following AD initiation. The gains to treatment are, in general, larger for low SES children, but they are less likely to be treated. Using a marginal treatment effects framework and Math scores as the focal outcome, we show positive returns to treatment among the untreated. Policy simulations confirm that expanding treatment among low SES children (and boys) generates substantial net benefits, consistent with under-treatment in these groups. Our findings underscore the potential of early mental health treatment to improve longer term economic outcomes and reduce inequality.",
+        "bio": "Professor of Economics"
+      },
+      {
+        "seminar_title": "The Making of a Public Sector Worker: The Causal Effects of Temporary Work Assignments to Poor Areas",
+        "date": "08-Oct-26",
+        "location": "Teachers College, Thompson Hall 229",
+        "time": "12:00p-1:30p",
+        "speaker": "Mariel Bedoya-Guevara",
+        "affiliation": "Columbia University",
+        "abstract": "Can a temporary policy intervention permanently change where people choose to work?  We study this question using Peru's mandatory rural service program, which assigns health professionals to posts across the country for one year. We exploit exogenous variation from a lottery system determining psychology graduates' service assignments. Using administrative data and an original survey, we find that psychologists assigned to poorer locations are significantly more likely to subsequently work in the public sector (17%) and poorest districts (54%) up to three years after the program. We then present evidence that the experience changes worker preferences and beliefs. Psychologists assigned to poorer areas score 0.11 standard deviations higher on a prosociality index, and report greater willingness to work serving the poor: both geographically and by type of employer (Ministry of Health facilities). We rule out inertia, differential skill formation, and network effects as alternative explanations. These findings demonstrate the potential of preference endogeneity, not just financial incentives, to attract workers to underserved areas.",
+        "bio": "Ph.D. student in Economics and Education"
+      },
+      {
+        "seminar_title": "\"Post-Selection Inference for Network Structure\"",
+        "date": "08-Oct-26",
+        "location": "1102 IAB",
+        "time": "2:15p-3:30p",
+        "speaker": "Eric Auerbach",
+        "affiliation": "Northwestern University",
+        "abstract": "Researchers often use the density of connections between groups of agents, such as communities, blocs, or markets, to characterize the structure of a social or economic network. In many cases, these groups are selected using the network data, making conventional fixed-group inference procedures potentially invalid. To address this issue, we develop two new confidence intervals that are universally valid post-selection in the sense that they guarantee simultaneous coverage asymptotically over all pairs of groups whose relative sizes do not vanish. Our first interval builds on a strategy of Berk et al. (2013). Our second interval is based on a Talagrand-type concentration inequality for empirical processes. Both intervals are simple to compute and scalable to large networks, but a key technical contribution of our paper is to show that the second interval is rate-optimal over a broader class of intervals. Three empirical illustrations show that accounting for selection can matter in practice. Some evidence for homophily in a social network and a hub-and-spoke structure in a trade network survives our correction, while evidence for disjoint market segments in a worker transition network does not.",
         "bio": "Assistant Professor of Economics"
       }
     ]
