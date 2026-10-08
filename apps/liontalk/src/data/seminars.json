@@ -4,43 +4,13 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Econometrics in practice at tech firms like Amazon",
-        "date": "07-Oct-26",
-        "location": "IAB 1102",
-        "time": "12:00p-1:00p",
-        "speaker": "Rishab Guha",
-        "affiliation": "Amazon Science",
-        "abstract": "Econometrics in practice at tech firms like Amazon",
-        "bio": "Principal Economist, Forecasting / Causal ML"
-      },
-      {
-        "seminar_title": "Perceived Mechanisms",
-        "date": "07-Oct-26",
-        "location": "1101 IAB",
-        "time": "1:00p-2:00p",
-        "speaker": "Zhiming Feng",
-        "affiliation": "Columbia University",
-        "abstract": "Perceived Mechanisms",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Antidepressant Treatment in Childhood",
-        "date": "07-Oct-26",
-        "location": "1101 IAB",
-        "time": "4:10p-5:40p",
-        "speaker": "Sonia Bhalotra",
-        "affiliation": "University of Warwick",
-        "abstract": "Mental health disorders tend to emerge in childhood, with half starting by age 14. This makes early intervention important, but treatment rates are low, and antidepressant treatment for children remains controversial since an FDA warning in 2004 that highlighted adverse effects. Linking individuals across Danish administrative registers, we provide some of the first evidence of impacts of antidepressant treatment in childhood on objectively measured mental health indicators and economic outcomes over time, and the first attempt to investigate under- vs overtreatment. Leveraging conditional random assignment of patients to psychiatrists with different prescribing tendencies, we find that treatment during ages 8\u201315 improves test scores at age 16, particularly in Math, increases enrolment in post-compulsory education at age 18, and that it leads to higher employment and earnings and lower welfare dependence at ages 25\u201330. We demonstrate, on average, a reduction in suicide attempts, self-harm, and hospital visits following AD initiation. The gains to treatment are, in general, larger for low SES children, but they are less likely to be treated. Using a marginal treatment effects framework and Math scores as the focal outcome, we show positive returns to treatment among the untreated. Policy simulations confirm that expanding treatment among low SES children (and boys) generates substantial net benefits, consistent with under-treatment in these groups. Our findings underscore the potential of early mental health treatment to improve longer term economic outcomes and reduce inequality.",
-        "bio": "Professor of Economics"
-      },
-      {
         "seminar_title": "The Making of a Public Sector Worker: The Causal Effects of Temporary Work Assignments to Poor Areas",
         "date": "08-Oct-26",
         "location": "Teachers College, Thompson Hall 229",
         "time": "12:00p-1:30p",
         "speaker": "Mariel Bedoya-Guevara",
         "affiliation": "Columbia University",
-        "abstract": "Can a temporary policy intervention permanently change where people choose to work?  We study this question using Peru's mandatory rural service program, which assigns health professionals to posts across the country for one year. We exploit exogenous variation from a lottery system determining psychology graduates' service assignments. Using administrative data and an original survey, we find that psychologists assigned to poorer locations are significantly more likely to subsequently work in the public sector (17%) and poorest districts (54%) up to three years after the program. We then present evidence that the experience changes worker preferences and beliefs. Psychologists assigned to poorer areas score 0.11 standard deviations higher on a prosociality index, and report greater willingness to work serving the poor: both geographically and by type of employer (Ministry of Health facilities). We rule out inertia, differential skill formation, and network effects as alternative explanations. These findings demonstrate the potential of preference endogeneity, not just financial incentives, to attract workers to underserved areas.",
+        "abstract": "Can a temporary policy intervention permanently change where people choose to work? We study this question using Peru's mandatory rural service program, which assigns health professionals to posts across the country for one year. We exploit exogenous variation from a lottery system determining psychology graduates' service assignments. Using administrative data and an original survey, we find that psychologists assigned to poorer locations are significantly more likely to subsequently work in the public sector (17%) and poorest districts (54%) up to three years after the program. We then present evidence that the experience changes worker preferences and beliefs. Psychologists assigned to poorer areas score 0.11 standard deviations higher on a prosociality index, and report greater willingness to work serving the poor: both geographically and by type of employer (Ministry of Health facilities). We rule out inertia, differential skill formation, and network effects as alternative explanations. These findings demonstrate the potential of preference endogeneity, not just financial incentives, to attract workers to underserved areas.",
         "bio": "Ph.D. student in Economics and Education"
       },
       {
@@ -52,6 +22,46 @@
         "affiliation": "Northwestern University",
         "abstract": "Researchers often use the density of connections between groups of agents, such as communities, blocs, or markets, to characterize the structure of a social or economic network. In many cases, these groups are selected using the network data, making conventional fixed-group inference procedures potentially invalid. To address this issue, we develop two new confidence intervals that are universally valid post-selection in the sense that they guarantee simultaneous coverage asymptotically over all pairs of groups whose relative sizes do not vanish. Our first interval builds on a strategy of Berk et al. (2013). Our second interval is based on a Talagrand-type concentration inequality for empirical processes. Both intervals are simple to compute and scalable to large networks, but a key technical contribution of our paper is to show that the second interval is rate-optimal over a broader class of intervals. Three empirical illustrations show that accounting for selection can matter in practice. Some evidence for homophily in a social network and a hub-and-spoke structure in a trade network survives our correction, while evidence for disjoint market segments in a worker transition network does not.",
         "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "The Economic Consequences of Knowledge Hoarding",
+        "date": "08-Oct-26",
+        "location": "1101 IAB",
+        "time": "4:10p-5:25p",
+        "speaker": "Luisa Cefal\u00e0",
+        "affiliation": "Cornell University",
+        "abstract": "Social learning is an important source of knowledge diffusion in low-income countries. However, because developing country markets are often highly localized, individuals with social ties may compete more directly for the same economic rents, creating incentives for individuals to \u201choard\u201d their knowledge. This paper studies the impact of knowledge hoarding on the diffusion of profitable skills and technologies in rural Burundi, and measures its aggregate and distributional consequences for the village economy. In a field experiment covering 223 villages (labor markets), workers skilled in high-return agricultural technologies are encouraged to share their knowledge with unskilled individuals. We randomize at the local labor market level whether the unskilled worker is a competitor (i.e., someone from the same labor market) and whether the training is about a technology with rivalrous rents (row planting, which commands a wage premium in the labor market). We first establish that knowledge hoarding indeed reduces social learning. When incumbents are matched with an individual from the same labor market, knowledge transmission occurs only 3% of the time but reaches 43% if the unskilled worker is not a competitor. In contrast, transmission of technologies with nonrivalrous rents (e.g., composting) is high regardless of the unskilled worker's identity. Next, we show that knowledge hoarding creates winners and losers: by hoarding knowledge, incumbents earn 6% more, and the skilled equilibrium wage is 3% higher. Instead, unskilled workers' earnings and farm output are 7% and 20% lower, respectively. Altogether, knowledge hoarding reduces technology adoption by over 20%, suggesting substantial yield losses. Finally, our results suggest that fear of social sanction is a mechanism that sustains knowledge hoarding among the incumbents, highlighting how social ties can foster social learning but also inhibit it when knowledge diffusion threatens incumbents' rents.",
+        "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "Naming, Praising, and Shaming Firms: Online Activism and the Russo-Ukrainian War",
+        "date": "08-Oct-26",
+        "location": "IAB 1512",
+        "time": "4:30p-6:00p",
+        "speaker": "Rachel Wellhausen",
+        "affiliation": "University of Texas at Austin",
+        "abstract": "After the 2022 full-scale Russian invasion of Ukraine, a worldwide movement self-organized to pressure multinational corporations (MNCs) to exit Russia. To study how transnational activists select targets when the digital era meets wartime urgency, we compile 15 online pro-Ukraine \u201cname-praise-shame\u201d lists and match names to over 42,000 MNC subsidiaries present in pre-invasion Russia. After one year, 21.2% are named, with over half of them praised rather than shamed. Activists cannot avoid the strategic problem that if you name everyone, you name no one. We theorize that activists weigh the cost of documenting a firm against the audience attention its naming generates, and we find that high-profile firms are more likely to be named while obscure firms largely escape notice. MNCs that tout social responsibility make especially good targets\u2014and most are praised for keeping their word. One consequence, however, is that naming under-reaches the often-opaque firms tied to the Russian war effort, despite the war\u2019s centrality to the activist mission. The theory is grade-agnostic; we show that the same tradeoffs govern selection whether a name arrives with praise or shame. Even the movement\u2019s own backlash weighs the same tradeoffs for its own audience: the two pro-Russia lists we also collect name largely the same kinds of firms, except those relevant to the war, whose naming loses its payoff when the audience is not pro-Ukraine. Digitalization gives transnational activism speed and scale, but the politics of attention, more than material relevance to the war, determines which firms receive praise, shame, or silence.",
+        "bio": "Professor of Government"
+      },
+      {
+        "seminar_title": "Relationships or Markets? How Local Thickness Shapes Firms\u2019 Response to Supplier Risk",
+        "date": "12-Oct-26",
+        "location": "1101 IAB",
+        "time": "11:30a-12:10p",
+        "speaker": "Riccardo Martina",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Physician Networks, Patient Steering, and the Price of Hospital Care",
+        "date": "12-Oct-26",
+        "location": "1101 IAB",
+        "time": "12:10p-12:50p",
+        "speaker": "Jack Cenatempo",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
       }
     ]
   },
