@@ -4,46 +4,6 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "The Making of a Public Sector Worker: The Causal Effects of Temporary Work Assignments to Poor Areas",
-        "date": "08-Oct-26",
-        "location": "Teachers College, Thompson Hall 229",
-        "time": "12:00p-1:30p",
-        "speaker": "Mariel Bedoya-Guevara",
-        "affiliation": "Columbia University",
-        "abstract": "Can a temporary policy intervention permanently change where people choose to work? We study this question using Peru's mandatory rural service program, which assigns health professionals to posts across the country for one year. We exploit exogenous variation from a lottery system determining psychology graduates' service assignments. Using administrative data and an original survey, we find that psychologists assigned to poorer locations are significantly more likely to subsequently work in the public sector (17%) and poorest districts (54%) up to three years after the program. We then present evidence that the experience changes worker preferences and beliefs. Psychologists assigned to poorer areas score 0.11 standard deviations higher on a prosociality index, and report greater willingness to work serving the poor: both geographically and by type of employer (Ministry of Health facilities). We rule out inertia, differential skill formation, and network effects as alternative explanations. These findings demonstrate the potential of preference endogeneity, not just financial incentives, to attract workers to underserved areas.",
-        "bio": "Ph.D. student in Economics and Education"
-      },
-      {
-        "seminar_title": "\"Post-Selection Inference for Network Structure\"",
-        "date": "08-Oct-26",
-        "location": "1102 IAB",
-        "time": "2:15p-3:30p",
-        "speaker": "Eric Auerbach",
-        "affiliation": "Northwestern University",
-        "abstract": "Researchers often use the density of connections between groups of agents, such as communities, blocs, or markets, to characterize the structure of a social or economic network. In many cases, these groups are selected using the network data, making conventional fixed-group inference procedures potentially invalid. To address this issue, we develop two new confidence intervals that are universally valid post-selection in the sense that they guarantee simultaneous coverage asymptotically over all pairs of groups whose relative sizes do not vanish. Our first interval builds on a strategy of Berk et al. (2013). Our second interval is based on a Talagrand-type concentration inequality for empirical processes. Both intervals are simple to compute and scalable to large networks, but a key technical contribution of our paper is to show that the second interval is rate-optimal over a broader class of intervals. Three empirical illustrations show that accounting for selection can matter in practice. Some evidence for homophily in a social network and a hub-and-spoke structure in a trade network survives our correction, while evidence for disjoint market segments in a worker transition network does not.",
-        "bio": "Assistant Professor of Economics"
-      },
-      {
-        "seminar_title": "The Economic Consequences of Knowledge Hoarding",
-        "date": "08-Oct-26",
-        "location": "1101 IAB",
-        "time": "4:10p-5:25p",
-        "speaker": "Luisa Cefal\u00e0",
-        "affiliation": "Cornell University",
-        "abstract": "Social learning is an important source of knowledge diffusion in low-income countries. However, because developing country markets are often highly localized, individuals with social ties may compete more directly for the same economic rents, creating incentives for individuals to \u201choard\u201d their knowledge. This paper studies the impact of knowledge hoarding on the diffusion of profitable skills and technologies in rural Burundi, and measures its aggregate and distributional consequences for the village economy. In a field experiment covering 223 villages (labor markets), workers skilled in high-return agricultural technologies are encouraged to share their knowledge with unskilled individuals. We randomize at the local labor market level whether the unskilled worker is a competitor (i.e., someone from the same labor market) and whether the training is about a technology with rivalrous rents (row planting, which commands a wage premium in the labor market). We first establish that knowledge hoarding indeed reduces social learning. When incumbents are matched with an individual from the same labor market, knowledge transmission occurs only 3% of the time but reaches 43% if the unskilled worker is not a competitor. In contrast, transmission of technologies with nonrivalrous rents (e.g., composting) is high regardless of the unskilled worker's identity. Next, we show that knowledge hoarding creates winners and losers: by hoarding knowledge, incumbents earn 6% more, and the skilled equilibrium wage is 3% higher. Instead, unskilled workers' earnings and farm output are 7% and 20% lower, respectively. Altogether, knowledge hoarding reduces technology adoption by over 20%, suggesting substantial yield losses. Finally, our results suggest that fear of social sanction is a mechanism that sustains knowledge hoarding among the incumbents, highlighting how social ties can foster social learning but also inhibit it when knowledge diffusion threatens incumbents' rents.",
-        "bio": "Assistant Professor of Economics"
-      },
-      {
-        "seminar_title": "Naming, Praising, and Shaming Firms: Online Activism and the Russo-Ukrainian War",
-        "date": "08-Oct-26",
-        "location": "IAB 1512",
-        "time": "4:30p-6:00p",
-        "speaker": "Rachel Wellhausen",
-        "affiliation": "University of Texas at Austin",
-        "abstract": "After the 2022 full-scale Russian invasion of Ukraine, a worldwide movement self-organized to pressure multinational corporations (MNCs) to exit Russia. To study how transnational activists select targets when the digital era meets wartime urgency, we compile 15 online pro-Ukraine \u201cname-praise-shame\u201d lists and match names to over 42,000 MNC subsidiaries present in pre-invasion Russia. After one year, 21.2% are named, with over half of them praised rather than shamed. Activists cannot avoid the strategic problem that if you name everyone, you name no one. We theorize that activists weigh the cost of documenting a firm against the audience attention its naming generates, and we find that high-profile firms are more likely to be named while obscure firms largely escape notice. MNCs that tout social responsibility make especially good targets\u2014and most are praised for keeping their word. One consequence, however, is that naming under-reaches the often-opaque firms tied to the Russian war effort, despite the war\u2019s centrality to the activist mission. The theory is grade-agnostic; we show that the same tradeoffs govern selection whether a name arrives with praise or shame. Even the movement\u2019s own backlash weighs the same tradeoffs for its own audience: the two pro-Russia lists we also collect name largely the same kinds of firms, except those relevant to the war, whose naming loses its payoff when the audience is not pro-Ukraine. Digitalization gives transnational activism speed and scale, but the politics of attention, more than material relevance to the war, determines which firms receive praise, shame, or silence.",
-        "bio": "Professor of Government"
-      },
-      {
         "seminar_title": "Relationships or Markets? How Local Thickness Shapes Firms\u2019 Response to Supplier Risk",
         "date": "12-Oct-26",
         "location": "1101 IAB",
@@ -61,6 +21,46 @@
         "speaker": "Jack Cenatempo",
         "affiliation": "Columbia University",
         "abstract": "N/A",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Optimal Stopping and Reputation",
+        "date": "12-Oct-26",
+        "location": "IAB 1102",
+        "time": "1:00p-2:15p",
+        "speaker": "Sara Shahanaghi",
+        "affiliation": "Toulouse School of Economics",
+        "abstract": "An agent decides when to take an irreversible action while learning dynamically whether it will succeed. He is reputation-driven, seeking to signal his ability to learn. In equilibrium, the agent engages in contrarian behavior: he acts for a larger range of beliefs when the prior probability of success is lower. Reputation induces systematic distortions in decision timing: the agent acts prematurely when acting is highly disadvantageous ex ante, and with delay when it is advantageous. Distortions can dynamically reverse under moderate priors, with premature action at the beginning of the research process and excess caution later.",
+        "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "Economic and Environmental Impacts of Broadband: Evidence from the Rural Digital Opportunity Fund",
+        "date": "12-Oct-26",
+        "location": "IAB 405A",
+        "time": "1:00p-2:00p",
+        "speaker": "Junho Choi",
+        "affiliation": "Columbia University",
+        "abstract": "Broadband is increasingly treated as essential infrastructure, comparable to electricity and water, and federal programs are spending tens of billions of dollars to extend it to rural areas in pursuit of economic opportunity. This paper studies the economic and environmental effects of the FCC's Rural Digital Opportunity Fund (RDOF), which allocated $9.2 billion in its 2020 auction. Using a recentered instrument design that exploits variation in buildout timing, extended to exposure through commuting networks, I find that RDOF raises broadband speeds and adoption and increases outbound weekday mobility, but has no detectable effect on telework, employment, wages, or air quality in treated areas. Effects instead arise in commuting-linked areas, where resident employment and residential electricity use decline, manufacturing GDP rises approximately one-for-one with partners' connectedness, NO2 rises, and PM2.5 falls modestly. The results suggest that rural broadband may relocate economic activity and emissions across connected places rather than simply creating or reducing them.",
+        "bio": "PhD Student in SIPA"
+      },
+      {
+        "seminar_title": "Geoeconomics of Sovereign Debt",
+        "date": "12-Oct-26",
+        "location": "IAB 1101",
+        "time": "1:00p-2:00p",
+        "speaker": "Patricio Goldstein",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Candidate"
+      },
+      {
+        "seminar_title": "Economic Tradeoffs and Institutional Guidance in Public Resource Allocation: Evidence from U.S. Public Lands",
+        "date": "12-Oct-26",
+        "location": "801 IAB",
+        "time": "3:10p-4:40p",
+        "speaker": "Maya Norman",
+        "affiliation": "Columbia University",
+        "abstract": "The US federal government owns nearly half of the Western United States, and public agencies, rather than markets, allocate these lands between development and conservation. The Bureau of Land Management (BLM) is the primary agency making this tradeoff, deciding where mineral extraction that generates billions in public revenue should proceed and where it should be forgone to conserve one of the least developed contiguous landscapes in the world. Despite the importance of the BLM\u2019s allocation decisions, the mechanisms underlying them have never been studied. Federal law requires the BLM to maximize the land\u2019s market and non-market resource values and publicly justify its choices to stakeholders. But the law does not specify how to value non-market resources or reconcile competing demands from pro-conservation and pro-industry stakeholders. As a result, roughly 150 local offices retain wide discretion over these judgments. Until now, systematically studying how offices exercise that discretion has been infeasible because the evidence is scattered across sprawling planning records and maps. I develop a framework using AI agents to transform these records into a form suitable for discrete-choice econometric methods. I then apply this framework to 11 local offices and roughly 90,000 pages of planning records, recovering how much revenue each office would forgo (i) to conserve non-market resources and (ii) to follow established conservation standards rather than depart from them and bear the burden of justifying that departure to stakeholders. I find that the median office is willing to forgo roughly $60,000 in annual revenue to avoid an acre of disturbance to a non-market resource. I also find that in seven out of ten decisions, the median office passes up the resource-value-maximizing choice to remain closer to an established standard. This tendency to follow standard practice matters for policy. I compare two ways BLM headquarters can steer local offices. One is to recommend a specific conservation practice, such as a one-mile no-drilling buffer around birds\u2019 nests. The other is to use a price-like instrument that specifies the value of conserving a resource. Counterfactuals show that the recommended practice can be as cost-effective as the price-like instrument in achieving the same conservation gains.",
         "bio": "PhD Student in Economics"
       }
     ]
