@@ -1,5 +1,71 @@
 [
   {
+    "department": "Economics and Politics",
+    "series": "Econ and PoliSci Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Optimal Stopping and Reputation",
+        "date": "12-Oct-26",
+        "location": "IAB 1102",
+        "time": "1:00p-2:15p",
+        "speaker": "Sara Shahanaghi",
+        "affiliation": "Toulouse School of Economics",
+        "abstract": "An agent decides when to take an irreversible action while learning dynamically whether it will succeed. He is reputation-driven, seeking to signal his ability to learn. In equilibrium, the agent engages in contrarian behavior: he acts for a larger range of beliefs when the prior probability of success is lower. Reputation induces systematic distortions in decision timing: the agent acts prematurely when acting is highly disadvantageous ex ante, and with delay when it is advantageous. Distortions can dynamically reverse under moderate priors, with premature action at the beginning of the research process and excess caution later.",
+        "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "Shift-Share Regressions With Heterogeneous Effects",
+        "date": "14-Oct-26",
+        "location": "1102 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Valentin Winkler",
+        "affiliation": "Columbia University",
+        "abstract": "Shift-share regressions with fixed effects are popular but rely on a homogeneous effects assumption. If effects vary across units, the regression estimates a weighted average that can be dominated by a few highly exposed units and necessarily places negative weight on others. I develop a simple estimator that relaxes this assumption, runs as a shift-share regression with transformed shares, and does not rely on the existence of unexposed units. I demonstrate the new method by revisiting two influential studies in regional macroeconomics.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Too Far Off to Counter: Information Frictions and Bargaining Failures",
+        "date": "14-Oct-26",
+        "location": "N/A",
+        "time": "12:30p-1:15p",
+        "speaker": "Hannah Solheim",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Hysteresis for the Great Recession",
+        "date": "14-Oct-26",
+        "location": "N/A",
+        "time": "1:15p-2:00p",
+        "speaker": "Jacob Spitz",
+        "affiliation": "Columbia: Business",
+        "abstract": "N/A",
+        "bio": "PhD Candidate in Economics"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "14-Oct-26",
+        "location": "IAB 1120",
+        "time": "1:00p-2:15p",
+        "speaker": "Arslan Ali",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "When Transparency Backfires: Expert Selection and Communication",
+        "date": "14-Oct-26",
+        "location": "1120 IAB",
+        "time": "1:00p-2:30p",
+        "speaker": "Arslan Ali",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
+      }
+    ]
+  },
+  {
     "department": "Mathematics",
     "series": "Department Colloquium",
     "entries": [
