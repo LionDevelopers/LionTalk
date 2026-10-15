@@ -4,64 +4,84 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Optimal Stopping and Reputation",
-        "date": "12-Oct-26",
-        "location": "IAB 1102",
-        "time": "1:00p-2:15p",
-        "speaker": "Sara Shahanaghi",
-        "affiliation": "Toulouse School of Economics",
-        "abstract": "An agent decides when to take an irreversible action while learning dynamically whether it will succeed. He is reputation-driven, seeking to signal his ability to learn. In equilibrium, the agent engages in contrarian behavior: he acts for a larger range of beliefs when the prior probability of success is lower. Reputation induces systematic distortions in decision timing: the agent acts prematurely when acting is highly disadvantageous ex ante, and with delay when it is advantageous. Distortions can dynamically reverse under moderate priors, with premature action at the beginning of the research process and excess caution later.",
-        "bio": "Assistant Professor of Economics"
-      },
-      {
-        "seminar_title": "Shift-Share Regressions With Heterogeneous Effects",
-        "date": "14-Oct-26",
+        "seminar_title": "Identification and Optimal Reserve Prices in English Auctions, with an Application to Art",
+        "date": "15-Oct-26",
         "location": "1102 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Valentin Winkler",
-        "affiliation": "Columbia University",
-        "abstract": "Shift-share regressions with fixed effects are popular but rely on a homogeneous effects assumption. If effects vary across units, the regression estimates a weighted average that can be dominated by a few highly exposed units and necessarily places negative weight on others. I develop a simple estimator that relaxes this assumption, runs as a shift-share regression with transformed shares, and does not rely on the existence of unexposed units. I demonstrate the new method by revisiting two influential studies in regional macroeconomics.",
-        "bio": "PhD Student in Economics"
+        "time": "2:15p-3:30p",
+        "speaker": "Kirill Ponomarev",
+        "affiliation": "University of Chicago",
+        "abstract": "We develop a partial-identification approach for English auctions with private values, auction-level heterogeneity unobserved by the analyst, and a potentially unknown number of bidders. Our framework permits restrictions on dependence among bidders' valuations away from the extreme cases of independent private values and perfect correlation, yielding sharp and informative bounds on the distribution of the highest valuation and the seller's expected profit. We formulate reserve-price choice as a minimax-regret problem and derive tractable solutions to two relaxations of this problem. We apply our method to a new dataset covering more than 3,500 lots auctioned by Christie's and Sotheby's. For modern art sold in New York City with pre-sale estimates between $1 million and $10 million, we find that setting the reserve price 37 percent above the sellers projected value from retaining an unsold lot increases expected profit by approximately $150,000 to $489,000 per lot, equivalent to 27 to 87 percent of average realized profit.",
+        "bio": "Assistant Professor of Economics\n                            \n                                University of Chicago"
       },
       {
-        "seminar_title": "Too Far Off to Counter: Information Frictions and Bargaining Failures",
-        "date": "14-Oct-26",
-        "location": "N/A",
-        "time": "12:30p-1:15p",
-        "speaker": "Hannah Solheim",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
+        "seminar_title": "The Female Labor Supply Constraints of Spousal Jealousy: Experimental Evidence from India",
+        "date": "15-Oct-26",
+        "location": "1101 IAB",
+        "time": "4:10p-5:25p",
+        "speaker": "Kailash Rajah",
+        "affiliation": "Stanford University",
+        "abstract": "This study presents evidence from two field experiments studying the role of spousal jealousy in constraining married women\u2019s employment. In a first experiment (N=1,400), I randomize married women in India to receive a two-week job in either a mixed or women-only workplace. Women randomized to the women-only workplace are 46 percent more likely to spontaneously apply for a job (13 percentage points) and 31 percent more likely to attend the workplace (6 percentage points). A cross-randomized safety treatment suggests that workplace safety is not the main mechanism. Instead, the treatment effects are significantly stronger among women who report having more jealous and controlling husbands. In a second experiment (N=210), I directly test for a spousal jealousy mechanism by measuring whether women are more willing to interact with a male colleague if their husbands can monitor the interaction. I offer women a job that comes with a compulsory online peer support program and give them the option to forgo 20-35% of their salary to guarantee that the peer they are matched with will be a woman rather than a man. Fifty-three percent of women pay for the female peer when these remote interactions are one-on-one, but this drops to 34 percent once their husbands have the option of joining and can therefore monitor the conversations. One-third of households still pay for a female peer even if the mentoring simply involves watching pre-recorded videos of the peer, suggesting even the most innocuous interactions are enough to raise jealousy concerns.",
+        "bio": "Postdoctoral Fellow\n                            \n                                Stanford University"
       },
       {
-        "seminar_title": "Hysteresis for the Great Recession",
-        "date": "14-Oct-26",
-        "location": "N/A",
-        "time": "1:15p-2:00p",
-        "speaker": "Jacob Spitz",
-        "affiliation": "Columbia: Business",
-        "abstract": "N/A",
-        "bio": "PhD Candidate in Economics"
+        "seminar_title": "Does Battery Storage Erode Thermal Plants' Local Market Power? Evidence from Texas",
+        "date": "16-Oct-26",
+        "location": "1101 IAB",
+        "time": "12:00p-12:30p",
+        "speaker": "Fanyu Wang",
+        "affiliation": "Columbia University",
+        "abstract": "Does Battery Storage Erode Thermal Plants' Local Market Power? Evidence from Texas",
+        "bio": "PhD Student in SIPA\n                            \n                                Columbia University"
       },
       {
-        "seminar_title": "To be announced.",
-        "date": "14-Oct-26",
-        "location": "IAB 1120",
-        "time": "1:00p-2:15p",
-        "speaker": "Arslan Ali",
+        "seminar_title": "Firm Ownership and Unsupervised Pollution",
+        "date": "16-Oct-26",
+        "location": "1101 IAB",
+        "time": "12:30p-1:00p",
+        "speaker": "Seung Min Kim",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
+        "abstract": "Firm Ownership and Unsupervised Pollution",
+        "bio": "PhD Student in SIPA\n                            \n                                Columbia University"
       },
       {
-        "seminar_title": "When Transparency Backfires: Expert Selection and Communication",
-        "date": "14-Oct-26",
-        "location": "1120 IAB",
-        "time": "1:00p-2:30p",
-        "speaker": "Arslan Ali",
+        "seminar_title": "Controlling Critical Innovation Inputs: Semiconductors in U.S.\u2014China Technology Competition",
+        "date": "16-Oct-26",
+        "location": "1101 IAB",
+        "time": "1:30p-3:00p",
+        "speaker": "Haishi Li",
+        "affiliation": "Hong Kong: Business School",
+        "abstract": "Controlling Critical Innovation Inputs: Semiconductors in U.S.\u2014China Technology Competition",
+        "bio": "Assistant Professor of Economics\n                            \n                                \n                                    Hong Kong: Business School"
+      },
+      {
+        "seminar_title": "Managerial Experience, Firm Size, and Economic Development: Evidence from the Collapse of the Japanese Empire",
+        "date": "16-Oct-26",
+        "location": "IAB 1101",
+        "time": "3:30p-5:00p",
+        "speaker": "Shizuka Inoue",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
+        "abstract": "Managerial Experience, Firm Size, and Economic Development: Evidence from the Collapse of the Japanese Empire",
+        "bio": "PhD Student in Economics\n                            \n                                Columbia University"
+      },
+      {
+        "seminar_title": "Do Ranked-Choice Ballots Reveal Voter Preferences? Evidence from the 2025 New York City Democratic Primary",
+        "date": "19-Oct-26",
+        "location": "1101 IAB",
+        "time": "11:30a-12:10p",
+        "speaker": "Piper (Jing) Wang",
+        "affiliation": "Columbia University",
+        "abstract": "Do Ranked-Choice Ballots Reveal Voter Preferences? Evidence from the 2025 New York City Democratic Primary",
+        "bio": "PhD Student in Economics\n                            \n                                Columbia University"
+      },
+      {
+        "seminar_title": "A Dynamic Matching Perspective on M&A Transactions",
+        "date": "19-Oct-26",
+        "location": "1101 IAB",
+        "time": "12:10p-12:50p",
+        "speaker": "Antoine Chapel",
+        "affiliation": "Columbia University",
+        "abstract": "A Dynamic Matching Perspective on M&A Transactions",
+        "bio": "PhD Student in Economics\n                            \n                                Columbia University"
       }
     ]
   },
@@ -77,7 +97,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "N/A"
+        "bio": "Javier G\u00f3mez-Serrano (Brown University)"
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -87,7 +107,7 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "N/A"
+        "bio": "Mohammed Abouzaid (Stanford)"
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
@@ -97,7 +117,7 @@
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
         "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "N/A"
+        "bio": "Aaron Landesman (Harvard)"
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
@@ -107,7 +127,7 @@
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "N/A"
+        "bio": "Denis Nesterov (ETH Zurich)"
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
@@ -117,7 +137,7 @@
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "N/A"
+        "bio": "Lucas Mason-Brown (Texas)"
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -127,7 +147,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "N/A"
+        "bio": "Sky Cao (MIT)"
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -137,7 +157,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "N/A"
+        "bio": "Sheldon Katz (University of Illinois at Urbana-Champaign)"
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -147,7 +167,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "N/A"
+        "bio": "Eric Zaslow (Northwestern University)"
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -157,7 +177,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "N/A"
+        "bio": "Artur Avila (IMPA)"
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -167,7 +187,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "N/A"
+        "bio": "Ishan Levy (Copenhagen)"
       }
     ]
   }
