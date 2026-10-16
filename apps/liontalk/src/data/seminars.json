@@ -4,34 +4,14 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Identification and Optimal Reserve Prices in English Auctions, with an Application to Art",
-        "date": "15-Oct-26",
-        "location": "1102 IAB",
-        "time": "2:15p-3:30p",
-        "speaker": "Kirill Ponomarev",
-        "affiliation": "University of Chicago",
-        "abstract": "We develop a partial-identification approach for English auctions with private values, auction-level heterogeneity unobserved by the analyst, and a potentially unknown number of bidders. Our framework permits restrictions on dependence among bidders' valuations away from the extreme cases of independent private values and perfect correlation, yielding sharp and informative bounds on the distribution of the highest valuation and the seller's expected profit. We formulate reserve-price choice as a minimax-regret problem and derive tractable solutions to two relaxations of this problem. We apply our method to a new dataset covering more than 3,500 lots auctioned by Christie's and Sotheby's. For modern art sold in New York City with pre-sale estimates between $1 million and $10 million, we find that setting the reserve price 37 percent above the sellers projected value from retaining an unsold lot increases expected profit by approximately $150,000 to $489,000 per lot, equivalent to 27 to 87 percent of average realized profit.",
-        "bio": "Assistant Professor of Economics\n                            \n                                University of Chicago"
-      },
-      {
-        "seminar_title": "The Female Labor Supply Constraints of Spousal Jealousy: Experimental Evidence from India",
-        "date": "15-Oct-26",
-        "location": "1101 IAB",
-        "time": "4:10p-5:25p",
-        "speaker": "Kailash Rajah",
-        "affiliation": "Stanford University",
-        "abstract": "This study presents evidence from two field experiments studying the role of spousal jealousy in constraining married women\u2019s employment. In a first experiment (N=1,400), I randomize married women in India to receive a two-week job in either a mixed or women-only workplace. Women randomized to the women-only workplace are 46 percent more likely to spontaneously apply for a job (13 percentage points) and 31 percent more likely to attend the workplace (6 percentage points). A cross-randomized safety treatment suggests that workplace safety is not the main mechanism. Instead, the treatment effects are significantly stronger among women who report having more jealous and controlling husbands. In a second experiment (N=210), I directly test for a spousal jealousy mechanism by measuring whether women are more willing to interact with a male colleague if their husbands can monitor the interaction. I offer women a job that comes with a compulsory online peer support program and give them the option to forgo 20-35% of their salary to guarantee that the peer they are matched with will be a woman rather than a man. Fifty-three percent of women pay for the female peer when these remote interactions are one-on-one, but this drops to 34 percent once their husbands have the option of joining and can therefore monitor the conversations. One-third of households still pay for a female peer even if the mentoring simply involves watching pre-recorded videos of the peer, suggesting even the most innocuous interactions are enough to raise jealousy concerns.",
-        "bio": "Postdoctoral Fellow\n                            \n                                Stanford University"
-      },
-      {
         "seminar_title": "Does Battery Storage Erode Thermal Plants' Local Market Power? Evidence from Texas",
         "date": "16-Oct-26",
         "location": "1101 IAB",
         "time": "12:00p-12:30p",
         "speaker": "Fanyu Wang",
         "affiliation": "Columbia University",
-        "abstract": "Does Battery Storage Erode Thermal Plants' Local Market Power? Evidence from Texas",
-        "bio": "PhD Student in SIPA\n                            \n                                Columbia University"
+        "abstract": "N/A",
+        "bio": "PhD Student in SIPA"
       },
       {
         "seminar_title": "Firm Ownership and Unsupervised Pollution",
@@ -40,8 +20,8 @@
         "time": "12:30p-1:00p",
         "speaker": "Seung Min Kim",
         "affiliation": "Columbia University",
-        "abstract": "Firm Ownership and Unsupervised Pollution",
-        "bio": "PhD Student in SIPA\n                            \n                                Columbia University"
+        "abstract": "N/A",
+        "bio": "PhD Student in SIPA"
       },
       {
         "seminar_title": "Controlling Critical Innovation Inputs: Semiconductors in U.S.\u2014China Technology Competition",
@@ -50,8 +30,8 @@
         "time": "1:30p-3:00p",
         "speaker": "Haishi Li",
         "affiliation": "Hong Kong: Business School",
-        "abstract": "Controlling Critical Innovation Inputs: Semiconductors in U.S.\u2014China Technology Competition",
-        "bio": "Assistant Professor of Economics\n                            \n                                \n                                    Hong Kong: Business School"
+        "abstract": "N/A",
+        "bio": "Assistant Professor of Economics"
       },
       {
         "seminar_title": "Managerial Experience, Firm Size, and Economic Development: Evidence from the Collapse of the Japanese Empire",
@@ -60,8 +40,8 @@
         "time": "3:30p-5:00p",
         "speaker": "Shizuka Inoue",
         "affiliation": "Columbia University",
-        "abstract": "Managerial Experience, Firm Size, and Economic Development: Evidence from the Collapse of the Japanese Empire",
-        "bio": "PhD Student in Economics\n                            \n                                Columbia University"
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "Do Ranked-Choice Ballots Reveal Voter Preferences? Evidence from the 2025 New York City Democratic Primary",
@@ -70,8 +50,8 @@
         "time": "11:30a-12:10p",
         "speaker": "Piper (Jing) Wang",
         "affiliation": "Columbia University",
-        "abstract": "Do Ranked-Choice Ballots Reveal Voter Preferences? Evidence from the 2025 New York City Democratic Primary",
-        "bio": "PhD Student in Economics\n                            \n                                Columbia University"
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "A Dynamic Matching Perspective on M&A Transactions",
@@ -80,8 +60,28 @@
         "time": "12:10p-12:50p",
         "speaker": "Antoine Chapel",
         "affiliation": "Columbia University",
-        "abstract": "A Dynamic Matching Perspective on M&A Transactions",
-        "bio": "PhD Student in Economics\n                            \n                                Columbia University"
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Temps and Extreme Temps: The Effect of Extreme Temperature on Temporary Labor",
+        "date": "19-Oct-26",
+        "location": "405A IAB",
+        "time": "1:00p-2:00p",
+        "speaker": "Cameron Scalera",
+        "affiliation": "Columbia: SIPA",
+        "abstract": "We provide the first study of how extreme temperature shocks affect establishment use of temporary labor. We focus on U.S. manufacturing, a sector in which temporary labor has been rising and for which temperature shocks could affect both labor supply and demand. We build a conceptual model that illustrates mechanisms and shows how the net effect of extreme temperature on temporary labor is theoretically ambiguous. We then estimate net effects empirically using reduced-form methods and exploiting exogenous extremes in daily temperature. Initial results show that extreme temperatures increase the number and percent of workers in the temporary services industry and more so in areas with high shares of manufacturing employment. These results have important implications for how firms adapt to economic shocks, such as from climate change, and how these shocks are distributed across different types of workers.",
+        "bio": "PhD Student in Sustainable Development"
+      },
+      {
+        "seminar_title": "Heterogeneous Agency? Perceived Returns to Effort and Earnings Inequality",
+        "date": "19-Oct-26",
+        "location": "IAB 1101",
+        "time": "1:00p-2:00p",
+        "speaker": "Kathryn McDonald",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Candidate in Economics"
       }
     ]
   },
@@ -97,7 +97,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "Javier G\u00f3mez-Serrano (Brown University)"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -107,7 +107,7 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "Mohammed Abouzaid (Stanford)"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
@@ -117,7 +117,7 @@
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
         "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "Aaron Landesman (Harvard)"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
@@ -127,7 +127,7 @@
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "Denis Nesterov (ETH Zurich)"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
@@ -137,7 +137,7 @@
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "Lucas Mason-Brown (Texas)"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -147,7 +147,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "Sky Cao (MIT)"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -157,7 +157,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "Sheldon Katz (University of Illinois at Urbana-Champaign)"
+        "bio": "N/A"
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -167,7 +167,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "Eric Zaslow (Northwestern University)"
+        "bio": "N/A"
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -177,7 +177,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "Artur Avila (IMPA)"
+        "bio": "N/A"
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -187,7 +187,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "Ishan Levy (Copenhagen)"
+        "bio": "N/A"
       }
     ]
   }
