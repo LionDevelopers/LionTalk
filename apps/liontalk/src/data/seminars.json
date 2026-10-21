@@ -4,46 +4,6 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "The Welfare Effects of Traffic Calming: Evidence from London\u2019s 20 mph Limits",
-        "date": "20-Oct-26",
-        "location": "1101 IAB",
-        "time": "11:00a-12:00p",
-        "speaker": "Stephan Thies",
-        "affiliation": "Columbia: SIPA",
-        "abstract": "Traffic calming, such as 20 mph speed limits, road closures, and low traffic neighborhoods, has become a popular tool in many cities to reduce road accidents and to curb the local externalities of motor vehicle traffic. Yet traffic calming is often contested as it can increase travel times for drivers. Unlike Pigouvian pricing, which has received substantial attention in the economics literature but is rarely implemented to regulate traffic, traffic calming has a priori ambiguous welfare consequences. This paper studies these trade-offs empirically in the context of Greater London. Combining GPS data with roadside monitors, I assemble a novel dataset tracking annual vehicle volumes and speeds on every road in London between 2010 and 2025. I document that during this period average speeds fell by about 10% despite declining traffic volumes. Exploiting the staggered rollout of 20 mph limits, I estimate how much the lower limits contribute to the decline, their effect on road collisions, and how they redistribute traffic across the network. I combine these estimates with hedonic estimates of residents\u2019 willingness to pay for quieter, slower streets to quantify the net welfare effect of the policy and its distribution across neighborhoods.",
-        "bio": "PhD Student in Sustainable Development"
-      },
-      {
-        "seminar_title": "The Financing Limits of Local Adaptation",
-        "date": "20-Oct-26",
-        "location": "1101 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Meha Sadasivam",
-        "affiliation": "Columbia: Business",
-        "abstract": "The Financing Limits of Local Adaptation",
-        "bio": "PhD Candidate in Finance"
-      },
-      {
-        "seminar_title": "To be announced.",
-        "date": "20-Oct-26",
-        "location": "1AB 1120",
-        "time": "2:45p-3:45p",
-        "speaker": "Rodrigo Pacheco",
-        "affiliation": "Columbia University",
-        "abstract": "To be announced.",
-        "bio": "PhD Candidate in Economics"
-      },
-      {
-        "seminar_title": "The Distributional Welfare Effects of Labour Market Power",
-        "date": "20-Oct-26",
-        "location": "1101 IAB",
-        "time": "4:15p-5:30p",
-        "speaker": "Madeline Hanson",
-        "affiliation": "Columbia University",
-        "abstract": "The Distributional Welfare Effects of Labour Market Power",
-        "bio": "Ph.D. Candidate in Economics"
-      },
-      {
         "seminar_title": "Barriers to industrial growth and long-run productive efficiency: the role of policy-induced misallocation",
         "date": "21-Oct-26",
         "location": "1102 IAB",
@@ -52,6 +12,56 @@
         "affiliation": "Columbia University",
         "abstract": "Barriers to industrial growth and long-run productive efficiency: the role of policy-induced misallocation",
         "bio": "PhD Candidate in Economics"
+      },
+      {
+        "seminar_title": "Technological Change and the Boundary of the Firm",
+        "date": "21-Oct-26",
+        "location": "N/A",
+        "time": "12:30p-1:15p",
+        "speaker": "Lauri Kristian Ojala",
+        "affiliation": "Columbia University",
+        "abstract": "Technological Change and the Boundary of the Firm",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Medical Innovation: Adoption and Consequences",
+        "date": "21-Oct-26",
+        "location": "N/A",
+        "time": "1:15p-2:00p",
+        "speaker": "Kate Kennedy-Moulton",
+        "affiliation": "Columbia University",
+        "abstract": "Medical Innovation: Adoption and Consequences",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Dynamic Bargaining with Information Acquisition",
+        "date": "21-Oct-26",
+        "location": "1101 IAB",
+        "time": "1:00p-2:00p",
+        "speaker": "Zikai Xu",
+        "affiliation": "Columbia University",
+        "abstract": "Dynamic Bargaining with Information Acquisition",
+        "bio": "PhD Candidate in Economics"
+      },
+      {
+        "seminar_title": "The Market for Antibiotics: Sorting, Signals, and Regulation in Kenya",
+        "date": "21-Oct-26",
+        "location": "1101 IAB",
+        "time": "4:10p-5:30p",
+        "speaker": "Michael Dinerstein",
+        "affiliation": "Duke University",
+        "abstract": "Antibiotic use creates a resistance externality, but imperfect information and misaligned incentives complicate regulation. We study retail health markets in western Kenya, where patients choose between pharmacies and clinics and can request drugs directly. We combine evidence from a market census, patient and provider surveys, clinical vignettes, and randomized standardized-patient experiments in an equilibrium model of patient sorting, diagnostic effort, pricing, and dispensing. Roughly one-third of surveyed patients receive incorrect antibiotic treatment. The estimated model indicates that overtreatment is primarily driven by incentives: some patients value antibiotics beyond their expected clinical benefit, and providers respond to dispensing profits and incentives to attract customers. Undertreatment primarily reflects incomplete information. Most patients with bacterial infections have low perceived antibiotic need. Many of these patients choose pharmacies, where limited diagnostic effort leaves some infections unidentified. We evaluate policy counterfactuals in equilibrium, allowing patients to adjust provider choice and drug requests and providers to adjust diagnostic effort, dispensing rules, and prices. Restricting pharmacy antibiotic sales and taxing antibiotics reduce overtreatment but also substantially increase undertreatment. Removing providers\u2019 financial motives and incentives to attract customers reduces both over- and undertreatment at clinics, which already acquire diagnostic information. At pharmacies, it reduces overtreatment but increases undertreatment.",
+        "bio": "Associate Professor of Economics"
+      },
+      {
+        "seminar_title": "Teaching Practices, Behavioral Change, and Socio-Emotional Skill Formation",
+        "date": "22-Oct-26",
+        "location": "Teachers College, Thompson Hall 229",
+        "time": "12:00p-1:30p",
+        "speaker": "Laia Navarro-Sola",
+        "affiliation": "Stockholm: IIES",
+        "abstract": "Schools shape skills that matter beyond academic achievement. Teachers are central to this process, yet whether these effects arise from fixed teacher attributes or from malleable instructional practices remains unclear. We investigate this question through a randomized intervention in Spanish secondary schools. The program equips treated teachers with tools to observe students' socio-emotional skills and provide structured feedback during routine instruction, thus generating exogenous variation in instructional practices. We combine external observations of student behavior with independent measures of teaching practices, survey measures of socio-emotional skills, and administrative records of grades and absences. The intervention improves students' socio-emotional behaviors in an externally assessed group activity and increases academic achievement, with particularly pronounced academic gains among students with lower baseline performance. These improvements translate into a substantial reduction in the probability of failing at least one subject. In contrast, we find no average improvement in socio-emotional behaviors observed during regular classroom instruction, although there is suggestive evidence of larger behavioral gains among students with weaker baseline socio-emotional skills and those from disadvantaged backgrounds. We also find evidence of changes in classroom interactions and instructional practices, which may contribute to the observed academic improvements. Together, these findings indicate that malleable teaching practices can improve academic outcomes and the expression of socio-emotional competencies, while highlighting that behavioral responses depend on the context in which they are measured, as well as students' initial characteristics.",
+        "bio": "Assistant Professor of Economics"
       }
     ]
   },
@@ -67,7 +77,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "N/A"
+        "bio": "Javier G\u00f3mez-Serrano"
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -77,7 +87,7 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "N/A"
+        "bio": "Mohammed Abouzaid"
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
@@ -87,7 +97,7 @@
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
         "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "N/A"
+        "bio": "Aaron Landesman"
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
@@ -97,7 +107,7 @@
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "N/A"
+        "bio": "Denis Nesterov"
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
@@ -107,7 +117,7 @@
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "N/A"
+        "bio": "Lucas Mason-Brown"
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -117,7 +127,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "N/A"
+        "bio": "Sky Cao"
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -127,7 +137,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "N/A"
+        "bio": "Sheldon Katz"
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -137,7 +147,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "N/A"
+        "bio": "Eric Zaslow"
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -147,7 +157,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "N/A"
+        "bio": "Artur Avila"
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -157,7 +167,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "N/A"
+        "bio": "Ishan Levy"
       }
     ]
   }
