@@ -4,64 +4,74 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Barriers to industrial growth and long-run productive efficiency: the role of policy-induced misallocation",
-        "date": "21-Oct-26",
-        "location": "1102 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Tianyu Luo",
-        "affiliation": "Columbia University",
-        "abstract": "Barriers to industrial growth and long-run productive efficiency: the role of policy-induced misallocation",
-        "bio": "PhD Candidate in Economics"
-      },
-      {
-        "seminar_title": "Technological Change and the Boundary of the Firm",
-        "date": "21-Oct-26",
-        "location": "N/A",
-        "time": "12:30p-1:15p",
-        "speaker": "Lauri Kristian Ojala",
-        "affiliation": "Columbia University",
-        "abstract": "Technological Change and the Boundary of the Firm",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Medical Innovation: Adoption and Consequences",
-        "date": "21-Oct-26",
-        "location": "N/A",
-        "time": "1:15p-2:00p",
-        "speaker": "Kate Kennedy-Moulton",
-        "affiliation": "Columbia University",
-        "abstract": "Medical Innovation: Adoption and Consequences",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Dynamic Bargaining with Information Acquisition",
-        "date": "21-Oct-26",
-        "location": "1101 IAB",
-        "time": "1:00p-2:00p",
-        "speaker": "Zikai Xu",
-        "affiliation": "Columbia University",
-        "abstract": "Dynamic Bargaining with Information Acquisition",
-        "bio": "PhD Candidate in Economics"
-      },
-      {
-        "seminar_title": "The Market for Antibiotics: Sorting, Signals, and Regulation in Kenya",
-        "date": "21-Oct-26",
-        "location": "1101 IAB",
-        "time": "4:10p-5:30p",
-        "speaker": "Michael Dinerstein",
-        "affiliation": "Duke University",
-        "abstract": "Antibiotic use creates a resistance externality, but imperfect information and misaligned incentives complicate regulation. We study retail health markets in western Kenya, where patients choose between pharmacies and clinics and can request drugs directly. We combine evidence from a market census, patient and provider surveys, clinical vignettes, and randomized standardized-patient experiments in an equilibrium model of patient sorting, diagnostic effort, pricing, and dispensing. Roughly one-third of surveyed patients receive incorrect antibiotic treatment. The estimated model indicates that overtreatment is primarily driven by incentives: some patients value antibiotics beyond their expected clinical benefit, and providers respond to dispensing profits and incentives to attract customers. Undertreatment primarily reflects incomplete information. Most patients with bacterial infections have low perceived antibiotic need. Many of these patients choose pharmacies, where limited diagnostic effort leaves some infections unidentified. We evaluate policy counterfactuals in equilibrium, allowing patients to adjust provider choice and drug requests and providers to adjust diagnostic effort, dispensing rules, and prices. Restricting pharmacy antibiotic sales and taxing antibiotics reduce overtreatment but also substantially increase undertreatment. Removing providers\u2019 financial motives and incentives to attract customers reduces both over- and undertreatment at clinics, which already acquire diagnostic information. At pharmacies, it reduces overtreatment but increases undertreatment.",
-        "bio": "Associate Professor of Economics"
-      },
-      {
         "seminar_title": "Teaching Practices, Behavioral Change, and Socio-Emotional Skill Formation",
         "date": "22-Oct-26",
         "location": "Teachers College, Thompson Hall 229",
         "time": "12:00p-1:30p",
         "speaker": "Laia Navarro-Sola",
         "affiliation": "Stockholm: IIES",
-        "abstract": "Schools shape skills that matter beyond academic achievement. Teachers are central to this process, yet whether these effects arise from fixed teacher attributes or from malleable instructional practices remains unclear. We investigate this question through a randomized intervention in Spanish secondary schools. The program equips treated teachers with tools to observe students' socio-emotional skills and provide structured feedback during routine instruction, thus generating exogenous variation in instructional practices. We combine external observations of student behavior with independent measures of teaching practices, survey measures of socio-emotional skills, and administrative records of grades and absences. The intervention improves students' socio-emotional behaviors in an externally assessed group activity and increases academic achievement, with particularly pronounced academic gains among students with lower baseline performance. These improvements translate into a substantial reduction in the probability of failing at least one subject. In contrast, we find no average improvement in socio-emotional behaviors observed during regular classroom instruction, although there is suggestive evidence of larger behavioral gains among students with weaker baseline socio-emotional skills and those from disadvantaged backgrounds. We also find evidence of changes in classroom interactions and instructional practices, which may contribute to the observed academic improvements. Together, these findings indicate that malleable teaching practices can improve academic outcomes and the expression of socio-emotional competencies, while highlighting that behavioral responses depend on the context in which they are measured, as well as students' initial characteristics.",
+        "abstract": "Schools shape skills that matter beyond academic achievement. Teachers are central to this process, yet whether these effects arise from fixed teacher attributes or from malleable instructional practices remains unclear. We investigate this question through a randomized intervention in Spanish secondary schools. The program equips treated teachers with tools to observe students' socio-emotional skills and provide structured feedback during routine instruction, thus generating exogenous variation in instructional practices. We combine external observations of student behavior with independent measures of teaching practices, survey measures of socio-emotional skills, and administrative records of grades and absences. The intervention improves students' socio-emotional behaviors in an externally assessed group activity and increases academic achievement, with particularly pronounced academic gains among students with lower baseline performance. These improvements translate into a substantial reduction in the probability of failing at least one subject. In contrast, we find no average improvement in socio-emotional behaviors observed during regular classroom instruction, although there is suggestive evidence of larger behavioral gains among students from weaker baseline socio-emotional skills and those from disadvantaged backgrounds. We also find evidence of changes in classroom interactions and instructional practices, which may contribute to the observed academic improvements. Together, these findings indicate that malleable teaching practices can improve academic outcomes and the expression of socio-emotional competencies, while highlighting that behavioral responses depend on the context in which they are measured, as well as students' initial characteristics.",
         "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "How to Weight in Moment Matching: An ML Approach with Applications to Earnings Dynamics",
+        "date": "22-Oct-26",
+        "location": "1102 IAB",
+        "time": "2:15p-3:30p",
+        "speaker": "Xu Cheng",
+        "affiliation": "University of Pennsylvania",
+        "abstract": "Following the seminal paper by Altonji and Segal (1996), empirical studies commonly adopt equal or diagonal weighting in minimum distance estimation to mitigate finite-sample bias arising from sampling error in the weighting matrix. We propose a new weighting scheme that combines cross-fitting with regularized estimation of the weighting matrix, in the spirit of de-biased machine learning. We also propose a new formula for cross-fitted standard errors. We show that several canonical models in the earnings dynamics literature satisfy exact or approximate sparsity conditions that can be exploited by graphical lasso estimation of the weighting matrix. Within a many-moment asymptotic framework, we characterize the asymptotic distribution of the structural parameters. Extensive simulation studies demonstrate that our approach outperforms commonly used alternative weighting schemes. Finally, an empirical application using data from the Panel Study of Income Dynamics illustrates the practical gains of our method.",
+        "bio": "Professor of Economics"
+      },
+      {
+        "seminar_title": "Divorce Mediation in the U.S.",
+        "date": "23-Oct-26",
+        "location": "1101 IAB",
+        "time": "10:00a-11:00a",
+        "speaker": "Ana Pranger",
+        "affiliation": "Columbia University",
+        "abstract": "Courts promote family mediation as a cheaper, less adversarial alternative to litigated divorce, even mandating it in some jurisdictions and cases, but large-scale, causal evidence of its effects are lacking. Mediation may lower the costs of dissolution, as it does not require expensive lawyers or time before a judge. However, without strong evidence of mediation\u2019s impact on outcomes, the net effect over couples and children is ambiguous, with implications for how income, assets, and responsibility for children are allocated across newly formed households. In this project, we leverage differences in mediation orders and mandates across judges and jurisdictions to identify the causal impact of going to mediation on dissolving couples and the court system. Using docket-level data on divorce cases in several localities and a judge fixed-effects design, we can isolate the causal effect of mediation on case characteristics and outcomes post-divorce. Preliminary results from Harris County, Texas, indicate that mediation leads cases to close more quickly, but may not lower observable contention. As the project progresses, we hope to connect these cases to compliance with child custody obligations, parenting and custody arrangements, and other downstream outcomes for courts, couples, and children.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Local Incentives, Global Misallocation: Instrument Choice in Place-Based Policies",
+        "date": "23-Oct-26",
+        "location": "1101 IAB",
+        "time": "12:00p-12:30p",
+        "speaker": "Leran Qi",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Climate Shocks and Rural-to-Urban Temporary Migration: Evidence from Mobile Phone Data in Senegal",
+        "date": "23-Oct-26",
+        "location": "1101 IAB",
+        "time": "12:30p-1:00p",
+        "speaker": "Emilio Leguizamo",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Student in SIPA"
+      },
+      {
+        "seminar_title": "Suspensions and the School Ecosystem: Evidence from Restorative Practices in Texas",
+        "date": "26-Oct-26",
+        "location": "1101 IAB",
+        "time": "11:30a-12:10p",
+        "speaker": "Bailey Kraus",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Learning through Job Search: Endogenous Choice Set Formation and Labor Market Power",
+        "date": "26-Oct-26",
+        "location": "1101 IAB",
+        "time": "12:10p-1:00p",
+        "speaker": "Gina Markov",
+        "affiliation": "Columbia University",
+        "abstract": "N/A",
+        "bio": "PhD Student in Economics"
       }
     ]
   },
