@@ -4,64 +4,54 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Suspensions and the School Ecosystem: Evidence from Restorative Practices in Texas",
-        "date": "26-Oct-26",
-        "location": "1101 IAB",
-        "time": "11:30a-12:10p",
-        "speaker": "Bailey Kraus",
+        "seminar_title": "The Gravity of Wildfire Smoke: Avoidance Costs Revealed by Mobility Data",
+        "date": "27-Oct-26",
+        "location": "1102 IAB",
+        "time": "11:00a-12:00p",
+        "speaker": "Clara Berestycki",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Learning through Job Search: Endogenous Choice Set Formation and Labor Market Power",
-        "date": "26-Oct-26",
-        "location": "1101 IAB",
-        "time": "12:10p-1:00p",
-        "speaker": "Gina Markov",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "When Amazon Comes to Town: Warehouse Entry and Painkiller Consumption",
-        "date": "26-Oct-26",
-        "location": "IAB 405A",
-        "time": "1:00p-2:00p",
-        "speaker": "Alina Gafanova",
-        "affiliation": "Columbia University",
-        "abstract": "Amazon is the second largest private employer in the US. While economists have studied the effects of Amazon on workers\u2019 wages and employment in local labor markets, there is little work on its effects on non-wage amenities. Amazon warehouses report 70% more injuries per worker than other warehouses, and there is anecdotal evidence that workers experience chronic pain and cope with it using over-the-counter painkillers. In this project, I use local painkiller sales to study whether the opening of an Amazon fulfillment center affects workers\u2019 health beyond reported injuries.",
+        "abstract": "This paper estimates the cost of wildfire smoke revealed by trip choices in Northern California in 2018. Using individual smartphone movement data and a discrete-choice model, I estimate the impact of wildfire smoke on activity participation and destination choice. Exploiting the extensive choice set observed in the smartphone data, I model trip flows as a gravity equation that includes smoke at the destination. People substitute away from smoky destinations and activities, and air quality alerts increase avoidance behavior. Outdoor trips are reduced the most, but trips to work and other destinations also decline with smoke. Based on estimated willingness to travel, these avoidance costs are about $500 million, adding 24% to the mortality burden of the same wildfire smoke season.",
         "bio": "PhD Student in Sustainable Development"
       },
       {
-        "seminar_title": "Strategically Controlling Worldviews",
-        "date": "26-Oct-26",
-        "location": "K820",
-        "time": "1:00p-2:15p",
-        "speaker": "Cuimin Ba",
-        "affiliation": "Johns Hopkins University",
-        "abstract": "This paper studies persuasive behavior when the sender can both control the information the receiver observes (the message) and propose a model of its interpretation (the narrative). We show that the sender can manipulate the receiver into always taking her preferred action, even when they start with a correctly specified model of her strategic behavior, update by Bayes\u2019 rule given their model, and are skeptical of her narrative. The key mechanism highlights a strong complementarity between strategic communication of information and narratives, which allows the sender to strictly outperform Bayesian persuasion without commitment power. We fully characterize the sender-optimal equilibrium for a broad class of information technologies. Softer information lowers the bar for full manipulation, while harder information expands the set of environments where any manipulation is possible. The results pro vide a formal foundation for understanding the widespread success of disinformation.",
-        "bio": "Steven M. Kaye Assistant Professor of Economics"
+        "seminar_title": "Cash Now, Current Later: Energy Investment in the AI Era",
+        "date": "27-Oct-26",
+        "location": "1101 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Sonakshi Agrawal",
+        "affiliation": "Columbia: Business",
+        "abstract": "To be announced.",
+        "bio": "PhD Student in Finance"
       },
       {
-        "seminar_title": "Trade Credit, Financial Frictions, and Fragility in Supply Chains",
-        "date": "26-Oct-26",
-        "location": "IAB 1101",
-        "time": "1:00p-2:00p",
-        "speaker": "Ankit Bhutani",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Candidate in Economics"
+        "seminar_title": "The Optimality of Majority Rule: An Information-Choice Perspective",
+        "date": "27-Oct-26",
+        "location": "Room 707",
+        "time": "12:15p-1:30p",
+        "speaker": "Nina Bobkova",
+        "affiliation": "Rice University",
+        "abstract": "How does the voting rule shape what a committee learns before voting? I study voters who choose between learning about a proposal\u2019s common quality, and its consequences for themselves \u2014 their taste. Higher voting rules lead to less learning about quality and more about taste: being pivotal requires greater support from others, which provides favorable evidence about quality and makes quality learning relatively less valuable. A consensus paradox arises: requiring broader consensus can generate less of it. Supermajority rules are welfare dominated by an equilibrium under simple majority, and might always reject the proposal in large committees.",
+        "bio": "Associate Professor of Economics"
       },
       {
-        "seminar_title": "Driving to Electrification: Fuel Taxes, Purchase Subsidies, and Vehicle Choice in India",
-        "date": "26-Oct-26",
-        "location": "801 IAB",
-        "time": "3:10p-4:40p",
-        "speaker": "Sujoy Bhattacharyya",
-        "affiliation": "Columbia University",
-        "abstract": "To mitigate climate change, governments are increasingly using fuel taxes and electric vehicle purchase subsidies, but causal evidence in developing countries remains limited. We conduct difference-in-difference analysis of multiple state-level policies in India, the world\u2019s largest two-wheeler market, using novel data on the universe of vehicle registrations, fuel taxes, and subsidy programs. We find that reductions in petrol-taxes caused substantial drops in electric two-wheeler shares, with an average tax cut of 6 Rs./L lowering EV shares over six months by 1.2 percentage points (39.5% below their estimated counterfactual). Leveraging the staggered adoption of state-level purchase subsidies, we find that a subsidy of 11,000 Rs. increased EV shares by 1.05 percentage points over six months. These effects correspond to elasticities of approximately 7.11 for petrol prices and \u22124.08 for electric vehicle purchase prices. Thus, while upfront subsidies are effective, future operating costs of competing fossil fuel vehicles play a large role in electric vehicle adoption. The findings reinforce the importance of considering multiple instruments when designing policies to encourage electrification.",
-        "bio": "PhD Student in Sustainable Development"
+        "seminar_title": "Distributional Effects of Exclusive Dealing in Retail Real Estate",
+        "date": "27-Oct-26",
+        "location": "1101 IAB",
+        "time": "2:30p-3:45p",
+        "speaker": "Camilla Schneier",
+        "affiliation": "Boston University",
+        "abstract": "I study the welfare implications of exclusive dealing in U.S. retail. Using a novel dataset, I document widespread use of contracts that restrict local entry by rival stores. Stores with exclusives face fewer competitors and higher prices, suggesting anticompetitive effects, yet many grocers in under-served neighborhoods use them, implying potential entry benefits in low-demand markets. I estimate a structural model of household store choice and a landlord\u2013retailer entry game to capture equilibrium pricing and entry. Exclusive dealing benefits landlords and large retailers. A ban raises welfare for some households but increases the number of households living in food deserts.",
+        "bio": "Assistant Professor in Markets, Public Policy & Law"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "27-Oct-26",
+        "location": "IAB 1120",
+        "time": "2:45p-3:45p",
+        "speaker": "Conor Walsh",
+        "affiliation": "Columbia: Business",
+        "abstract": "To be announced.",
+        "bio": "Assistant Professor of Economics"
       }
     ]
   },
@@ -77,7 +67,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "AI-Driven Mathematical Discovery: Singularities, Algorithms, and Beyond"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -87,37 +77,37 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "Can AI systems produce interesting proofs?"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
         "date": "09-Feb-26",
         "location": "Math Hall 520",
-        "time": "4:30 PM \u2013 5:30 PM",
+        "time": "4:30 \u2013 5:30PM",
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
         "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "Malle\u2019s conjecture over function fields"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
         "date": "06-Feb-26",
         "location": "Math Hall 520",
-        "time": "3 PM \u2013 4 PM",
+        "time": "3 \u2013 4PM",
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "Compactifications and Degenerations"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
         "date": "02-Feb-26",
         "location": "Math Hall 520",
-        "time": "4:30 PM \u2013 5:30 PM",
+        "time": "4:30 \u2013 5:30PM",
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "Unitary representations of semisimple Lie groups and conical symplectic singularities."
+        "bio": "N/A"
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -127,7 +117,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "Yang-Mills, probability, and stochastic PDE"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -137,7 +127,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "The reasonable effectiveness of physics in mathematics"
+        "bio": "N/A"
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -147,7 +137,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "Combinatorial Perspectives in Stringy Geometry"
+        "bio": "N/A"
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -157,7 +147,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "Renormalization, fractal geometry and the Newhouse phenomenon"
+        "bio": "N/A"
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -167,7 +157,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "Homotopy groups of spheres and algebraic K-theory"
+        "bio": "N/A"
       }
     ]
   }
