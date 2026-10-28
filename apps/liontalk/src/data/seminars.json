@@ -4,54 +4,64 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "The Gravity of Wildfire Smoke: Avoidance Costs Revealed by Mobility Data",
-        "date": "27-Oct-26",
+        "seminar_title": "Efficient Particle Filtering for Dynamic Equilibrium Models",
+        "date": "28-Oct-26",
         "location": "1102 IAB",
-        "time": "11:00a-12:00p",
-        "speaker": "Clara Berestycki",
-        "affiliation": "Columbia University",
-        "abstract": "This paper estimates the cost of wildfire smoke revealed by trip choices in Northern California in 2018. Using individual smartphone movement data and a discrete-choice model, I estimate the impact of wildfire smoke on activity participation and destination choice. Exploiting the extensive choice set observed in the smartphone data, I model trip flows as a gravity equation that includes smoke at the destination. People substitute away from smoky destinations and activities, and air quality alerts increase avoidance behavior. Outdoor trips are reduced the most, but trips to work and other destinations also decline with smoke. Based on estimated willingness to travel, these avoidance costs are about $500 million, adding 24% to the mortality burden of the same wildfire smoke season.",
-        "bio": "PhD Student in Sustainable Development"
-      },
-      {
-        "seminar_title": "Cash Now, Current Later: Energy Investment in the AI Era",
-        "date": "27-Oct-26",
-        "location": "1101 IAB",
         "time": "12:00p-1:00p",
-        "speaker": "Sonakshi Agrawal",
-        "affiliation": "Columbia: Business",
-        "abstract": "To be announced.",
-        "bio": "PhD Student in Finance"
+        "speaker": "Nicholas Guitian",
+        "affiliation": "Columbia University",
+        "abstract": "Efficient Particle Filtering for Dynamic Equilibrium Models",
+        "bio": "Nicholas Guitian is a PhD Student in Economics at Columbia University."
       },
       {
-        "seminar_title": "The Optimality of Majority Rule: An Information-Choice Perspective",
-        "date": "27-Oct-26",
-        "location": "Room 707",
-        "time": "12:15p-1:30p",
-        "speaker": "Nina Bobkova",
-        "affiliation": "Rice University",
-        "abstract": "How does the voting rule shape what a committee learns before voting? I study voters who choose between learning about a proposal\u2019s common quality, and its consequences for themselves \u2014 their taste. Higher voting rules lead to less learning about quality and more about taste: being pivotal requires greater support from others, which provides favorable evidence about quality and makes quality learning relatively less valuable. A consensus paradox arises: requiring broader consensus can generate less of it. Supermajority rules are welfare dominated by an equilibrium under simple majority, and might always reject the proposal in large committees.",
-        "bio": "Associate Professor of Economics"
+        "seminar_title": "Do Ranked-Choice Ballots Reveal Voter Preferences?",
+        "date": "28-Oct-26",
+        "location": "N/A",
+        "time": "12:30p-1:00p",
+        "speaker": "Zijian Zhang",
+        "affiliation": "Columbia University",
+        "abstract": "Do Ranked-Choice Ballots Reveal Voter Preferences?",
+        "bio": "Zijian Zhang is a PhD Student in Economics at Columbia University."
       },
       {
-        "seminar_title": "Distributional Effects of Exclusive Dealing in Retail Real Estate",
-        "date": "27-Oct-26",
+        "seminar_title": "Racial Differences in Exposure to Local  Labor Demand Shocks",
+        "date": "28-Oct-26",
+        "location": "N/A",
+        "time": "1:00p-1:45p",
+        "speaker": "Nikita Raheja",
+        "affiliation": "Columbia University",
+        "abstract": "Racial Differences in Exposure to Local Labor Demand Shocks",
+        "bio": "Nikita Raheja is a PhD Candidate in Economics at Columbia University."
+      },
+      {
+        "seminar_title": "How to Serve Addictive Content: Recommendation Design and Dynamic Inconsistency",
+        "date": "28-Oct-26",
         "location": "1101 IAB",
-        "time": "2:30p-3:45p",
-        "speaker": "Camilla Schneier",
-        "affiliation": "Boston University",
-        "abstract": "I study the welfare implications of exclusive dealing in U.S. retail. Using a novel dataset, I document widespread use of contracts that restrict local entry by rival stores. Stores with exclusives face fewer competitors and higher prices, suggesting anticompetitive effects, yet many grocers in under-served neighborhoods use them, implying potential entry benefits in low-demand markets. I estimate a structural model of household store choice and a landlord\u2013retailer entry game to capture equilibrium pricing and entry. Exclusive dealing benefits landlords and large retailers. A ban raises welfare for some households but increases the number of households living in food deserts.",
-        "bio": "Assistant Professor in Markets, Public Policy & Law"
+        "time": "1:00p-2:00p",
+        "speaker": "Sangjun Park",
+        "affiliation": "Columbia University",
+        "abstract": "How to Serve Addictive Content: Recommendation Design and Dynamic Inconsistency",
+        "bio": "Sangjun Park is a PhD Candidate in Economics at Columbia University."
       },
       {
-        "seminar_title": "To be announced.",
-        "date": "27-Oct-26",
-        "location": "IAB 1120",
-        "time": "2:45p-3:45p",
-        "speaker": "Conor Walsh",
-        "affiliation": "Columbia: Business",
-        "abstract": "To be announced.",
-        "bio": "Assistant Professor of Economics"
+        "seminar_title": "Watching the Oceans: Sanctions, Supply Chains, and the Global Economy",
+        "date": "28-Oct-26",
+        "location": "Teatro (2nd Floor), Italian Academy",
+        "time": "4:00p-6:00p",
+        "speaker": "Jes\u00fas Fern\u00e1ndez-Villaverde",
+        "affiliation": "University of Pennsylvania",
+        "abstract": "We examine the rise of dark shipping \u2013 oil tankers disabling AIS transceivers to evade detection \u2013 amid Western sanctions on Iran, Syria, North Korea, Venezuela, and Russia. Using a machine learning-based ship clustering model, we track dark-shipped crude oil trade flows worldwide and detect unauthorized ship-to-ship transfers. From 2017 to 2023, dark ships transported an estimated 7.8 million metric tons of crude oil monthly \u2013 43% of global seaborne crude exports \u2013 with China absorbing 15%. These sanctioned flows offset recorded declines in global oil exports but create distinct economic shifts. The U.S., a net oil exporter, faces lower oil prices but benefits from cheaper Chinese imports, driving deflationary growth. The EU, a net importer, contends with rising energy costs yet gains from Chinese demand, fueling inflationary expansion. China, leveraging discounted oil, boosts industrial output, propagating global economic shocks. Our findings expose dark shipping's central role in reshaping oil markets and macroeconomic dynamics.",
+        "bio": "Jes\u00fas Fern\u00e1ndez-Villaverde is the Howard Marks Presidential Professor of Economics at the University of Pennsylvania."
+      },
+      {
+        "seminar_title": "The Limits of Targeted Hiring Subsidies: Evidence from the Work Opportunity Tax Credit",
+        "date": "28-Oct-26",
+        "location": "1101 IAB",
+        "time": "4:10p-5:30p",
+        "speaker": "Jeff Weaver",
+        "affiliation": "University of Southern California",
+        "abstract": "Employer-side wage subsidies are widely used to promote employment among disadvantaged workers. We study how such subsidies translate into firm hiring behavior using the federal Work Opportunity Tax Credit, which subsidizes up to 40% of first-year wages and covers over two million hires annually. Using linked administrative data from Wisconsin and multiple quasiexperimental designs, we find consistent and precise null effects on hiring, earnings, retention, and related outcomes across designs and firm types. Original data on firm hiring practices suggest two mechanisms that can limit employer-side subsidy efficacy: perceived legal risks discourage eligibility screening and organizational frictions attenuate decision-makers' responsiveness.",
+        "bio": "Jeff Weaver is an Associate Professor of Economics at the University of Southern California."
       }
     ]
   },
