@@ -4,64 +4,54 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Efficient Particle Filtering for Dynamic Equilibrium Models",
-        "date": "28-Oct-26",
-        "location": "1102 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Nicholas Guitian",
-        "affiliation": "Columbia University",
-        "abstract": "Efficient Particle Filtering for Dynamic Equilibrium Models",
-        "bio": "Nicholas Guitian is a PhD Student in Economics at Columbia University."
-      },
-      {
-        "seminar_title": "Do Ranked-Choice Ballots Reveal Voter Preferences?",
-        "date": "28-Oct-26",
-        "location": "N/A",
-        "time": "12:30p-1:00p",
-        "speaker": "Zijian Zhang",
-        "affiliation": "Columbia University",
-        "abstract": "Do Ranked-Choice Ballots Reveal Voter Preferences?",
-        "bio": "Zijian Zhang is a PhD Student in Economics at Columbia University."
-      },
-      {
-        "seminar_title": "Racial Differences in Exposure to Local  Labor Demand Shocks",
-        "date": "28-Oct-26",
-        "location": "N/A",
-        "time": "1:00p-1:45p",
-        "speaker": "Nikita Raheja",
-        "affiliation": "Columbia University",
-        "abstract": "Racial Differences in Exposure to Local Labor Demand Shocks",
-        "bio": "Nikita Raheja is a PhD Candidate in Economics at Columbia University."
-      },
-      {
-        "seminar_title": "How to Serve Addictive Content: Recommendation Design and Dynamic Inconsistency",
-        "date": "28-Oct-26",
-        "location": "1101 IAB",
-        "time": "1:00p-2:00p",
-        "speaker": "Sangjun Park",
-        "affiliation": "Columbia University",
-        "abstract": "How to Serve Addictive Content: Recommendation Design and Dynamic Inconsistency",
-        "bio": "Sangjun Park is a PhD Candidate in Economics at Columbia University."
-      },
-      {
         "seminar_title": "Watching the Oceans: Sanctions, Supply Chains, and the Global Economy",
-        "date": "28-Oct-26",
+        "date": "27-Oct-26",
         "location": "Teatro (2nd Floor), Italian Academy",
         "time": "4:00p-6:00p",
         "speaker": "Jes\u00fas Fern\u00e1ndez-Villaverde",
         "affiliation": "University of Pennsylvania",
         "abstract": "We examine the rise of dark shipping \u2013 oil tankers disabling AIS transceivers to evade detection \u2013 amid Western sanctions on Iran, Syria, North Korea, Venezuela, and Russia. Using a machine learning-based ship clustering model, we track dark-shipped crude oil trade flows worldwide and detect unauthorized ship-to-ship transfers. From 2017 to 2023, dark ships transported an estimated 7.8 million metric tons of crude oil monthly \u2013 43% of global seaborne crude exports \u2013 with China absorbing 15%. These sanctioned flows offset recorded declines in global oil exports but create distinct economic shifts. The U.S., a net oil exporter, faces lower oil prices but benefits from cheaper Chinese imports, driving deflationary growth. The EU, a net importer, contends with rising energy costs yet gains from Chinese demand, fueling inflationary expansion. China, leveraging discounted oil, boosts industrial output, propagating global economic shocks. Our findings expose dark shipping's central role in reshaping oil markets and macroeconomic dynamics.",
-        "bio": "Jes\u00fas Fern\u00e1ndez-Villaverde is the Howard Marks Presidential Professor of Economics at the University of Pennsylvania."
+        "bio": "Howard Marks Presidential Professor of Economics"
       },
       {
-        "seminar_title": "The Limits of Targeted Hiring Subsidies: Evidence from the Work Opportunity Tax Credit",
-        "date": "28-Oct-26",
+        "seminar_title": "Cuisine",
+        "date": "29-Oct-26",
         "location": "1101 IAB",
-        "time": "4:10p-5:30p",
-        "speaker": "Jeff Weaver",
-        "affiliation": "University of Southern California",
-        "abstract": "Employer-side wage subsidies are widely used to promote employment among disadvantaged workers. We study how such subsidies translate into firm hiring behavior using the federal Work Opportunity Tax Credit, which subsidizes up to 40% of first-year wages and covers over two million hires annually. Using linked administrative data from Wisconsin and multiple quasiexperimental designs, we find consistent and precise null effects on hiring, earnings, retention, and related outcomes across designs and firm types. Original data on firm hiring practices suggest two mechanisms that can limit employer-side subsidy efficacy: perceived legal risks discourage eligibility screening and organizational frictions attenuate decision-makers' responsiveness.",
-        "bio": "Jeff Weaver is an Associate Professor of Economics at the University of Southern California."
+        "time": "4:10p-5:25p",
+        "speaker": "Girija Borker",
+        "affiliation": "The World Bank",
+        "abstract": "We study how cuisines develop, persist, and shape economic life. Using nearly 70,000 recipes from 138 countries, we construct a novel global dataset of cuisine characteristics, ingredients, and preparation methods. We document how geography and history shape cuisines: local environmental conditions influence ingredient availability and cooking techniques, while trade and migration drive the diffusion of ingredients and culinary practices. We then examine the economic consequences of cuisine complexity, measured through cooking time, ingredient diversity, preparation intensity, and spice use. We develop a household time-allocation model in which cuisine complexity reinforces gender differences in initial returns to labor, to sustain women\u2019s specialization in cooking. Using the flavor versatility of native spices as an instrument for cuisine complexity, together with individual-level labor market data, we find that more complex cuisines reduce women's labor force participation, particularly among married women.",
+        "bio": "Research Economist"
+      },
+      {
+        "seminar_title": "Plant-Based Policies: Subsidy Competition as a Place-Based Policy",
+        "date": "30-Oct-26",
+        "location": "1101 IAB",
+        "time": "10:00a-11:00a",
+        "speaker": "Aurel Rochell",
+        "affiliation": "Columbia University",
+        "abstract": "Subsidy competition is a large and persistent feature of state and local governments' economic development policy, yet the benefits of such location incentives remain unclear. I analyze whether subsidy competition can be justified from a place-based policy perspective. I first identify the geolocations of Million Dollar Plant openings to show that subsidy competition does not prevent manufacturing firms from sorting into ex-ante less distressed neighborhoods. Combining these locations with block-level employer-employee matched job counts in a spatial difference-in-differences design, I find that job creation and job take-up are concentrated near opened plants, making take-up regressive over neighborhood incomes due to positive firm sorting. Job-to-job flows indicate that most induced hires are local residents but rarely come from non-employment, implying only moderate reductions in local unemployment. Overall, location incentives generate employment at high cost and predominantly in high-income neighborhoods, implying meaningful welfare costs under redistributive motives and limited viability as place-based policy.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "The urban transportation problem: Accessibility in 1100 cities and 400,000 neighborhoods",
+        "date": "30-Oct-26",
+        "location": "110 IAB",
+        "time": "1:30p-3:00p",
+        "speaker": "Gilles Duranton",
+        "affiliation": "UPenn: The Wharton School",
+        "abstract": "Cities exist to facilitate residents\u2019 access to each other, including to jobs and to a variety of local  services. Differences in accessibility across cities remain poorly measured, especially in low-  and middle-income countries, where most future urban growth will take place. We develop  a new methodology to measure accessibility with a price index, and apply it to over 400,000  neighborhoods of 1,105 cities in 111 countries. Our accessibility index can be decomposed into  a speed index (fast travel) and a distance index (close venues). Accessibility by private vehicle  varies widely across cities, mostly because of differences in distance rather than speed. Cities  where residents live close to venues tend to have slower driving speeds, but not slower transit  speeds. This speed-distance trade-off for private vehicles can be almost entirely accounted for  by two overlapping factors: (1) overall city density (of people and venues), irrespective of their  location within the city, and (2) the coagglomeration of people and venues within cities.",
+        "bio": "Dean\u2019s Chair in Real Estate Professor"
+      },
+      {
+        "seminar_title": "Bases and the City: Spatial Economics of US Military Bases in Okinawa",
+        "date": "30-Oct-26",
+        "location": "1101 IAB",
+        "time": "3:30p-5:00p",
+        "speaker": "Atsushi Yamagishi (\u5c71\u5cb8 \u6566)",
+        "affiliation": "Tohoku University",
+        "abstract": "Rising geopolitical tensions underscore the strategic importance of military bases and the consumption demand and employment they generate are central to policy debates about their economic benefits for host communities. We assess their spatial economic impacts using newly digitized data from postwar Okinawa, a region heavily exposed to US bases. We document substantial urbanization around US bases, with service-sector expansion but little manufacturing growth. We develop a quantitative spatial model calibrated to Okinawa in 1970 to quantify the role of base-sourced consumption demand and employment. Removing these channels reduces population in base-exposed municipalities and shifts activity from services toward agriculture and manufacturing. Okinawa-wide welfare falls by 7.25% and GNI by 11.99%, although these channels accounted for roughly 30% of GNI. Sectoral reallocation mitigates these losses alongside sizable migration. Suggestive evidence also points to an additional role for past investment in infrastructure and durable capital around US bases.",
+        "bio": "Associate Professor of Economics"
       }
     ]
   },
@@ -77,7 +67,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -87,7 +77,7 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
@@ -97,7 +87,7 @@
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
         "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
@@ -107,7 +97,7 @@
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
@@ -117,7 +107,7 @@
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -127,7 +117,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -137,7 +127,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -147,7 +137,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -157,7 +147,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -167,7 +157,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       }
     ]
   }
