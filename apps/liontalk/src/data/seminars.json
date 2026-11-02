@@ -10,7 +10,7 @@
         "time": "1:00p-2:15p",
         "speaker": "Yingni Guo",
         "affiliation": "Duke University",
-        "abstract": "We study priority-based allocation with strategic intermediaries. In the U.S. transplant market, organs are offered sequentially to patients ranked by priority, but transplant centers, not patients, make acceptance decisions. Centers strategically bypass high-priority patients to secure better matches, creating a wedge between formal and real allocation. We introduce the priority adherence index to measure this wedge and analyze how market conditions shape it through three forces: pool thinning, batch shortening, and strategic delay. We further show that a simultaneous priority-proposal rule is strategically equivalent to the current sequential-offer rule, but avoids costly delays, offering a faster practical alternative.",
+        "abstract": "We study priority-based allocation with strategic intermediaries. In the U.S. transplant market, organs are offered sequentially to patients ranked by priority, but transplant centers, not patients, make acceptance decisions. Centers strategically bypass high-priority patients to secure better matches, creating a wedge between formal and real allocation. We introduce the <i>priority adherence index</i> to measure this wedge and analyze how market conditions shape it through three forces: pool thinning, batch shortening, and strategic delay. We further show that a simultaneous priority-proposal rule is strategically equivalent to the current sequential-offer rule, but avoids costly delays, offering a faster practical alternative.",
         "bio": "Associate Professor of Economics"
       },
       {
@@ -20,7 +20,7 @@
         "time": "4:15p-5:30p",
         "speaker": "N/A",
         "affiliation": "N/A",
-        "abstract": "No seminar",
+        "abstract": "N/A",
         "bio": "N/A"
       },
       {
@@ -30,7 +30,7 @@
         "time": "12:30p-1:00p",
         "speaker": "Koralp Kabal",
         "affiliation": "Columbia University",
-        "abstract": "From the Village, to the Village: Rural Teachers and Nation-Building in Turkey",
+        "abstract": "The first paper listed for Koralp Kabal.",
         "bio": "PhD Student in Economics"
       },
       {
@@ -50,7 +50,7 @@
         "time": "1:00p-2:00p",
         "speaker": "Yuyang Miao",
         "affiliation": "Columbia University",
-        "abstract": "Strategic Coordination with Finite Memory",
+        "abstract": "The paper presented by Yuyang Miao.",
         "bio": "PhD Candidate in Economics"
       },
       {
@@ -60,7 +60,7 @@
         "time": "4:10p-5:30p",
         "speaker": "Winnie van Dijk",
         "affiliation": "Yale University",
-        "abstract": "To be announced.",
+        "abstract": "The paper presented by Winnie van Dijk.",
         "bio": "Assistant Professor of Economics"
       }
     ]
