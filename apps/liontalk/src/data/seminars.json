@@ -4,23 +4,13 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Formal and Real Organ Allocation",
-        "date": "02-Nov-26",
-        "location": "IAB 1102",
-        "time": "1:00p-2:15p",
-        "speaker": "Yingni Guo",
-        "affiliation": "Duke University",
-        "abstract": "We study priority-based allocation with strategic intermediaries. In the U.S. transplant market, organs are offered sequentially to patients ranked by priority, but transplant centers, not patients, make acceptance decisions. Centers strategically bypass high-priority patients to secure better matches, creating a wedge between formal and real allocation. We introduce the <i>priority adherence index</i> to measure this wedge and analyze how market conditions shape it through three forces: pool thinning, batch shortening, and strategic delay. We further show that a simultaneous priority-proposal rule is strategically equivalent to the current sequential-offer rule, but avoids costly delays, offering a faster practical alternative.",
-        "bio": "Associate Professor of Economics"
-      },
-      {
         "seminar_title": "No seminar",
         "date": "03-Nov-26",
         "location": "N/A",
         "time": "4:15p-5:30p",
         "speaker": "N/A",
-        "affiliation": "N/A",
-        "abstract": "N/A",
+        "affiliation": "Columbia Business School",
+        "abstract": "No seminar event listing",
         "bio": "N/A"
       },
       {
@@ -30,7 +20,7 @@
         "time": "12:30p-1:00p",
         "speaker": "Koralp Kabal",
         "affiliation": "Columbia University",
-        "abstract": "The first paper listed for Koralp Kabal.",
+        "abstract": "Courts promote family mediation as a cheaper, less adversarial alternative to litigated divorce, even mandating it in some jurisdictions and cases, but large-scale, causal evidence of its effects are lacking. Mediation may lower the costs of dissolution, as it does not require expensive lawyers or time before a judge. However, without strong evidence of mediation\u2019s impact on outcomes, the net effect over couples and children is ambiguous, with implications for how income, assets, and responsibility for children are allocated across newly formed households. In this project, we leverage differences in mediation orders and mandates across judges to identify the causal impact of going to mediation on dissolving couples and the court system. Using docket-level data on divorce cases in Texas and a judge fixed-effects design, we can isolate the causal effect of mediation on case characteristics and outcomes post-divorce. Preliminary results from Harris County, Texas, indicate that mediation leads cases to close at around the same time, but may actually raise observable contention.",
         "bio": "PhD Student in Economics"
       },
       {
@@ -50,7 +40,7 @@
         "time": "1:00p-2:00p",
         "speaker": "Yuyang Miao",
         "affiliation": "Columbia University",
-        "abstract": "The paper presented by Yuyang Miao.",
+        "abstract": "N/A",
         "bio": "PhD Candidate in Economics"
       },
       {
@@ -60,8 +50,18 @@
         "time": "4:10p-5:30p",
         "speaker": "Winnie van Dijk",
         "affiliation": "Yale University",
-        "abstract": "The paper presented by Winnie van Dijk.",
+        "abstract": "N/A",
         "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "Enhancing the Quality of Thinking: Evidence from a School-Based Cognitive Expansion Program",
+        "date": "05-Nov-26",
+        "location": "Teachers College, Thompson Hall 229",
+        "time": "12:00p-1:30p",
+        "speaker": "Sule Alan",
+        "affiliation": "Cornell University",
+        "abstract": "Long-run human progress has depended on our higher-order skills, including thinking in abstract terms, categorizing information, drawing analogies across settings, and critically evaluating evidence. This study evaluates an educational program designed to strengthen children's capacity for higher-order reasoning while they learn the regular curriculum. The program exposes students and teachers to sustained and progressively more demanding reasoning tasks over two consecutive years. The study covers 132 primary schools in Turkey, with 67 randomly assigned to the program, and follows approximately 15,000 students for three years. We estimate the impacts on a broad set of cognitive, academic, and higher-order thinking outcomes. Central to our evaluation is a novel method for assessing critical thinking in young children. Our language-based tool assesses logical inference, argument justification, and the detection of flawed reasoning. We find large gains in higher-order reasoning, with effects of 0.16\u20130.28 standard deviations on abstract and analogical reasoning. We also find improvements in working memory and attention, as well as gains in academic learning and critical thinking. Using a dynamic model of skill formation, we show strong persistence in higher-order reasoning and cross-productivity from higher-order reasoning to academic learning and critical thinking. Our results suggest that directly targeting higher-order thinking skills through cognitively demanding experiences can strengthen children's reasoning capacity and support academic learning.",
+        "bio": "Professor of Economics and Behavioral Science"
       }
     ]
   },
