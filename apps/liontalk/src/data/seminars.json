@@ -4,20 +4,10 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "No seminar",
-        "date": "03-Nov-26",
-        "location": "N/A",
-        "time": "4:15p-5:30p",
-        "speaker": "N/A",
-        "affiliation": "Columbia Business School",
-        "abstract": "No seminar event listing",
-        "bio": "N/A"
-      },
-      {
         "seminar_title": "From the Village, to the Village: Rural Teachers and Nation-Building in Turkey",
         "date": "04-Nov-26",
         "location": "N/A",
-        "time": "12:30p-1:00p",
+        "time": "12:30p-1:30p",
         "speaker": "Koralp Kabal",
         "affiliation": "Columbia University",
         "abstract": "Courts promote family mediation as a cheaper, less adversarial alternative to litigated divorce, even mandating it in some jurisdictions and cases, but large-scale, causal evidence of its effects are lacking. Mediation may lower the costs of dissolution, as it does not require expensive lawyers or time before a judge. However, without strong evidence of mediation\u2019s impact on outcomes, the net effect over couples and children is ambiguous, with implications for how income, assets, and responsibility for children are allocated across newly formed households. In this project, we leverage differences in mediation orders and mandates across judges to identify the causal impact of going to mediation on dissolving couples and the court system. Using docket-level data on divorce cases in Texas and a judge fixed-effects design, we can isolate the causal effect of mediation on case characteristics and outcomes post-divorce. Preliminary results from Harris County, Texas, indicate that mediation leads cases to close at around the same time, but may actually raise observable contention.",
@@ -27,10 +17,10 @@
         "seminar_title": "Divorce Mediation in the U.S.",
         "date": "04-Nov-26",
         "location": "N/A",
-        "time": "1:00p-1:30p",
+        "time": "12:30p-1:30p",
         "speaker": "Ana Pranger",
         "affiliation": "Columbia University",
-        "abstract": "Courts promote family mediation as a cheaper, less adversarial alternative to litigated divorce, even mandating it in some jurisdictions and cases, but large-scale, causal evidence of its effects are lacking. Mediation may lower the costs of dissolution, as it does not require expensive lawyers or time before a judge. However, without strong evidence of mediation\u2019s impact on outcomes, the net effect over couples and children is ambiguous, with implications for how income, assets, and responsibility for children are allocated across newly formed households. In this project, we leverage differences in mediation orders and mandates across judges to identify the causal impact of going to mediation on dissolving couples and the court system. Using docket-level data on divorce cases in Texas and a judge fixed-effects design, we can isolate the causal effect of mediation on case characteristics and outcomes post-divorce. Preliminary results from Harris County, Texas, indicate that mediation leads cases to close at around the same time, but may actually raise observable contention.",
+        "abstract": "Courts promote family mediation as a cheaper, less adversarial alternative to litigated divorce, even mandating it in some jurisdictions and cases, but large-scale, causal evidence of its effects are lacking. Mediation may lower the costs of dissolution, as it does not require expensive lawyers or time before a judge. However, without strong evidence of mediation\u2019s impact on outcomes, the net effect over couples and children is ambiguous, with implications for how income, assets, and responsibility for children are allocated across newly formed households. In this project, we leverage differences in mediation orders and mandates across judges to identify the causal impact of going to mediation on dissolving couples and the court system. Using docket-level data on divorce cases in Texas and a judge fixed-effects design, we can isolate the causal impact of mediation on case characteristics and outcomes post-divorce. Preliminary results from Harris County, Texas, indicate that mediation leads cases to close at around the same time, but may actually raise observable contention.",
         "bio": "PhD Student in Economics"
       },
       {
@@ -40,7 +30,7 @@
         "time": "1:00p-2:00p",
         "speaker": "Yuyang Miao",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
+        "abstract": "Strategic Coordination with Finite Memory",
         "bio": "PhD Candidate in Economics"
       },
       {
@@ -50,7 +40,7 @@
         "time": "4:10p-5:30p",
         "speaker": "Winnie van Dijk",
         "affiliation": "Yale University",
-        "abstract": "N/A",
+        "abstract": "To be announced.",
         "bio": "Assistant Professor of Economics"
       },
       {
@@ -62,6 +52,16 @@
         "affiliation": "Cornell University",
         "abstract": "Long-run human progress has depended on our higher-order skills, including thinking in abstract terms, categorizing information, drawing analogies across settings, and critically evaluating evidence. This study evaluates an educational program designed to strengthen children's capacity for higher-order reasoning while they learn the regular curriculum. The program exposes students and teachers to sustained and progressively more demanding reasoning tasks over two consecutive years. The study covers 132 primary schools in Turkey, with 67 randomly assigned to the program, and follows approximately 15,000 students for three years. We estimate the impacts on a broad set of cognitive, academic, and higher-order thinking outcomes. Central to our evaluation is a novel method for assessing critical thinking in young children. Our language-based tool assesses logical inference, argument justification, and the detection of flawed reasoning. We find large gains in higher-order reasoning, with effects of 0.16\u20130.28 standard deviations on abstract and analogical reasoning. We also find improvements in working memory and attention, as well as gains in academic learning and critical thinking. Using a dynamic model of skill formation, we show strong persistence in higher-order reasoning and cross-productivity from higher-order reasoning to academic learning and critical thinking. Our results suggest that directly targeting higher-order thinking skills through cognitively demanding experiences can strengthen children's reasoning capacity and support academic learning.",
         "bio": "Professor of Economics and Behavioral Science"
+      },
+      {
+        "seminar_title": "Tit-for-Tat or Tipping Point? Action-Reaction Dynamics in U.S.-China Relations",
+        "date": "05-Nov-26",
+        "location": "IAB 1512",
+        "time": "4:30p-6:00p",
+        "speaker": "Carlos Ramirez",
+        "affiliation": "George Mason University",
+        "abstract": "This paper analyzes the evolving strategic relationship between the United States and China using a novel empirical framework. Drawing on monthly data from 1990 to 2024, I use two complementary indices that reflect each country's posture toward the other. The first captures U.S. hostility toward China, derived from the full population of U.S. newspaper articles. The second is the China\u2013U.S. Relations Index developed by Yan et al. (2010), which quantifies China's diplomatic stance toward the U.S. These indices are embedded within an action-reaction framework estimated via a Structural Vector Autoregression (SVAR), identified using an external instrument based on COVID-related U.S. media coverage. The results reveal an asymmetric dynamic: China reacts to U.S. hostility in a tit-for-tat fashion, while the U.S. meets conciliatory gestures from China with temporary increases in hostility\u2014suggesting deep-seated mistrust. Although the system is dynamically stable, the slow adjustment and fragile equilibrium underscore how vulnerable the relationship remains to shocks and miscalculation\u2014such as the unprecedented escalation in tariffs that now threatens to push both countries toward a costly economic decoupling.",
+        "bio": "Professor of Economics"
       }
     ]
   },
@@ -77,7 +77,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -87,7 +87,7 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
@@ -97,7 +97,7 @@
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
         "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
@@ -107,7 +107,7 @@
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
@@ -117,7 +117,7 @@
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -127,7 +127,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -137,7 +137,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -147,7 +147,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -157,7 +157,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -167,7 +167,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "N/A"
+        "bio": "Not available"
       }
     ]
   }
