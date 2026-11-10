@@ -4,64 +4,54 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Bargaining Disputes in Health Care Markets",
-        "date": "09-Nov-26",
+        "seminar_title": "The Road to Building Abundance",
+        "date": "10-Nov-26",
+        "location": "1102 IAB",
+        "time": "11:00a-12:00p",
+        "speaker": "Dongcheng Yang",
+        "affiliation": "Columbia University",
+        "abstract": "Global cities find it hard to build abundance. Many have responded with upzoning reforms, yet the literature finds that upzoning a dense urban core produces little new floorspace. This paper uses Tokyo\u2019s Urban Renaissance reform as an experiment and finds that it raised density in the treated areas by 27 percent within two decades. The effect is driven by faster teardown and by land-assembly projects. I also provide a two-tier model of city development that highlights the complementarity between floor-area-ratio bonuses and squeeze-out rules that facilitate land assembly.",
+        "bio": "PhD Candidate in Economics"
+      },
+      {
+        "seminar_title": "Shorting Funds and Lowering Fees: The Impact of Short Selling Demand on ETF Market Power",
+        "date": "10-Nov-26",
         "location": "1101 IAB",
-        "time": "11:30a-12:10p",
-        "speaker": "Renee Garrow",
-        "affiliation": "Columbia University",
-        "abstract": "Bargaining Disputes in Health Care Markets",
-        "bio": "PhD Student in Economics Columbia University"
+        "time": "12:00p-1:00p",
+        "speaker": "Kirsten Burr",
+        "affiliation": "Columbia: Business",
+        "abstract": "Not available",
+        "bio": "PhD Student in Economics"
       },
       {
-        "seminar_title": "Qualified to Buy? Administrative Capacity and Public Procurement",
-        "date": "09-Nov-26",
+        "seminar_title": "Which Green Technology to Subsidize? Evidence from Electric Vehicles in South Korea",
+        "date": "10-Nov-26",
         "location": "1101 IAB",
-        "time": "12:10p-12:50p",
-        "speaker": "Giacomo Massimiliano Anastasia",
-        "affiliation": "Columbia University",
-        "abstract": "Qualified to Buy? Administrative Capacity and Public Procurement",
-        "bio": "PhD Student in Economics Columbia University"
+        "time": "2:30p-3:45p",
+        "speaker": "Frank Verboven",
+        "affiliation": "Katholieke Universiteit Leuven",
+        "abstract": "We develop a framework to compare the relative effectiveness of subsidizing alternative emission-reducing technologies. We show that an intermediate technology may reduce emissions more effectively than the cleanest technology if it induces sufficiently greater substitution away from the prevailing high-emission technology. We apply the framework to the South Korean passenger vehicle market using a demand model that incorporates mileage heterogeneity, an important determinant of fuel-type choice. First, reallocating existing subsidies from battery electric vehicles (BEVs), the cleanest technology, to hybrid electric vehicles (HEVs), an intermediate technology, would reduce total greenhouse gas emissions by an additional 47%. Second, for a BEV-focused subsidy policy to outperform an HEV-focused policy, the carbon intensity of electricity generation would need to fall by approximately 45%. Our findings suggest that HEV subsidies remain more effective than BEV subsidies until consumers become sufficiently willing to switch to BEVs or electricity generation becomes sufficiently decarbonized.",
+        "bio": "Professor of Economics"
       },
       {
-        "seminar_title": "Barriers to industrial growth and long-run productive efficiency: the role of policy-induced misallocation",
-        "date": "09-Nov-26",
-        "location": "IAB 405A",
-        "time": "1:00p-2:00p",
-        "speaker": "Tianyu Luo",
-        "affiliation": "Columbia University",
-        "abstract": "We study how government-created distortions in upstream coal markets affect capacity investment and productivity in India's electricity industry. The government coal monopoly administratively allocates subsidized coal primarily to inefficient state-owned plants while forcing efficient private generators to purchase coal at market prices often about two times higher. This unequal access distorts not only the allocation of electricity production today, but also incentives to invest in new generating capacity. Using plant-level data for 2006-2017 and detailed administrative records of coal supply contracts, we estimate a dynamic oligopoly model of capacity investment for coal-fired generators. We use the estimated model to study two sets of counterfactuals. Equalizing public-private access to subsidized domestic coal shifts investment towards 2006-2009 (raising it by 4.9 percent), has little effect on aggregate investment, but reallocates production toward more efficient generators. Because the economic value of investment is higher in the early years in our setting, we then consider a counterfactual that provides very generous coal pricing to early private investments but not to later ones. This shifts investment towards 2006-2009 more strongly (raising it by 16.1 percent), thus better mitigating electricity shortages.",
-        "bio": "PhD Candidate in Economics Columbia University"
+        "seminar_title": "Which Green Technology to Subsidize? Evidence from Electric Vehicles in South Korea",
+        "date": "10-Nov-26",
+        "location": "1101 IAB",
+        "time": "2:30p-3:45p",
+        "speaker": "Frank Verboven",
+        "affiliation": "Katholieke Universiteit Leuven",
+        "abstract": "We develop a framework to compare the relative effectiveness of subsidizing alternative emission-reducing technologies. We show that an intermediate technology may reduce emissions more effectively than the cleanest technology if it induces sufficiently greater substitution away from the prevailing high-emission technology. We apply the framework to the South Korean passenger vehicle market using a demand model that incorporates mileage heterogeneity, an important determinant of fuel-type choice. First, reallocating existing subsidies from battery electric vehicles (BEVs), the cleanest technology, to hybrid electric vehicles (HEVs), an intermediate technology, would reduce total greenhouse gas emissions by an additional 47%. Second, for a BEV-focused subsidy policy to outperform an HEV-focused policy, the carbon intensity of electricity generation would need to fall by approximately 45%. Our findings suggest that HEV subsidies remain more effective than BEV subsidies until consumers become sufficiently willing to switch to BEVs or electricity generation becomes sufficiently decarbonized.",
+        "bio": "Professor of Economics"
       },
       {
-        "seminar_title": "Reserve Status: Winners and Losers",
-        "date": "09-Nov-26",
-        "location": "IAB 1101",
-        "time": "1:00p-2:00p",
-        "speaker": "Nicholas Zevanove",
-        "affiliation": "Columbia University",
-        "abstract": "Reserve Status: Winners and Losers",
-        "bio": "PhD Candidate in Economics Columbia University"
-      },
-      {
-        "seminar_title": "Robust Delegation",
-        "date": "09-Nov-26",
-        "location": "K820",
-        "time": "1:00p-2:15p",
-        "speaker": "Tan Gan",
-        "affiliation": "London School of Economics and Political Science",
-        "abstract": "We study delegation rules by principals uninformed of the underlying state (external uncertainty) and the preferences of better-informed agents (internal uncertainty). Under rich internal uncertainty about the agent\u2019s trade-offs when constrained, making any delegation rule flexible\u2014allowing all compromises between permitted actions\u2014always improves the principal\u2019s worst-case payoff. This provides a rationale for convex delegation sets and, in one dimension, for interval delegation, without imposing parametric assumptions on primitives. Internal uncertainty can justify greater discretion, allowing actions that are never optimal for the principal in any state; and a version of the ally principle holds: alignment along enough dimensions implies unconstrained delegation.",
-        "bio": "Assistant Professor of Managerial Economics and Strategy London School of Economics and Political Science"
-      },
-      {
-        "seminar_title": "\"Great Power Competition or Collusion? The Neoroyalist Future of International Order\"",
-        "date": "09-Nov-26",
-        "location": "IAB 1512",
-        "time": "4:15p-5:30p",
-        "speaker": "Stacie Goddard",
-        "affiliation": "Columbia University",
-        "abstract": "With the liberal international order in decline, observers have focused on the likely return to great power competition, with the U.S., China, and Russia mobilizing their resources to counter those of their rivals. But leaders do not seem to be behaving like great power competitors. The actions of the Trump administration, notably, raise a number of significant puzzles for such accounts\u2014the US seems willing to sign deals with traditional adversaries including Russia and China, while targeting long-standing allies like Canada and Denmark. Rather than ready their forces for rivalry, Xi Jinping purges his own military and foreign policy bureaucracy, while Putin gets bogged down in a \"forever war\" with Ukraine. This talk will suggest that we are seeing, not nineteenth-century dynamics of great power competition, but seventeenth-century processes of great power collusion, a dynamic that threatens to permanently dismantle a liberal international order.",
-        "bio": "Arnold A. Saltzman Professor in War and Peace Studies Columbia University"
+        "seminar_title": "To be announced.",
+        "date": "10-Nov-26",
+        "location": "IAB 1120",
+        "time": "2:45p-3:45p",
+        "speaker": "Jesse Schreger",
+        "affiliation": "Columbia: Business",
+        "abstract": "Not available",
+        "bio": "Ann F. Kaplan Professor of Business"
       }
     ]
   },
