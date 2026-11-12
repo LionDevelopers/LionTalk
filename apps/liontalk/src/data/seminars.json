@@ -1,193 +1,57 @@
 [
   {
-    "department": "Statistics",
-    "series": "Student Seminar Series",
-    "entries": [
-      {
-        "seminar_title": "Spectral Geometry and the Limits of Convex Regularization in High-Dimensional Regression",
-        "date": "16-Sep-26",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Cindy Rush",
-        "affiliation": "Columbia University",
-        "abstract": "In this talk I will demonstrate how the spectrum of a high-dimensional design controls the best asymptotic risk achievable by convex regularization. For iid Gaussian designs, Celentano and Montanari (2022) established a related convex lower bound, but the spectral shape is then fixed by the sample-to-dimension ratio. We instead study right-rotationally invariant designs with an otherwise arbitrary limiting squared-singular-value distribution. Our main result shows that every estimator in a broad class of separable convex penalized least-squares procedures has asymptotic mean-squared error at least that of a corresponding Bayes message-passing estimator. The resulting lower bound depends on the full spectrum, not only on the sample-to-dimension ratio or average measurement strength. In particular, at fixed average measurement strength, a mean-preserving spread of the squared singular values worsens the best possible convex risk: weakly measured directions are more damaging than strongly measured directions are beneficial. I will explain the main ideas behind this spectral comparison and how vector approximate message passing separates the effects of the signal prior from those of the design spectrum. This is joint work with Audrey Yang and Baichen Tan.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Three Statistical Problems in Finance",
-        "date": "23-Sep-26",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Jeremy Shen",
-        "affiliation": "Columbia University",
-        "abstract": "We introduce three high-level statistical problems in quantitative finance. These problems will be motivated by tracing our roots back to modern portfolio\ntheory along with its main economic and statistical critiques. For each of the problems, we will sketch approaches to its modeling, and highlight particularities that make the modeling process different from other more commonly-discussed applications of statistics. The contents of this talk will be based on public domain work.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Statistical Embeddings and Sequential Inference for Win-Martingales",
-        "date": "30-Sep-26",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Steven Campbell",
-        "affiliation": "Columbia University",
-        "abstract": "An evolving probability for a binary event is naturally modeled as a bounded (so-called \u201cwin-\u201d) martingale. Motivated by prediction markets and recent work on Aldous\u2019 \u201cmost exciting game,\u201d we consider two questions. Can a given win-martingale be realized as the exact Bayesian posterior of a sequential experiment? And, if observing the process is costly, when should a decision maker stop and make a prediction?\n\nWe answer both questions for a broad class of martingale diffusions with separable volatility. We construct an explicit binary diffusion experiment whose posterior has the prescribed dynamics and show that the optimal strategy for a large class of sequential decision problems is to stop and predict according to two time-dependent thresholds. For this class of problems, we establish regularity and a unique integral equation characterization of the resulting stopping boundaries, and illustrate how the rate of information arrival can produce shrinking, expanding, or nonmonotone continuation regions. This is joint work with Karl Kristian Engelund (University of Copenhagen).",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Stability, instability, and extension of variational inference",
-        "date": "07-Oct-26",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Shunan Sheng",
-        "affiliation": "Columbia University",
-        "abstract": "Variational inference (VI) is a popular alternative to Markov chain Monte Carlo (MCMC) for approximating high-dimensional target distributions. At its core, VI approximates a high-dimensional target distribution\u2014typically specified via an unnormalized density\u2014by a simpler variational family. Despite its empirical success, the theoretical properties of variational inference have only recently begun to be understood.\nIn the first part of the talk, I will discuss the robustness of mean-field variational inference (MFVI) through the lens of optimal transport. We aim to answer the following question: How sensitive are variational solutions to small perturbations of the target measure arising from changes in the underlying statistical model, likelihood, or prior? The main message is that stability depends sharply on the geometry of the target distribution. When the target is strongly log-concave, MFVI is quantitatively stable under perturbations of the target measure, yielding robustness guarantees for approximate Bayesian inference. In contrast, even simple non-log-concave targets, such as mixtures of two Gaussians, can cause MFVI to exhibit an instability known as mode collapse, revealing a fundamental lack of robustness to multimodality.\nIn the second part of the talk, I will present our work on the statistical and computational theory of a class of structured variational inference methods in which the variational family consists of all star-shaped distributions. We establish quantitative approximation guarantees and provide a polynomial-time algorithm for solving the VI problem when the target distribution is strongly log-concave. We also discuss concrete examples, including generalized linear models with Gaussian likelihoods.\nThis talk is based on joint work with Bohan Wu, Alberto Gonz\u00e1lez-Sanz, Marcel Nutz, Sinho Chewi, Binghe Zhu, and Aram Pooladian.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Stat PhD and AI",
-        "date": "14-Oct-26",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Tian Zheng, Ivan Corwin, Marcel Nutz, & Christopher Harshaw",
-        "affiliation": "Columbia University",
-        "abstract": "An interactive discussion on what our Stat PhD should look like in the presence of AI.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Minimax Rates for Estimating Causal Effects in Network Experiments",
-        "date": "21-Oct-26",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Christopher Harshaw",
-        "affiliation": "Columbia University",
-        "abstract": "Network experiments are used throughout the social and medical sciences to investigate causal effects under the presence of interference. While a large body of work has developed improved statistical procedures, the fundamental limits of statistical estimation in these settings is less well understood. In this talk, I will introduce a design-based theory of minimax risk for network experiments under an arbitrary neighborhood interference model. Our notion of minimax risk describes the optimal precision among all statistical procedures for investigating a particular causal effect on the observed interference network. We show that the minimax risk is a function of the corresponding conflict graph, which captures inherent unobservability of estimand-relevant potential outcomes given the observed interference network. Our main contribution is a series of upper and lower bounds on the minimax rate in terms of local and global connectivity properties of the conflict graph. To illustrate their utility, we apply these general results to obtain minimax analyses for two commonly studied effects: the direct treatment effect and global average treatment effect.",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Spatial and Spatio-temporal Modeling for Beta Diversity",
-        "date": "28-Oct-26",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Alan Gelfand",
-        "affiliation": "Duke University",
-        "abstract": "Turnover, or change in the composition of species over space and time, is one of the primary ways to define beta diversity. Inferring what factors impact beta diversity is important not only for understanding biodiversity processes but also for conservation planning.\nA popular approach to understanding the drivers of compositional turnover is generalized dissimilarity modeling (GDM). However, the current GDM approach has several limitations. We provide an alternative approach that remedies these issues. In particular, we propose a model with a flexible mean function, complex spatial and spatio-temporal random effects that capture dependence unaccounted for by explanatory variables, and heterogeneous variance structure. Further, these features are offered in a model that can handle a large incidence of total dissimilarity through \u201c1-inflation.\u201d Such inflation would be expected in highly biodiverse areas with steep turnover gradients in space and time.\nThe models are implemented in a Bayesian framework, employing hierarchical specifications to yield full regression and spatial predictive inference, both with associated uncertainties. We illustrate the approach by examining dissimilarity in plant abundance surveys from the Greater Cape Floristic Region (GCFR) of South Africa. We model both at the species scale and the family scale, selecting the best model using out-of-sample predictive performance. Notably, the spatial random effects play a more important role in the modeling than all of the environmental variables.\n(This is joint work with Phil White, Henry Frye, Jasper Slingsby, and John Silander.)",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "Weighted conformal clustering",
-        "date": "04-Nov-26",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Anirban Nath",
-        "affiliation": "Columbia University",
-        "abstract": "Clustering is a central tool for discovering latent structure in unlabeled data; yet modern clustering pipelines often end with a hard assignment of each observation to a cluster without rigorous measures of assignment uncertainty. We propose a novel weighted conformal approach for constructing valid confidence sets for cluster labels. The key difficulty is that the labels available for calibration are not observed ground-truth labels, but synthetic labels produced by a data-dependent clustering algorithm. Our method develops a conformal inference algorithm that corrects the resulting mismatch with the latent target labels through weights by formulating conformal clustering as a conditional label-distribution shift problem. We first derive an oracle procedure that attains finite-sample marginal coverage and then develop a computationally tractable and implementable version using estimated conditional label probabilities and novel augmented calibration. We show that the coverage of the estimated-weight procedure depends on the estimator, giving an explicit bound on the loss relative to the nominal level. Empirical studies demonstrate that the proposed weighted approach offers improvements over the recently proposed split conformal clustering procedure in terms\n",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "The Lacunary/Hereditary Laws of Large Numbers",
-        "date": "11-Nov-26",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Ioannis Karatzas",
-        "affiliation": "Columbia University",
-        "abstract": "The celebrated theorem of Komlos (1967) establishes L^1-boundedness as a sufficient condition for a sequence of measurable functions on a probability space to contain a subsequence (\u201clacunary\u201d character) along which, and along whose every further subsequence (\"hereditarily\"), the Cesaro averages converge to a \"randomized mean\" in the spirit of the Strong law of Large Numbers. We provide conditions not only sufficient, but also necessary, for this result; as well as for the hereditary analogues of the Weak Law of Large Numbers, and of the Hsu-Robbins-Erdos Law of Large Numbers. Joint work with Istvan Berkes (Budapest) and Walter Schachermayer (Vienna).",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "18-Nov-26",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Shubhangi Ghosh",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "N/A"
-      },
-      {
-        "seminar_title": "N/A",
-        "date": "02-Dec-26",
-        "location": "Room 1025 SSW, 1255 Amsterdam Avenue",
-        "time": "12:00 - 1:00 pm",
-        "speaker": "Graeme Baker",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "N/A"
-      }
-    ]
-  },
-  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "What Is Identified in a Multilevel Graphical VAR, and What Can Be Estimated? Psychological Networks as Heterogeneous Panel VARs",
-        "date": "11-Nov-26",
-        "location": "1102 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Chieh (Jesse) Chen",
-        "affiliation": "Columbia University",
-        "abstract": "Psychologists increasingly study person-specific \"networks\" of symptoms estimated from short experience-sampling records pooled across many patients. I show that the standard model, the multilevel graphical VAR of Epskamp et al. (2018), is a heterogeneous Gaussian panel VAR, and I study what such data can reveal. Pooled second moments cannot identify the mean temporal network. But with T >= 3m+2 occasions, the full trajectory law identifies the entire population distribution of person-specific VAR matrices and innovation covariances, with no restriction on the initial condition, the support, or the shape of the heterogeneity. Identification does not imply root-N-estimability. In the scalar case, mean persistence is not a regular functional at any fixed T, because at the unit root persistence is indistinguishable from heterogeneity in drift and innovation variance. I propose a likelihood conditional on the first observation, enriched with a spline sieve and latent types. In simulations it estimates the mean network accurately in various designs, including a non-stationary start.",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Qualified to Buy? Administrative Capacity and Public Procurement",
-        "date": "11-Nov-26",
-        "location": "N/A",
-        "time": "12:30p-1:00p",
-        "speaker": "Giacomo Massimiliano Anastasia",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Managers as Incentive Setters: Recognition Styles in Policing",
-        "date": "11-Nov-26",
-        "location": "N/A",
-        "time": "1:00p-1:30p",
-        "speaker": "Sejung Timothy Kim",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "When It\u2019s Costlier to Sue Employers: Evidence from Brazilian Labor Courts",
-        "date": "11-Nov-26",
-        "location": "N/A",
-        "time": "1:30p-2:00p",
-        "speaker": "Dorothy WS Ting",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Prospectus Defense",
-        "date": "11-Nov-26",
-        "location": "1101 IAB",
-        "time": "1:00p-2:00p",
-        "speaker": "Cole Wittbrodt",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Thinking versus Doing: Cognitive Capacity, Decision Making and Medical Diagnosis",
-        "date": "11-Nov-26",
-        "location": "1101 IAB",
-        "time": "4:10p-5:30p",
-        "speaker": "Benjamin R. Handel",
-        "affiliation": "University of California, Berkeley",
-        "abstract": "We study how situational fluctuations in cognitive capacity shape behavior in high-stakes, real-time decision-making. Drawing on recent advances in behavioral economics that revolve around inattention, cognition and complexity, we show that cognitive load influences how physicians in emergency departments allocate mental effort and attention when making diagnostic and treatment decisions. We use quasi-random variation in patient-physician pairings, along with granular electronic medical record and audit-log data from many clinical interactions, to show that, under higher cognitive load, physicians substitute mental deliberation with more numerous but less precise diagnostic actions. Specifically, we document that higher load (i) increases the total number of orders of diagnostic tests (ii) reduces the use of targeted, but more uncommon tests (iii) increases the use of common tests and (iv) increases uncertainty in diagnostic beliefs. Cognitive load impacts downstream inpatient admission from the emergency department: a physician in the highest cognitive load decile increases admissions by 28% relative to the same physician in the lowest cognitive load decile, for the exact same kind of patient. These results offer novel field-based evidence on the dynamics of attention and belief formation, and shed light on how cognitive constraints shape diagnostic behavior in complex, real-world environments.",
-        "bio": "Professor of Economics"
-      },
-      {
-        "seminar_title": "Canceled",
+        "seminar_title": "Seminar",
         "date": "12-Nov-26",
         "location": "1102 IAB",
         "time": "2:15p-3:30p",
         "speaker": "Geert Mesters",
         "affiliation": "Federal Reserve: New York",
-        "abstract": "N/A",
+        "abstract": "Canceled",
         "bio": "Economic Research Advisor"
+      },
+      {
+        "seminar_title": "Seminar",
+        "date": "12-Nov-26",
+        "location": "1101 IAB",
+        "time": "2:40p-3:55p",
+        "speaker": "Shaoda Wang (\u738b\u7ecd\u8fbe)",
+        "affiliation": "UChicago: Harris Public Policy",
+        "abstract": "Honesty is perceived as fundamental to societal functioning, motivating education systems worldwide to enforce strict oversight and impose heavy penalties for dishonest behavior. Yet much academic misconduct remains unexposed, and its broader consequences are further obscured by the sorting of individuals into careers based on probity. Applying advanced plagiarism-detection algorithms to half a million publicly available graduate dissertations in China, we uncover previously hidden misconduct and validate it against incentivized measures of honesty. Linking plagiarism records to rich administrative data, we document four main findings. First, plagiarism is pervasive and predicts adverse political selection: plagiarists are more likely to enter and advance in the public sector. Second, plagiarists perform worse when holding power: focusing on the judiciary and exploiting quasi-random case assignments, we find that judges with plagiarism histories issue more preferential and lower-quality rulings \u2014 effects muted by trial livestreaming. Third, plagiarizing judges generate spillovers to other judges and lawyers. Fourth, exploiting the staggered adoption of detection tools, we demonstrate that enforcing academic integrity leads to no change in political selection and modest improvements in subsequent professional conduct.",
+        "bio": "Associate Professor"
+      },
+      {
+        "seminar_title": "Seminar",
+        "date": "12-Nov-26",
+        "location": "IAB 1501",
+        "time": "6:00p-7:30p",
+        "speaker": "Daron Acemoglu",
+        "affiliation": "Massachusetts Institute of Technology",
+        "abstract": "\u201cWhat Happened to Liberal Democracy? Remaking a Politics of Shared Prosperity\u201d",
+        "bio": "Institute Professor of Economics"
+      },
+      {
+        "seminar_title": "Seminar",
+        "date": "13-Nov-26",
+        "location": "1101 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Dafne Murillo",
+        "affiliation": "Columbia University",
+        "abstract": "To be announced.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Seminar",
+        "date": "13-Nov-26",
+        "location": "IAB 1101",
+        "time": "1:30p-3:00p",
+        "speaker": "Lorenzo Caliendo",
+        "affiliation": "Yale: School of Management",
+        "abstract": "\"Tariffs and Trade Deficits\"",
+        "bio": "Professor of Economics"
       }
     ]
   },
@@ -203,7 +67,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "Javier G\u00f3mez-Serrano"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -213,7 +77,7 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "Mohammed Abouzaid"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
@@ -223,7 +87,7 @@
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
         "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "Aaron Landesman"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
@@ -233,7 +97,7 @@
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "Denis Nesterov"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
@@ -243,7 +107,7 @@
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "Lucas Mason-Brown"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -253,7 +117,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "Sky Cao"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -263,7 +127,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "Sheldon Katz"
+        "bio": "N/A"
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -273,7 +137,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "Eric Zaslow"
+        "bio": "N/A"
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -283,7 +147,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "Artur Avila"
+        "bio": "N/A"
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -293,7 +157,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "Ishan Levy"
+        "bio": "N/A"
       }
     ]
   }
