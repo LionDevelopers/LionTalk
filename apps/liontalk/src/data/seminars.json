@@ -4,54 +4,64 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Seminar",
-        "date": "12-Nov-26",
-        "location": "1102 IAB",
-        "time": "2:15p-3:30p",
-        "speaker": "Geert Mesters",
-        "affiliation": "Federal Reserve: New York",
-        "abstract": "Canceled",
-        "bio": "Economic Research Advisor"
-      },
-      {
-        "seminar_title": "Seminar",
-        "date": "12-Nov-26",
-        "location": "1101 IAB",
-        "time": "2:40p-3:55p",
-        "speaker": "Shaoda Wang (\u738b\u7ecd\u8fbe)",
-        "affiliation": "UChicago: Harris Public Policy",
-        "abstract": "Honesty is perceived as fundamental to societal functioning, motivating education systems worldwide to enforce strict oversight and impose heavy penalties for dishonest behavior. Yet much academic misconduct remains unexposed, and its broader consequences are further obscured by the sorting of individuals into careers based on probity. Applying advanced plagiarism-detection algorithms to half a million publicly available graduate dissertations in China, we uncover previously hidden misconduct and validate it against incentivized measures of honesty. Linking plagiarism records to rich administrative data, we document four main findings. First, plagiarism is pervasive and predicts adverse political selection: plagiarists are more likely to enter and advance in the public sector. Second, plagiarists perform worse when holding power: focusing on the judiciary and exploiting quasi-random case assignments, we find that judges with plagiarism histories issue more preferential and lower-quality rulings \u2014 effects muted by trial livestreaming. Third, plagiarizing judges generate spillovers to other judges and lawyers. Fourth, exploiting the staggered adoption of detection tools, we demonstrate that enforcing academic integrity leads to no change in political selection and modest improvements in subsequent professional conduct.",
-        "bio": "Associate Professor"
-      },
-      {
-        "seminar_title": "Seminar",
-        "date": "12-Nov-26",
-        "location": "IAB 1501",
-        "time": "6:00p-7:30p",
-        "speaker": "Daron Acemoglu",
-        "affiliation": "Massachusetts Institute of Technology",
-        "abstract": "\u201cWhat Happened to Liberal Democracy? Remaking a Politics of Shared Prosperity\u201d",
-        "bio": "Institute Professor of Economics"
-      },
-      {
-        "seminar_title": "Seminar",
+        "seminar_title": "To be announced.",
         "date": "13-Nov-26",
         "location": "1101 IAB",
         "time": "12:00p-1:00p",
         "speaker": "Dafne Murillo",
         "affiliation": "Columbia University",
         "abstract": "To be announced.",
-        "bio": "PhD Student in Economics"
+        "bio": "Dafne Murillo\nPhD Student in Economics\nColumbia University"
       },
       {
-        "seminar_title": "Seminar",
+        "seminar_title": "Tariffs and Trade Deficits",
         "date": "13-Nov-26",
         "location": "IAB 1101",
         "time": "1:30p-3:00p",
         "speaker": "Lorenzo Caliendo",
         "affiliation": "Yale: School of Management",
-        "abstract": "\"Tariffs and Trade Deficits\"",
-        "bio": "Professor of Economics"
+        "abstract": "Tariffs and Trade Deficits",
+        "bio": "Lorenzo Caliendo\nProfessor of Economics\nYale: School of Management"
+      },
+      {
+        "seminar_title": "Climate Risk in Dynamic Spatial Equilibrium",
+        "date": "13-Nov-26",
+        "location": "IAB 1101",
+        "time": "3:30p-5:00p",
+        "speaker": "Santiago Franco",
+        "affiliation": "Boston University",
+        "abstract": "We study the economic implications, over time and space, of the aggregate and local risks arising from climate change. We develop a dynamic spatial model of the U.S. economy disaggregated at the county level that features costly forward-looking migration and capital investment decisions, aggregate risk due to uncertain warming trajectories, and local risk due to uncertain exposure to extreme weather. We achieve tractability by leveraging the `Master Equation' representation of the economy. We estimate structural elasticities and county-level damage functions by matching reduced-form estimates linking population, income, and investment to coastal storms and heat waves. We compare two market structures: island capitalists who hold only local capital, and diversified capitalists who hold capital everywhere. Three lessons emerge. Local risk from shifting weather distributions is far larger than aggregate risk from uncertain warming paths in any given year, although the persistence of aggregate risk makes their lifetime costs comparable for exposed investors. Equilibrium responses of capital prices and diversification insure investors against most of this risk. As a result, the welfare cost of climate risk is small relative to the cost of the warming trend itself.",
+        "bio": "Santiago Franco\nAssistant Professor of Economics\nBoston University"
+      },
+      {
+        "seminar_title": "Who Pays Maternity Benefits? Firms and Women\u2019s Employment in Russia",
+        "date": "16-Nov-26",
+        "location": "1101 IAB",
+        "time": "11:30a-12:10p",
+        "speaker": "Oksana Kuznetsova",
+        "affiliation": "Columbia University",
+        "abstract": "Who Pays Maternity Benefits? Firms and Women\u2019s Employment in Russia",
+        "bio": "Oksana Kuznetsova\nPhD Student in Economics\nColumbia University"
+      },
+      {
+        "seminar_title": "Benchmark Distortions in Agricultural Markets",
+        "date": "16-Nov-26",
+        "location": "1101 IAB",
+        "time": "12:10p-12:50p",
+        "speaker": "Diogo Wolff Surdi",
+        "affiliation": "Columbia University",
+        "abstract": "Benchmark Distortions in Agricultural Markets",
+        "bio": "Diogo Wolff Surdi\nPhD Student in Economics\nColumbia University"
+      },
+      {
+        "seminar_title": "Price Discrimination and Revealed Consumer Welfare",
+        "date": "16-Nov-26",
+        "location": "IAB 1102",
+        "time": "1:00p-2:15p",
+        "speaker": "Jo\u00e3o Thereze",
+        "affiliation": "Duke: Fuqua Business",
+        "abstract": "We take a revealed-preference approach to study the welfare effects of price discrimination. An analyst observes price and quantity data before and after a monopolist segments the market. The analyst knows neither the aggregate demand curve nor the information available to the monopolist. We characterize the set of observable price-quantity pairs that are rationalizable by some market segmentation. We then obtain sharp bounds on the change in consumer surplus arising from some segmentation. Finally, we provide conditions under which the data identifies an unambiguous increase (decrease) in consumer surplus.",
+        "bio": "Jo\u00e3o Thereze\nAssistant Professor of Economics \nDuke: Fuqua Business"
       }
     ]
   },
