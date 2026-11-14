@@ -1,38 +1,250 @@
 [
   {
+    "department": "Statistics",
+    "series": "Statistics Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Data Fusion for High-Resolution Estimation",
+        "date": "14-Sep-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Roshni Sahoo",
+        "affiliation": "Columbia University",
+        "abstract": "High-resolution estimates of population health indicators are critical for precision public health. We propose a method for high-resolution estimation that fuses distinct data sources: an unbiased, low-resolution data source (e.g. aggregated administrative data) and a potentially biased, high-resolution data source (e.g. individual-level online survey responses). We assume that the potentially biased, high-resolution data source is generated from the population under a model of sampling bias where observables can have arbitrary impact on the probability of response but the difference in the log probabilities of response between units with the same observables is linear in the difference between sufficient statistics of their observables and outcomes. Our data fusion method learns a distribution that is closest (in the sense of KL divergence) to the online survey distribution and consistent with the aggregated administrative data and our model of sampling bias. This approach significantly reduces bias in high-resolution estimates compared to baselines that rely on a single data source alone on a testbed that includes repeated measurements of three indicators measured by both the (online) Household Pulse Survey and ground-truth data sources at two geographic resolutions over the same time period.",
+        "bio": "Roshni Sahoo is assistant professor in the Decision, Risk, and Operations Division at Columbia Business School. She works on data-driven decision making for social impact. Her research develops statistical methodology to address challenges in public health and economic development, combining tools from machine learning, causal inference, and optimization. Roshni completed her PhD in Computer Science at Stanford University in 2026. She also received Bachelor of Science degrees in Computer Science and Mathematics at MIT in 2020."
+      },
+      {
+        "seminar_title": "Statlib: A Library for Formal Statistical Theory in Lean 4",
+        "date": "21-Sep-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Rajarshi Mukherjee",
+        "affiliation": "Harvard",
+        "abstract": "In this talk, we introduce and discuss Statlib, a verifiable library for mathematical statistics in Lean 4. As large language models now produce an increasing volume of plausible statistical arguments, machine-checked rigor is being considered a critical step. We will discuss how we can build Statlib on the most trusted library, Mathlib, to expand foundational mathematical and statistical results in measure theory, probability, and functional analysis, and to feed universal statistical abstractions back into Mathlib. Beyond programming, we have two things in mind: a deep understanding of the statistical language we're using, and a community of statisticians who are ready for this language to develop new research and education.With the aim of building an open, transparent, and trustworthy environment, we will discuss coordinating targeted formalization projects across classical and modern methods, aspects of autoformalization and its subtleties, and promises, developing comprehensive tutorials to onboard future contributors, and establishing a collaborative forum to address shared architectural themes and implementation challenges.",
+        "bio": "Rajarshi Mukherjee is an Associate Professor in the Department of Biostatistics at Harvard T.H. Chan School of Public Health. Previously, he was an Assistant Professor in the Division of Biostatistics at UC Berkeley following his time as a Stein Fellow in the Department of Statistics at Stanford University. He obtained his PhD in Biostatistics from Harvard University, advised by Prof. Xihong Lin. He is generally interested in understanding broad aspects of causal inference in observational studies in modern data settings, with a focus on learning about fundamental challenges in the statistical analysis of environmental mixtures and their effects on the cognitive development of children and cognitive decline in aging populations."
+      },
+      {
+        "seminar_title": "Statistics for AI: Auditing What Models Learn and Measuring What They Can Do",
+        "date": "28-Sep-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Linjun Zhang",
+        "affiliation": "Rutgers",
+        "abstract": "As AI systems become increasingly capable yet opaque, two fundamental questions have taken on growing importance: What data did a model learn from, and how reliably can we measure what it can do? This talk develops a \u201cstatistics for AI\u201d perspective on these questions through two case studies.\nThe first concerns data misappropriation in large language models. The training of LLMs has raised significant privacy and legal concerns, particularly when copyrighted or otherwise protected materials are used without proper attribution or authorization. To determine whether a target LLM has incorporated data generated by another model, we embed carefully designed watermarks in the protected data and formulate detection as a hypothesis-testing problem. This leads to a general statistical framework for constructing test statistics and rejection thresholds with explicit control of Type I and Type II errors. The second concerns the evaluation of LLMs when benchmarks are small and model outputs are stochastic. On difficult problems, an LLM may fail to generate a correct solution while still reliably distinguishing the better of two candidate solutions. We leverage this generation\u2013verification gap to develop an evaluation framework that combines standard labeled outcomes with pairwise comparison signals elicited from the model. Treating these signals as control variates, we construct a semiparametric estimator based on the efficient influence function. The resulting estimator improves statistical efficiency and enables principled uncertainty quantification.",
+        "bio": "Linjun Zhang is an Associate Professor in the Department of Statistics and an affiliated faculty member in Computer Science at Rutgers University. He received his Ph.D. in Statistics from the Wharton School at the University of Pennsylvania in 2019, where he received the J. Parker Bursk Memorial Prize and the Donald S. Murray Prize for excellence in research and teaching, respectively. He is a recipient of the NSF CAREER Award, the Rutgers Presidential Teaching Award in 2024, and the Warren I. Susman Award for Excellence in Teaching in 2025. His current research interests include the statistical foundations of large language models, algorithmic fairness, privacy-preserving data analysis, and deep learning theory."
+      },
+      {
+        "seminar_title": "Minority representation and fairness in network ranking, with an application to school contact diary data",
+        "date": "05-Oct-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Eric Kolaczyk",
+        "affiliation": "McGill University",
+        "abstract": "Considerations of bias, fairness and representation are a prerequisite of responsible modern statistics, including statistical network analysis. Systematic bias can arise in network analysis when observation errors depend on node attributes, potentially distorting node rankings and group representation. In this talk, we are motivated by a high school contact network constructed from self-reported contact diaries, where nodes represent students, directed edges represent reported contacts, and groups are defined by sex. For networks with two known groups of nodes, we define minority representation as the proportion of nodes from the smaller group among the top-ranked nodes. We characterize its asymptotic behavior in degree-based rankings under a two-group stochastic block model. We model observation error through group-dependent missing-edge mechanisms and develop statistical methods to estimate the error rates and test for systematic bias. When correction is necessary, we apply a ranking correction procedure that targets the estimated group representation expected in the absence of observation error. Application to the contact diary data provides evidence that male students are more likely to omit contacts with female students than vice versa. These findings highlight the importance of accounting for group-dependent observation errors when assessing and correcting group representation in network rankings. Joint work with Hui Shen and Peter MacDonald.",
+        "bio": "Eric Kolaczyk is a professor at McGill University in the Department of Mathematics and Statistics, and the inaugural director of the McGill Computational and Data Systems Institute (CDSI). He holds a Canada Research Chair in Statistical Network Analysis. He is also an associate academic member at Mila, The Quebec AI Institute."
+      },
+      {
+        "seminar_title": "Estimating Transport Maps: From Optimality to Validity",
+        "date": "12-Oct-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Siva Balakrishnan",
+        "affiliation": "Carnegie Mellon University",
+        "abstract": "Given samples from an unknown distribution, how well can we estimate a map transporting a known source to that distribution? Optimal transport provides a canonical choice, but in applications such as generative modeling, any map with the correct output distribution may suffice. I will begin with optimal transport map estimation, explaining how stability bounds translate guarantees for distribution estimators into guarantees for plug-in map estimators. I will then ask what changes when we seek only a valid transport map, rather than the optimal one. Finally, I will describe polynomial and exponential separations between the two estimation problems, illustrating the potential statistical cost of insisting on optimality.",
+        "bio": "Sivaraman is a professor at Carnegie Mellon University with a joint appointment in the Department of Statistics and Data Science and the Machine Learning Department. Prior to this he was a postdoctoral researcher at UC Berkeley working with Martin Wainwright and Bin Yu, and before that was a PhD student in Computer Science at Carnegie Mellon. His research interests are broadly in statistical machine learning and algorithmic statistics. Some particular areas that he works on currently include robust statistics, assumption-light inference, minimax testing, optimal transport and causal inference."
+      },
+      {
+        "seminar_title": "Generalized Linear Models for Extremes: Estimation and Inference in High Dimensions",
+        "date": "19-Oct-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Chen Zhou",
+        "affiliation": "Erasmus University Rotterdam",
+        "abstract": "We propose a regression model for the extreme tail of a response variable where a single covariate-dependent function characterizes the entire conditional tail. The tail shape itself is left unrestricted: heavy-, light- and short-tailed responses are covered by the same framework. We specify the function through a link function and a linear combination of the covariates, in the spirit of a generalized linear model. In estimation, we match the parametric specification to the underlying tail function under a Bregman divergence, over a region localized at the largest observations. We allow the number of covariates to exceed the effective sample size. We derive the convergence rate of the penalized estimator and propose a debiased estimator that is asymptotically normal, yielding confidence intervals for individual coefficients. Its asymptotic variance is determined by the covariance of the score, which under tail localization differs from the Hessian and must be estimated separately. We apply the method to automobile insurance claims data.",
+        "bio": "Chen Zhou is an Professor of Mathematical Statistics and Risk Management in the Erasmus School of Economics at Erasmus University Rotterdam as well as a Research Fellow at the Tinbergen Institute. His research focuses on extreme value statistics and its applications in quantitative risk management, financial stability and financial regulation. He is an Area Editor of Extremes and Academic Director of the Master program in Quantitative Finance at Erasmus School of Economics."
+      },
+      {
+        "seminar_title": "Minimax Rates for Estimating Causal Effects in Network Experiments",
+        "date": "26-Oct-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Christopher Harshaw",
+        "affiliation": "Columbia University",
+        "abstract": "Network experiments are used throughout the social and medical sciences to investigate causal effects under the presence of interference. While a large body of work has developed improved statistical procedures, the fundamental limits of statistical estimation in these settings is less well understood. In this talk, I will introduce a design-based theory of minimax risk for network experiments under an arbitrary neighborhood interference model. Our notion of minimax risk describes the optimal precision among all statistical procedures for investigating a particular causal effect on the observed interference network. We show that the minimax risk is a function of the corresponding conflict graph, which captures inherent unobservability of estimand-relevant potential outcomes given the observed interference network. Our main contribution is a series of upper and lower bounds on the minimax rate in terms of local and global connectivity properties of the conflict graph. To illustrate their utility, we apply these general results to obtain minimax analyses for two commonly studied effects: the direct treatment effect and global average treatment effect.",
+        "bio": "Christopher Harshaw is an Assistant Professor in the Columbia Statistics department. He received a PhD from Yale University and was a FODSI postdoc hosted jointly between UC Berkeley and MIT. His research lies at the interface of causal inference and algorithm design, with a particular focus on the design and analysis of randomized experiments."
+      },
+      {
+        "seminar_title": "Identifiable Discrete Representation Learning: From Deep Generative Models to Latent Causal Structure",
+        "date": "09-Nov-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Yuqi Gu",
+        "affiliation": "Columbia University",
+        "abstract": "When is hidden structure uniquely determined by complex, high-dimensional observations? This question is central to interpretable representation learning. If different latent explanations produce the same distribution of the data, then the meaning of a learned representation, and any scientific conclusion built on it, is ambiguous. Modern deep generative models are typically overparametrized and non-identifiable. In this talk, I will show that discrete latent variables can make deep latent structure both expressive and identifiable, and hence interpretable. I will consider two questions: Can the layers of a deep generative model be uniquely recovered from data? And can we learn causal relationships among hidden variables we never observe directly?\nI will first introduce Deep Discrete Encoders, a class of generative models with multiple binary latent layers and flexible observation models for binary, count, and continuous data. We derive identifiability conditions on the graphs connecting adjacent layers. These conditions have a concrete implication for interpretable architecture design: deeper layers should contain fewer latent variables. A layerwise spectral initialization followed by penalized stochastic approximation EM makes estimation feasible even when the number of latent configurations grows exponentially. I will then turn to Discrete Causal Representation Learning, which models an unknown directed acyclic graph among discrete latent variables and a sparse measurement graph linking them to mixed-type observations. Under suitable conditions, observational data alone, without interventions or multiple environments, identify the measurement graph and the latent causal graph (the latter up to the Markov equivalence class). We give a consistent procedure for recovering both graphs: fit the measurement model, resample latent configurations from the fitted model, and apply causal discovery to the resampled latents. Applications to text, image, and educational assessment data show that the learned latent variables and their causal relations are interpretable. Together, these results provide statistical foundations for interpretable representation learning, from deep generative modeling to latent causal discovery.",
+        "bio": "Yuqi Gu is an Assistant Professor of Statistics at Columbia University and a member of the Data Science Institute. Her research focuses on latent structure and representation learning: when hidden structure can be identified from observed data, and how accurately it can be estimated and inferred in high dimensions. Her work spans (1) identifiable deep generative models and causal representation learning; (2) spectral, tensor, and likelihood-based methods for latent structure recovery from high-dimensional data, with sharp theoretical guarantees and uncertainty quantification; and (3) drawing on latent variable models from psychometrics, statistical frameworks for evaluating large language models. She received her Ph.D. in Statistics from the University of Michigan in 2020 and was a postdoctoral researcher at Duke University before joining Columbia in 2021."
+      },
+      {
+        "seminar_title": "Learning in Transformers with Associative Memories",
+        "date": "16-Nov-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Alberto Bietti",
+        "affiliation": "Flatiron",
+        "abstract": "Large language models based on transformers have achieved great empirical successes. However, as they are deployed more widely, there is a growing need to better understand their internal mechanisms and training process in order to make them more reliable. These models appear to store vast amounts of knowledge from their training data, and to adapt quickly to new information provided in their context or prompt. Through toy tasks for reasoning and factual recall, we highlight the role of weight matrices as associative memories, and provide theoretical results on their storage capacity, training dynamics, and sample complexity.",
+        "bio": "Alberto Bietti is a research scientist in the Center for Computational Mathematics at the Flatiron Institute of the Simons Foundation in New York. He received his PhD in applied mathematics from Inria and Universit\u00e9 Grenoble Alpes in 2019, and was a Faculty Fellow at the NYU Center for Data Science from 2020 to 2022. He also spent time at Inria Sierra in Paris, Microsoft Research NYC, and Meta FAIR Labs. Prior to his PhD, he obtained degrees from Mines ParisTech and Ecole Normale Sup\u00e9rieure, and worked as a software engineer at Quora. His research focuses on the theoretical foundations of deep learning. He is currently on leave from Flatiron, working on LLM pretraining at Mistral AI."
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "23-Nov-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Yao Xie",
+        "affiliation": "Georgia Tech",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "30-Nov-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Ilya Shpitser",
+        "affiliation": "Johns Hopkins",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "07-Dec-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Xiaowu Dai",
+        "affiliation": "UCLA",
+        "abstract": "N/A",
+        "bio": "N/A"
+      },
+      {
+        "seminar_title": "N/A",
+        "date": "14-Dec-26",
+        "location": "Room 903 SSW, 1255 Amsterdam Avenue",
+        "time": "4:10 pm - 5:00 pm",
+        "speaker": "Tracey Ke",
+        "affiliation": "Harvard",
+        "abstract": "N/A",
+        "bio": "N/A"
+      }
+    ]
+  },
+  {
+    "department": "Statistics",
+    "series": "Mathematical Finance Seminar Series",
+    "entries": [
+      {
+        "seminar_title": "Traveling Waves in Equity Markets with Rank-Based Entry and Exit",
+        "date": "10-Sep-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Graeme Baker",
+        "affiliation": "Columbia University",
+        "abstract": "We model equity markets using geometric Brownian particles entering and exiting at rank-dependent intensities. In the many-firm limit, the capital distribution converges uniformly to the solution of a reaction-diffusion equation with reaction term built from the intensities. Calibrated on CRSP data, the reaction term is bistable, and the long-run capital distribution is a traveling wave: we prove existence, uniqueness, and, for constant coefficients, exponential relaxation. Turnover, not drift, stabilizes the calibrated market. With volatility measured rank by rank, the wave tracks the empirical capital distribution in every decade, determines the capitalization growth of diversity-weighted portfolios, and places the market of the past 50 years just inside the boundary of the diverse phase. Turnover reclaims most of what rebalancing gains. Joint work with Caroline Smyth (Columbia College Class of 2026). Preprint: https://arxiv.org/abs/2608.27156",
+        "bio": "Speaker: Graeme Baker (Columbia University)"
+      },
+      {
+        "seminar_title": "Passive impact and internalisation in market making",
+        "date": "17-Sep-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Robert Boyce",
+        "affiliation": "Imperial",
+        "abstract": "Modern algorithmic market making faces an inherent trade-off between risk management and various forms of market impact. We first derive a model of passive market impact from microscopic principles that can be solved in closed form. Moreover, dealers in the FX market increasingly offer access to internal liquidity pools, which, in addition to providing clients with an alternative means of execution, can create further opportunities for risk management. We proceed to model and investigate these opportunities and observe that passive impact arises endogenously in such a model. These models are calibrated with FX and equities market data.",
+        "bio": "Speaker: Robert Boyce (Imperial)"
+      },
+      {
+        "seminar_title": "Schr\u00f6dinger bridge with transport relaxation",
+        "date": "24-Sep-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Luhao Zhang",
+        "affiliation": "Johns Hopkins",
+        "abstract": "Motivated by modern machine learning applications where we only have access to empirical measures constructed from finite samples, we relax the marginal constraints of the classical Schr\u00f6dinger bridge problem by penalizing the transport cost between the bridge's marginals and the prescribed marginals. We derive a duality formula for this transport-relaxed bridge and demonstrate that it reduces to a finite-dimensional concave optimization problem when the prescribed marginals are discrete and the reference distribution is absolutely continuous. We establish the existence and uniqueness of solutions for both the primal and dual problems. Moreover, as the penalty blows up, we characterize the limiting bridge as the solution to a discrete Schr\u00f6dinger bridge problem and identify a leading-order logarithmic divergence. Finally, we propose gradient ascent and Sinkhorn-type algorithms to numerically solve the transport-relaxed Schr\u00f6dinger bridge, establishing a linear convergence rate for both algorithms.",
+        "bio": "Speaker: Luhao Zhang (Johns Hopkins)"
+      },
+      {
+        "seminar_title": "Position building in competition: from optimal execution to Bayesian games",
+        "date": "01-Oct-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Neil Chriss",
+        "affiliation": "Fixed Point Advisors",
+        "abstract": "When a hedge fund or asset manager executes trades, it does not transact into a passive market: other firms with overlapping mandates trade at the same time, and the cost of trading depends on the aggregate of all participants. Classical optimal-execution theory assumes a single trader trading into a market with no competing forces at work; in real markets this assumption is wrong. We develop a unified game-theoretic theory of position building in competition: explicit equilibrium strategies for any number of traders, a method for incorporating real-world constraints, and an extension to situations where firms hold private beliefs about the other firms' trading plans. The result is a quantitative basis for how investors should trade against competitors and a common framework for strategic interaction in financial markets.",
+        "bio": "Speaker: Neil Chriss (Fixed Point Advisors)"
+      },
+      {
+        "seminar_title": "Special time and location: see here",
+        "date": "08-Oct-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Kay Gieseke and Graeme Baker",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Speakers: Kay Gieseke and Graeme Baker"
+      },
+      {
+        "seminar_title": "Diffusion approximation to Schr\u00f6dinger bridges and the convergence of entropic potentials",
+        "date": "15-Oct-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Soumik Pal",
+        "affiliation": "University of Washington",
+        "abstract": "Consider the Monge-Kantorovich optimal transport problem between two Euclidean densities \u03bc and \u03bd with quadratic cost. The \u03b5-Schr\u00f6dinger bridge is the solution to the entropic regularized problem with regularization parameter \u03b5. As such, this is a solution of an optimization problem on the space of all joint densities with prescribed marginals \u03bc and \u03bd. Schr\u00f6dinger bridges are computationally tractable but rarely explicit, instead given as a solution of a pair of fixed point equations. However, they are frequently used, for small values of \u03b5, as an approximation to the optimal solution of the Monge-Kantorovich problem. To understand the errors of this approximation, it helps to ask if there are good explicit probabilistic approximations that hold as \u03b5 goes to zero. We discuss such approximations in terms of a family of diffusions, called the Mirror Langevin diffusions. This gives the following striking consequence. The \u03b5-entropic Brenier map is defined as the conditional expectation of the second coordinate given the first under the \u03b5-Schr\u00f6dinger bridge. It follows from our aproximation that, under appropriate assumptions, the difference between the \u03b5-entropic Brenier map and the Brenier map is equal to \u03b5 times one-half of the gradient of log\u03bc plus an error that is o(\u03b5) in L2(\u03bc). This expansion holds irrespective of the second marginal \u03bd and the joint coupling.",
+        "bio": "Speaker: Soumik Pal (University of Washington)"
+      },
+      {
+        "seminar_title": "Decentralized Bandit Learning in Markov Games",
+        "date": "22-Oct-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Mete Soner",
+        "affiliation": "Princeton",
+        "abstract": "In this talk, I will consider a discounted infinite-horizon, general-sum Markov game with continuous actions in discrete time. Agents observe the public state and only their own realized rewards. They know neither their reward functions nor the transition probabilities, do not observe other agents\u2019 actions, and need not even know that other agents are present. I will then outline an algorithm in which agents estimate their value functions as in reinforcement learning and update their controls by gradient descent, estimating the required pseudo-gradient through simultaneous perturbation stochastic approximation based on their private observations. Under strong monotonicity of the negative running-reward gradients and sufficiently small time steps, the algorithm converges almost surely to the unique stationary Markov perfect equilibrium. I will also outline the stochastic approximation proof, discuss the finite-horizon version, and present a convergence rate. This is joint work with Felix H\u00f6fer of the University of Chicago.",
+        "bio": "Speaker: Mete Soner (Princeton)"
+      },
+      {
+        "seminar_title": "Incomplete Market Equilibrium under Social Comparisons",
+        "date": "29-Oct-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Marko Weber",
+        "affiliation": "NUS",
+        "abstract": "We study how social comparisons shape asset prices in an incomplete-market economy with uninsurable income risk. Agents are heterogeneous in preferences, endowments, and in the weights they place on the consumption of others. Using a mean-field game framework with a directed network described by a finite-rank kernel, we derive in closed form the equilibrium interest rate, stock price, and individual consumption and portfolio policies. A social multiplier matrix captures how network interactions reallocate risk across agents. When the comparison network is not too strongly self-reinforcing, social comparisons reduce the market price of hedgeable risk by raising the effective risk tolerance of the economy, as consumption and social reference benchmarks co-move with common shocks. The network structure governing social comparisons determines whether the precautionary-savings motive induced by unhedgeable risk is amplified or mitigated. If all agents exert the same influence on others and are equally sensitive to the rest of the system, as in a doubly stochastic comparison network, the specific network topology does not affect equilibrium prices.",
+        "bio": "Speaker: Marko Weber (NUS)"
+      },
+      {
+        "seminar_title": "\"NYU Tandon\"-Link is below",
+        "date": "05-Nov-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "Xuedong He",
+        "affiliation": "CUHK",
+        "abstract": "N/A",
+        "bio": "Speaker: Xuedong He (CUHK)"
+      },
+      {
+        "seminar_title": "NO SEMINAR",
+        "date": "12-Nov-26",
+        "location": "Room 903, 1255 Amsterdam Ave.",
+        "time": "4:10 pm - 5:25 pm",
+        "speaker": "N/A",
+        "affiliation": "N/A",
+        "abstract": "N/A",
+        "bio": "Speaker: NO SEMINAR"
+      }
+    ]
+  },
+  {
     "department": "Economics and Politics",
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
-      {
-        "seminar_title": "To be announced.",
-        "date": "13-Nov-26",
-        "location": "1101 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Dafne Murillo",
-        "affiliation": "Columbia University",
-        "abstract": "To be announced.",
-        "bio": "Dafne Murillo\nPhD Student in Economics\nColumbia University"
-      },
-      {
-        "seminar_title": "Tariffs and Trade Deficits",
-        "date": "13-Nov-26",
-        "location": "IAB 1101",
-        "time": "1:30p-3:00p",
-        "speaker": "Lorenzo Caliendo",
-        "affiliation": "Yale: School of Management",
-        "abstract": "Tariffs and Trade Deficits",
-        "bio": "Lorenzo Caliendo\nProfessor of Economics\nYale: School of Management"
-      },
-      {
-        "seminar_title": "Climate Risk in Dynamic Spatial Equilibrium",
-        "date": "13-Nov-26",
-        "location": "IAB 1101",
-        "time": "3:30p-5:00p",
-        "speaker": "Santiago Franco",
-        "affiliation": "Boston University",
-        "abstract": "We study the economic implications, over time and space, of the aggregate and local risks arising from climate change. We develop a dynamic spatial model of the U.S. economy disaggregated at the county level that features costly forward-looking migration and capital investment decisions, aggregate risk due to uncertain warming trajectories, and local risk due to uncertain exposure to extreme weather. We achieve tractability by leveraging the `Master Equation' representation of the economy. We estimate structural elasticities and county-level damage functions by matching reduced-form estimates linking population, income, and investment to coastal storms and heat waves. We compare two market structures: island capitalists who hold only local capital, and diversified capitalists who hold capital everywhere. Three lessons emerge. Local risk from shifting weather distributions is far larger than aggregate risk from uncertain warming paths in any given year, although the persistence of aggregate risk makes their lifetime costs comparable for exposed investors. Equilibrium responses of capital prices and diversification insure investors against most of this risk. As a result, the welfare cost of climate risk is small relative to the cost of the warming trend itself.",
-        "bio": "Santiago Franco\nAssistant Professor of Economics\nBoston University"
-      },
       {
         "seminar_title": "Who Pays Maternity Benefits? Firms and Women\u2019s Employment in Russia",
         "date": "16-Nov-26",
@@ -41,7 +253,7 @@
         "speaker": "Oksana Kuznetsova",
         "affiliation": "Columbia University",
         "abstract": "Who Pays Maternity Benefits? Firms and Women\u2019s Employment in Russia",
-        "bio": "Oksana Kuznetsova\nPhD Student in Economics\nColumbia University"
+        "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "Benchmark Distortions in Agricultural Markets",
@@ -51,7 +263,7 @@
         "speaker": "Diogo Wolff Surdi",
         "affiliation": "Columbia University",
         "abstract": "Benchmark Distortions in Agricultural Markets",
-        "bio": "Diogo Wolff Surdi\nPhD Student in Economics\nColumbia University"
+        "bio": "PhD Student in Economics"
       },
       {
         "seminar_title": "Price Discrimination and Revealed Consumer Welfare",
@@ -61,7 +273,37 @@
         "speaker": "Jo\u00e3o Thereze",
         "affiliation": "Duke: Fuqua Business",
         "abstract": "We take a revealed-preference approach to study the welfare effects of price discrimination. An analyst observes price and quantity data before and after a monopolist segments the market. The analyst knows neither the aggregate demand curve nor the information available to the monopolist. We characterize the set of observable price-quantity pairs that are rationalizable by some market segmentation. We then obtain sharp bounds on the change in consumer surplus arising from some segmentation. Finally, we provide conditions under which the data identifies an unambiguous increase (decrease) in consumer surplus.",
-        "bio": "Jo\u00e3o Thereze\nAssistant Professor of Economics \nDuke: Fuqua Business"
+        "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "Flights to Safety in Local Currency Corporate Bonds: The Role of Local Investors in Emerging Markets",
+        "date": "16-Nov-26",
+        "location": "IAB 1101",
+        "time": "1:00p-2:00p",
+        "speaker": "John Ma",
+        "affiliation": "Columbia University",
+        "abstract": "Flights to Safety in Local Currency Corporate Bonds: The Role of Local Investors in Emerging Markets",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Climate Damage Amplification: Arctic Sea Ice Loss and Storm Impacts",
+        "date": "16-Nov-26",
+        "location": "IAB 405A",
+        "time": "1:00p-2:00p",
+        "speaker": "Max Zahrah",
+        "affiliation": "Columbia University",
+        "abstract": "Empirical estimates of climate damages suggest that high-latitude regions stand to gain from warming. These estimates project future damages by shifting the distribution of hazards along a fixed damage function. But climate change can also alter the damage function itself by eroding the protective natural capital that reduces climate damages. Sea ice along the Alaskan coast is one such form of protective natural capital: it dampens the waves that winter storms drive onshore, and it is retreating as the Arctic warms. Since ice cover varies from storm to storm, storms of similar severity can be compared across different levels of ice protection, providing an existence proof of this amplification. Using surge and wave hindcasts matched to 2,748 storms across 28 coastal communities, I find that a one-standard-deviation increase in pre-storm sea ice (23 percentage points) reduces wave height by 45 percent. FEMA spending is roughly 60 percent lower for a high-severity storm when pre-storm ice is one standard deviation higher, though this estimate rests on a small number of FEMA-funded disasters.",
+        "bio": "PhD Student in Sustainable Development"
+      },
+      {
+        "seminar_title": "Timely Policy Responses Can Save Fisheries from (Some) Temperature Shocks",
+        "date": "16-Nov-26",
+        "location": "801 IAB",
+        "time": "3:10p-4:40p",
+        "speaker": "Kimberly Oremus",
+        "affiliation": "University of Delaware",
+        "abstract": "Marine heat extremes are intensifying, straining management systems designed around stable conditions. While biological effects of warming are well-documented, critical knowledge gaps remain regarding when and how policy interventions can accelerate ecological recovery. Here, we develop a temperature-dependent bioeconomic framework that identifies thresholds and quantifies trade-offs between recovery and economic performance in a blue-crab fishery across >11,000 simulated warming and policy scenarios. We find a critical \u2018window of intervention\u2019 within which policies effectively accelerate recovery, but beyond which ecological damage overwhelms regulatory capacity. Within this window, protecting reproductive capacity through targeted harvest restrictions consistently outperforms broader closures with more favorable economic outcomes. Outside this thermal threshold, even aggressive interventions prove ineffective. The seasonal timing of warming events determines intervention success, with summer extremes imposing the greatest constraints on management effectiveness. These findings demonstrate that policy cost-effectiveness varies across warming scenarios. Our framework informs how managers can compare different regulatory actions in temperature-sensitive systems.",
+        "bio": "Associate Professor of Marine Science and Policy"
       }
     ]
   },
