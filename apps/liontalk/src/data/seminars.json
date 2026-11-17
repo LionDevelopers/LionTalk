@@ -4,64 +4,54 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Who Pays Maternity Benefits? Firms and Women\u2019s Employment in Russia",
-        "date": "16-Nov-26",
-        "location": "1101 IAB",
-        "time": "11:30a-12:10p",
-        "speaker": "Oksana Kuznetsova",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
+        "seminar_title": "Are Tariff Hikes Equal to Tariff Cuts?",
+        "date": "17-Nov-26",
+        "location": "1102 IAB",
+        "time": "11:00a-12:00p",
+        "speaker": "Hye Rim Yi",
+        "affiliation": "Columbia: Business",
+        "abstract": "It is well-documented that tariffs cause trade flows to fall. However, removing the same tariffs do not lead to trade flow recovery. I examine this asymmetry through the lens of US antidumping duties. I document that a tariff imposition causes an immediate drop in trade while the revocation of the same tariff does not result in increased trade. I examine this through the lens of a model with search costs in buyer and supplier relationships.",
+        "bio": "PhD Candidate in Business Economics"
       },
       {
-        "seminar_title": "Benchmark Distortions in Agricultural Markets",
-        "date": "16-Nov-26",
+        "seminar_title": "Lending Flexibility",
+        "date": "17-Nov-26",
         "location": "1101 IAB",
-        "time": "12:10p-12:50p",
-        "speaker": "Diogo Wolff Surdi",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
+        "time": "12:00p-1:00p",
+        "speaker": "Shuwen Wang",
+        "affiliation": "Columbia: Business",
+        "abstract": "To be announced.",
+        "bio": "PhD Student in Finance"
       },
       {
-        "seminar_title": "Price Discrimination and Revealed Consumer Welfare",
-        "date": "16-Nov-26",
-        "location": "IAB 1102",
-        "time": "1:00p-2:15p",
-        "speaker": "Jo\u00e3o Thereze",
-        "affiliation": "Duke: Fuqua Business",
-        "abstract": "We take a revealed-preference approach to study the welfare effects of price discrimination. An analyst observes price and quantity data before and after a monopolist segments the market. The analyst knows neither the aggregate demand curve nor the information available to the monopolist. We characterize the set of observable price-quantity pairs that are rationalizable by some market segmentation. We then obtain sharp bounds on the change in consumer surplus arising from some segmentation. Finally, we provide conditions under which the data identifies an unambiguous increase (decrease) in consumer surplus.",
+        "seminar_title": "Collective Decision-Making over Complex Decision Spaces",
+        "date": "17-Nov-26",
+        "location": "Room 707",
+        "time": "12:15p-1:30p",
+        "speaker": "Bailey Flanigan",
+        "affiliation": "Massachusetts Institute of Technology",
+        "abstract": "Many societal decisions on which we want collective input \u2014 from allocating a public budget to deciding how an automated decision rule should behave \u2014 have enormous combinatorial spaces of possible outcomes. The standard approach to eliciting public input in such contexts is to elicit\nelement-level\n judgments (e.g., which decision rule output a person prefers at a\nsingle input) and assume they suffice to reconstruct what people want. In this talk, I will present recent work (Flanigan & Si, EC 2026) showing that such elicitation methods fundamentally cannot identify preference structures that deal with global properties of the outcome, such as ensuring that a budget be balanced over impact categories, or that a decision rule treats like people alike. The preference model underlying this result, which generalizes standard choice models to represent priorities over the entire outcome space, also suggests a way forward: eliciting preferences at the level of\nglobal priorities\nrather than local judgements may recover richer preferences efficiently. I will illustrate this with ongoing work on participatory budgeting and discuss the questions it raises for the foundations of preference elicitation over complex decision spaces.",
+        "bio": "Assistant Professor of Political/Computer Science"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "17-Nov-26",
+        "location": "IAB 1120",
+        "time": "2:45p-3:45p",
+        "speaker": "Sarah Gertler",
+        "affiliation": "Columbia University",
+        "abstract": "To be announced.",
         "bio": "Assistant Professor of Economics"
       },
       {
-        "seminar_title": "Flights to Safety in Local Currency Corporate Bonds: The Role of Local Investors in Emerging Markets",
-        "date": "16-Nov-26",
-        "location": "IAB 1101",
-        "time": "1:00p-2:00p",
-        "speaker": "John Ma",
-        "affiliation": "Columbia University",
-        "abstract": "N/A",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Climate Damage Amplification: Arctic Sea Ice Loss and Storm Impacts",
-        "date": "16-Nov-26",
-        "location": "IAB 405A",
-        "time": "1:00p-2:00p",
-        "speaker": "Max Zahrah",
-        "affiliation": "Columbia University",
-        "abstract": "Empirical estimates of climate damages suggest that high-latitude regions stand to gain from warming. These estimates project future damages by shifting the distribution of hazards along a fixed damage function. But climate change can also alter the damage function itself by eroding the protective natural capital that reduces climate damages. Sea ice along the Alaskan coast is one such form of protective natural capital: it dampens the waves that winter storms drive onshore, and it is retreating as the Arctic warms. Since ice cover varies from storm to storm, storms of similar severity can be compared across different levels of ice protection, providing an existence proof of this amplification. Using surge and wave hindcasts matched to 2,748 storms across 28 coastal communities, I find that a one-standard-deviation increase in pre-storm sea ice (23 percentage points) reduces wave height by 45 percent. FEMA spending is roughly 60 percent lower for a high-severity storm when pre-storm ice is one standard deviation higher, though this estimate rests on a small number of FEMA-funded disasters.",
-        "bio": "PhD Student in Sustainable Development"
-      },
-      {
-        "seminar_title": "Timely Policy Responses Can Save Fisheries from (Some) Temperature Shocks",
-        "date": "16-Nov-26",
-        "location": "801 IAB",
-        "time": "3:10p-4:40p",
-        "speaker": "Kimberly Oremus",
-        "affiliation": "University of Delaware",
-        "abstract": "Marine heat extremes are intensifying, straining management systems designed around stable conditions. While biological effects of warming are well-documented, critical knowledge gaps remain regarding when and how policy interventions can accelerate ecological recovery. Here, we develop a temperature-dependent bioeconomic framework that identifies thresholds and quantifies trade-offs between recovery and economic performance in a blue-crab fishery across &gt;11,000 simulated warming and policy scenarios. We find a critical \u2018window of intervention\u2019 within which policies effectively accelerate recovery, but beyond which ecological damage overwhelms regulatory capacity. Within this window, protecting reproductive capacity through targeted harvest restrictions consistently outperforms broader closures with more favorable economic outcomes. Outside this thermal threshold, even aggressive interventions prove ineffective. The seasonal timing of warming events determines intervention success, with summer extremes imposing the greatest constraints on management effectiveness. These findings demonstrate that policy cost-effectiveness varies across warming scenarios. Our framework informs how managers can compare different regulatory actions in temperature-sensitive systems.",
-        "bio": "Associate Professor of Marine Science and Policy"
+        "seminar_title": "Optimal Fiscal, Monetary, and Financial Policies in Small Open Economies",
+        "date": "17-Nov-26",
+        "location": "1101 IAB",
+        "time": "4:15p-5:30p",
+        "speaker": "Gita Gopinath",
+        "affiliation": "Harvard University",
+        "abstract": "To be announced.",
+        "bio": "Gregory and Ania Coffey Professor of Economics"
       }
     ]
   },
@@ -77,7 +67,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "N/A"
+        "bio": "Javier G\u00f3mez-Serrano is affiliated with Brown University."
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -87,7 +77,7 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "N/A"
+        "bio": "Mohammed Abouzaid is affiliated with Stanford."
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
@@ -97,7 +87,7 @@
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
         "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "N/A"
+        "bio": "Aaron Landesman is affiliated with Harvard."
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
@@ -107,7 +97,7 @@
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "N/A"
+        "bio": "Denis Nesterov is affiliated with ETH Zurich."
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
@@ -117,7 +107,7 @@
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "N/A"
+        "bio": "Lucas Mason-Brown is affiliated with Texas."
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -127,7 +117,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "N/A"
+        "bio": "Sky Cao is affiliated with MIT."
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -137,7 +127,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "N/A"
+        "bio": "Sheldon Katz is affiliated with University of Illinois at Urbana-Champaign."
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -147,7 +137,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "N/A"
+        "bio": "Eric Zaslow is affiliated with Northwestern University."
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -157,7 +147,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "N/A"
+        "bio": "Artur Avila is affiliated with IMPA."
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -167,7 +157,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "N/A"
+        "bio": "Ishan Levy is affiliated with Copenhagen."
       }
     ]
   }
