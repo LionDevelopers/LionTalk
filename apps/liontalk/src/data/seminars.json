@@ -4,54 +4,54 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Are Tariff Hikes Equal to Tariff Cuts?",
-        "date": "17-Nov-26",
+        "seminar_title": "Examiner and Judge Designs with Multiple Treatments",
+        "date": "18-Nov-26",
         "location": "1102 IAB",
-        "time": "11:00a-12:00p",
-        "speaker": "Hye Rim Yi",
-        "affiliation": "Columbia: Business",
-        "abstract": "It is well-documented that tariffs cause trade flows to fall. However, removing the same tariffs do not lead to trade flow recovery. I examine this asymmetry through the lens of US antidumping duties. I document that a tariff imposition causes an immediate drop in trade while the revocation of the same tariff does not result in increased trade. I examine this through the lens of a model with search costs in buyer and supplier relationships.",
-        "bio": "PhD Candidate in Business Economics"
-      },
-      {
-        "seminar_title": "Lending Flexibility",
-        "date": "17-Nov-26",
-        "location": "1101 IAB",
         "time": "12:00p-1:00p",
-        "speaker": "Shuwen Wang",
-        "affiliation": "Columbia: Business",
-        "abstract": "To be announced.",
-        "bio": "PhD Student in Finance"
-      },
-      {
-        "seminar_title": "Collective Decision-Making over Complex Decision Spaces",
-        "date": "17-Nov-26",
-        "location": "Room 707",
-        "time": "12:15p-1:30p",
-        "speaker": "Bailey Flanigan",
-        "affiliation": "Massachusetts Institute of Technology",
-        "abstract": "Many societal decisions on which we want collective input \u2014 from allocating a public budget to deciding how an automated decision rule should behave \u2014 have enormous combinatorial spaces of possible outcomes. The standard approach to eliciting public input in such contexts is to elicit\nelement-level\n judgments (e.g., which decision rule output a person prefers at a\nsingle input) and assume they suffice to reconstruct what people want. In this talk, I will present recent work (Flanigan & Si, EC 2026) showing that such elicitation methods fundamentally cannot identify preference structures that deal with global properties of the outcome, such as ensuring that a budget be balanced over impact categories, or that a decision rule treats like people alike. The preference model underlying this result, which generalizes standard choice models to represent priorities over the entire outcome space, also suggests a way forward: eliciting preferences at the level of\nglobal priorities\nrather than local judgements may recover richer preferences efficiently. I will illustrate this with ongoing work on participatory budgeting and discuss the questions it raises for the foundations of preference elicitation over complex decision spaces.",
-        "bio": "Assistant Professor of Political/Computer Science"
-      },
-      {
-        "seminar_title": "To be announced.",
-        "date": "17-Nov-26",
-        "location": "IAB 1120",
-        "time": "2:45p-3:45p",
-        "speaker": "Sarah Gertler",
+        "speaker": "Myunghyun Song",
         "affiliation": "Columbia University",
-        "abstract": "To be announced.",
-        "bio": "Assistant Professor of Economics"
+        "abstract": "Examiner and Judge Designs with Multiple Treatments",
+        "bio": "Myunghyun Song\nPhD Student in Economics\n                            \n                                Columbia University"
       },
       {
-        "seminar_title": "Optimal Fiscal, Monetary, and Financial Policies in Small Open Economies",
-        "date": "17-Nov-26",
+        "seminar_title": "Prospectus Defense (Closed)",
+        "date": "18-Nov-26",
         "location": "1101 IAB",
-        "time": "4:15p-5:30p",
-        "speaker": "Gita Gopinath",
-        "affiliation": "Harvard University",
-        "abstract": "To be announced.",
-        "bio": "Gregory and Ania Coffey Professor of Economics"
+        "time": "1:00p-2:00p",
+        "speaker": "Michael Lee",
+        "affiliation": "Columbia University",
+        "abstract": "Prospectus Defense (Closed)",
+        "bio": "Michael Lee\nPhD Student in Economics\n                            \n                                Columbia University"
+      },
+      {
+        "seminar_title": "Prospectus Defense (Closed)",
+        "date": "18-Nov-26",
+        "location": "N/A",
+        "time": "1:00p-2:00p",
+        "speaker": "Hannah Kris",
+        "affiliation": "Columbia University",
+        "abstract": "Prospectus Defense (Closed)",
+        "bio": "Hannah Kris\nPhD Student in Economics\n                            \n                                Columbia University"
+      },
+      {
+        "seminar_title": "Managing Innovation in firms",
+        "date": "18-Nov-26",
+        "location": "1101 IAB",
+        "time": "4:10p-5:30p",
+        "speaker": "Ingrid Haegele",
+        "affiliation": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+        "abstract": "Most innovation occurs inside firms, yet little is known about the organizational forces that shape it. We study the role of managers in within-firm innovation using uniquely rich administrative data from a global manufacturing firm that tracks workers\u2019 ideas from invention to patenting and commercialization. Exploiting quasi-random manager switches across teams, we show that managers with hands-on invention experience substantially increase both the quantity and quality of workers\u2019 innovative output. Within four years of the switch, moving from the average manager, who has no experience, to a highly-experienced manager approximately doubles workers\u2019 production of patented inventions. We also find positive effects on patent citations and commercialized inventions, showing that these effects extend beyond patent counts to also reflect technological impact and economic value. Our evidence suggests that managers raise the innovation capability of incumbent workers. Close collaboration transmits know-how, especially in areas farther from workers\u2019 expertise, after which workers become more able to invent independently. We also show that experienced managers foster a work environment more conducive to experimentation and idea development.",
+        "bio": "Ingrid Haegele\nAssociate Professor of Economics\n                            \n                                Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen"
+      },
+      {
+        "seminar_title": "When Decentralization Works: Leadership Quality and Student Achievement",
+        "date": "19-Nov-26",
+        "location": "Teachers College, Thompson Hall 229",
+        "time": "12:00p-1:30p",
+        "speaker": "C. Kirabo Jackson",
+        "affiliation": "Northwestern University",
+        "abstract": "This paper studies when decentralization improves public service delivery. I analyze a Chicago reform that awarded select principals greater autonomy over budgets and operations while holding resources largely unchanged. A meta-analysis of similar reforms shows substantial heterogeneity, including both positive and negative effects. Building on insights from public finance, contract design, and psychology, I argue that the returns to autonomy depend on the capacity of local decision-makers (i.e., principals in this context) and the alignment of their objectives with those of central authorities. Event-study estimates show that, on average, increased autonomy improved achievement by about 0.1 standard deviations, effects comparable to resource-intensive interventions but achieved at minimal cost. However, deconvolution analysis reveals substantial heterogeneity, with both negative and positive effects. Design-based evidence supports the theoretical predictions; high-performing principals benefit more, reallocating resources effectively (e.g., reducing class sizes), and schools with atypical student populations benefit more and may tailor services to local needs. These results highlight that local capacity, aligned incentives, and heterogeneity are central to the success of decentralization reforms.",
+        "bio": "C. Kirabo Jackson\nAbraham Harris Professor of Education and Social Policy\n                            \n                                Northwestern University"
       }
     ]
   },
@@ -67,7 +67,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "Javier G\u00f3mez-Serrano is affiliated with Brown University."
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -77,7 +77,7 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "Mohammed Abouzaid is affiliated with Stanford."
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
@@ -87,7 +87,7 @@
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
         "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "Aaron Landesman is affiliated with Harvard."
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
@@ -97,7 +97,7 @@
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "Denis Nesterov is affiliated with ETH Zurich."
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
@@ -107,7 +107,7 @@
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "Lucas Mason-Brown is affiliated with Texas."
+        "bio": "N/A"
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -117,7 +117,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "Sky Cao is affiliated with MIT."
+        "bio": "N/A"
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -127,7 +127,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "Sheldon Katz is affiliated with University of Illinois at Urbana-Champaign."
+        "bio": "N/A"
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -137,7 +137,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "Eric Zaslow is affiliated with Northwestern University."
+        "bio": "N/A"
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -147,7 +147,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "Artur Avila is affiliated with IMPA."
+        "bio": "N/A"
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -157,7 +157,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "Ishan Levy is affiliated with Copenhagen."
+        "bio": "N/A"
       }
     ]
   }
