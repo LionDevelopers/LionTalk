@@ -4,46 +4,6 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Examiner and Judge Designs with Multiple Treatments",
-        "date": "18-Nov-26",
-        "location": "1102 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Myunghyun Song",
-        "affiliation": "Columbia University",
-        "abstract": "Examiner and Judge Designs with Multiple Treatments",
-        "bio": "Myunghyun Song\nPhD Student in Economics\n                            \n                                Columbia University"
-      },
-      {
-        "seminar_title": "Prospectus Defense (Closed)",
-        "date": "18-Nov-26",
-        "location": "1101 IAB",
-        "time": "1:00p-2:00p",
-        "speaker": "Michael Lee",
-        "affiliation": "Columbia University",
-        "abstract": "Prospectus Defense (Closed)",
-        "bio": "Michael Lee\nPhD Student in Economics\n                            \n                                Columbia University"
-      },
-      {
-        "seminar_title": "Prospectus Defense (Closed)",
-        "date": "18-Nov-26",
-        "location": "N/A",
-        "time": "1:00p-2:00p",
-        "speaker": "Hannah Kris",
-        "affiliation": "Columbia University",
-        "abstract": "Prospectus Defense (Closed)",
-        "bio": "Hannah Kris\nPhD Student in Economics\n                            \n                                Columbia University"
-      },
-      {
-        "seminar_title": "Managing Innovation in firms",
-        "date": "18-Nov-26",
-        "location": "1101 IAB",
-        "time": "4:10p-5:30p",
-        "speaker": "Ingrid Haegele",
-        "affiliation": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
-        "abstract": "Most innovation occurs inside firms, yet little is known about the organizational forces that shape it. We study the role of managers in within-firm innovation using uniquely rich administrative data from a global manufacturing firm that tracks workers\u2019 ideas from invention to patenting and commercialization. Exploiting quasi-random manager switches across teams, we show that managers with hands-on invention experience substantially increase both the quantity and quality of workers\u2019 innovative output. Within four years of the switch, moving from the average manager, who has no experience, to a highly-experienced manager approximately doubles workers\u2019 production of patented inventions. We also find positive effects on patent citations and commercialized inventions, showing that these effects extend beyond patent counts to also reflect technological impact and economic value. Our evidence suggests that managers raise the innovation capability of incumbent workers. Close collaboration transmits know-how, especially in areas farther from workers\u2019 expertise, after which workers become more able to invent independently. We also show that experienced managers foster a work environment more conducive to experimentation and idea development.",
-        "bio": "Ingrid Haegele\nAssociate Professor of Economics\n                            \n                                Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen"
-      },
-      {
         "seminar_title": "When Decentralization Works: Leadership Quality and Student Achievement",
         "date": "19-Nov-26",
         "location": "Teachers College, Thompson Hall 229",
@@ -51,7 +11,47 @@
         "speaker": "C. Kirabo Jackson",
         "affiliation": "Northwestern University",
         "abstract": "This paper studies when decentralization improves public service delivery. I analyze a Chicago reform that awarded select principals greater autonomy over budgets and operations while holding resources largely unchanged. A meta-analysis of similar reforms shows substantial heterogeneity, including both positive and negative effects. Building on insights from public finance, contract design, and psychology, I argue that the returns to autonomy depend on the capacity of local decision-makers (i.e., principals in this context) and the alignment of their objectives with those of central authorities. Event-study estimates show that, on average, increased autonomy improved achievement by about 0.1 standard deviations, effects comparable to resource-intensive interventions but achieved at minimal cost. However, deconvolution analysis reveals substantial heterogeneity, with both negative and positive effects. Design-based evidence supports the theoretical predictions; high-performing principals benefit more, reallocating resources effectively (e.g., reducing class sizes), and schools with atypical student populations benefit more and may tailor services to local needs. These results highlight that local capacity, aligned incentives, and heterogeneity are central to the success of decentralization reforms.",
-        "bio": "C. Kirabo Jackson\nAbraham Harris Professor of Education and Social Policy\n                            \n                                Northwestern University"
+        "bio": "Abraham Harris Professor of Education and Social Policy"
+      },
+      {
+        "seminar_title": "Robust Signal Maximization in Spillover Experiments",
+        "date": "19-Nov-26",
+        "location": "1102 IAB",
+        "time": "2:15p-3:30p",
+        "speaker": "Evan Munro",
+        "affiliation": "UChicago: Booth Business",
+        "abstract": "We study the optimal design and analysis of experiments for estimating spillover effects. Assuming a known (e.g., linear) exposure mapping, we characterize the treatment-assignment distribution and regression-based estimator that minimize worst-case asymptotic variance against a broad class of distributions of unobservables. The design problem yields an intuitive solution in which the planner trades off spillover signal strength against dispersion of spillover variation. The analysis problem yields a simple recentered instrumental variable estimator to best leverage this variation. This framework produces natural solutions in several benchmark cases\u2014such as clustered exposure\u2014and suggests computationally tractable approximations for general networks, including bipartite settings. We illustrate these new tools in semi-synthetic experiments based on three applications from development economics. Our approach yields large standard error reductions in both experiments, increasing effective sample sizes by 50\u2013100% or more.",
+        "bio": "Assistant Professor of Econometrics and Statistics"
+      },
+      {
+        "seminar_title": "Knowing the Numbers: Performance Data and Microenterprise Outcomes in Uganda",
+        "date": "19-Nov-26",
+        "location": "1101 IAB",
+        "time": "4:10p-5:25p",
+        "speaker": "Emma Riley",
+        "affiliation": "University of Michigan - Ann Arbor",
+        "abstract": "Can increasing business owners\u2019 knowledge of their enterprise performance improve firm outcomes? We explore this question through a randomized controlled trial (RCT) with 623 female-owned retail businesses in Kampala, Uganda. At baseline, 82% of owners under-estimate their sales, by 46% on average. Firms were randomly assigned to one of three groups: (1) control, (2) record-keeping encouragement, or (3) the same record-keeping plus fortnightly business analytics (the ``Performance Summary'') \u2014simple summaries of key business metrics over time. We find that receiving the Performance Summary leads to a 36% (USD 332 PPP) increase in inventory spending, a 39% (USD 448 PPP) increase in sales and a 22% (USD 52 PPP) increase in profits compared to the control group. The Performance Summary also reduces owners' under-estimate of their sales, and the effects are concentrated among the owners who under-estimated their sales at baseline. In contrast, encouraging record-keeping alone has no measurable effect, which suggests that the gains come from the summary of the records and not from the collection of the data.",
+        "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "Shipping to America",
+        "date": "19-Nov-26",
+        "location": "IAB 1512",
+        "time": "4:30p-6:00p",
+        "speaker": "Jes\u00fas Fern\u00e1ndez-Villaverde",
+        "affiliation": "University of Pennsylvania",
+        "abstract": "We study the macroeconomic impact of route-specific shipping disruptions on the U.S. economy and their implications for trade policy. Using high-frequency satellite data on the universe of U.S.-bound container vessels between 2016 and 2025, we construct novel measures of potential and effective shipping capacity that account for disruptions arising from port congestion, Suez and Panama Canal bottlenecks, slow steaming, and vessel rerouting. These measures allow us to document new facts about the evolution of U.S.-bound shipping capacity, the sources of capacity losses, and changes in shipping efficiency. We develop a multi-route general equilibrium model to quantify the impact of shipping disruptions. The 2021 West Coast port congestion during the COVID-19 pandemic reduced welfare by 0.9% of GDP, while the security threats from the 2023\u20132024 Houthi attacks led to a welfare loss of 0.4% of GDP. The U.S. Navy's intervention in the Red Sea helped contain the effect of these attacks, yielding a benefit of 0.2% of GDP at a fiscal cost of 0.02%. Tariffs, by alleviating route congestion, can mitigate or even reverse the standard inflationary effect, although the effect on welfare depends on the degree of retailers' market power.",
+        "bio": "Professor of Economics"
+      },
+      {
+        "seminar_title": "Piece by Piece, Hour by Hour: Incentives, Productivity, and Turnover.",
+        "date": "20-Nov-26",
+        "location": "1101 IAB",
+        "time": "10:00a-11:00a",
+        "speaker": "Jared Grogan",
+        "affiliation": "Columbia University",
+        "abstract": "The choice of compensation method can affect employees\u2019 effort levels, their selection into employment, and their human capital accumulation at a particular firm. However, in settings with especially high turnover, the costs of continually replacing employees may be substantial. We analyze a large group of employees paid primarily by piece rates but who are required to perform many tasks besides the one on which incentive payments are made. We explore whether a change in compensation scheme intended to leave mean earnings constant but that adds time-based compensation for the non-primary tasks can affect worker productivity and turnover. We use the staggered adoption of a new incentive contract for long distance truck drivers at a large American truckload motor carrier to perform a quasi-experimental analysis. We estimate effects on driving and non-driving work outcomes as well as the likelihood that drivers will quit over a given period of time. We discuss potential mechanisms behind the reported effects, and the costs and benefits of the compensation change that can be estimated with available data are reported and interpreted.",
+        "bio": "PhD Student in Economics"
       }
     ]
   },
