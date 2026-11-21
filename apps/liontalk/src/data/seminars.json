@@ -4,33 +4,13 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "Piece by Piece, Hour by Hour: Incentives, Productivity, and Turnover.",
-        "date": "20-Nov-26",
-        "location": "1101 IAB",
-        "time": "10:00a-11:00a",
-        "speaker": "Jared Grogan",
-        "affiliation": "Columbia University",
-        "abstract": "The choice of compensation method can affect employees\u2019 effort levels, their selection into employment, and their human capital accumulation at a particular firm. However, in settings with especially high turnover, the costs of continually replacing employees may be substantial. We analyze a large group of employees paid primarily by piece rates but who are required to perform many tasks besides the one on which incentive payments are made. We explore whether a change in compensation scheme intended to leave mean earnings constant but that adds time-based compensation for the non-primary tasks can affect worker productivity and turnover. We use the staggered adoption of a new incentive contract for long distance truck drivers at a large American truckload motor carrier to perform a quasi-experimental analysis. We estimate effects on driving and non-driving work outcomes as well as the likelihood that drivers will quit over a given period of time. We discuss potential mechanisms behind the reported effects, and the costs and benefits of the compensation change that can be estimated with available data are reported and interpreted.",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "\"Equilibrium Effects in Complementary Markets: Electric Vehicle Adoption and Electricity Pricing\"",
-        "date": "20-Nov-26",
-        "location": "NYU Stern, KMC 3-50 (third floor)",
-        "time": "11:00a-12:15p",
-        "speaker": "Mathias Reynaert",
-        "affiliation": "Toulouse School of Economics",
-        "abstract": "N/A",
-        "bio": "Professor of Economics"
-      },
-      {
         "seminar_title": "AI-Mediated Communication Between Managers and Employees",
         "date": "23-Nov-26",
         "location": "1101 IAB",
         "time": "11:30a-12:10p",
         "speaker": "Akseli Palom\u00e4ki",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
+        "abstract": "AI-Mediated Communication Between Managers and Employees",
         "bio": "PhD Student in Economics"
       },
       {
@@ -40,7 +20,7 @@
         "time": "12:10p-12:50p",
         "speaker": "Arjun Srinivasan",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
+        "abstract": "Migration and the Supply of Hospitals",
         "bio": "PhD Student in Economics"
       },
       {
@@ -60,7 +40,7 @@
         "time": "1:00p-1:45p",
         "speaker": "Bruno Cavani",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
+        "abstract": "Hidden De-Risking: American Portfolio Investment in China",
         "bio": "PhD Student in Economics"
       },
       {
@@ -70,8 +50,28 @@
         "time": "1:45p-2:30p",
         "speaker": "Thomas Anton",
         "affiliation": "Columbia University",
-        "abstract": "N/A",
+        "abstract": "Going Nowhere: Growth Theory from Habits",
         "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Do Batteries Discipline Market Power? Lessons from Western Australia's Electricity Market.",
+        "date": "23-Nov-26",
+        "location": "IAB 405A",
+        "time": "1:00p-2:00p",
+        "speaker": "Fanyu Wang",
+        "affiliation": "Columbia University",
+        "abstract": "Do Batteries Discipline Market Power? Lessons from Western Australia's Electricity Market.",
+        "bio": "PhD Student in SIPA"
+      },
+      {
+        "seminar_title": "Whose Tree Is It Anyway? Property Rights and Deforestation in the Brazilian Amazon",
+        "date": "23-Nov-26",
+        "location": "801 IAB",
+        "time": "3:10p-4:40p",
+        "speaker": "Jonathan Dingel",
+        "affiliation": "Columbia University",
+        "abstract": "We study how potential property rights shape deforestation in the Brazilian Amazon. Within adjacent areas, perpetual public land is deforested much less than non-perpetual public land, which is often privatized and converted to agricultural use. We build a dynamic spatial model in which farmers choose whether to deforest frontier plots, and agribusinesses buy privatized deforested plots for scale-intensive, export-oriented use. This option-value channel raises the return to deforesting non-perpetual public land relative to otherwise identical perpetual public land.",
+        "bio": "Associate Professor of Economics"
       }
     ]
   },
