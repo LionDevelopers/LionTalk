@@ -4,94 +4,64 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "AI-Mediated Communication Between Managers and Employees",
-        "date": "23-Nov-26",
+        "seminar_title": "To be announced.",
+        "date": "24-Nov-26",
+        "location": "1101 IAB",
+        "time": "11:00a-12:00p",
+        "speaker": "Haotian (Hao) Jiang",
+        "affiliation": "Columbia University",
+        "abstract": "To be announced.",
+        "bio": "PhD Student in Economics"
+      },
+      {
+        "seminar_title": "Deepening Private Capital Markets: Evidence from Government Interventions in France",
+        "date": "24-Nov-26",
+        "location": "1101 IAB",
+        "time": "12:00p-1:00p",
+        "speaker": "Nolwenn Allaire",
+        "affiliation": "Columbia: Business",
+        "abstract": "Deepening Private Capital Markets: Evidence from Government Interventions in France",
+        "bio": "PhD Student in Finance"
+      },
+      {
+        "seminar_title": "To be announced.",
+        "date": "24-Nov-26",
+        "location": "IAB 1120",
+        "time": "2:45p-3:45p",
+        "speaker": "Kristina Manysheva",
+        "affiliation": "Columbia: Business",
+        "abstract": "To be announced.",
+        "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "The Macroeconomic Effect of AI: Sizing the Software Engineering Channel",
+        "date": "24-Nov-26",
+        "location": "1101 IAB",
+        "time": "4:15p-5:30p",
+        "speaker": "Jonathan Hazell",
+        "affiliation": "London School of Economics and Political Science",
+        "abstract": "The Macroeconomic Effect of AI: Sizing the Software Engineering Channel",
+        "bio": "Assistant Professor of Economics"
+      },
+      {
+        "seminar_title": "When the Platform Sells the Quality it Ranks: Evidence from Amazon\u2019s Buy Box",
+        "date": "30-Nov-26",
         "location": "1101 IAB",
         "time": "11:30a-12:10p",
-        "speaker": "Akseli Palom\u00e4ki",
+        "speaker": "Riccardo Martina",
         "affiliation": "Columbia University",
-        "abstract": "AI-Mediated Communication Between Managers and Employees",
-        "bio": "Akseli Palom\u00e4ki is a PhD Student in Economics at Columbia University."
+        "abstract": "When the Platform Sells the Quality it Ranks: Evidence from Amazon\u2019s Buy Box",
+        "bio": "PhD Student in Economics"
       },
       {
-        "seminar_title": "AI-Mediated Communication Between Managers and Employees",
-        "date": "23-Nov-26",
+        "seminar_title": "Learning, Hospital Choice, and Congestion in Emergency Medical Services",
+        "date": "30-Nov-26",
         "location": "1101 IAB",
         "time": "12:10p-12:50p",
-        "speaker": "Akseli Palom\u00e4ki",
+        "speaker": "Jack Cenatempo",
         "affiliation": "Columbia University",
-        "abstract": "AI-Mediated Communication Between Managers and Employees",
-        "bio": "Akseli Palom\u00e4ki is a PhD Student in Economics at Columbia University."
-      },
-      {
-        "seminar_title": "Migration and the Supply of Hospitals",
-        "date": "23-Nov-26",
-        "location": "1101 IAB",
-        "time": "11:30a-12:10p",
-        "speaker": "Arjun Srinivasan",
-        "affiliation": "Columbia University",
-        "abstract": "Migration and the Supply of Hospitals",
-        "bio": "Arjun Srinivasan is a PhD Student in Economics at Columbia University."
-      },
-      {
-        "seminar_title": "Migration and the Supply of Hospitals",
-        "date": "23-Nov-26",
-        "location": "1101 IAB",
-        "time": "12:10p-12:50p",
-        "speaker": "Arjun Srinivasan",
-        "affiliation": "Columbia University",
-        "abstract": "Migration and the Supply of Hospitals",
-        "bio": "Arjun Srinivasan is a PhD Student in Economics at Columbia University."
-      },
-      {
-        "seminar_title": "Delegated Contracting",
-        "date": "23-Nov-26",
-        "location": "K820",
-        "time": "1:00p-2:15p",
-        "speaker": "Udayan Vaidya",
-        "affiliation": "Duke: Fuqua Business",
-        "abstract": "A principal contracts with an agent through an informed delegate. Although the principal cannot directly mediate the interaction, she can restrict the menus of contracts the delegate may offer. We characterize the outcomes implementable through delegated contracting: they are exactly those achievable by a centralized Bayesian mechanism that is dominant-strategy incentive compatible and ex-post individually rational for the agent. We use this result to identify the optimal contractual restrictions in several settings. First, an organization that procures through a budget-indulgent agency should grant full flexibility below an expected spending cap. Second, unlike centralized mechanisms, delegated contracting can never dissolve partnerships efficiently, highlighting a limit to delegated authority. Finally, a seller can entrust sales to an intermediary without revenue loss by combining a resale price agreement with a buyback policy.",
-        "bio": "Udayan Vaidya is an Assistant Professor of Economics at Duke University's Fuqua School of Business."
-      },
-      {
-        "seminar_title": "Hidden De-Risking: American Portfolio Investment in China",
-        "date": "23-Nov-26",
-        "location": "N/A",
-        "time": "1:00p-1:45p",
-        "speaker": "Bruno Cavani",
-        "affiliation": "Columbia University",
-        "abstract": "Hidden De-Risking: American Portfolio Investment in China",
-        "bio": "Bruno Cavani is a PhD Student in Economics at Columbia University."
-      },
-      {
-        "seminar_title": "Going Nowhere: Growth Theory from Habits",
-        "date": "23-Nov-26",
-        "location": "N/A",
-        "time": "1:45p-2:30p",
-        "speaker": "Thomas Anton",
-        "affiliation": "Columbia University",
-        "abstract": "Going Nowhere: Growth Theory from Habits",
-        "bio": "Thomas Anton is a PhD Student in Economics at Columbia University."
-      },
-      {
-        "seminar_title": "Do Batteries Discipline Market Power? Lessons from Western Australia's Electricity Market.",
-        "date": "23-Nov-26",
-        "location": "IAB 405A",
-        "time": "1:00p-2:00p",
-        "speaker": "Fanyu Wang",
-        "affiliation": "Columbia University",
-        "abstract": "Do Batteries Discipline Market Power? Lessons from Western Australia's Electricity Market.",
-        "bio": "Fanyu Wang is a PhD Student in SIPA at Columbia University."
-      },
-      {
-        "seminar_title": "Whose Tree Is It Anyway? Property Rights and Deforestation in the Brazilian Amazon",
-        "date": "23-Nov-26",
-        "location": "801 IAB",
-        "time": "3:10p-4:40p",
-        "speaker": "Jonathan Dingel",
-        "affiliation": "Columbia University",
-        "abstract": "We study how potential property rights shape deforestation in the Brazilian Amazon. Within adjacent areas, perpetual public land is deforested much less than non-perpetual public land, which is often privatized and converted to agricultural use. We build a dynamic spatial model in which farmers choose whether to deforest frontier plots, and agribusinesses buy privatized deforested plots for scale-intensive, export-oriented use. This option-value channel raises the return to deforesting non-perpetual public land relative to otherwise identical perpetual public land.",
-        "bio": "Jonathan Dingel is an Associate Professor of Economics at Columbia University."
+        "abstract": "Learning, Hospital Choice, and Congestion in Emergency Medical Services",
+        "bio": "PhD Student in Economics"
       }
     ]
   },
@@ -107,7 +77,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "Speaker: Javier G\u00f3mez-Serrano (Brown University)"
+        "bio": "Javier G\u00f3mez-Serrano"
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -117,7 +87,7 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "Speaker: Mohammed Abouzaid (Stanford)"
+        "bio": "Mohammed Abouzaid"
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
@@ -126,8 +96,8 @@
         "time": "4:30 \u2013 5:30PM",
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
-        "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group G can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "Speaker: Aaron Landesman (Harvard)"
+        "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
+        "bio": "Aaron Landesman"
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
@@ -137,7 +107,7 @@
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "Speaker: Denis Nesterov (ETH Zurich)"
+        "bio": "Denis Nesterov"
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
@@ -147,7 +117,7 @@
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "Speaker: Lucas Mason-Brown (Texas)"
+        "bio": "Lucas Mason-Brown"
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -157,7 +127,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "Speaker: Sky Cao (MIT)"
+        "bio": "Sky Cao"
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -167,7 +137,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "Speaker: Sheldon Katz (University of Illinois at Urbana-Champaign)"
+        "bio": "Sheldon Katz"
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -177,7 +147,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "Speaker: Eric Zaslow (Northwestern University)"
+        "bio": "Eric Zaslow"
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -187,7 +157,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "Speaker: Artur Avila (IMPA)"
+        "bio": "Artur Avila"
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -197,7 +167,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "Speaker: Ishan Levy (Copenhagen)"
+        "bio": "Ishan Levy"
       }
     ]
   }
