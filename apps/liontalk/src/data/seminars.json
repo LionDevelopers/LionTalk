@@ -4,46 +4,6 @@
     "series": "Econ and PoliSci Seminar Series",
     "entries": [
       {
-        "seminar_title": "To be announced.",
-        "date": "24-Nov-26",
-        "location": "1101 IAB",
-        "time": "11:00a-12:00p",
-        "speaker": "Haotian (Hao) Jiang",
-        "affiliation": "Columbia University",
-        "abstract": "To be announced.",
-        "bio": "PhD Student in Economics"
-      },
-      {
-        "seminar_title": "Deepening Private Capital Markets: Evidence from Government Interventions in France",
-        "date": "24-Nov-26",
-        "location": "1101 IAB",
-        "time": "12:00p-1:00p",
-        "speaker": "Nolwenn Allaire",
-        "affiliation": "Columbia: Business",
-        "abstract": "Deepening Private Capital Markets: Evidence from Government Interventions in France",
-        "bio": "PhD Student in Finance"
-      },
-      {
-        "seminar_title": "To be announced.",
-        "date": "24-Nov-26",
-        "location": "IAB 1120",
-        "time": "2:45p-3:45p",
-        "speaker": "Kristina Manysheva",
-        "affiliation": "Columbia: Business",
-        "abstract": "To be announced.",
-        "bio": "Assistant Professor of Economics"
-      },
-      {
-        "seminar_title": "The Macroeconomic Effect of AI: Sizing the Software Engineering Channel",
-        "date": "24-Nov-26",
-        "location": "1101 IAB",
-        "time": "4:15p-5:30p",
-        "speaker": "Jonathan Hazell",
-        "affiliation": "London School of Economics and Political Science",
-        "abstract": "The Macroeconomic Effect of AI: Sizing the Software Engineering Channel",
-        "bio": "Assistant Professor of Economics"
-      },
-      {
         "seminar_title": "When the Platform Sells the Quality it Ranks: Evidence from Amazon\u2019s Buy Box",
         "date": "30-Nov-26",
         "location": "1101 IAB",
@@ -51,7 +11,7 @@
         "speaker": "Riccardo Martina",
         "affiliation": "Columbia University",
         "abstract": "When the Platform Sells the Quality it Ranks: Evidence from Amazon\u2019s Buy Box",
-        "bio": "PhD Student in Economics"
+        "bio": "Riccardo Martina is a PhD Student in Economics at Columbia University."
       },
       {
         "seminar_title": "Learning, Hospital Choice, and Congestion in Emergency Medical Services",
@@ -61,7 +21,57 @@
         "speaker": "Jack Cenatempo",
         "affiliation": "Columbia University",
         "abstract": "Learning, Hospital Choice, and Congestion in Emergency Medical Services",
-        "bio": "PhD Student in Economics"
+        "bio": "Jack Cenatempo is a PhD Student in Economics at Columbia University."
+      },
+      {
+        "seminar_title": "Foundations of Robust Optimization: Divergence Preferences",
+        "date": "30-Nov-26",
+        "location": "IAB 1102",
+        "time": "1:00p-2:15p",
+        "speaker": "Tommaso Denti",
+        "affiliation": "NYU: Stern Business",
+        "abstract": "We study a decision maker who, like a subjective expected utility maximizer, uses a reference probability model to assess the likelihood of different states of the world, but worries that the model may be misspecified. They evaluate each choice by minimizing expected utility over alternative models, with a penalty for departures from the reference model. We characterize the preferences that arise when these departures are measured by a statistical divergence. Under these preferences, choices are ranked solely by the distributions of outcomes they induce under the reference model. When two outcome distributions are equally attractive, the decision maker weakly prefers either one to any mixture of the two. We interpret this property as aversion to model misspecification. In two economic examples, we connect this aversion to the informativeness principle in moral hazard problems and show how it can give rise to a winner\u2019s curse in first-price auctions.",
+        "bio": "Tommaso Denti is an Assistant Professor of Economics at NYU Stern Business."
+      },
+      {
+        "seminar_title": "Skin Tone and Racial Inequality in the US: Evidence from the 20th Century",
+        "date": "30-Nov-26",
+        "location": "405A IAB",
+        "time": "1:00p-2:00p",
+        "speaker": "Kamelia Stavreva",
+        "affiliation": "Columbia University",
+        "abstract": "Empirical work on racial inequality typically relies on a binary Black\u2013white comparison, treating racial categories as uniform and masking meaningful variation in how individuals are treated within groups. Using newly collected WWII draft registration records containing information on skin tone for the near universe of men born between 1898\u20131929, linked to the 1940 Census, we document large intra-racial disparities by skin color. Black men with light skin earn about 37% more than their darker-skinned peers. This unconditional gap is economically significant\u2014if all Black men earned what light-skinned Black men did, the Black\u2013white earnings gap in 1940 would be roughly 18% smaller. We explore several mechanisms behind these disparities. Comparing brothers raised in the same household, family fixed effects eliminate essentially the entire education gap, yet darker-skinned brothers still earn about 10% less (9 log points), roughly a quarter of the unconditional gap in the sibling sample, pointing to a labor market penalty distinct from the categorical disadvantages tied to racial classification. We then consider the role of discriminatory institutions. While Jim Crow exposure depresses educational attainment for Black men overall, we find no differential impact by skin tone, consistent with the one-drop rule\u2019s uniform legal treatment. Finally, we follow men from 1940 to 1950 and find that among men in the same 1940 occupation, lighter-skinned men were more likely to move into skilled work. Exploiting WWII-driven variation in labor market tightness, we find that shocks that reduced Black\u2013white inequality had no detectable differential effect by skin tone. Our results show that differences in outcomes by skin tone represent a distinct form of inequality, one that reflects both inherited disadvantage and discriminatory forces that sort Black men by color and appear to differ from those driving broader Black-white inequality.",
+        "bio": "Kamelia Stavreva is a PhD Student in Economics at Columbia University."
+      },
+      {
+        "seminar_title": "Coordination through Creative Destruction",
+        "date": "30-Nov-26",
+        "location": "N/A",
+        "time": "1:00p-1:45p",
+        "speaker": "Szymon Kopyta",
+        "affiliation": "Columbia University",
+        "abstract": "Coordination through Creative Destruction",
+        "bio": "Szymon Kopyta is a PhD Student in Economics at Columbia University."
+      },
+      {
+        "seminar_title": "Customer Capital and the Dynamics of Foreign Tariff Pass-through",
+        "date": "30-Nov-26",
+        "location": "N/A",
+        "time": "1:45p-2:30p",
+        "speaker": "Sahil Lalwani",
+        "affiliation": "Columbia University",
+        "abstract": "Customer Capital and the Dynamics of Foreign Tariff Pass-through",
+        "bio": "Sahil Lalwani is a PhD Student in Economics at Columbia University."
+      },
+      {
+        "seminar_title": "Integrity and Unraveling in Carbon Offset Markets",
+        "date": "30-Nov-26",
+        "location": "801 IAB",
+        "time": "3:10p-4:40p",
+        "speaker": "Anna Russo",
+        "affiliation": "Harvard University",
+        "abstract": "Carbon offset markets aim to lower abatement costs through trade, but when adverse selection drives a wedge between credits and true carbon reductions, enforcing unbiased trade\u2014counting credits only for expected reductions\u2014may unravel the market. We investigate this tension in tropical forest offsets. Credits exceed reductions by an order of magnitude. A natural experiment provides direct evidence of unraveling: when a standardized contract pooled heterogeneous credits at a single price, prices fell, adverse selection worsened, and trade collapsed. Yet, buyers value nominal credits beyond their underlying carbon reductions. An equilibrium model of land use, crediting, and demand shows that this demand acts as an implicit subsidy, sustaining trade that adverse selection would otherwise unravel, but with small, vastly overstated abatement. Under unbiased trade, the market unravels even at high carbon prices, despite socially valuable abatement opportunities. Preserving both trade and environmental integrity would require a profound change in market design, substantial subsidies, and major improvements in baseline measurement. Without this, gains from offset trade may not be realizable.",
+        "bio": "Anna Russo is an Assistant Professor of Economics and Social Studies at Harvard University."
       }
     ]
   },
@@ -77,7 +87,7 @@
         "speaker": "Javier G\u00f3mez-Serrano",
         "affiliation": "Brown University",
         "abstract": "Machine learning is transforming mathematical discovery, enabling advances on longstanding open problems. This talk explores two complementary approaches illustrating different [\u2026]",
-        "bio": "Javier G\u00f3mez-Serrano"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 26th COLLOQUIUM: Mohammed Abouzaid (Stanford)",
@@ -87,7 +97,7 @@
         "speaker": "Mohammed Abouzaid",
         "affiliation": "Stanford",
         "abstract": "We recently released a set of 10 mathematical statements in arxiv:2602.05192, with known ibut unpublished short human proofs (about 5 pages), and attempted to ascertain how far AI systems can [\u2026]",
-        "bio": "Mohammed Abouzaid"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 9th COLLOQUIUM: Aaron Landesman (Harvard)",
@@ -97,7 +107,7 @@
         "speaker": "Aaron Landesman",
         "affiliation": "Harvard",
         "abstract": "The inverse Galois problem, a foundational question in number theory, asks whether every finite group $G$ can be realized as the Galois group of a field extension of the rational numbers. Malle\u2019s conjecture is a [\u2026]",
-        "bio": "Aaron Landesman"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 6th COLLOQUIUM: Denis Nesterov (ETH Zurich)",
@@ -107,7 +117,7 @@
         "speaker": "Denis Nesterov",
         "affiliation": "ETH Zurich",
         "abstract": "I will discuss a universal structure that appears in the compactification of spaces parametrizing points, maps, and vector bundles associated with a complex variety. It gives rise to numerous interesting correspondences between seemingly different geometries, shedding light [\u2026]",
-        "bio": "Denis Nesterov"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Feb. 2nd COLLOQUIUM: Lucas Mason-Brown (Texas)",
@@ -117,7 +127,7 @@
         "speaker": "Lucas Mason-Brown",
         "affiliation": "Texas",
         "abstract": "One of the most fundamental unsolved problems in representation theory is to classify the set of irreducible unitary representations of a semisimple Lie group. In this talk, I will define [\u2026]",
-        "bio": "Lucas Mason-Brown"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Jan. 30th COLLOQUIUM: Sky Cao (MIT)",
@@ -127,7 +137,7 @@
         "speaker": "Sky Cao",
         "affiliation": "MIT",
         "abstract": "Originating in physics, Yang-Mills theory has shaped many areas of modern mathematics. In my talk, I will present Yang-Mills theory in the context of probability, highlighting central questions and recent advances. In particular, [\u2026]",
-        "bio": "Sky Cao"
+        "bio": "N/A"
       },
       {
         "seminar_title": "Nov. 13th COLLOQUIUM: Sheldon Katz (University of Illinois at Urbana-Champaign)",
@@ -137,7 +147,7 @@
         "speaker": "Sheldon Katz",
         "affiliation": "University of Illinois at Urbana-Champaign",
         "abstract": "One of the reasons why theoretical physics has spawned the development of many surprising and deep ideas of mathematics in recent decades is the presence of symmetries [\u2026]",
-        "bio": "Sheldon Katz"
+        "bio": "N/A"
       },
       {
         "seminar_title": "SEPT. 3rd COLLOQUIUM: Eric Zaslow (Northwestern University)",
@@ -147,7 +157,7 @@
         "speaker": "Eric Zaslow",
         "affiliation": "Northwestern University",
         "abstract": "I will give a tour of some places in modern mathematical physics where classical combinatorial objects of discrete math arise. More specifically, I will explore how counting points (of various moduli spaces) [\u2026]",
-        "bio": "Eric Zaslow"
+        "bio": "N/A"
       },
       {
         "seminar_title": "APRIL 23rd COLLOQUIUM: Artur Avila (IMPA)",
@@ -157,7 +167,7 @@
         "speaker": "Artur Avila",
         "affiliation": "IMPA",
         "abstract": "As discovered by Poincar\u00e9 in the end of the 19th century, even small perturbations of very regular dynamical systems may display chaotic features, due to complicated interactions near a homoclinic point. [\u2026]",
-        "bio": "Artur Avila"
+        "bio": "N/A"
       },
       {
         "seminar_title": "MARCH 12th COLLOQUIUM: Ishan Levy (Copenhagen)",
@@ -167,7 +177,7 @@
         "speaker": "Ishan Levy",
         "affiliation": "Copenhagen",
         "abstract": "The homotopy groups of spheres classify continuous functions from an n-dimensional sphere to an m-dimensional sphere up to continuous deformation. They are of great interest as they control many classification problems [\u2026]",
-        "bio": "Ishan Levy"
+        "bio": "N/A"
       }
     ]
   }
